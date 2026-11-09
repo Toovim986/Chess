@@ -1,0 +1,92 @@
+{
+  "auditId": "audit-1793171526896-30dfc6",
+  "parentAuditId": "audit-1793113544095-c990fe",
+  "title": "Коллекция 2 · Клуб",
+  "reused": true,
+  "storageVerification": "PASS",
+  "designAuditStatus": "INCOMPLETE",
+  "manifestHash": "9c55f4048e12f2647fa9caea4fa4dbe925579c736e022a3d7037e39ffc37ab68",
+  "screens": 13,
+  "filesVerified": 15,
+  "bytesChecked": 848108,
+  "artifacts": [
+    {
+      "id": "screen-01",
+      "sha256": "5e04e924660bbbcd4ab9e99bd35bf282f5da0043247117044daa9310557a8613",
+      "bytes": 65635
+    },
+    {
+      "id": "screen-02",
+      "sha256": "33c978ce4fdff785f77d085d1e53e075c031fe0ddf04bca625d8e3c78d58ae79",
+      "bytes": 58356
+    },
+    {
+      "id": "screen-03",
+      "sha256": "3311940ab30797f4e5329f0c43bffa4fd3480903a4af17b347ebfd6d0e827d8d",
+      "bytes": 51118
+    },
+    {
+      "id": "screen-04",
+      "sha256": "8a0323750bdc0ec793aaa8b024b53442e071af782753fccae05012d4ca929862",
+      "bytes": 64288
+    },
+    {
+      "id": "screen-05",
+      "sha256": "25fe5bbe0933e0924593eb2ae26c45abf272c6f54c3665747186b8668a34ec0d",
+      "bytes": 53781
+    },
+    {
+      "id": "screen-06",
+      "sha256": "aed12f98f261b8844d6f4c60ee49f1cf1653085f35119bc5f8b2498863e8c9e0",
+      "bytes": 94053
+    },
+    {
+      "id": "screen-07",
+      "sha256": "41263690e70867f970cd17473a9a124f8e3a663819844684f5930c4edc149368",
+      "bytes": 68589
+    },
+    {
+      "id": "screen-08",
+      "sha256": "1b5a4adead9b184553cdb62b92bad95a1bedcca1daed20b01e84e0e3b2972efb",
+      "bytes": 64064
+    },
+    {
+      "id": "screen-09",
+      "sha256": "ae246ac5d3ba397c6fdbb5aca9d6a463da80a8724908587fa4eeaa4df1dd9049",
+      "bytes": 65707
+    },
+    {
+      "id": "screen-10",
+      "sha256": "2a7a695c01401d4ff2315cae41fb48dc28d0995f27d1cd62a45d2e43be8a4681",
+      "bytes": 45735
+    },
+    {
+      "id": "screen-11",
+      "sha256": "d6e8b4f00f07f7559e2e930f1c046f7153532766e37d4c9ee702af599b0938a8",
+      "bytes": 44189
+    },
+    {
+      "id": "screen-12",
+      "sha256": "41cb94bbc461a844d1038fada449185c82b9d49aa36992ead35725b69fcc824f",
+      "bytes": 62127
+    },
+    {
+      "id": "screen-13",
+      "sha256": "3e26bcf5b3b0525c03e665a6aec5f76a207f864e511deeda2977f56a649a9776",
+      "bytes": 55800
+    },
+    {
+      "id": "review",
+      "sha256": "eb4fbad2ff01ed8d1a34cd7c1a4b95afb2aa9ec56913f496ed18da34bdd2e74f",
+      "bytes": 7733
+    },
+    {
+      "id": "ds-audit",
+      "sha256": "6d24d9bb901592ff775f13c57eae401225ded663df926bba967bbf93b81ce26b",
+      "bytes": 31566
+    }
+  ],
+  "verifiedAt": "2026-10-28T07:21:10.773Z",
+  "url": "http://127.0.0.1:43132/?audit=audit-1793171526896-30dfc6",
+  "scope": "Проверены сохранённый манифест, SHA-256 и размеры всех файлов. Проверки дизайна не исполняются импортёром."
+}

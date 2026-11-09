@@ -1,0 +1,10 @@
+[
+  {
+    "index": 1,
+    "prompt": "Precise UI text edit of this existing 4-screen VKChess board. Preserve ALL existing composition, screens, frames, typography, chessboard with exactly8x8 squares and pieces, portraits, colors, captions, buttons, footer and screen labels. Change ONLY the four pawn balance values at the top of each screen from '134.55 K' to '1 240'. This must be the same fictional demo account balance as the other boards. Do not modify anything else."
+  },
+  {
+    "index": 2,
+    "prompt": "Precise UI text correction of this existing 4-screen VKChess board. Preserve all four screens, presentation composition, labels, bottom navigation, palette, gold buttons, territory map, calendar, talent nodes, inventory icons and footer. Make ONLY the following text corrections: (1) in ALL four top account headers replace 'Palladium • 1 234' with 'Александр • 12' and replace pawn balance '134.55 K' with '1 240'. Preserve their font/color/alignment. (2) On the first screen replace the third calendar task 'Изучить новую тему в обучении' with 'Решить задачу дня'. (3) On the third screen replace 'Глубже видите тактические возможности на доске.' with 'Бонус развития профиля.' Keep the label 'Бонус к характеристике' above it. Avoid any suggestion that talents change legal chess moves. Do not alter anything else."
+  }
+]

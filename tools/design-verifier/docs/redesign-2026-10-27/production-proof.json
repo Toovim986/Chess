@@ -1,0 +1,985 @@
+{
+  "testedAt": "2026-10-27T09:28:40.235Z",
+  "scope": "Installed production interface: six sections, two profiles, full 33-revision Poker archive, 390/1440px and intermediate widths; keyboard, menu, source links and downloads. No approval of game designs.",
+  "checks": [
+    {
+      "name": "chess: profile identity",
+      "pass": true,
+      "detail": "chess"
+    },
+    {
+      "name": "chess: overview at 1440px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 1440,
+        "viewport": 1440,
+        "overflows": []
+      }
+    },
+    {
+      "name": "chess: overview at 1440px active navigation",
+      "pass": true
+    },
+    {
+      "name": "chess: 1440px viewport status truthful",
+      "pass": true,
+      "detail": "INCOMPLETE"
+    },
+    {
+      "name": "chess: 1440px absent component check disabled",
+      "pass": true
+    },
+    {
+      "name": "chess: 1440px empty profile remains INCOMPLETE",
+      "pass": true
+    },
+    {
+      "name": "chess: knowledge at 1440px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 1440,
+        "viewport": 1440,
+        "overflows": []
+      }
+    },
+    {
+      "name": "chess: knowledge at 1440px active navigation",
+      "pass": true
+    },
+    {
+      "name": "chess: 1440px preflight status preserved",
+      "pass": true,
+      "detail": "INCOMPLETE"
+    },
+    {
+      "name": "chess: 1440px source Figma linked",
+      "pass": true
+    },
+    {
+      "name": "chess: 1440px evidence links visible",
+      "pass": true
+    },
+    {
+      "name": "chess: findings at 1440px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 1440,
+        "viewport": 1440,
+        "overflows": []
+      }
+    },
+    {
+      "name": "chess: findings at 1440px active navigation",
+      "pass": true
+    },
+    {
+      "name": "chess: runs at 1440px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 1440,
+        "viewport": 1440,
+        "overflows": []
+      }
+    },
+    {
+      "name": "chess: runs at 1440px active navigation",
+      "pass": true
+    },
+    {
+      "name": "chess: audits at 1440px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 1440,
+        "viewport": 1440,
+        "overflows": []
+      }
+    },
+    {
+      "name": "chess: audits at 1440px active navigation",
+      "pass": true
+    },
+    {
+      "name": "chess: notes at 1440px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 1440,
+        "viewport": 1440,
+        "overflows": []
+      }
+    },
+    {
+      "name": "chess: notes at 1440px active navigation",
+      "pass": true
+    },
+    {
+      "name": "mobile: menu closes after overview",
+      "pass": true
+    },
+    {
+      "name": "chess: overview at 390px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 390,
+        "viewport": 390,
+        "overflows": []
+      }
+    },
+    {
+      "name": "chess: overview at 390px active navigation",
+      "pass": true
+    },
+    {
+      "name": "chess: 390px viewport status truthful",
+      "pass": true,
+      "detail": "INCOMPLETE"
+    },
+    {
+      "name": "chess: 390px absent component check disabled",
+      "pass": true
+    },
+    {
+      "name": "chess: 390px empty profile remains INCOMPLETE",
+      "pass": true
+    },
+    {
+      "name": "mobile: menu closes after knowledge",
+      "pass": true
+    },
+    {
+      "name": "chess: knowledge at 390px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 390,
+        "viewport": 390,
+        "overflows": []
+      }
+    },
+    {
+      "name": "chess: knowledge at 390px active navigation",
+      "pass": true
+    },
+    {
+      "name": "chess: 390px preflight status preserved",
+      "pass": true,
+      "detail": "INCOMPLETE"
+    },
+    {
+      "name": "chess: 390px source Figma linked",
+      "pass": true
+    },
+    {
+      "name": "chess: 390px evidence links visible",
+      "pass": true
+    },
+    {
+      "name": "mobile: menu closes after findings",
+      "pass": true
+    },
+    {
+      "name": "chess: findings at 390px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 390,
+        "viewport": 390,
+        "overflows": []
+      }
+    },
+    {
+      "name": "chess: findings at 390px active navigation",
+      "pass": true
+    },
+    {
+      "name": "mobile: menu closes after runs",
+      "pass": true
+    },
+    {
+      "name": "chess: runs at 390px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 390,
+        "viewport": 390,
+        "overflows": []
+      }
+    },
+    {
+      "name": "chess: runs at 390px active navigation",
+      "pass": true
+    },
+    {
+      "name": "mobile: menu closes after audits",
+      "pass": true
+    },
+    {
+      "name": "chess: audits at 390px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 390,
+        "viewport": 390,
+        "overflows": []
+      }
+    },
+    {
+      "name": "chess: audits at 390px active navigation",
+      "pass": true
+    },
+    {
+      "name": "mobile: menu closes after notes",
+      "pass": true
+    },
+    {
+      "name": "chess: notes at 390px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 390,
+        "viewport": 390,
+        "overflows": []
+      }
+    },
+    {
+      "name": "chess: notes at 390px active navigation",
+      "pass": true
+    },
+    {
+      "name": "chess: mobile menu expanded",
+      "pass": true
+    },
+    {
+      "name": "chess: mobile overlay makes covered content inert",
+      "pass": true
+    },
+    {
+      "name": "chess: Tab wraps mobile nav to menu trigger",
+      "pass": true
+    },
+    {
+      "name": "chess: Shift Tab wraps mobile trigger to final nav item",
+      "pass": true
+    },
+    {
+      "name": "chess: Escape closes mobile menu",
+      "pass": true
+    },
+    {
+      "name": "chess: Escape restores trigger focus",
+      "pass": true
+    },
+    {
+      "name": "chess: Escape restores covered content",
+      "pass": true
+    },
+    {
+      "name": "chess: mobile keyboard selection overview returns visible focus",
+      "pass": true,
+      "detail": {
+        "tag": "MAIN",
+        "id": "app",
+        "visible": true
+      }
+    },
+    {
+      "name": "chess: mobile keyboard selection knowledge returns visible focus",
+      "pass": true,
+      "detail": {
+        "tag": "MAIN",
+        "id": "app",
+        "visible": true
+      }
+    },
+    {
+      "name": "chess: mobile keyboard selection findings returns visible focus",
+      "pass": true,
+      "detail": {
+        "tag": "MAIN",
+        "id": "app",
+        "visible": true
+      }
+    },
+    {
+      "name": "chess: mobile current section excludes count",
+      "pass": true
+    },
+    {
+      "name": "chess: mobile keyboard selection runs returns visible focus",
+      "pass": true,
+      "detail": {
+        "tag": "MAIN",
+        "id": "app",
+        "visible": true
+      }
+    },
+    {
+      "name": "chess: mobile keyboard selection audits returns visible focus",
+      "pass": true,
+      "detail": {
+        "tag": "MAIN",
+        "id": "app",
+        "visible": true
+      }
+    },
+    {
+      "name": "chess: mobile keyboard selection notes returns visible focus",
+      "pass": true,
+      "detail": {
+        "tag": "MAIN",
+        "id": "app",
+        "visible": true
+      }
+    },
+    {
+      "name": "chess: intermediate 820px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 820,
+        "viewport": 820
+      }
+    },
+    {
+      "name": "chess: intermediate 1024px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 1024,
+        "viewport": 1024
+      }
+    },
+    {
+      "name": "chess: keyboard activates overview",
+      "pass": true
+    },
+    {
+      "name": "chess: visible focus overview",
+      "pass": true,
+      "detail": {
+        "outline": "solid",
+        "width": "2px",
+        "shadow": "none",
+        "focused": true
+      }
+    },
+    {
+      "name": "chess: keyboard activates knowledge",
+      "pass": true
+    },
+    {
+      "name": "chess: visible focus knowledge",
+      "pass": true,
+      "detail": {
+        "outline": "solid",
+        "width": "2px",
+        "shadow": "none",
+        "focused": true
+      }
+    },
+    {
+      "name": "chess: keyboard activates findings",
+      "pass": true
+    },
+    {
+      "name": "chess: visible focus findings",
+      "pass": true,
+      "detail": {
+        "outline": "solid",
+        "width": "2px",
+        "shadow": "none",
+        "focused": true
+      }
+    },
+    {
+      "name": "chess: keyboard activates runs",
+      "pass": true
+    },
+    {
+      "name": "chess: visible focus runs",
+      "pass": true,
+      "detail": {
+        "outline": "solid",
+        "width": "2px",
+        "shadow": "none",
+        "focused": true
+      }
+    },
+    {
+      "name": "chess: keyboard activates audits",
+      "pass": true
+    },
+    {
+      "name": "chess: visible focus audits",
+      "pass": true,
+      "detail": {
+        "outline": "solid",
+        "width": "2px",
+        "shadow": "none",
+        "focused": true
+      }
+    },
+    {
+      "name": "chess: keyboard activates notes",
+      "pass": true
+    },
+    {
+      "name": "chess: visible focus notes",
+      "pass": true,
+      "detail": {
+        "outline": "solid",
+        "width": "2px",
+        "shadow": "none",
+        "focused": true
+      }
+    },
+    {
+      "name": "chess: no failed same-origin assets",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "poker: profile identity",
+      "pass": true,
+      "detail": "poker"
+    },
+    {
+      "name": "poker: overview at 1440px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 1440,
+        "viewport": 1440,
+        "overflows": []
+      }
+    },
+    {
+      "name": "poker: overview at 1440px active navigation",
+      "pass": true
+    },
+    {
+      "name": "poker: 1440px viewport status truthful",
+      "pass": true,
+      "detail": "INCOMPLETE"
+    },
+    {
+      "name": "poker: knowledge at 1440px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 1440,
+        "viewport": 1440,
+        "overflows": []
+      }
+    },
+    {
+      "name": "poker: knowledge at 1440px active navigation",
+      "pass": true
+    },
+    {
+      "name": "poker: 1440px preflight status preserved",
+      "pass": true,
+      "detail": "INCOMPLETE"
+    },
+    {
+      "name": "poker: 1440px source Figma linked",
+      "pass": true
+    },
+    {
+      "name": "poker: 1440px evidence links visible",
+      "pass": true
+    },
+    {
+      "name": "poker: findings at 1440px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 1440,
+        "viewport": 1440,
+        "overflows": []
+      }
+    },
+    {
+      "name": "poker: findings at 1440px active navigation",
+      "pass": true
+    },
+    {
+      "name": "poker: runs at 1440px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 1440,
+        "viewport": 1440,
+        "overflows": []
+      }
+    },
+    {
+      "name": "poker: runs at 1440px active navigation",
+      "pass": true
+    },
+    {
+      "name": "poker: audits at 1440px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 1440,
+        "viewport": 1440,
+        "overflows": []
+      }
+    },
+    {
+      "name": "poker: audits at 1440px active navigation",
+      "pass": true
+    },
+    {
+      "name": "poker: 1440px all revision titles retained",
+      "pass": true,
+      "detail": {
+        "count": 33
+      }
+    },
+    {
+      "name": "poker: 1440px historical statuses retained",
+      "pass": true,
+      "detail": [
+        "FAIL"
+      ]
+    },
+    {
+      "name": "poker: notes at 1440px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 1440,
+        "viewport": 1440,
+        "overflows": []
+      }
+    },
+    {
+      "name": "poker: notes at 1440px active navigation",
+      "pass": true
+    },
+    {
+      "name": "mobile: menu closes after overview",
+      "pass": true
+    },
+    {
+      "name": "poker: overview at 390px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 390,
+        "viewport": 390,
+        "overflows": []
+      }
+    },
+    {
+      "name": "poker: overview at 390px active navigation",
+      "pass": true
+    },
+    {
+      "name": "poker: 390px viewport status truthful",
+      "pass": true,
+      "detail": "INCOMPLETE"
+    },
+    {
+      "name": "mobile: menu closes after knowledge",
+      "pass": true
+    },
+    {
+      "name": "poker: knowledge at 390px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 390,
+        "viewport": 390,
+        "overflows": []
+      }
+    },
+    {
+      "name": "poker: knowledge at 390px active navigation",
+      "pass": true
+    },
+    {
+      "name": "poker: 390px preflight status preserved",
+      "pass": true,
+      "detail": "INCOMPLETE"
+    },
+    {
+      "name": "poker: 390px source Figma linked",
+      "pass": true
+    },
+    {
+      "name": "poker: 390px evidence links visible",
+      "pass": true
+    },
+    {
+      "name": "mobile: menu closes after findings",
+      "pass": true
+    },
+    {
+      "name": "poker: findings at 390px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 390,
+        "viewport": 390,
+        "overflows": []
+      }
+    },
+    {
+      "name": "poker: findings at 390px active navigation",
+      "pass": true
+    },
+    {
+      "name": "mobile: menu closes after runs",
+      "pass": true
+    },
+    {
+      "name": "poker: runs at 390px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 390,
+        "viewport": 390,
+        "overflows": []
+      }
+    },
+    {
+      "name": "poker: runs at 390px active navigation",
+      "pass": true
+    },
+    {
+      "name": "mobile: menu closes after audits",
+      "pass": true
+    },
+    {
+      "name": "poker: audits at 390px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 390,
+        "viewport": 390,
+        "overflows": []
+      }
+    },
+    {
+      "name": "poker: audits at 390px active navigation",
+      "pass": true
+    },
+    {
+      "name": "poker: 390px all revision titles retained",
+      "pass": true,
+      "detail": {
+        "count": 33
+      }
+    },
+    {
+      "name": "poker: 390px historical statuses retained",
+      "pass": true,
+      "detail": [
+        "FAIL"
+      ]
+    },
+    {
+      "name": "mobile: menu closes after notes",
+      "pass": true
+    },
+    {
+      "name": "poker: notes at 390px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 390,
+        "viewport": 390,
+        "overflows": []
+      }
+    },
+    {
+      "name": "poker: notes at 390px active navigation",
+      "pass": true
+    },
+    {
+      "name": "poker: mobile menu expanded",
+      "pass": true
+    },
+    {
+      "name": "poker: mobile overlay makes covered content inert",
+      "pass": true
+    },
+    {
+      "name": "poker: Tab wraps mobile nav to menu trigger",
+      "pass": true
+    },
+    {
+      "name": "poker: Shift Tab wraps mobile trigger to final nav item",
+      "pass": true
+    },
+    {
+      "name": "poker: Escape closes mobile menu",
+      "pass": true
+    },
+    {
+      "name": "poker: Escape restores trigger focus",
+      "pass": true
+    },
+    {
+      "name": "poker: Escape restores covered content",
+      "pass": true
+    },
+    {
+      "name": "poker: mobile keyboard selection overview returns visible focus",
+      "pass": true,
+      "detail": {
+        "tag": "MAIN",
+        "id": "app",
+        "visible": true
+      }
+    },
+    {
+      "name": "poker: mobile keyboard selection knowledge returns visible focus",
+      "pass": true,
+      "detail": {
+        "tag": "MAIN",
+        "id": "app",
+        "visible": true
+      }
+    },
+    {
+      "name": "poker: mobile keyboard selection findings returns visible focus",
+      "pass": true,
+      "detail": {
+        "tag": "MAIN",
+        "id": "app",
+        "visible": true
+      }
+    },
+    {
+      "name": "poker: mobile current section excludes count",
+      "pass": true
+    },
+    {
+      "name": "poker: mobile keyboard selection runs returns visible focus",
+      "pass": true,
+      "detail": {
+        "tag": "MAIN",
+        "id": "app",
+        "visible": true
+      }
+    },
+    {
+      "name": "poker: mobile keyboard selection audits returns visible focus",
+      "pass": true,
+      "detail": {
+        "tag": "MAIN",
+        "id": "app",
+        "visible": true
+      }
+    },
+    {
+      "name": "poker: mobile keyboard selection notes returns visible focus",
+      "pass": true,
+      "detail": {
+        "tag": "MAIN",
+        "id": "app",
+        "visible": true
+      }
+    },
+    {
+      "name": "poker: intermediate 820px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 820,
+        "viewport": 820
+      }
+    },
+    {
+      "name": "poker: intermediate 1024px no document overflow",
+      "pass": true,
+      "detail": {
+        "document": 1024,
+        "viewport": 1024
+      }
+    },
+    {
+      "name": "poker: keyboard activates overview",
+      "pass": true
+    },
+    {
+      "name": "poker: visible focus overview",
+      "pass": true,
+      "detail": {
+        "outline": "solid",
+        "width": "2px",
+        "shadow": "none",
+        "focused": true
+      }
+    },
+    {
+      "name": "poker: keyboard activates knowledge",
+      "pass": true
+    },
+    {
+      "name": "poker: visible focus knowledge",
+      "pass": true,
+      "detail": {
+        "outline": "solid",
+        "width": "2px",
+        "shadow": "none",
+        "focused": true
+      }
+    },
+    {
+      "name": "poker: keyboard activates findings",
+      "pass": true
+    },
+    {
+      "name": "poker: visible focus findings",
+      "pass": true,
+      "detail": {
+        "outline": "solid",
+        "width": "2px",
+        "shadow": "none",
+        "focused": true
+      }
+    },
+    {
+      "name": "poker: keyboard activates runs",
+      "pass": true
+    },
+    {
+      "name": "poker: visible focus runs",
+      "pass": true,
+      "detail": {
+        "outline": "solid",
+        "width": "2px",
+        "shadow": "none",
+        "focused": true
+      }
+    },
+    {
+      "name": "poker: keyboard activates audits",
+      "pass": true
+    },
+    {
+      "name": "poker: visible focus audits",
+      "pass": true,
+      "detail": {
+        "outline": "solid",
+        "width": "2px",
+        "shadow": "none",
+        "focused": true
+      }
+    },
+    {
+      "name": "poker: keyboard activates notes",
+      "pass": true
+    },
+    {
+      "name": "poker: visible focus notes",
+      "pass": true,
+      "detail": {
+        "outline": "solid",
+        "width": "2px",
+        "shadow": "none",
+        "focused": true
+      }
+    },
+    {
+      "name": "poker: search empty state",
+      "pass": true
+    },
+    {
+      "name": "poker: findings available",
+      "pass": true
+    },
+    {
+      "name": "poker: finding detail action available",
+      "pass": true
+    },
+    {
+      "name": "poker: revision manifest downloadable",
+      "pass": true
+    },
+    {
+      "name": "poker: individual audit check statuses preserved",
+      "pass": true,
+      "detail": [
+        {
+          "name": "Размеры и размещение кадров",
+          "status": "PASS"
+        },
+        {
+          "name": "Слои за кадром и обрезанный текст",
+          "status": "WARN"
+        },
+        {
+          "name": "Наложения текстов",
+          "status": "WARN"
+        },
+        {
+          "name": "Минимальный кегль",
+          "status": "PASS"
+        },
+        {
+          "name": "Строгая пиксельная сетка",
+          "status": "FAIL"
+        },
+        {
+          "name": "Содержание из десктопного источника",
+          "status": "PASS"
+        },
+        {
+          "name": "Компоненты дизайн-системы",
+          "status": "WARN"
+        },
+        {
+          "name": "Прототип Figma",
+          "status": "PASS"
+        },
+        {
+          "name": "Вёрстка против Figma",
+          "status": "WARN"
+        },
+        {
+          "name": "Переходы вёрстки = связи прототипа",
+          "status": "PASS"
+        },
+        {
+          "name": "Вёрстка в браузере (эмуляция)",
+          "status": "PASS"
+        },
+        {
+          "name": "Утверждение мобильной композиции",
+          "status": "INCOMPLETE"
+        },
+        {
+          "name": "Runtime / safe area",
+          "status": "INCOMPLETE"
+        }
+      ]
+    },
+    {
+      "name": "poker: evidence artifact downloadable",
+      "pass": true
+    },
+    {
+      "name": "poker: no failed same-origin assets",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "chess-overview-1440.png",
+    "chess-knowledge-1440.png",
+    "chess-findings-1440.png",
+    "chess-runs-1440.png",
+    "chess-audits-1440.png",
+    "chess-notes-1440.png",
+    "chess-overview-390.png",
+    "chess-knowledge-390.png",
+    "chess-findings-390.png",
+    "chess-runs-390.png",
+    "chess-audits-390.png",
+    "chess-notes-390.png",
+    "chess-menu-390.png",
+    "poker-overview-1440.png",
+    "poker-knowledge-1440.png",
+    "poker-findings-1440.png",
+    "poker-runs-1440.png",
+    "poker-audits-1440.png",
+    "poker-notes-1440.png",
+    "poker-overview-390.png",
+    "poker-knowledge-390.png",
+    "poker-findings-390.png",
+    "poker-runs-390.png",
+    "poker-audits-390.png",
+    "poker-notes-390.png",
+    "poker-menu-390.png"
+  ],
+  "status": "PASS",
+  "archiveManifestCount": 33,
+  "archiveManifestHashesUnchanged": true,
+  "installedFilesMatchValidatedVersion": true
+}

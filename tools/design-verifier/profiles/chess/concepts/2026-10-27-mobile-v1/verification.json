@@ -1,0 +1,70 @@
+﻿{
+    "schema":  "verifier-concept-storage-proof/1",
+    "status":  "PASS",
+    "profile":  "chess",
+    "destination":  "D:\\Porfiriy\\Projects\\Work\\Верификатор\\profiles\\chess\\concepts\\2026-10-27-mobile-v1",
+    "checkedAt":  "2026-10-27T10:53:38.4693904Z",
+    "count":  12,
+    "artifacts":  [
+                      {
+                          "file":  "01-game-profile.png",
+                          "sha256":  "B7B2F7B53DA40EAA3B20D4396A16A69F748CAC9F4FD20A5D822C535303071E3B",
+                          "match":  true
+                      },
+                      {
+                          "file":  "02-tasks-league.png",
+                          "sha256":  "9B01ADFAA5A95D6466C3AF26239E9382975B5AA15BCC4A7610BB0584070F1CD3",
+                          "match":  true
+                      },
+                      {
+                          "file":  "03-additional-mechanics.png",
+                          "sha256":  "FEEC63F5CD0436991EC0D3C3B8BCE47D5D2FCD1D7B658605BEE87B176BB00D13",
+                          "match":  true
+                      },
+                      {
+                          "file":  "edit-prompts.json",
+                          "sha256":  "5C48AA65DD3393DEEC3AB792209CD27579D7CD77E35306503FEEB89BD3465468",
+                          "match":  true
+                      },
+                      {
+                          "file":  "prompts.json",
+                          "sha256":  "B0B803E058166457D47CAA8884BFE9559429B9C2F5CC3AE33170FAC6CCE02D7B",
+                          "match":  true
+                      },
+                      {
+                          "file":  "review.json",
+                          "sha256":  "A69853E27D92F86C88E56AC67BFFC08F2365B0DDDA6D63AE3EB9ABDF213FF983",
+                          "match":  true
+                      },
+                      {
+                          "file":  "verifier-note.txt",
+                          "sha256":  "84163EC61331CDA59E7144C79726ACA7E452B6E78B17E6E6096A0F13D7FCEBB8",
+                          "match":  true
+                      },
+                      {
+                          "file":  "history\\02-tasks-league-r1.png",
+                          "sha256":  "A452C1473E9856B1053CA631F14146E5A1C14334B8722A9AD3E3829A8C4ADA10",
+                          "match":  true
+                      },
+                      {
+                          "file":  "history\\03-additional-mechanics-r1.png",
+                          "sha256":  "F530CFE449B7E35BAFB0C2D7040562573C5453A6B1097B6883ECE6C696B81053",
+                          "match":  true
+                      },
+                      {
+                          "file":  "references\\library-large-button-2990-18095.png",
+                          "sha256":  "8CD8C90BD7B5A66CF1F5DC3BCF994223A51A6B586C33AB00B2CC5F09674A18D3",
+                          "match":  true
+                      },
+                      {
+                          "file":  "references\\poker-main-58-2.png",
+                          "sha256":  "89539E0D6F2A98CF64EDFCC2DC01B8E9696D13716C44B237091BD20A696A1654",
+                          "match":  true
+                      },
+                      {
+                          "file":  "references\\poker-table-8813-133214.png",
+                          "sha256":  "8FC3B18BD2F0A8CE24A9B1EAC3655CC6EE0051A156105C3BA37EAEF4114F6A4C",
+                          "match":  true
+                      }
+                  ]
+}

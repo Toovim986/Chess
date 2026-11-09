@@ -1,0 +1,9 @@
+{
+  "auditId": "audit-1793175364077-8c73d7",
+  "parentAuditId": "audit-1793113544095-c990fe",
+  "storage": "PASS",
+  "design": "INCOMPLETE",
+  "filesVerified": 17,
+  "screens": 14,
+  "url": "http://127.0.0.1:43132/?audit=audit-1793175364077-8c73d7"
+}

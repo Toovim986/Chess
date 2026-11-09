@@ -1,0 +1,40 @@
+{
+  "id": "MOBILE_VIEWPORT_01",
+  "version": 1,
+  "verifiedAt": "2026-09-10",
+  "baseline": {"width": 390, "height": 844},
+  "unit": "CSS px",
+  "scope": "Главная Mobile: геометрия макетов и отдельные измерения среды исполнения",
+  "matrixAuthority": "Контрольная матрица проекта; не гарантированные размеры браузера конкретных телефонов и не статистика популярности",
+  "requiredViewports": [
+    {"width": 360, "height": 640, "label": "Короткий экран · дополнительный стресс-тест"},
+    {"width": 375, "height": 667, "label": "SE · размер из задания"},
+    {"width": 360, "height": 780, "label": "Узкий Android · размер из задания"},
+    {"width": 390, "height": 844, "label": "Базовый макет"},
+    {"width": 393, "height": 852, "label": "iPhone 15/16 · размер из задания"},
+    {"width": 412, "height": 915, "label": "Pixel 8 · размер из задания"},
+    {"width": 430, "height": 932, "label": "Pro Max · размер из задания"},
+    {"width": 440, "height": 956, "label": "Широкий экран · дополнительный стресс-тест"}
+  ],
+  "projectConstraints": {"navigationHeight": 72, "ctaMinHeight": 48, "geometryTolerance": 0.001},
+  "requiredRuntimeScenarios": ["chrome-expanded", "chrome-collapsed", "host-insets"],
+  "rules": [
+    "Размер frame — контрольный CSS viewport; разрешение матрицы и DPR не доказывают доступную высоту браузера.",
+    "Проверять все исходные состояния в каждом контрольном размере; отсутствие размера или измерения означает INCOMPLETE.",
+    "Критический контент должен быть доступен целиком непосредственно или вертикальной прокруткой. Декоративный фон и клиппинг карусели не считать ошибкой страницы.",
+    "Нижнее меню не прокручивается вместе с контентом; CTA сохраняет проектную высоту не менее 48 px. Это проектные ограничения, не нормы W3C.",
+    "Safe area измерять в конкретной среде. Отступы, уже применённые host, повторно не вычитать. Не подставлять универсальные 34 px.",
+    "Отдельно проверять браузер с раскрытыми и скрытыми панелями и среду размещения приложения; экранная клавиатура требует отдельного сценария при наличии ввода.",
+    "Не уменьшать весь интерфейс и шрифты пропорционально frame. Проверка исходника и целочисленной сетки остаётся независимой.",
+    "PASS геометрии Figma не доказывает runtime-поведение, доступность всех touch targets или соответствие WCAG."
+  ],
+  "sources": [
+    {"title": "W3C CSS Values: small, large, dynamic viewport (Working Draft)", "url": "https://www.w3.org/TR/css-values-4/#viewport-variants"},
+    {"title": "W3C CSSOM View: layout и visual viewport (Working Draft)", "url": "https://www.w3.org/TR/cssom-view-1/#the-visualviewport-interface"},
+    {"title": "WebKit: viewport-fit и safe area", "url": "https://webkit.org/blog/7929/designing-websites-for-iphone-x/"},
+    {"title": "Android Developers: viewport и плотность WebView", "url": "https://developer.android.com/develop/ui/views/layout/webapps/targeting"},
+    {"title": "Chrome: изменение viewport при клавиатуре; WebView отдельно", "url": "https://developer.chrome.com/blog/viewport-resize-behavior"},
+    {"title": "VK Bridge: useAdaptivity и useInsets", "url": "https://github.com/VKCOM/vk-bridge/blob/master/packages/react/README.md"},
+    {"title": "W3C WCAG 2.2: размер цели 24 CSS px и исключения", "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum/"}
+  ]
+}

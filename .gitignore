@@ -1,0 +1,15 @@
+﻿# Старые аудиты (оставлен самый свежий: audit-1793175364077-8c73d7)
+data/verifier-chess/audits/audit-1793099238121-d4efd6/
+data/verifier-chess/audits/audit-1793099238237-5e166a/
+data/verifier-chess/audits/audit-1793101230391-7b15ae/
+data/verifier-chess/audits/audit-1793104228309-eb7404/
+data/verifier-chess/audits/audit-1793107710921-44c128/
+data/verifier-chess/audits/audit-1793109619367-91ec12/
+data/verifier-chess/audits/audit-1793113544095-c990fe/
+data/verifier-chess/audits/audit-1793171526896-30dfc6/
+data/verifier-chess/audits/audit-1793171527318-7f3607/
+# Промежуточные итерации экранов (оставлена v7)
+artifacts/screens/chess-ds-2026-10-27-v3/
+artifacts/screens/chess-ds-2026-10-27-v4/
+artifacts/screens/chess-ds-2026-10-27-v5/
+artifacts/screens/chess-ds-2026-10-27-v6/

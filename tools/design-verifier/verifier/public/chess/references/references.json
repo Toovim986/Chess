@@ -1,0 +1,50 @@
+{
+  "schema": "vkchess-references/1",
+  "collectedAt": "2026-10-27",
+  "topic": "Экран партии у топовых мобильных шахматных приложений",
+  "note": "Скриншоты с официальных страниц App Store, только для внутреннего анализа. Права принадлежат авторам приложений.",
+  "groups": [
+    {
+      "id": "game",
+      "title": "Экран партии",
+      "items": [
+        { "file": "chesscom-game.png", "app": "Chess.com", "title": "Партия", "take": "Игроки сверху и снизу, часы справа, лента ходов над доской", "source": "https://apps.apple.com/us/app/id329218549" },
+        { "file": "chessgold-game.png", "app": "ChessGold", "title": "Партия со ставкой", "take": "Тёмно-золотой стиль, ставка у каждого игрока, лента ходов, нижняя панель", "source": "https://apps.apple.com/us/app/id6748555362" },
+        { "file": "chessclash-game.png", "app": "Chess Clash", "title": "Кон над доской", "take": "Сумма на кону по центру, часы у аватара, точки допустимых ходов", "source": "https://apps.apple.com/us/app/id1543399979" },
+        { "file": "chessroyale-game.png", "app": "Chess Royale", "title": "Партия", "take": "Взятые фигуры под именем, часы у аватара", "source": "https://apps.apple.com/us/app/id1434658250" },
+        { "file": "clashofkings-game.png", "app": "Chess Online · Clash of Kings", "title": "Партия", "take": "Баланс сверху, «Ваш ход», подсказки и чат внизу", "source": "https://apps.apple.com/us/app/id1495016534" },
+        { "file": "lichess-board.png", "app": "Lichess", "title": "Доска и ходы", "take": "Минимум декора, ходы над доской, навигация по ходам внизу", "source": "https://apps.apple.com/us/app/id1662361230" }
+      ]
+    },
+    {
+      "id": "stakes",
+      "title": "Ставка и итог",
+      "items": [
+        { "file": "chessgold-result.png", "app": "ChessGold", "title": "Итог со ставкой", "take": "Выигрыш, комиссия, «Реванш», «Разбор», «На главную»", "source": "https://apps.apple.com/us/app/id6748555362" },
+        { "file": "chessgold-stake.png", "app": "ChessGold", "title": "Выбор ставки", "take": "Столы с фиксированной ставкой перед поиском соперника", "source": "https://apps.apple.com/us/app/id6748555362" }
+      ]
+    },
+    {
+      "id": "meta",
+      "title": "Лига и разбор",
+      "items": [
+        { "file": "chessroyale-league.png", "app": "Chess Royale", "title": "Недельная лига", "take": "Чемпионы недели, таблица очков, таймер до конца", "source": "https://apps.apple.com/us/app/id1434658250" },
+        { "file": "chesscom-review.png", "app": "Chess.com", "title": "Разбор партии", "take": "Оценка ходов и график преимущества после партии", "source": "https://apps.apple.com/us/app/id329218549" }
+      ]
+    }
+  ],
+  "patterns": [
+    { "title": "Соперник сверху, вы снизу", "apps": ["Chess.com", "ChessGold", "Chess Clash", "Chess Royale", "Clash of Kings"], "applied": "M4 и M6: аватар с рамкой, имя, уровень, часы справа" },
+    { "title": "Активные часы выделены", "apps": ["Chess.com", "ChessGold"], "applied": "timer new: ход — [high], ожидание — [goaway]" },
+    { "title": "Доска на всю ширину и подсказки", "apps": ["Chess.com", "Chess Clash", "Lichess"], "applied": "M5: доска 368 px, последний ход, выбранная фигура, точки ходов" },
+    { "title": "Лента ходов над доской", "apps": ["Chess.com", "ChessGold", "Lichess"], "applied": "M3: tab S dark, последний ход активен" },
+    { "title": "Кон виден во время партии", "apps": ["ChessGold", "Chess Clash"], "applied": "M2: кон в пешках в шапке (ГДД: сумма на кону)" },
+    { "title": "Взятые фигуры под именем", "apps": ["Chess.com", "Chess Royale"], "applied": "M4 и M6: мини-фигуры рядом с уровнем" },
+    { "title": "Нижняя панель действий", "apps": ["Chess.com", "ChessGold", "Clash of Kings", "Lichess"], "applied": "M8: чат, ничья, сдаться, ходы назад/вперёд" }
+  ],
+  "notTaken": [
+    "Выбор ставки столами (ChessGold): по ГДД кон рассчитывает алгоритм.",
+    "Реванш на итоге партии (ChessGold): кандидат для экрана 05, не внесён без решения продукта.",
+    "Подсказки за валюту (Clash of Kings): в ГДД не описаны."
+  ]
+}

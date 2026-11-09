@@ -1,0 +1,152 @@
+{
+  "schema": "verifier-design-audit/1",
+  "profileId": "chess",
+  "kind": "concept",
+  "title": "Главная / выбор режима · A и B",
+  "summary": "Два новых PNG-концепта главной VKChess. Обычная и Рапид, кнопка Играть, профиль, прогресс первых десяти партий. Для обсуждения в этом проекте.",
+  "capturedAt": "2026-10-27T11:36:22.135Z",
+  "parentAuditId": "audit-1793099238237-5e166a",
+  "source": {
+    "kind": "google-docs",
+    "documentId": "13PcZ5cpqjyRrojoIIVhKse6igOlLrGs6IpZnLpEHK-Q",
+    "revision": "AHj4eMQQAtjPT0cmNmb0RBAh7FOi5a5gPzjWjLvoYnaPqA-n8Jo5tcKjTj-xmfxBTmmuXuYyJ-fO1_PqIQ326AAg5t-uFA_7WGMWndEPV0JG"
+  },
+  "target": {
+    "kind": "image-concept"
+  },
+  "coverage": {
+    "expectedSourceFrames": 1,
+    "expectedTargetFrames": 2
+  },
+  "sources": [
+    {
+      "id": "gdd-chess",
+      "name": "VKChess: идеи меты · ГДД",
+      "targetIds": [
+        "home-a",
+        "home-b"
+      ]
+    }
+  ],
+  "screens": [
+    {
+      "id": "home-a",
+      "name": "Главная / выбор режима · A",
+      "width": 852,
+      "height": 1846,
+      "sourceIds": [
+        "gdd-chess"
+      ],
+      "screenshotArtifact": "image-1"
+    },
+    {
+      "id": "home-b",
+      "name": "Главная / выбор режима · B",
+      "width": 853,
+      "height": 1844,
+      "sourceIds": [
+        "gdd-chess"
+      ],
+      "screenshotArtifact": "image-2"
+    }
+  ],
+  "checks": [
+    {
+      "id": "storage",
+      "name": "Сохранность файлов",
+      "status": "PASS",
+      "summary": "Байты локальной поставки проверены; после импорта повторно проверяются все SHA-256.",
+      "artifactIds": [
+        "image-1",
+        "image-2",
+        "prompts",
+        "review"
+      ]
+    },
+    {
+      "id": "ds",
+      "name": "Применение дизайн-системы",
+      "status": "INCOMPLETE",
+      "summary": "Визуальная интерпретация Poker; PNG не содержат проверяемых экземпляров и токенов.",
+      "artifactIds": [
+        "review"
+      ]
+    },
+    {
+      "id": "composition",
+      "name": "Композиция главной",
+      "status": "WARN",
+      "summary": "Два предложения для обсуждения; окончательная композиция и размеры не утверждены.",
+      "artifactIds": [
+        "image-1",
+        "image-2"
+      ]
+    },
+    {
+      "id": "states",
+      "name": "Состояния и переходы",
+      "status": "INCOMPLETE",
+      "summary": "Показана выбранная Обычная. Поиск соперника, отмена, загрузка и ошибки не покрыты.",
+      "artifactIds": [
+        "review"
+      ]
+    },
+    {
+      "id": "visual",
+      "name": "Визуальное ревью",
+      "status": "WARN",
+      "summary": "Изображения просмотрены. Оба варианта сохраняют крупную иллюстрацию; запрошенная компактность варианта A достигнута частично.",
+      "artifactIds": [
+        "image-1",
+        "image-2",
+        "review"
+      ]
+    },
+    {
+      "id": "runtime",
+      "name": "Работа приложения",
+      "status": "INCOMPLETE",
+      "summary": "Текущая сдача — статические картинки по выбору пользователя.",
+      "artifactIds": [
+        "review"
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "image-1",
+      "label": "Главная / выбор режима · A",
+      "role": "concept",
+      "path": "home-2026-10-27-v2/home-a.png"
+    },
+    {
+      "id": "image-2",
+      "label": "Главная / выбор режима · B",
+      "role": "concept",
+      "path": "home-2026-10-27-v2/home-b.png"
+    },
+    {
+      "id": "prompts",
+      "label": "Промпты генерации",
+      "role": "report",
+      "path": "home-2026-10-27-v2/prompts.json"
+    },
+    {
+      "id": "review",
+      "label": "Охват и ограничения",
+      "role": "report",
+      "path": "home-2026-10-27-v2/review.json"
+    }
+  ],
+  "limitations": [
+    "PNG, без новых Figma-узлов и связанных экземпляров DS; готовность к вёрстке INCOMPLETE.",
+    "Композиция, навигация и виджеты предложены для обсуждения, не утверждены как продуктовый контракт.",
+    "Имя, уровень, баланс и прогресс — демонстрационные данные.",
+    "Только основное состояние с выбранным обычным режимом. Переходы, ошибки и поиск не покрыты.",
+    "Оба изображения сохранили крупную иллюстрацию; компактный вариант A пока лишь относительно плотнее.",
+    "Генератор добавил иконку пополнения баланса; действие и сценарий покупки не согласованы. Для следующей правки убрать либо определить поведение.",
+    "Изображения передают мотивы Poker Library, но точные шрифты, токены и геометрия не гарантированы.",
+    "Наличие картинки и успешное хранение не означают одобрение DS или реализации."
+  ],
+  "findings": []
+}

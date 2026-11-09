@@ -1,0 +1,206 @@
+{
+  "schema": "vkchess-ds-evidence/1",
+  "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+  "observedDuring": "2026-10-27",
+  "origin": "figma-mcp-read-only",
+  "data": [
+    {
+      "id": "5112:167247",
+      "key": "edbfbe1353b6bb14d7f681652a831e92c74e2f25",
+      "properties": {
+        "State": "normal",
+        "Mode": "text"
+      },
+      "width": 190,
+      "height": 56,
+      "texts": [
+        {
+          "id": "5112:167254",
+          "text": "Текст\nв две строки",
+          "segments": [
+            {
+              "characters": "Текст\nв две строки",
+              "start": 0,
+              "end": 18,
+              "fontSize": 14,
+              "fontName": {
+                "family": "Montserrat",
+                "style": "SemiBold",
+                "variationSettings": {
+                  "wght": 600
+                }
+              },
+              "lineHeight": {
+                "unit": "PERCENT",
+                "value": 110.00000238418579
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "7621:5868",
+          "text": "999+",
+          "segments": [
+            {
+              "characters": "999+",
+              "start": 0,
+              "end": 4,
+              "fontSize": 12,
+              "fontName": {
+                "family": "Montserrat",
+                "style": "Medium",
+                "variationSettings": {
+                  "wght": 500
+                }
+              },
+              "lineHeight": {
+                "unit": "PERCENT",
+                "value": 110.00000238418579
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5112:167264",
+      "key": "75f419a7bfa57acd2e17b0a02b986a94e444e2ce",
+      "properties": {
+        "State": "hover",
+        "Mode": "text"
+      },
+      "width": 190,
+      "height": 56,
+      "texts": [
+        {
+          "id": "5112:167267",
+          "text": "Текст",
+          "segments": [
+            {
+              "characters": "Текст",
+              "start": 0,
+              "end": 5,
+              "fontSize": 16,
+              "fontName": {
+                "family": "Montserrat",
+                "style": "SemiBold",
+                "variationSettings": {
+                  "wght": 600
+                }
+              },
+              "lineHeight": {
+                "unit": "PERCENT",
+                "value": 110.00000238418579
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "7621:5867",
+          "text": "999+",
+          "segments": [
+            {
+              "characters": "999+",
+              "start": 0,
+              "end": 4,
+              "fontSize": 12,
+              "fontName": {
+                "family": "Montserrat",
+                "style": "Medium",
+                "variationSettings": {
+                  "wght": 500
+                }
+              },
+              "lineHeight": {
+                "unit": "PERCENT",
+                "value": 110.00000238418579
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5120:163310",
+      "key": "ca45dd5f9e4de32d3a55b8e9a94cec9cd1f41f08",
+      "properties": {
+        "State": "active",
+        "Mode": "text"
+      },
+      "width": 190,
+      "height": 56,
+      "texts": [
+        {
+          "id": "5120:163314",
+          "text": "Текст",
+          "segments": [
+            {
+              "characters": "Текст",
+              "start": 0,
+              "end": 5,
+              "fontSize": 16,
+              "fontName": {
+                "family": "Montserrat",
+                "style": "SemiBold",
+                "variationSettings": {
+                  "wght": 600
+                }
+              },
+              "lineHeight": {
+                "unit": "PERCENT",
+                "value": 110.00000238418579
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "7621:5866",
+          "text": "999+",
+          "segments": [
+            {
+              "characters": "999+",
+              "start": 0,
+              "end": 4,
+              "fontSize": 12,
+              "fontName": {
+                "family": "Montserrat",
+                "style": "Medium",
+                "variationSettings": {
+                  "wght": 500
+                }
+              },
+              "lineHeight": {
+                "unit": "PERCENT",
+                "value": 110.00000238418579
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "installedAt": "2026-10-27T11:20:00.414Z",
+  "files": [
+    {
+      "file": "index.html",
+      "sha256": "261be8c3536182c613253427853324d14a6d1dc5b7e9d7947c51c058038c71a1",
+      "bytes": 4706
+    },
+    {
+      "file": "app.js",
+      "sha256": "e358c3ba92cf6caab4d479626d9fb0c111bdc4263d471033cb66c66601a5c8dc",
+      "bytes": 29289
+    },
+    {
+      "file": "theme.css",
+      "sha256": "2960ac6bc215c738391274aa6dd58423f38e609a0b91f6a8a2343527f313c589",
+      "bytes": 36154
+    },
+    {
+      "file": "screen-map-view.js",
+      "sha256": "a189df8fcb120a9845b143d469bba6c755a9f39b454c2cf2a2f763fba54439ee",
+      "bytes": 6759
+    }
+  ],
+  "source": {
+    "fileKey": "mKX13PSo2vqwCXCBQJiOi8",
+    "pages": [
+      "3:2",
+      "3:3",
+      "3:4"
+    ]
+  },
+  "scope": "Added reference tab; not Figma edits or approval of Chess designs",
+  "testCount": 29,
+  "browserProof": "browser-proof.json"
+}

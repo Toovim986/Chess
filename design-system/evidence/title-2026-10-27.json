@@ -1,0 +1,169 @@
+{
+  "schema": "vkchess-ds-evidence/1",
+  "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+  "observedDuring": "2026-10-27",
+  "origin": "figma-mcp-read-only",
+  "scope": "Component inventory and sampled typography/bindings; not full DS approval or verification of PNG concepts.",
+  "data": {
+    "pageId": "1778:125943",
+    "pageName": "Title",
+    "components": [
+      {
+        "id": "2842:106773",
+        "name": "title popup",
+        "type": "COMPONENT_SET",
+        "key": "e6c9e31fa8545ce4b12b7b4b5b2c664baf15cec4",
+        "description": "",
+        "properties": {
+          "left icon#2842:0": {
+            "type": "BOOLEAN",
+            "defaultValue": true
+          },
+          "info btn#2842:1": {
+            "type": "BOOLEAN",
+            "defaultValue": true
+          },
+          "Button#4082:0": {
+            "type": "BOOLEAN",
+            "defaultValue": true
+          },
+          "Size": {
+            "type": "VARIANT",
+            "defaultValue": "S",
+            "variantOptions": [
+              "S",
+              "M",
+              "L"
+            ]
+          },
+          "Direction": {
+            "type": "VARIANT",
+            "defaultValue": "Center",
+            "variantOptions": [
+              "Center",
+              "Side"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "1759:5392",
+            "key": "b741132832bb53000a5aada97aeecf60e3fe05b6",
+            "name": "Size=S, Direction=Center",
+            "properties": {
+              "Size": "S",
+              "Direction": "Center"
+            },
+            "width": 253,
+            "height": 24,
+            "boundVariables": {}
+          },
+          {
+            "id": "4632:179198",
+            "key": "3964e7bf8216251841b6be66b5f5269ea549353d",
+            "name": "Size=S, Direction=Side",
+            "properties": {
+              "Size": "S",
+              "Direction": "Side"
+            },
+            "width": 253,
+            "height": 24,
+            "boundVariables": {}
+          },
+          {
+            "id": "2842:106774",
+            "key": "5637cf194a6d54635f0fd26554763ba2fcc6b72c",
+            "name": "Size=M, Direction=Side",
+            "properties": {
+              "Size": "M",
+              "Direction": "Side"
+            },
+            "width": 348,
+            "height": 20,
+            "boundVariables": {}
+          },
+          {
+            "id": "2972:6353",
+            "key": "e80e87cae11a97402210d3e4eec74c6377d132cb",
+            "name": "Size=M, Direction=Center",
+            "properties": {
+              "Size": "M",
+              "Direction": "Center"
+            },
+            "width": 131,
+            "height": 20,
+            "boundVariables": {}
+          },
+          {
+            "id": "2972:6399",
+            "key": "769608de133b218e301f6e0fd4d0bfefcbcdc824",
+            "name": "Size=L, Direction=Center",
+            "properties": {
+              "Size": "L",
+              "Direction": "Center"
+            },
+            "width": 166,
+            "height": 24,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": [
+          {
+            "id": "1759:5374",
+            "text": "Популярные подарки",
+            "segments": [
+              {
+                "characters": "Популярные подарки",
+                "start": 0,
+                "end": 18,
+                "fontSize": 12,
+                "fontName": {
+                  "family": "Montserrat",
+                  "style": "SemiBold",
+                  "variationSettings": {
+                    "wght": 600
+                  }
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 0
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.800000011920929,
+                      "g": 0.7372549176216125,
+                      "b": 0.6039215922355652
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2671:40551"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2671:40551"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

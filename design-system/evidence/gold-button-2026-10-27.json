@@ -1,0 +1,322 @@
+{
+  "schema": "vkchess-ds-evidence/1",
+  "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+  "observedDuring": "2026-10-27",
+  "origin": "figma-mcp-read-only",
+  "scope": "Component inventory and sampled typography/bindings; not full DS approval or verification of PNG concepts.",
+  "data": {
+    "componentSet": {
+      "id": "289:2298",
+      "name": "Button",
+      "key": "01b52a69710ccb94b9cfe8f589b5411c1aa80690",
+      "properties": {
+        "Icon right#1405:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Icon left#1606:0": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "counter#5434:2": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "notification#5812:57": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "normal",
+          "variantOptions": [
+            "normal",
+            "hover",
+            "active",
+            "disabled"
+          ]
+        },
+        "Color": {
+          "type": "VARIANT",
+          "defaultValue": "Gold",
+          "variantOptions": [
+            "Gold",
+            "Red",
+            "Accent",
+            "Winline",
+            "Winline 2"
+          ]
+        },
+        "mode": {
+          "type": "VARIANT",
+          "defaultValue": "Colored",
+          "variantOptions": [
+            "Colored",
+            "Outline",
+            "Overlay",
+            "Ghost"
+          ]
+        },
+        "Round": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "S",
+          "variantOptions": [
+            "XS",
+            "S",
+            "M",
+            "l"
+          ]
+        }
+      }
+    },
+    "coverage": "Gold Colored normal/disabled variants; no approval for Chess yet",
+    "variants": [
+      {
+        "id": "294:2897",
+        "key": "da337241d8d761d825163fba1bd1b221a1ee677e",
+        "properties": {
+          "State": "normal",
+          "Color": "Gold",
+          "mode": "Colored",
+          "Round": "false",
+          "Size": "S"
+        },
+        "width": 53,
+        "height": 32,
+        "boundVariables": {
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2679:47761"
+            },
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:3847:13551"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2616:38186"
+            },
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2616:38207"
+            }
+          ]
+        },
+        "texts": [
+          {
+            "id": "294:2904",
+            "text": "Пас",
+            "segments": [
+              {
+                "characters": "Пас",
+                "start": 0,
+                "end": 3,
+                "fontSize": 12,
+                "fontName": {
+                  "family": "Montserrat",
+                  "style": "Bold",
+                  "variationSettings": {
+                    "wght": 700
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 14
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 2
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.9372549057006836,
+                      "g": 0.8627451062202454,
+                      "b": 0.7137255072593689
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2616:38183"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38183"
+                }
+              ]
+            }
+          },
+          {
+            "id": "I7638:13237;4630:167539",
+            "text": "2",
+            "segments": [
+              {
+                "characters": "2",
+                "start": 0,
+                "end": 1,
+                "fontSize": 12,
+                "fontName": {
+                  "family": "Alumni Sans",
+                  "style": "SemiBold Italic",
+                  "variationSettings": {
+                    "wght": 600
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 11
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 0
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2616:38386"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38386"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "2723:49626",
+        "key": "5a718f290024e9e67b19ba09241be19abe050fe2",
+        "properties": {
+          "State": "disabled",
+          "Color": "Gold",
+          "mode": "Colored",
+          "Round": "false",
+          "Size": "S"
+        },
+        "width": 53,
+        "height": 32,
+        "boundVariables": {
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2679:47761"
+            },
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:3847:13551"
+            }
+          ],
+          "strokes": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2616:38186"
+            },
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2616:38207"
+            }
+          ]
+        },
+        "texts": [
+          {
+            "id": "2723:49633",
+            "text": "Пас",
+            "segments": [
+              {
+                "characters": "Пас",
+                "start": 0,
+                "end": 3,
+                "fontSize": 12,
+                "fontName": {
+                  "family": "Montserrat",
+                  "style": "Bold",
+                  "variationSettings": {
+                    "wght": 700
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 14
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 2
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.9372549057006836,
+                      "g": 0.8627451062202454,
+                      "b": 0.7137255072593689
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2616:38183"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38183"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2693 @@
+{
+  "schema": "vkchess-ds-evidence/1",
+  "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+  "observedDuring": "2026-10-27",
+  "origin": "figma-mcp-read-only",
+  "scope": "Component inventory and sampled typography/bindings; not full DS approval or verification of PNG concepts.",
+  "data": {
+    "pageId": "264:23605",
+    "pageName": "User",
+    "components": [
+      {
+        "id": "248:13310",
+        "name": "user",
+        "type": "COMPONENT_SET",
+        "key": "7d2524a3e8c45ded62314886688e7fbec08ee340",
+        "description": "",
+        "properties": {
+          "Gift#265:0": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "Action#510:61": {
+            "type": "BOOLEAN",
+            "defaultValue": true
+          },
+          "Card two#510:70": {
+            "type": "BOOLEAN",
+            "defaultValue": true
+          },
+          "size": {
+            "type": "VARIANT",
+            "defaultValue": "m",
+            "variantOptions": [
+              "m",
+              "s"
+            ]
+          },
+          "direction": {
+            "type": "VARIANT",
+            "defaultValue": "left",
+            "variantOptions": [
+              "left",
+              "right"
+            ]
+          },
+          "State": {
+            "type": "VARIANT",
+            "defaultValue": "normal",
+            "variantOptions": [
+              "normal",
+              "hover"
+            ]
+          },
+          "Empty": {
+            "type": "VARIANT",
+            "defaultValue": "false",
+            "variantOptions": [
+              "false",
+              "true"
+            ]
+          },
+          "moved away": {
+            "type": "VARIANT",
+            "defaultValue": "false",
+            "variantOptions": [
+              "false",
+              "true"
+            ]
+          },
+          "Disabled": {
+            "type": "VARIANT",
+            "defaultValue": "false",
+            "variantOptions": [
+              "false",
+              "true"
+            ]
+          },
+          "Waiting": {
+            "type": "VARIANT",
+            "defaultValue": "false",
+            "variantOptions": [
+              "false",
+              "true"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "248:13311",
+            "key": "9552baf8d4c09a7faf64eacb6f126daf5cbdccc8",
+            "name": "size=m, direction=left, State=normal, Empty=false, moved away=false, Disabled=false, Waiting=false",
+            "properties": {
+              "size": "m",
+              "direction": "left",
+              "State": "normal",
+              "Empty": "false",
+              "moved away": "false",
+              "Disabled": "false",
+              "Waiting": "false"
+            },
+            "width": 200,
+            "height": 150,
+            "boundVariables": {}
+          },
+          {
+            "id": "8569:84625",
+            "key": "3daad0807471553003e8f81cc44d8e392281162d",
+            "name": "size=s, direction=left, State=normal, Empty=false, moved away=false, Disabled=false, Waiting=false",
+            "properties": {
+              "size": "s",
+              "direction": "left",
+              "State": "normal",
+              "Empty": "false",
+              "moved away": "false",
+              "Disabled": "false",
+              "Waiting": "false"
+            },
+            "width": 136,
+            "height": 102,
+            "boundVariables": {}
+          },
+          {
+            "id": "8585:127003",
+            "key": "8994d3115804dfca9a6d643bce0f01017ac7ab86",
+            "name": "size=s, direction=left, State=normal, Empty=false, moved away=false, Disabled=true, Waiting=false",
+            "properties": {
+              "size": "s",
+              "direction": "left",
+              "State": "normal",
+              "Empty": "false",
+              "moved away": "false",
+              "Disabled": "true",
+              "Waiting": "false"
+            },
+            "width": 136,
+            "height": 102,
+            "boundVariables": {}
+          },
+          {
+            "id": "753:84420",
+            "key": "5761185c05c7db4abf36d955c2ba3d3618eab18e",
+            "name": "size=m, direction=left, State=hover, Empty=false, moved away=false, Disabled=false, Waiting=false",
+            "properties": {
+              "size": "m",
+              "direction": "left",
+              "State": "hover",
+              "Empty": "false",
+              "moved away": "false",
+              "Disabled": "false",
+              "Waiting": "false"
+            },
+            "width": 200,
+            "height": 150,
+            "boundVariables": {}
+          },
+          {
+            "id": "348:19462",
+            "key": "a2a1a88b3ac272996e08e7b36796585157bedc1b",
+            "name": "size=m, direction=left, State=normal, Empty=false, moved away=true, Disabled=true, Waiting=false",
+            "properties": {
+              "size": "m",
+              "direction": "left",
+              "State": "normal",
+              "Empty": "false",
+              "moved away": "true",
+              "Disabled": "true",
+              "Waiting": "false"
+            },
+            "width": 200,
+            "height": 150,
+            "boundVariables": {}
+          },
+          {
+            "id": "5237:187044",
+            "key": "fe656cf5402e150ec4ebe58b814b8c24866dc5aa",
+            "name": "size=m, direction=left, State=normal, Empty=false, moved away=true, Disabled=true, Waiting=true",
+            "properties": {
+              "size": "m",
+              "direction": "left",
+              "State": "normal",
+              "Empty": "false",
+              "moved away": "true",
+              "Disabled": "true",
+              "Waiting": "true"
+            },
+            "width": 200,
+            "height": 150,
+            "boundVariables": {}
+          },
+          {
+            "id": "753:108690",
+            "key": "dd609de79174ae7ec318b1df266662a938c52d0e",
+            "name": "size=m, direction=left, State=hover, Empty=false, moved away=true, Disabled=true, Waiting=false",
+            "properties": {
+              "size": "m",
+              "direction": "left",
+              "State": "hover",
+              "Empty": "false",
+              "moved away": "true",
+              "Disabled": "true",
+              "Waiting": "false"
+            },
+            "width": 200,
+            "height": 150,
+            "boundVariables": {}
+          },
+          {
+            "id": "350:20341",
+            "key": "e674c0f0cff4a190dc8914b5201e8ed07cb35545",
+            "name": "size=m, direction=right, State=normal, Empty=false, moved away=true, Disabled=true, Waiting=false",
+            "properties": {
+              "size": "m",
+              "direction": "right",
+              "State": "normal",
+              "Empty": "false",
+              "moved away": "true",
+              "Disabled": "true",
+              "Waiting": "false"
+            },
+            "width": 200,
+            "height": 150,
+            "boundVariables": {}
+          },
+          {
+            "id": "5237:187059",
+            "key": "30149ecebebeb13ebd1f7e47e5759f7cdd0eae3d",
+            "name": "size=m, direction=right, State=normal, Empty=false, moved away=true, Disabled=true, Waiting=true",
+            "properties": {
+              "size": "m",
+              "direction": "right",
+              "State": "normal",
+              "Empty": "false",
+              "moved away": "true",
+              "Disabled": "true",
+              "Waiting": "true"
+            },
+            "width": 200,
+            "height": 150,
+            "boundVariables": {}
+          },
+          {
+            "id": "753:108708",
+            "key": "c8c068786893b8a4c64a077ed33f18225e09da3f",
+            "name": "size=m, direction=right, State=hover, Empty=false, moved away=true, Disabled=true, Waiting=false",
+            "properties": {
+              "size": "m",
+              "direction": "right",
+              "State": "hover",
+              "Empty": "false",
+              "moved away": "true",
+              "Disabled": "true",
+              "Waiting": "false"
+            },
+            "width": 200,
+            "height": 150,
+            "boundVariables": {}
+          },
+          {
+            "id": "343:12983",
+            "key": "cfe5d6b09e6519d097f0db0ce7cde0dfda94416a",
+            "name": "size=m, direction=left, State=normal, Empty=true, moved away=false, Disabled=false, Waiting=false",
+            "properties": {
+              "size": "m",
+              "direction": "left",
+              "State": "normal",
+              "Empty": "true",
+              "moved away": "false",
+              "Disabled": "false",
+              "Waiting": "false"
+            },
+            "width": 200,
+            "height": 150,
+            "boundVariables": {}
+          },
+          {
+            "id": "753:84136",
+            "key": "b3e115fcbb8dd037b96342771b6185fbc3300104",
+            "name": "size=m, direction=left, State=hover, Empty=true, moved away=false, Disabled=false, Waiting=false",
+            "properties": {
+              "size": "m",
+              "direction": "left",
+              "State": "hover",
+              "Empty": "true",
+              "moved away": "false",
+              "Disabled": "false",
+              "Waiting": "false"
+            },
+            "width": 200,
+            "height": 150,
+            "boundVariables": {}
+          },
+          {
+            "id": "753:84261",
+            "key": "bae8d2af48ba48823070fc86fb70117912bd6514",
+            "name": "size=m, direction=right, State=hover, Empty=true, moved away=false, Disabled=false, Waiting=false",
+            "properties": {
+              "size": "m",
+              "direction": "right",
+              "State": "hover",
+              "Empty": "true",
+              "moved away": "false",
+              "Disabled": "false",
+              "Waiting": "false"
+            },
+            "width": 200,
+            "height": 150,
+            "boundVariables": {}
+          },
+          {
+            "id": "364:62893",
+            "key": "8ea963584d6c6b7caa94174c0cb9e7aef45e9de4",
+            "name": "size=m, direction=right, State=normal, Empty=true, moved away=false, Disabled=false, Waiting=false",
+            "properties": {
+              "size": "m",
+              "direction": "right",
+              "State": "normal",
+              "Empty": "true",
+              "moved away": "false",
+              "Disabled": "false",
+              "Waiting": "false"
+            },
+            "width": 200,
+            "height": 150,
+            "boundVariables": {}
+          },
+          {
+            "id": "249:35134",
+            "key": "bff6d69f9498685fdc5702039b36c84f9a59d3fb",
+            "name": "size=m, direction=right, State=normal, Empty=false, moved away=false, Disabled=false, Waiting=false",
+            "properties": {
+              "size": "m",
+              "direction": "right",
+              "State": "normal",
+              "Empty": "false",
+              "moved away": "false",
+              "Disabled": "false",
+              "Waiting": "false"
+            },
+            "width": 200,
+            "height": 150,
+            "boundVariables": {}
+          },
+          {
+            "id": "8569:84636",
+            "key": "ddc3c3feb9db87dd947d3e3d7c067fda53d1a315",
+            "name": "size=s, direction=right, State=normal, Empty=false, moved away=false, Disabled=false, Waiting=false",
+            "properties": {
+              "size": "s",
+              "direction": "right",
+              "State": "normal",
+              "Empty": "false",
+              "moved away": "false",
+              "Disabled": "false",
+              "Waiting": "false"
+            },
+            "width": 136,
+            "height": 102,
+            "boundVariables": {}
+          },
+          {
+            "id": "8585:127014",
+            "key": "c6add38e12b3fbaa47a5c34e9a820a1c64db4f5c",
+            "name": "size=s, direction=right, State=normal, Empty=false, moved away=false, Disabled=true, Waiting=false",
+            "properties": {
+              "size": "s",
+              "direction": "right",
+              "State": "normal",
+              "Empty": "false",
+              "moved away": "false",
+              "Disabled": "true",
+              "Waiting": "false"
+            },
+            "width": 136,
+            "height": 102,
+            "boundVariables": {}
+          },
+          {
+            "id": "753:84438",
+            "key": "be489446fb72962823c36c70a377e3100b07868e",
+            "name": "size=m, direction=right, State=hover, Empty=false, moved away=false, Disabled=false, Waiting=false",
+            "properties": {
+              "size": "m",
+              "direction": "right",
+              "State": "hover",
+              "Empty": "false",
+              "moved away": "false",
+              "Disabled": "false",
+              "Waiting": "false"
+            },
+            "width": 200,
+            "height": 150,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": [
+          {
+            "id": "I248:13793;248:13786",
+            "text": "800 K",
+            "segments": [
+              {
+                "characters": "800 K",
+                "start": 0,
+                "end": 5,
+                "fontSize": 12,
+                "fontName": {
+                  "family": "Montserrat",
+                  "style": "SemiBold",
+                  "variationSettings": {
+                    "wght": 600
+                  }
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 2
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 0.800000011920929,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2616:38388"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38388"
+                }
+              ]
+            }
+          },
+          {
+            "id": "I248:13774;248:13715",
+            "text": "Семен Петрович",
+            "segments": [
+              {
+                "characters": "Семен Петрович",
+                "start": 0,
+                "end": 14,
+                "fontSize": 14,
+                "fontName": {
+                  "family": "Alumni Sans",
+                  "style": "SemiBold Italic",
+                  "variationSettings": {
+                    "wght": 600
+                  }
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 2
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 0.8999999761581421,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2616:38387"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38387"
+                }
+              ]
+            }
+          },
+          {
+            "id": "I425:24364;425:21395",
+            "text": "Уравниваю",
+            "segments": [
+              {
+                "characters": "Уравниваю",
+                "start": 0,
+                "end": 9,
+                "fontSize": 10,
+                "fontName": {
+                  "family": "Montserrat",
+                  "style": "SemiBold",
+                  "variationSettings": {
+                    "wght": 600
+                  }
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 2
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2616:38386"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38386"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "190:15353",
+        "name": "frames",
+        "type": "COMPONENT_SET",
+        "key": "47ecf35e07f7a6ed68a015f312ced335ca341a4e",
+        "description": "",
+        "properties": {
+          "Property 1": {
+            "type": "VARIANT",
+            "defaultValue": "Variant4",
+            "variantOptions": [
+              "orange",
+              "green",
+              "Variant4"
+            ]
+          },
+          "disabled": {
+            "type": "VARIANT",
+            "defaultValue": "false",
+            "variantOptions": [
+              "false",
+              "true"
+            ]
+          },
+          "Size": {
+            "type": "VARIANT",
+            "defaultValue": "L",
+            "variantOptions": [
+              "L",
+              "M"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "190:15351",
+            "key": "f9286c5ba17972eac5ebb6d3f842375f0787140b",
+            "name": "Property 1=orange, disabled=false, Size=L",
+            "properties": {
+              "Property 1": "orange",
+              "disabled": "false",
+              "Size": "L"
+            },
+            "width": 106,
+            "height": 106,
+            "boundVariables": {}
+          },
+          {
+            "id": "248:146972",
+            "key": "c457c8c3b0b5d96df79589e9a4df96f0bc842e46",
+            "name": "Property 1=Variant4, disabled=false, Size=L",
+            "properties": {
+              "Property 1": "Variant4",
+              "disabled": "false",
+              "Size": "L"
+            },
+            "width": 162,
+            "height": 162,
+            "boundVariables": {}
+          },
+          {
+            "id": "4352:95003",
+            "key": "1b885c054d8ec3b76e30c6db609ecfb411c8c381",
+            "name": "Property 1=Variant4, disabled=false, Size=M",
+            "properties": {
+              "Property 1": "Variant4",
+              "disabled": "false",
+              "Size": "M"
+            },
+            "width": 106,
+            "height": 106,
+            "boundVariables": {}
+          },
+          {
+            "id": "333:12403",
+            "key": "04613a8474fb41af7ccdbd070a54542152704ce2",
+            "name": "Property 1=Variant4, disabled=true, Size=L",
+            "properties": {
+              "Property 1": "Variant4",
+              "disabled": "true",
+              "Size": "L"
+            },
+            "width": 162,
+            "height": 162,
+            "boundVariables": {}
+          },
+          {
+            "id": "4352:95010",
+            "key": "e3222c4b3c548583e7d7b503a9a357b3d2eb5e2a",
+            "name": "Property 1=Variant4, disabled=true, Size=M",
+            "properties": {
+              "Property 1": "Variant4",
+              "disabled": "true",
+              "Size": "M"
+            },
+            "width": 106,
+            "height": 106,
+            "boundVariables": {}
+          },
+          {
+            "id": "190:15350",
+            "key": "c3293fc5634d3152488e002a88167638d9c33a21",
+            "name": "Property 1=green, disabled=false, Size=L",
+            "properties": {
+              "Property 1": "green",
+              "disabled": "false",
+              "Size": "L"
+            },
+            "width": 126,
+            "height": 126,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": []
+      },
+      {
+        "id": "190:15701",
+        "name": "gradients",
+        "type": "COMPONENT_SET",
+        "key": "f10198ff7634856a1427d87b18ca48628ab52cd9",
+        "description": "",
+        "properties": {
+          "Property 1": {
+            "type": "VARIANT",
+            "defaultValue": "red",
+            "variantOptions": [
+              "green",
+              "blue",
+              "violet",
+              "pink",
+              "red",
+              "yellow'"
+            ]
+          },
+          "disabled": {
+            "type": "VARIANT",
+            "defaultValue": "false",
+            "variantOptions": [
+              "false",
+              "true"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "190:15700",
+            "key": "d07a0b4db30b813213e48f49dc56e3549cd64d6e",
+            "name": "Property 1=green, disabled=false",
+            "properties": {
+              "Property 1": "green",
+              "disabled": "false"
+            },
+            "width": 95.99999237060547,
+            "height": 95.99999237060547,
+            "boundVariables": {}
+          },
+          {
+            "id": "333:12378",
+            "key": "926fc6edb0f7320be7fa7caf6567dcbea0ad9648",
+            "name": "Property 1=green, disabled=true",
+            "properties": {
+              "Property 1": "green",
+              "disabled": "true"
+            },
+            "width": 95.99999237060547,
+            "height": 95.99999237060547,
+            "boundVariables": {}
+          },
+          {
+            "id": "190:15708",
+            "key": "9b95ed5b4f4c95f4605b3bee9c21b5ccf460d33d",
+            "name": "Property 1=yellow', disabled=false",
+            "properties": {
+              "Property 1": "yellow'",
+              "disabled": "false"
+            },
+            "width": 95.99999237060547,
+            "height": 95.99999237060547,
+            "boundVariables": {}
+          },
+          {
+            "id": "333:12380",
+            "key": "b424afdfb9a96aad30a2dcc078ff2931b3b8459f",
+            "name": "Property 1=yellow', disabled=true",
+            "properties": {
+              "Property 1": "yellow'",
+              "disabled": "true"
+            },
+            "width": 95.99999237060547,
+            "height": 95.99999237060547,
+            "boundVariables": {}
+          },
+          {
+            "id": "190:15698",
+            "key": "1577b141c0e61ff4fc2755f85efac45a8bcbd0c2",
+            "name": "Property 1=violet, disabled=false",
+            "properties": {
+              "Property 1": "violet",
+              "disabled": "false"
+            },
+            "width": 95.99999237060547,
+            "height": 95.99999237060547,
+            "boundVariables": {}
+          },
+          {
+            "id": "333:12382",
+            "key": "e03dd96d8f4197a65c2674182e7ed964d5807a7e",
+            "name": "Property 1=violet, disabled=true",
+            "properties": {
+              "Property 1": "violet",
+              "disabled": "true"
+            },
+            "width": 95.99999237060547,
+            "height": 95.99999237060547,
+            "boundVariables": {}
+          },
+          {
+            "id": "190:15699",
+            "key": "3e63173a66457f75e8cfed106dc3ac40cf24c3f5",
+            "name": "Property 1=red, disabled=false",
+            "properties": {
+              "Property 1": "red",
+              "disabled": "false"
+            },
+            "width": 95.99999237060547,
+            "height": 95.99999237060547,
+            "boundVariables": {}
+          },
+          {
+            "id": "333:12384",
+            "key": "8d909fa764e9eebe212557189207c40d6c611652",
+            "name": "Property 1=red, disabled=true",
+            "properties": {
+              "Property 1": "red",
+              "disabled": "true"
+            },
+            "width": 95.99999237060547,
+            "height": 95.99999237060547,
+            "boundVariables": {}
+          },
+          {
+            "id": "190:15697",
+            "key": "3a5a02193fcc2dd796b71c34b04ed74b32f845e5",
+            "name": "Property 1=blue, disabled=false",
+            "properties": {
+              "Property 1": "blue",
+              "disabled": "false"
+            },
+            "width": 95.99999237060547,
+            "height": 95.99999237060547,
+            "boundVariables": {}
+          },
+          {
+            "id": "333:12386",
+            "key": "87de7d7268042e1f62a78e8d20461f5ea4242947",
+            "name": "Property 1=blue, disabled=true",
+            "properties": {
+              "Property 1": "blue",
+              "disabled": "true"
+            },
+            "width": 95.99999237060547,
+            "height": 95.99999237060547,
+            "boundVariables": {}
+          },
+          {
+            "id": "190:15696",
+            "key": "df50f7b55d2ed7e71dc355b5858e2e69b0de79b5",
+            "name": "Property 1=pink, disabled=false",
+            "properties": {
+              "Property 1": "pink",
+              "disabled": "false"
+            },
+            "width": 95.99999237060547,
+            "height": 95.99999237060547,
+            "boundVariables": {}
+          },
+          {
+            "id": "333:12388",
+            "key": "dfcfa41eda995feae187be900b4e0d5fdef38e30",
+            "name": "Property 1=pink, disabled=true",
+            "properties": {
+              "Property 1": "pink",
+              "disabled": "true"
+            },
+            "width": 95.99999237060547,
+            "height": 95.99999237060547,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": []
+      },
+      {
+        "id": "248:13522",
+        "name": "badge no level",
+        "type": "COMPONENT_SET",
+        "key": "52662ed3c835b2c0e80ab19e48115f50c58d968a",
+        "description": "",
+        "properties": {
+          "Timer#425:0": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "Name#510:54": {
+            "type": "BOOLEAN",
+            "defaultValue": true
+          },
+          "Property 1": {
+            "type": "VARIANT",
+            "defaultValue": "lv3",
+            "variantOptions": [
+              "lv 1",
+              "lv4",
+              "lv3"
+            ]
+          },
+          "Disabled": {
+            "type": "VARIANT",
+            "defaultValue": "false",
+            "variantOptions": [
+              "false",
+              "true"
+            ]
+          },
+          "Size": {
+            "type": "VARIANT",
+            "defaultValue": "xs",
+            "variantOptions": [
+              "S",
+              "M",
+              "xs"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "248:13537",
+            "key": "ea36b771015c84acaa572e47b608e339cb6c1fce",
+            "name": "Property 1=lv3, Disabled=false, Size=S",
+            "properties": {
+              "Property 1": "lv3",
+              "Disabled": "false",
+              "Size": "S"
+            },
+            "width": 160,
+            "height": 40,
+            "boundVariables": {}
+          },
+          {
+            "id": "8569:119575",
+            "key": "c3c0916d3bc93f6215092012eb9cf0655ffcde3f",
+            "name": "Property 1=lv3, Disabled=false, Size=xs",
+            "properties": {
+              "Property 1": "lv3",
+              "Disabled": "false",
+              "Size": "xs"
+            },
+            "width": 120,
+            "height": 27,
+            "boundVariables": {}
+          },
+          {
+            "id": "8585:127211",
+            "key": "4188f1a2f47ac23af7b7348e072a6fb23c41698d",
+            "name": "Property 1=lv3, Disabled=true, Size=xs",
+            "properties": {
+              "Property 1": "lv3",
+              "Disabled": "true",
+              "Size": "xs"
+            },
+            "width": 120,
+            "height": 27,
+            "boundVariables": {}
+          },
+          {
+            "id": "2883:219833",
+            "key": "ef47ec0d9ec6e17871fd7d0c8252522cd73e8a3a",
+            "name": "Property 1=lv3, Disabled=true, Size=S",
+            "properties": {
+              "Property 1": "lv3",
+              "Disabled": "true",
+              "Size": "S"
+            },
+            "width": 160,
+            "height": 40,
+            "boundVariables": {}
+          },
+          {
+            "id": "2895:222175",
+            "key": "b0f11a8409540e93b65f00b51aa8a58b64972bd1",
+            "name": "Property 1=lv4, Disabled=true, Size=S",
+            "properties": {
+              "Property 1": "lv4",
+              "Disabled": "true",
+              "Size": "S"
+            },
+            "width": 160,
+            "height": 40,
+            "boundVariables": {}
+          },
+          {
+            "id": "425:26490",
+            "key": "6a6e4a8fb19a573331b8fc42d66f824c717767e2",
+            "name": "Property 1=lv4, Disabled=false, Size=S",
+            "properties": {
+              "Property 1": "lv4",
+              "Disabled": "false",
+              "Size": "S"
+            },
+            "width": 160,
+            "height": 40,
+            "boundVariables": {}
+          },
+          {
+            "id": "518:48379",
+            "key": "a78ff97ae22ee8641c796303ca2a9d72478c84bb",
+            "name": "Property 1=lv4, Disabled=false, Size=M",
+            "properties": {
+              "Property 1": "lv4",
+              "Disabled": "false",
+              "Size": "M"
+            },
+            "width": 190,
+            "height": 48,
+            "boundVariables": {}
+          },
+          {
+            "id": "2895:221987",
+            "key": "05f9a82054659d585b2725eeca2bf83328a791de",
+            "name": "Property 1=lv3, Disabled=false, Size=M",
+            "properties": {
+              "Property 1": "lv3",
+              "Disabled": "false",
+              "Size": "M"
+            },
+            "width": 190,
+            "height": 48,
+            "boundVariables": {}
+          },
+          {
+            "id": "2895:221813",
+            "key": "c266048accdd69be0a5ee912e79ebe4009b020a9",
+            "name": "Property 1=lv 1, Disabled=false, Size=M",
+            "properties": {
+              "Property 1": "lv 1",
+              "Disabled": "false",
+              "Size": "M"
+            },
+            "width": 190,
+            "height": 48,
+            "boundVariables": {}
+          },
+          {
+            "id": "2883:220199",
+            "key": "4634bba0e46c80be28b84181c1743d06dd19091d",
+            "name": "Property 1=lv4, Disabled=true, Size=M",
+            "properties": {
+              "Property 1": "lv4",
+              "Disabled": "true",
+              "Size": "M"
+            },
+            "width": 190,
+            "height": 48,
+            "boundVariables": {}
+          },
+          {
+            "id": "2895:221999",
+            "key": "bc219f0f343e31089c3ac6ea9576ab8e66a935be",
+            "name": "Property 1=lv3, Disabled=true, Size=M",
+            "properties": {
+              "Property 1": "lv3",
+              "Disabled": "true",
+              "Size": "M"
+            },
+            "width": 190,
+            "height": 48,
+            "boundVariables": {}
+          },
+          {
+            "id": "2895:221825",
+            "key": "46f9139f285af66b9771cef835b5aaf8e315875a",
+            "name": "Property 1=lv 1, Disabled=true, Size=M",
+            "properties": {
+              "Property 1": "lv 1",
+              "Disabled": "true",
+              "Size": "M"
+            },
+            "width": 190,
+            "height": 48,
+            "boundVariables": {}
+          },
+          {
+            "id": "248:13704",
+            "key": "f47582adedd076652a001cdbaa101c23552f9768",
+            "name": "Property 1=lv 1, Disabled=false, Size=S",
+            "properties": {
+              "Property 1": "lv 1",
+              "Disabled": "false",
+              "Size": "S"
+            },
+            "width": 160,
+            "height": 40,
+            "boundVariables": {}
+          },
+          {
+            "id": "333:3454",
+            "key": "482c74b200c01a13e4c6d3c1e6db2fd22cbf080f",
+            "name": "Property 1=lv 1, Disabled=true, Size=S",
+            "properties": {
+              "Property 1": "lv 1",
+              "Disabled": "true",
+              "Size": "S"
+            },
+            "width": 160,
+            "height": 40,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": [
+          {
+            "id": "248:13545",
+            "text": "Семен Петрович",
+            "segments": [
+              {
+                "characters": "Семен Петрович",
+                "start": 0,
+                "end": 14,
+                "fontSize": 14,
+                "fontName": {
+                  "family": "Alumni Sans",
+                  "style": "SemiBold Italic",
+                  "variationSettings": {
+                    "wght": 600
+                  }
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 2
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 0.8999999761581421,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2616:38387"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38387"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "191:29826",
+        "name": "cards two",
+        "type": "COMPONENT_SET",
+        "key": "e75d9775b57a4964650523231b43905ee8a0ab01",
+        "description": "",
+        "properties": {
+          "direction": {
+            "type": "VARIANT",
+            "defaultValue": "left",
+            "variantOptions": [
+              "left",
+              "right"
+            ]
+          },
+          "dropped": {
+            "type": "VARIANT",
+            "defaultValue": "false",
+            "variantOptions": [
+              "false",
+              "true"
+            ]
+          },
+          "disabled": {
+            "type": "VARIANT",
+            "defaultValue": "false",
+            "variantOptions": [
+              "false",
+              "true"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "191:25492",
+            "key": "41e0a0fea4ac8842020d89e90861a49bfe089ced",
+            "name": "direction=left, dropped=false, disabled=false",
+            "properties": {
+              "direction": "left",
+              "dropped": "false",
+              "disabled": "false"
+            },
+            "width": 78,
+            "height": 73,
+            "boundVariables": {}
+          },
+          {
+            "id": "348:19667",
+            "key": "a8612e31c6bf79cc0661e3b1f64d8f85cf125123",
+            "name": "direction=left, dropped=false, disabled=true",
+            "properties": {
+              "direction": "left",
+              "dropped": "false",
+              "disabled": "true"
+            },
+            "width": 78,
+            "height": 73,
+            "boundVariables": {}
+          },
+          {
+            "id": "322:38729",
+            "key": "a72cacfbc155ec697b9b7fc73a5695a293d84bf1",
+            "name": "direction=left, dropped=true, disabled=false",
+            "properties": {
+              "direction": "left",
+              "dropped": "true",
+              "disabled": "false"
+            },
+            "width": 64,
+            "height": 62,
+            "boundVariables": {}
+          },
+          {
+            "id": "322:39409",
+            "key": "2cdcf25d756d96af0ed76b81f31deafb2774175c",
+            "name": "direction=right, dropped=true, disabled=false",
+            "properties": {
+              "direction": "right",
+              "dropped": "true",
+              "disabled": "false"
+            },
+            "width": 64,
+            "height": 62,
+            "boundVariables": {}
+          },
+          {
+            "id": "249:19499",
+            "key": "fb4f88656697f6e56909ba56c00605497b642e7d",
+            "name": "direction=right, dropped=false, disabled=false",
+            "properties": {
+              "direction": "right",
+              "dropped": "false",
+              "disabled": "false"
+            },
+            "width": 78,
+            "height": 73,
+            "boundVariables": {}
+          },
+          {
+            "id": "348:19670",
+            "key": "f4f2178acad26e897bdafe309f4b97b9f790adbe",
+            "name": "direction=right, dropped=false, disabled=true",
+            "properties": {
+              "direction": "right",
+              "dropped": "false",
+              "disabled": "true"
+            },
+            "width": 78,
+            "height": 73,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": []
+      },
+      {
+        "id": "249:52427",
+        "name": ".user photo old",
+        "type": "COMPONENT_SET",
+        "key": "857f5ce0eec6f4f3494d2d6cd3f70a2f0fd3e1e8",
+        "description": "",
+        "properties": {
+          "Property 1": {
+            "type": "VARIANT",
+            "defaultValue": "user 5",
+            "variantOptions": [
+              "user 1",
+              "user 2",
+              "user 3",
+              "user 4",
+              "user 5",
+              "user 6",
+              "user 7",
+              "user 8"
+            ]
+          },
+          "Disabled": {
+            "type": "VARIANT",
+            "defaultValue": "false",
+            "variantOptions": [
+              "false",
+              "true"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "249:52426",
+            "key": "3a6f69be1602c1c0f596f2cc9dd26679b6bdd09d",
+            "name": "Property 1=user 1, Disabled=false",
+            "properties": {
+              "Property 1": "user 1",
+              "Disabled": "false"
+            },
+            "width": 100.00000762939453,
+            "height": 100.00000762939453,
+            "boundVariables": {}
+          },
+          {
+            "id": "333:3577",
+            "key": "6373194da48a21b0661afd6010286bb210a21c51",
+            "name": "Property 1=user 1, Disabled=true",
+            "properties": {
+              "Property 1": "user 1",
+              "Disabled": "true"
+            },
+            "width": 100,
+            "height": 100,
+            "boundVariables": {}
+          },
+          {
+            "id": "249:52424",
+            "key": "0c977072fb8a40d8a48b1ab5b43a41637dd6d8ca",
+            "name": "Property 1=user 5, Disabled=false",
+            "properties": {
+              "Property 1": "user 5",
+              "Disabled": "false"
+            },
+            "width": 100,
+            "height": 100,
+            "boundVariables": {}
+          },
+          {
+            "id": "333:3580",
+            "key": "bb3d32ed172f5d0776e662b0e669606bfa729d74",
+            "name": "Property 1=user 5, Disabled=true",
+            "properties": {
+              "Property 1": "user 5",
+              "Disabled": "true"
+            },
+            "width": 100,
+            "height": 100,
+            "boundVariables": {}
+          },
+          {
+            "id": "249:52423",
+            "key": "5481da370ac8a40e7d63148735614246ec241557",
+            "name": "Property 1=user 2, Disabled=false",
+            "properties": {
+              "Property 1": "user 2",
+              "Disabled": "false"
+            },
+            "width": 100,
+            "height": 100,
+            "boundVariables": {}
+          },
+          {
+            "id": "333:3582",
+            "key": "6be532c270305271bb8bd254045a121494e4f578",
+            "name": "Property 1=user 2, Disabled=true",
+            "properties": {
+              "Property 1": "user 2",
+              "Disabled": "true"
+            },
+            "width": 100,
+            "height": 100,
+            "boundVariables": {}
+          },
+          {
+            "id": "249:52425",
+            "key": "a8480a3e0e88af1f690d8e727a90ba772c0f04f0",
+            "name": "Property 1=user 6, Disabled=false",
+            "properties": {
+              "Property 1": "user 6",
+              "Disabled": "false"
+            },
+            "width": 100,
+            "height": 100,
+            "boundVariables": {}
+          },
+          {
+            "id": "333:3584",
+            "key": "2745a7d0af7c81e3eff95565e2be7f3c700ae139",
+            "name": "Property 1=user 6, Disabled=true",
+            "properties": {
+              "Property 1": "user 6",
+              "Disabled": "true"
+            },
+            "width": 100,
+            "height": 100,
+            "boundVariables": {}
+          },
+          {
+            "id": "249:52421",
+            "key": "f74b3b63ac8e13814536b4df410a6626fe5e3367",
+            "name": "Property 1=user 3, Disabled=false",
+            "properties": {
+              "Property 1": "user 3",
+              "Disabled": "false"
+            },
+            "width": 100,
+            "height": 100,
+            "boundVariables": {}
+          },
+          {
+            "id": "333:3587",
+            "key": "8a97e68119f97b3416eee24701420c060a9767d1",
+            "name": "Property 1=user 3, Disabled=true",
+            "properties": {
+              "Property 1": "user 3",
+              "Disabled": "true"
+            },
+            "width": 100,
+            "height": 100,
+            "boundVariables": {}
+          },
+          {
+            "id": "249:52422",
+            "key": "c14403ef4c2ea61359554ca2e0b9a242b0378d65",
+            "name": "Property 1=user 7, Disabled=false",
+            "properties": {
+              "Property 1": "user 7",
+              "Disabled": "false"
+            },
+            "width": 100,
+            "height": 100,
+            "boundVariables": {}
+          },
+          {
+            "id": "333:3590",
+            "key": "02a5ad21c0520f4fb5eb81d43ec1ec954aabe3da",
+            "name": "Property 1=user 7, Disabled=true",
+            "properties": {
+              "Property 1": "user 7",
+              "Disabled": "true"
+            },
+            "width": 100,
+            "height": 100,
+            "boundVariables": {}
+          },
+          {
+            "id": "249:52419",
+            "key": "b30dbbae3dae83a493164a1f49fcc40d4dd1442c",
+            "name": "Property 1=user 4, Disabled=false",
+            "properties": {
+              "Property 1": "user 4",
+              "Disabled": "false"
+            },
+            "width": 100,
+            "height": 100,
+            "boundVariables": {}
+          },
+          {
+            "id": "333:3593",
+            "key": "c82331366fdbf0dc0934a92ee1b455870e789f12",
+            "name": "Property 1=user 4, Disabled=true",
+            "properties": {
+              "Property 1": "user 4",
+              "Disabled": "true"
+            },
+            "width": 100,
+            "height": 100,
+            "boundVariables": {}
+          },
+          {
+            "id": "249:52420",
+            "key": "2ee01b3c945be0e7f2dbc7e4220c9e02963fe7a6",
+            "name": "Property 1=user 8, Disabled=false",
+            "properties": {
+              "Property 1": "user 8",
+              "Disabled": "false"
+            },
+            "width": 100,
+            "height": 100,
+            "boundVariables": {}
+          },
+          {
+            "id": "333:3595",
+            "key": "819ad32c26f45f392df26cbdf497c867a05d6507",
+            "name": "Property 1=user 8, Disabled=true",
+            "properties": {
+              "Property 1": "user 8",
+              "Disabled": "true"
+            },
+            "width": 100,
+            "height": 100,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": []
+      },
+      {
+        "id": "279:37108",
+        "name": "sum",
+        "type": "COMPONENT_SET",
+        "key": "41efc353d7c349aedb81b1b1475f1539c6a1e61d",
+        "description": "",
+        "properties": {
+          "Property 1": {
+            "type": "VARIANT",
+            "defaultValue": "xs",
+            "variantOptions": [
+              "S",
+              "M",
+              "xs"
+            ]
+          },
+          "Balance out": {
+            "type": "VARIANT",
+            "defaultValue": "false",
+            "variantOptions": [
+              "false",
+              "true"
+            ]
+          },
+          "State": {
+            "type": "VARIANT",
+            "defaultValue": "Normal",
+            "variantOptions": [
+              "Normal",
+              "Hover",
+              "Disabled"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "248:13792",
+            "key": "be2058d4b007f86a9650d221ac84b4e0b7e64283",
+            "name": "Property 1=S, Balance out=false, State=Normal",
+            "properties": {
+              "Property 1": "S",
+              "Balance out": "false",
+              "State": "Normal"
+            },
+            "width": 98,
+            "height": 24,
+            "boundVariables": {}
+          },
+          {
+            "id": "8569:119637",
+            "key": "577e8e604ef3b35da30824f983e5562cf01b8050",
+            "name": "Property 1=xs, Balance out=false, State=Normal",
+            "properties": {
+              "Property 1": "xs",
+              "Balance out": "false",
+              "State": "Normal"
+            },
+            "width": 76,
+            "height": 18,
+            "boundVariables": {}
+          },
+          {
+            "id": "8585:127286",
+            "key": "0ede457f06911f01df9d0e9f4046caf7f76292a0",
+            "name": "Property 1=xs, Balance out=false, State=Disabled",
+            "properties": {
+              "Property 1": "xs",
+              "Balance out": "false",
+              "State": "Disabled"
+            },
+            "width": 76,
+            "height": 18,
+            "boundVariables": {}
+          },
+          {
+            "id": "425:22285",
+            "key": "5be661b5d169f4fcd4096c1392eb5a3bcdf0a25d",
+            "name": "Property 1=S, Balance out=true, State=Normal",
+            "properties": {
+              "Property 1": "S",
+              "Balance out": "true",
+              "State": "Normal"
+            },
+            "width": 98,
+            "height": 24,
+            "boundVariables": {}
+          },
+          {
+            "id": "333:3506",
+            "key": "3d5e38e225d5fcd4e9c2c7863d33ff10ed0c3081",
+            "name": "Property 1=S, Balance out=false, State=Disabled",
+            "properties": {
+              "Property 1": "S",
+              "Balance out": "false",
+              "State": "Disabled"
+            },
+            "width": 98,
+            "height": 24,
+            "boundVariables": {}
+          },
+          {
+            "id": "279:37109",
+            "key": "cace06dc279343e555b79e4a3b39f7871455d146",
+            "name": "Property 1=M, Balance out=false, State=Normal",
+            "properties": {
+              "Property 1": "M",
+              "Balance out": "false",
+              "State": "Normal"
+            },
+            "width": 134,
+            "height": 30,
+            "boundVariables": {}
+          },
+          {
+            "id": "1845:144559",
+            "key": "0d26b46d2c38aa347eb61f01e4964eda11b57e65",
+            "name": "Property 1=M, Balance out=false, State=Hover",
+            "properties": {
+              "Property 1": "M",
+              "Balance out": "false",
+              "State": "Hover"
+            },
+            "width": 134,
+            "height": 30,
+            "boundVariables": {}
+          },
+          {
+            "id": "425:22297",
+            "key": "131375cc5543b69365a0c4db0bfa0b103d73c69a",
+            "name": "Property 1=M, Balance out=true, State=Normal",
+            "properties": {
+              "Property 1": "M",
+              "Balance out": "true",
+              "State": "Normal"
+            },
+            "width": 134,
+            "height": 30,
+            "boundVariables": {}
+          },
+          {
+            "id": "1845:144565",
+            "key": "9d3db7e0e9ef49ac06f0459a97b6a591002edb65",
+            "name": "Property 1=M, Balance out=true, State=Hover",
+            "properties": {
+              "Property 1": "M",
+              "Balance out": "true",
+              "State": "Hover"
+            },
+            "width": 134,
+            "height": 28,
+            "boundVariables": {}
+          },
+          {
+            "id": "333:3512",
+            "key": "bb9787e3d2996d64cba93c26aae411426c758f47",
+            "name": "Property 1=M, Balance out=false, State=Disabled",
+            "properties": {
+              "Property 1": "M",
+              "Balance out": "false",
+              "State": "Disabled"
+            },
+            "width": 134,
+            "height": 28,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": [
+          {
+            "id": "248:13786",
+            "text": "800.68 K",
+            "segments": [
+              {
+                "characters": "800.68 K",
+                "start": 0,
+                "end": 8,
+                "fontSize": 12,
+                "fontName": {
+                  "family": "Montserrat",
+                  "style": "SemiBold",
+                  "variationSettings": {
+                    "wght": 600
+                  }
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 2
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 0.800000011920929,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2616:38388"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38388"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "425:21993",
+        "name": "action",
+        "type": "COMPONENT_SET",
+        "key": "0ff5a778643f0f95fef4f65d8d6746937b9c6eb3",
+        "description": "",
+        "properties": {
+          "Property 1": {
+            "type": "VARIANT",
+            "defaultValue": "vabank",
+            "variantOptions": [
+              "gray",
+              "normal",
+              "vabank",
+              "combination"
+            ]
+          },
+          "size": {
+            "type": "VARIANT",
+            "defaultValue": "m",
+            "variantOptions": [
+              "m",
+              "s"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "425:21992",
+            "key": "008709ea89cbb19d8e833b90393a8b82ca109cf0",
+            "name": "Property 1=gray, size=m",
+            "properties": {
+              "Property 1": "gray",
+              "size": "m"
+            },
+            "width": 46,
+            "height": 18,
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2869:214138"
+                },
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2869:214148"
+                }
+              ]
+            }
+          },
+          {
+            "id": "8569:84765",
+            "key": "6aa5ea02127c172fee9ec6077a4378dce6c6e36c",
+            "name": "Property 1=gray, size=s",
+            "properties": {
+              "Property 1": "gray",
+              "size": "s"
+            },
+            "width": 32,
+            "height": 12,
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2869:214138"
+                },
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2869:214148"
+                }
+              ]
+            }
+          },
+          {
+            "id": "7130:169943",
+            "key": "d6fbae657c131bce7e050975a10ecc8079c65077",
+            "name": "Property 1=combination, size=m",
+            "properties": {
+              "Property 1": "combination",
+              "size": "m"
+            },
+            "width": 46,
+            "height": 18,
+            "boundVariables": {}
+          },
+          {
+            "id": "8569:84768",
+            "key": "71db0b9e2cb6134cae822b5105796a82cfa38af3",
+            "name": "Property 1=combination, size=s",
+            "properties": {
+              "Property 1": "combination",
+              "size": "s"
+            },
+            "width": 32,
+            "height": 12,
+            "boundVariables": {}
+          },
+          {
+            "id": "425:21991",
+            "key": "867d84b1c6ebd0b379b4419fd43001dd3bc1fe37",
+            "name": "Property 1=normal, size=m",
+            "properties": {
+              "Property 1": "normal",
+              "size": "m"
+            },
+            "width": 86,
+            "height": 18,
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38207"
+                },
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38209"
+                }
+              ]
+            }
+          },
+          {
+            "id": "8569:84771",
+            "key": "61fc22136735f72241ac8a64f0f9cd1e70eb985d",
+            "name": "Property 1=normal, size=s",
+            "properties": {
+              "Property 1": "normal",
+              "size": "s"
+            },
+            "width": 60,
+            "height": 12,
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38207"
+                },
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38209"
+                }
+              ]
+            }
+          },
+          {
+            "id": "425:21990",
+            "key": "81ec6deec9deaac2ce5e773449d484c1327cc26c",
+            "name": "Property 1=vabank, size=m",
+            "properties": {
+              "Property 1": "vabank",
+              "size": "m"
+            },
+            "width": 63,
+            "height": 18,
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2895:222345"
+                },
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2895:222348"
+                }
+              ]
+            }
+          },
+          {
+            "id": "8569:84774",
+            "key": "d798d51f1ee1e12e4f6a0e681c95810ab6da629e",
+            "name": "Property 1=vabank, size=s",
+            "properties": {
+              "Property 1": "vabank",
+              "size": "s"
+            },
+            "width": 44,
+            "height": 12,
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2895:222345"
+                },
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2895:222348"
+                }
+              ]
+            }
+          }
+        ],
+        "textSample": [
+          {
+            "id": "425:21399",
+            "text": "Текст",
+            "segments": [
+              {
+                "characters": "Текст",
+                "start": 0,
+                "end": 5,
+                "fontSize": 10,
+                "fontName": {
+                  "family": "Montserrat",
+                  "style": "SemiBold",
+                  "variationSettings": {
+                    "wght": 600
+                  }
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 2
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 0.800000011920929,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2616:38388"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38388"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "586:36169",
+        "name": "user side",
+        "type": "COMPONENT_SET",
+        "key": "0d0431652a1c7e665ccd12e8fd37000197ba59d5",
+        "description": "",
+        "properties": {
+          "Present#586:2": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "Timebank#586:3": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "Property 1": {
+            "type": "VARIANT",
+            "defaultValue": "normal",
+            "variantOptions": [
+              "normal",
+              "disabled",
+              "hover"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "586:32437",
+            "key": "85311b01bc3e57bdf70f6359b69af79c126ebff7",
+            "name": "Property 1=normal",
+            "properties": {
+              "Property 1": "normal"
+            },
+            "width": 206,
+            "height": 174,
+            "boundVariables": {}
+          },
+          {
+            "id": "600:94788",
+            "key": "779a9d841ea2a96688a3209542ad32d338960ff3",
+            "name": "Property 1=hover",
+            "properties": {
+              "Property 1": "hover"
+            },
+            "width": 206,
+            "height": 174,
+            "boundVariables": {}
+          },
+          {
+            "id": "586:36170",
+            "key": "3301be9f47ed86f4abd939b4daeacae14ed7a45c",
+            "name": "Property 1=disabled",
+            "properties": {
+              "Property 1": "disabled"
+            },
+            "width": 206,
+            "height": 174,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": [
+          {
+            "id": "I370:80713;7779:219142",
+            "text": "800.68 K",
+            "segments": [
+              {
+                "characters": "800.68 K",
+                "start": 0,
+                "end": 8,
+                "fontSize": 14,
+                "fontName": {
+                  "family": "Montserrat",
+                  "style": "SemiBold",
+                  "variationSettings": {
+                    "wght": 600
+                  }
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 2
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 0.800000011920929,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2616:38388"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38388"
+                }
+              ]
+            }
+          },
+          {
+            "id": "I370:80715;518:48385",
+            "text": "Семен Петрович",
+            "segments": [
+              {
+                "characters": "Семен Петрович",
+                "start": 0,
+                "end": 14,
+                "fontSize": 16,
+                "fontName": {
+                  "family": "Alumni Sans",
+                  "style": "SemiBold Italic",
+                  "variationSettings": {
+                    "wght": 600
+                  }
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 2
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 0.8999999761581421,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "boundVariables": {}
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "id": "425:26401",
+        "name": "badge part",
+        "type": "COMPONENT_SET",
+        "key": "63a60aa2e786dd8731e92bcae6d97f549de66517",
+        "description": "",
+        "properties": {
+          "Property 1": {
+            "type": "VARIANT",
+            "defaultValue": "Bird",
+            "variantOptions": [
+              "Bird",
+              "lil"
+            ]
+          },
+          "Disabled": {
+            "type": "VARIANT",
+            "defaultValue": "false",
+            "variantOptions": [
+              "false",
+              "true"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "425:26400",
+            "key": "9d2da144d1729e9ce03c4cc721455ab218fb4c24",
+            "name": "Property 1=Bird, Disabled=false",
+            "properties": {
+              "Property 1": "Bird",
+              "Disabled": "false"
+            },
+            "width": 124,
+            "height": 124,
+            "boundVariables": {}
+          },
+          {
+            "id": "586:36399",
+            "key": "6f69d666310ad38564d336a33896939d0af2394f",
+            "name": "Property 1=Bird, Disabled=true",
+            "properties": {
+              "Property 1": "Bird",
+              "Disabled": "true"
+            },
+            "width": 124,
+            "height": 124,
+            "boundVariables": {}
+          },
+          {
+            "id": "425:26399",
+            "key": "d0040b8fa4cd024f9eda4c00f036788489c56652",
+            "name": "Property 1=lil, Disabled=false",
+            "properties": {
+              "Property 1": "lil",
+              "Disabled": "false"
+            },
+            "width": 125,
+            "height": 124,
+            "boundVariables": {}
+          },
+          {
+            "id": "586:36408",
+            "key": "51448749b31e8d4e45239c08dd368a5d371278da",
+            "name": "Property 1=lil, Disabled=true",
+            "properties": {
+              "Property 1": "lil",
+              "Disabled": "true"
+            },
+            "width": 125,
+            "height": 124,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": []
+      },
+      {
+        "id": "2998:26864",
+        "name": "BaseAvatar",
+        "type": "COMPONENT_SET",
+        "key": "8b0ddaa0d5f353f4dc4f96653a686d46508d571f",
+        "description": "",
+        "properties": {
+          "icon top#3047:6": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "icon bottom#3047:14": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "Text top#3309:0": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "Text bottom#3309:10": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "Size": {
+            "type": "VARIANT",
+            "defaultValue": "3xl 52",
+            "variantOptions": [
+              "3xl 52",
+              "2xl 46",
+              "xl 40",
+              "l 32",
+              "m 24",
+              "s 20",
+              "xs 16"
+            ]
+          },
+          "Color": {
+            "type": "VARIANT",
+            "defaultValue": "default",
+            "variantOptions": [
+              "default",
+              "accent",
+              "desabled",
+              "empty"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "2765:143583",
+            "key": "bd42379b8fc07ed991ae0c3dfc008ed89d94c04a",
+            "name": "Size=3xl 52, Color=default",
+            "properties": {
+              "Size": "3xl 52",
+              "Color": "default"
+            },
+            "width": 52,
+            "height": 52,
+            "boundVariables": {}
+          },
+          {
+            "id": "4011:2504",
+            "key": "932677f235f6ab74f930653026e2fd32e1ed2b4b",
+            "name": "Size=2xl 46, Color=default",
+            "properties": {
+              "Size": "2xl 46",
+              "Color": "default"
+            },
+            "width": 46,
+            "height": 46,
+            "boundVariables": {}
+          },
+          {
+            "id": "3024:150355",
+            "key": "3e44c3f6dfb5e7a8287fe392328125e6178c54fc",
+            "name": "Size=xl 40, Color=default",
+            "properties": {
+              "Size": "xl 40",
+              "Color": "default"
+            },
+            "width": 40,
+            "height": 40,
+            "boundVariables": {}
+          },
+          {
+            "id": "2998:26890",
+            "key": "6745fc98b62cb7502155cb2302b4142e1f54c62c",
+            "name": "Size=l 32, Color=default",
+            "properties": {
+              "Size": "l 32",
+              "Color": "default"
+            },
+            "width": 32,
+            "height": 32,
+            "boundVariables": {}
+          },
+          {
+            "id": "8000:56091",
+            "key": "867c9473e0f33d14cf3fbea2e0d67616e7707f72",
+            "name": "Size=l 32, Color=desabled",
+            "properties": {
+              "Size": "l 32",
+              "Color": "desabled"
+            },
+            "width": 32,
+            "height": 32,
+            "boundVariables": {}
+          },
+          {
+            "id": "2998:26865",
+            "key": "2bc9bf5b44a8ad693797db3a2d8b1456df97b9da",
+            "name": "Size=s 20, Color=default",
+            "properties": {
+              "Size": "s 20",
+              "Color": "default"
+            },
+            "width": 20,
+            "height": 20,
+            "boundVariables": {}
+          },
+          {
+            "id": "4168:13944",
+            "key": "de4b4abc38c064e0eb5169125296f31169948276",
+            "name": "Size=xs 16, Color=default",
+            "properties": {
+              "Size": "xs 16",
+              "Color": "default"
+            },
+            "width": 16,
+            "height": 16,
+            "boundVariables": {}
+          },
+          {
+            "id": "3125:146859",
+            "key": "6a2ebcd47e7c6ef4569934e474a6e394cecc7939",
+            "name": "Size=s 20, Color=accent",
+            "properties": {
+              "Size": "s 20",
+              "Color": "accent"
+            },
+            "width": 20,
+            "height": 20,
+            "boundVariables": {}
+          },
+          {
+            "id": "3024:151254",
+            "key": "d1da2e0c931f37e3d30110574a9dd20992641088",
+            "name": "Size=m 24, Color=default",
+            "properties": {
+              "Size": "m 24",
+              "Color": "default"
+            },
+            "width": 24,
+            "height": 24,
+            "boundVariables": {}
+          },
+          {
+            "id": "3082:153383",
+            "key": "20676e9840af641732f312f7492250e9764795ef",
+            "name": "Size=m 24, Color=desabled",
+            "properties": {
+              "Size": "m 24",
+              "Color": "desabled"
+            },
+            "width": 24,
+            "height": 24,
+            "boundVariables": {}
+          },
+          {
+            "id": "3026:152821",
+            "key": "f2afed6a0a81e8730e16d2221c4f102f679e70e8",
+            "name": "Size=m 24, Color=accent",
+            "properties": {
+              "Size": "m 24",
+              "Color": "accent"
+            },
+            "width": 24,
+            "height": 24,
+            "boundVariables": {}
+          },
+          {
+            "id": "3026:152253",
+            "key": "8ff42b416b5109b51014eb785f36009731b323d1",
+            "name": "Size=m 24, Color=empty",
+            "properties": {
+              "Size": "m 24",
+              "Color": "empty"
+            },
+            "width": 24,
+            "height": 24,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": []
+      },
+      {
+        "id": "4732:175047",
+        "name": "CustomizedAvatar",
+        "type": "COMPONENT_SET",
+        "key": "66c64375674814acdf0f097ef379e103c700abcf",
+        "description": "",
+        "properties": {
+          "Size": {
+            "type": "VARIANT",
+            "defaultValue": "162",
+            "variantOptions": [
+              "162",
+              "106",
+              "136",
+              "72"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "4732:175054",
+            "key": "c469e13b7ca9792c1f15a08849d1392586a80a10",
+            "name": "Size=162",
+            "properties": {
+              "Size": "162"
+            },
+            "width": 162,
+            "height": 162,
+            "boundVariables": {}
+          },
+          {
+            "id": "7860:67928",
+            "key": "a83109fadab8a9697faa8150b25d8e45b15b6c16",
+            "name": "Size=136",
+            "properties": {
+              "Size": "136"
+            },
+            "width": 136,
+            "height": 136,
+            "boundVariables": {}
+          },
+          {
+            "id": "4732:175058",
+            "key": "7cce74c53c60ad1680c8634a93f57294fdd8b926",
+            "name": "Size=106",
+            "properties": {
+              "Size": "106"
+            },
+            "width": 106,
+            "height": 106,
+            "boundVariables": {}
+          },
+          {
+            "id": "8569:120223",
+            "key": "ac17c0bd7e0ecd01b1d8648cab838324cf7b5e86",
+            "name": "Size=72",
+            "properties": {
+              "Size": "72"
+            },
+            "width": 72,
+            "height": 72,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": []
+      },
+      {
+        "id": "4352:89491",
+        "name": "avatar size",
+        "type": "COMPONENT_SET",
+        "key": "70854daf5a140e8556070e8c7b8cb91b2b69d3c3",
+        "description": "",
+        "properties": {
+          "Property 1": {
+            "type": "VARIANT",
+            "defaultValue": "xxxl",
+            "variantOptions": [
+              "xl",
+              "m",
+              "s",
+              "xs",
+              "xxs",
+              "l",
+              "xxxl",
+              "xxxs",
+              "xxl"
+            ]
+          },
+          "placeholder": {
+            "type": "VARIANT",
+            "defaultValue": "false",
+            "variantOptions": [
+              "false",
+              "true"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "4352:89486",
+            "key": "c7c8a02f826646a8285cae6403040ed8e880b47f",
+            "name": "Property 1=xxl, placeholder=false",
+            "properties": {
+              "Property 1": "xxl",
+              "placeholder": "false"
+            },
+            "width": 74,
+            "height": 85,
+            "boundVariables": {}
+          },
+          {
+            "id": "5739:91061",
+            "key": "833413244e25dccb736d3189dd5ce3793335e10f",
+            "name": "Property 1=xxl, placeholder=true",
+            "properties": {
+              "Property 1": "xxl",
+              "placeholder": "true"
+            },
+            "width": 74,
+            "height": 85,
+            "boundVariables": {}
+          },
+          {
+            "id": "4352:89490",
+            "key": "d4cf3adb3b98658d7b50be3ef7e40c80d055b384",
+            "name": "Property 1=xxxl, placeholder=false",
+            "properties": {
+              "Property 1": "xxxl",
+              "placeholder": "false"
+            },
+            "width": 114,
+            "height": 130,
+            "boundVariables": {}
+          },
+          {
+            "id": "5739:91063",
+            "key": "a5120dd119c6a218f48ba39d746077dde13622e9",
+            "name": "Property 1=xxxl, placeholder=true",
+            "properties": {
+              "Property 1": "xxxl",
+              "placeholder": "true"
+            },
+            "width": 114,
+            "height": 130,
+            "boundVariables": {}
+          },
+          {
+            "id": "4352:89488",
+            "key": "140850a6d48700f27f1509ed68492181d511e3af",
+            "name": "Property 1=l, placeholder=false",
+            "properties": {
+              "Property 1": "l",
+              "placeholder": "false"
+            },
+            "width": 42,
+            "height": 47,
+            "boundVariables": {}
+          },
+          {
+            "id": "5739:91069",
+            "key": "96db10fdb20150c22b5e22e36c1846aaac911d3b",
+            "name": "Property 1=l, placeholder=true",
+            "properties": {
+              "Property 1": "l",
+              "placeholder": "true"
+            },
+            "width": 42,
+            "height": 47,
+            "boundVariables": {}
+          },
+          {
+            "id": "4352:89484",
+            "key": "0e1fde9f2c7cea89e71ba5b62a2631946a8f8f20",
+            "name": "Property 1=xxs, placeholder=false",
+            "properties": {
+              "Property 1": "xxs",
+              "placeholder": "false"
+            },
+            "width": 18,
+            "height": 20.99609375,
+            "boundVariables": {}
+          },
+          {
+            "id": "5739:91071",
+            "key": "3a3135584334c42fb4c0decc0022da60713a941a",
+            "name": "Property 1=xxs, placeholder=true",
+            "properties": {
+              "Property 1": "xxs",
+              "placeholder": "true"
+            },
+            "width": 18,
+            "height": 20.99609375,
+            "boundVariables": {}
+          },
+          {
+            "id": "4352:89487",
+            "key": "c68b0d593551a26072b2b6002f7a56e32f5303fb",
+            "name": "Property 1=xl, placeholder=false",
+            "properties": {
+              "Property 1": "xl",
+              "placeholder": "false"
+            },
+            "width": 48,
+            "height": 53.99609375,
+            "boundVariables": {}
+          },
+          {
+            "id": "5739:91074",
+            "key": "fed673ce79583c7f67183f3c0d678303f452b3d1",
+            "name": "Property 1=xl, placeholder=true",
+            "properties": {
+              "Property 1": "xl",
+              "placeholder": "true"
+            },
+            "width": 48,
+            "height": 53.99609375,
+            "boundVariables": {}
+          },
+          {
+            "id": "4352:89482",
+            "key": "212597da499b3629df0d78ea8276de5d20f5b47a",
+            "name": "Property 1=m, placeholder=false",
+            "properties": {
+              "Property 1": "m",
+              "placeholder": "false"
+            },
+            "width": 36,
+            "height": 40,
+            "boundVariables": {}
+          },
+          {
+            "id": "5739:91076",
+            "key": "54de91796f0cf29c8a21ba171ab3895adedf5b51",
+            "name": "Property 1=m, placeholder=true",
+            "properties": {
+              "Property 1": "m",
+              "placeholder": "true"
+            },
+            "width": 36,
+            "height": 40,
+            "boundVariables": {}
+          },
+          {
+            "id": "4352:89485",
+            "key": "877afe607c17bf823b534d51ad7fab446435e849",
+            "name": "Property 1=s, placeholder=false",
+            "properties": {
+              "Property 1": "s",
+              "placeholder": "false"
+            },
+            "width": 29.000001907348633,
+            "height": 32.998046875,
+            "boundVariables": {}
+          },
+          {
+            "id": "5739:91078",
+            "key": "4b2e73aa601b3b0cf99881f0edb77955eaa6e1c2",
+            "name": "Property 1=s, placeholder=true",
+            "properties": {
+              "Property 1": "s",
+              "placeholder": "true"
+            },
+            "width": 29.000001907348633,
+            "height": 32.998046875,
+            "boundVariables": {}
+          },
+          {
+            "id": "4352:89483",
+            "key": "2ba16be7e501116acf75aefcf25518c436045ee9",
+            "name": "Property 1=xs, placeholder=false",
+            "properties": {
+              "Property 1": "xs",
+              "placeholder": "false"
+            },
+            "width": 22,
+            "height": 25.001953125,
+            "boundVariables": {}
+          },
+          {
+            "id": "5739:91080",
+            "key": "dddc7880e29a87e76d04cea747eb65e9c4f07aa2",
+            "name": "Property 1=xs, placeholder=true",
+            "properties": {
+              "Property 1": "xs",
+              "placeholder": "true"
+            },
+            "width": 22,
+            "height": 25.001953125,
+            "boundVariables": {}
+          },
+          {
+            "id": "4352:89489",
+            "key": "d3e46b875a7f941b676c4fa12474efe205226c99",
+            "name": "Property 1=xxxs, placeholder=false",
+            "properties": {
+              "Property 1": "xxxs",
+              "placeholder": "false"
+            },
+            "width": 15,
+            "height": 17.49674415588379,
+            "boundVariables": {}
+          },
+          {
+            "id": "5739:91082",
+            "key": "c95e348d239517149119ca97cc6c519927f070db",
+            "name": "Property 1=xxxs, placeholder=true",
+            "properties": {
+              "Property 1": "xxxs",
+              "placeholder": "true"
+            },
+            "width": 15,
+            "height": 17.49674415588379,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": []
+      }
+    ]
+  }
+}

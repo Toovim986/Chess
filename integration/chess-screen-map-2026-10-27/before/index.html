@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#181818">
+<meta name="description" content="Рабочее пространство для проверки дизайна: источники, правила, ревизии и доказательства."><meta name="robots" content="noindex,nofollow">
+<title>Верификатор · Рабочее пространство</title>
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"><link rel="preload" href="/assets/Manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="/theme.css"><script type="module" src="/app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#app">Перейти к содержимому</a>
+<div class="workbench">
+<header class="masthead"><a class="wordmark" href="/" aria-label="Верификатор, главная"><span class="brand-symbol" aria-hidden="true">в.</span><span><strong>Верификатор</strong><span class="brand-line">Рабочее пространство дизайна</span></span></a><div class="header-right"><span class="workspace-label">Профиль проекта</span><div id="connection" class="connection"><i class="led"></i><span>Подключение</span></div></div></header>
+<div class="nav-shell"><button class="mobile-menu-button" data-action="menu" aria-controls="primary-menu" aria-expanded="false"><span class="menu-glyph" aria-hidden="true"></span>Разделы<span class="mobile-current">Пульт</span></button>
+<nav class="navigation" id="primary-menu" aria-label="Разделы Верификатора"><div class="nav-tabs">
+<button data-view="overview" class="active"><span class="nav-icon" style="--icon:url('/assets/phosphor/squares-four.svg')" aria-hidden="true"></span>Пульт</button>
+<button data-view="knowledge"><span class="nav-icon" style="--icon:url('/assets/phosphor/book-open.svg')" aria-hidden="true"></span>Правила и источники</button>
+<button data-view="findings"><span class="nav-icon" style="--icon:url('/assets/phosphor/arrows-left-right.svg')" aria-hidden="true"></span>Расхождения<span id="nav-count">—</span></button>
+<button data-view="runs"><span class="nav-icon" style="--icon:url('/assets/phosphor/clock-counter-clockwise.svg')" aria-hidden="true"></span>История запусков</button>
+<button data-view="audits"><span class="nav-icon" style="--icon:url('/assets/phosphor/stack.svg')" aria-hidden="true"></span>Ревизии макетов</button>
+<button data-view="screen-map"><span class="nav-icon" style="--icon:url('/assets/phosphor/squares-four.svg')" aria-hidden="true"></span>Карта экрана</button>
+<button data-view="notes"><span class="nav-icon" style="--icon:url('/assets/phosphor/note-pencil.svg')" aria-hidden="true"></span>Пометки</button>
+</div></nav></div>
+<main id="app" tabindex="-1"><div class="loading"><span class="skeleton skeleton-title"></span><span class="skeleton"></span><span class="skeleton skeleton-panel"></span><span>Загружаю рабочее пространство…</span></div></main>
+<footer class="site-footer"><span class="footer-brand">Верификатор<span>Источники. Решения. Доказательства.</span></span><span>Данные хранятся на этом компьютере</span><a id="design-reference" hidden target="_blank" rel="noreferrer">Визуальный источник ↗</a></footer>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="capture-dialog" aria-labelledby="capture-title"><div class="dialog-header"><span class="eyebrow">Источники Figma</span><button class="close-button" data-close="capture-dialog" aria-label="Закрыть">×</button></div><h2 id="capture-title">Обновить снимки</h2><p>Ассистент считывает исходник и рабочий макет через Figma. Верификатор сохраняет снимки, дату и контрольные суммы для следующей проверки.</p><div class="callout">Запрос ожидает ассистента. Автоматическая синхронизация Figma не запускается.</div><button id="request-capture" class="button primary">Создать запрос на обновление</button><div id="request-result"></div><a href="/capture-script.js" download="figma-capture.js" class="text-link">Скачать скрипт чтения Figma ↓</a></dialog>
+</body></html>

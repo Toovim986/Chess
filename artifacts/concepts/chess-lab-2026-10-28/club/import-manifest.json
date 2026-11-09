@@ -1,0 +1,375 @@
+{
+  "schema": "verifier-design-audit/1",
+  "profileId": "chess",
+  "kind": "concept",
+  "title": "Коллекция 2 · Клуб",
+  "summary": "Спокойная клубная композиция: золотые заголовки, отдельная карточка режима, компактный профиль и полноэкранные результаты. 13 экранов шахмат.",
+  "capturedAt": "2026-10-28T07:11:12.031Z",
+  "parentAuditId": "audit-1793113544095-c990fe",
+  "source": {
+    "kind": "google-docs",
+    "documentId": "13PcZ5cpqjyRrojoIIVhKse6igOlLrGs6IpZnLpEHK-Q",
+    "revision": "AHj4eMQQAtjPT0cmNmb0RBAh7FOi5a5gPzjWjLvoYnaPqA-n8Jo5tcKjTj-xmfxBTmmuXuYyJ-fO1_PqIQ326AAg5t-uFA_7WGMWndEPV0JG"
+  },
+  "target": {
+    "kind": "image-concept"
+  },
+  "coverage": {
+    "expectedSourceFrames": 1,
+    "expectedTargetFrames": 13
+  },
+  "sources": [
+    {
+      "id": "gdd-chess",
+      "name": "VKChess: идеи меты · ГДД",
+      "targetIds": [
+        "48:2151",
+        "48:2287",
+        "48:2432",
+        "48:2511",
+        "48:2631",
+        "48:2732",
+        "48:2827",
+        "48:2918",
+        "48:3024",
+        "48:3130",
+        "48:3233",
+        "48:3343",
+        "48:3454"
+      ]
+    }
+  ],
+  "screens": [
+    {
+      "id": "48:2151",
+      "name": "01 · Главная",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "gdd-chess"
+      ],
+      "screenshotArtifact": "screen-01"
+    },
+    {
+      "id": "48:2287",
+      "name": "02 · Профиль",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "gdd-chess"
+      ],
+      "screenshotArtifact": "screen-02"
+    },
+    {
+      "id": "48:2432",
+      "name": "03 · Распределение очков",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "gdd-chess"
+      ],
+      "screenshotArtifact": "screen-03"
+    },
+    {
+      "id": "48:2511",
+      "name": "04 · Задачи",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "gdd-chess"
+      ],
+      "screenshotArtifact": "screen-04"
+    },
+    {
+      "id": "48:2631",
+      "name": "05 · Решение задачи",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "gdd-chess"
+      ],
+      "screenshotArtifact": "screen-05"
+    },
+    {
+      "id": "48:2732",
+      "name": "06 · Лига",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "gdd-chess"
+      ],
+      "screenshotArtifact": "screen-06"
+    },
+    {
+      "id": "48:2827",
+      "name": "07 · Партия",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "gdd-chess"
+      ],
+      "screenshotArtifact": "screen-07"
+    },
+    {
+      "id": "48:2918",
+      "name": "08 · Победа",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "gdd-chess"
+      ],
+      "screenshotArtifact": "screen-08"
+    },
+    {
+      "id": "48:3024",
+      "name": "09 · Поражение",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "gdd-chess"
+      ],
+      "screenshotArtifact": "screen-09"
+    },
+    {
+      "id": "48:3130",
+      "name": "10 · Календарь",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "gdd-chess"
+      ],
+      "screenshotArtifact": "screen-10"
+    },
+    {
+      "id": "48:3233",
+      "name": "11 · Территория",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "gdd-chess"
+      ],
+      "screenshotArtifact": "screen-11"
+    },
+    {
+      "id": "48:3343",
+      "name": "12 · Таланты",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "gdd-chess"
+      ],
+      "screenshotArtifact": "screen-12"
+    },
+    {
+      "id": "48:3454",
+      "name": "13 · Расходники",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "gdd-chess"
+      ],
+      "screenshotArtifact": "screen-13"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "screen-01",
+      "label": "01 · Главная",
+      "role": "concept",
+      "path": "chess-lab-2026-10-28/club/screen-01.png"
+    },
+    {
+      "id": "screen-02",
+      "label": "02 · Профиль",
+      "role": "concept",
+      "path": "chess-lab-2026-10-28/club/screen-02.png"
+    },
+    {
+      "id": "screen-03",
+      "label": "03 · Распределение очков",
+      "role": "concept",
+      "path": "chess-lab-2026-10-28/club/screen-03.png"
+    },
+    {
+      "id": "screen-04",
+      "label": "04 · Задачи",
+      "role": "concept",
+      "path": "chess-lab-2026-10-28/club/screen-04.png"
+    },
+    {
+      "id": "screen-05",
+      "label": "05 · Решение задачи",
+      "role": "concept",
+      "path": "chess-lab-2026-10-28/club/screen-05.png"
+    },
+    {
+      "id": "screen-06",
+      "label": "06 · Лига",
+      "role": "concept",
+      "path": "chess-lab-2026-10-28/club/screen-06.png"
+    },
+    {
+      "id": "screen-07",
+      "label": "07 · Партия",
+      "role": "concept",
+      "path": "chess-lab-2026-10-28/club/screen-07.png"
+    },
+    {
+      "id": "screen-08",
+      "label": "08 · Победа",
+      "role": "concept",
+      "path": "chess-lab-2026-10-28/club/screen-08.png"
+    },
+    {
+      "id": "screen-09",
+      "label": "09 · Поражение",
+      "role": "concept",
+      "path": "chess-lab-2026-10-28/club/screen-09.png"
+    },
+    {
+      "id": "screen-10",
+      "label": "10 · Календарь",
+      "role": "concept",
+      "path": "chess-lab-2026-10-28/club/screen-10.png"
+    },
+    {
+      "id": "screen-11",
+      "label": "11 · Территория",
+      "role": "concept",
+      "path": "chess-lab-2026-10-28/club/screen-11.png"
+    },
+    {
+      "id": "screen-12",
+      "label": "12 · Таланты",
+      "role": "concept",
+      "path": "chess-lab-2026-10-28/club/screen-12.png"
+    },
+    {
+      "id": "screen-13",
+      "label": "13 · Расходники",
+      "role": "concept",
+      "path": "chess-lab-2026-10-28/club/screen-13.png"
+    },
+    {
+      "id": "review",
+      "label": "Область проверки и ограничения",
+      "role": "report",
+      "path": "chess-lab-2026-10-28/club/review.json"
+    },
+    {
+      "id": "ds-audit",
+      "label": "Источники и экземпляры Poker lib",
+      "role": "report",
+      "path": "chess-lab-2026-10-28/club/ds-audit.json"
+    }
+  ],
+  "checks": [
+    {
+      "id": "storage",
+      "name": "Сохранность файлов",
+      "status": "PASS",
+      "summary": "Локальные PNG и отчёты прочитаны; при завершении импорта повторно скачиваются манифест и все файлы для проверки SHA-256.",
+      "artifactIds": [
+        "screen-01",
+        "screen-02",
+        "screen-03",
+        "screen-04",
+        "screen-05",
+        "screen-06",
+        "screen-07",
+        "screen-08",
+        "screen-09",
+        "screen-10",
+        "screen-11",
+        "screen-12",
+        "screen-13",
+        "review",
+        "ds-audit"
+      ]
+    },
+    {
+      "id": "ds",
+      "name": "Применение дизайн-системы",
+      "status": "WARN",
+      "summary": "Связанные экземпляры Poker lib сохранены; 0 непривязанных цветов в собственных слоях. Локальные шахматные компоненты и переопределения семантики карточек требуют решения DS.",
+      "artifactIds": [
+        "ds-audit",
+        "review"
+      ]
+    },
+    {
+      "id": "composition",
+      "name": "Композиция",
+      "status": "WARN",
+      "summary": "Два самостоятельных предложения 375×812. Все основные блоки выше нижней навигации; композиция не утверждена.",
+      "artifactIds": [
+        "screen-01",
+        "screen-02",
+        "screen-03",
+        "screen-04",
+        "screen-05",
+        "screen-06",
+        "screen-07",
+        "screen-08",
+        "screen-09",
+        "screen-10",
+        "screen-11",
+        "screen-12",
+        "screen-13",
+        "review"
+      ]
+    },
+    {
+      "id": "states",
+      "name": "Состояния и переходы",
+      "status": "INCOMPLETE",
+      "summary": "13 иллюстративных экранов. Нет загрузок, ошибок, подтверждений, интерактивного решения задач и всех исходов партии.",
+      "artifactIds": [
+        "review"
+      ]
+    },
+    {
+      "id": "visual",
+      "name": "Визуальное ревью",
+      "status": "WARN",
+      "summary": "Все 26 PNG просмотрены на контактных листах. Исправлены наложения горизонтальных блоков, арифметика опыта и неуместные маркеры. Читаемость текста DS 9–12 px требует проверки на устройстве.",
+      "artifactIds": [
+        "screen-01",
+        "screen-02",
+        "screen-03",
+        "screen-04",
+        "screen-05",
+        "screen-06",
+        "screen-07",
+        "screen-08",
+        "screen-09",
+        "screen-10",
+        "screen-11",
+        "screen-12",
+        "screen-13",
+        "review"
+      ]
+    },
+    {
+      "id": "runtime",
+      "name": "Работа приложения",
+      "status": "INCOMPLETE",
+      "summary": "Статические макеты и PNG. Работа игрового приложения не реализована и не проверялась.",
+      "artifactIds": [
+        "review"
+      ]
+    }
+  ],
+  "limitations": [
+    "Календарь, территории, таланты и расходники — визуальные предложения дополнительных механик ГДД, не утверждённый состав первой версии.",
+    "Все параметры наград, характеристик, лиги и предметов демонстрационные.",
+    "Доска, фигуры cburnett, иконка пешки и локальная навигация унаследованы как отмеченные пробелы DS; native Poker lib не содержит готового шахматного набора.",
+    "Карточки задач переиспользованы для талантов и расходников с текстовыми и визуальными overrides; это предложение нового семантического применения, не новый утверждённый вариант библиотеки.",
+    "Для карты регионов переиспользованы tab-компоненты, цвет выбранной области из Poker lib; механика территории требует отдельного решения.",
+    "Размер 375×812 — экспериментальная рамка, viewport-политика не утверждена.",
+    "Шрифты и стили Poker lib сохранены, включая курсивный Alumni Sans; заголовки собственных секций 32/36 px являются локальным предложением.",
+    "Позиция доски демонстрационная; интерактивная проверка шахматного решения отсутствует.",
+    "Figma содержит редактируемые экземпляры; в экспериментариум поставляются PNG. Все image fills — отдельные аватары/фон DS, полного UI-растра в исходных экранах нет."
+  ],
+  "findings": []
+}

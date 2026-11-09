@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "url": "http://127.0.0.1:43130",
+  "profileId": "chess",
+  "ruleCount": 7,
+  "gapCount": 4,
+  "sourceNode": "391:21239",
+  "scope": "Installed Chess server responds with expected independent profile and knowledge context"
+}

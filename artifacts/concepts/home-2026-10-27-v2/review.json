@@ -1,0 +1,45 @@
+{
+  "schema": "vkchess-home-concept-review/1",
+  "scope": "PNG-концепты главной / выбора режима для обсуждения",
+  "documentId": "13PcZ5cpqjyRrojoIIVhKse6igOlLrGs6IpZnLpEHK-Q",
+  "documentRevision": "AHj4eMQQAtjPT0cmNmb0RBAh7FOi5a5gPzjWjLvoYnaPqA-n8Jo5tcKjTj-xmfxBTmmuXuYyJ-fO1_PqIQ326AAg5t-uFA_7WGMWndEPV0JG",
+  "gddRanges": [
+    {
+      "start": 294,
+      "end": 539,
+      "scope": "Профиль"
+    },
+    {
+      "start": 979,
+      "end": 1049,
+      "scope": "Обычный и рапид"
+    },
+    {
+      "start": 1456,
+      "end": 1537,
+      "scope": "Бонус первых десяти игр"
+    }
+  ],
+  "generator": "built-in-imagegen",
+  "references": [
+    {
+      "path": "tools/design-verifier/profiles/chess/concepts/2026-10-27-mobile-v1/01-game-profile.png",
+      "role": "visual derivation target"
+    },
+    {
+      "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+      "nodeId": "289:2298",
+      "role": "button family read-only evidence"
+    }
+  ],
+  "limitations": [
+    "PNG, без новых Figma-узлов и связанных экземпляров DS; готовность к вёрстке INCOMPLETE.",
+    "Композиция, навигация и виджеты предложены для обсуждения, не утверждены как продуктовый контракт.",
+    "Имя, уровень, баланс и прогресс — демонстрационные данные.",
+    "Только основное состояние с выбранным обычным режимом. Переходы, ошибки и поиск не покрыты.",
+    "Оба изображения сохранили крупную иллюстрацию; компактный вариант A пока лишь относительно плотнее.",
+    "Генератор добавил иконку пополнения баланса; действие и сценарий покупки не согласованы. Для следующей правки убрать либо определить поведение.",
+    "Изображения передают мотивы Poker Library, но точные шрифты, токены и геометрия не гарантированы.",
+    "Наличие картинки и успешное хранение не означают одобрение DS или реализации."
+  ]
+}

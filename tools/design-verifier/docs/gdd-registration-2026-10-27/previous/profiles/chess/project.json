@@ -1,0 +1,39 @@
+{
+  "schema": "verifier-project/1",
+  "id": "chess",
+  "name": "Шахматы",
+  "surface": "mobile-first",
+  "designSystem": {
+    "packageId": "poker-library",
+    "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+    "nodeId": "391:21239",
+    "revision": "inventory-2026-10-27",
+    "reviewedBy": "Codex: read-only inventory of supplied source, not full DS approval",
+    "verifiedAt": "2026-10-27T08:52:16Z",
+    "evidencePath": "sources/design-system.json",
+    "sha256": "68b2ddebc8434075426923d389cd754e34e4e66dd0cd015c105c0eaa3fcb8f76",
+    "scope": "Entry/page inventory; sampled Button variants; Input component inventory; local style/variable collection inventory. Not a full usage-policy, token-binding or mobile-pattern audit."
+  },
+  "productContract": null,
+  "compositionContract": null,
+  "destination": null,
+  "viewportPolicy": null,
+  "ruleIds": [
+    "CORE-SOURCE-01",
+    "CORE-SCOPE-01",
+    "CORE-EVIDENCE-01",
+    "CORE-REVISION-01",
+    "CORE-EXCEPTION-01",
+    "CORE-HANDOFF-01",
+    "CORE-FRESHNESS-01"
+  ],
+  "historicalProfileIds": [
+    "poker"
+  ],
+  "status": "INCOMPLETE",
+  "limitations": [
+    "Сценарии, состояния, композиция первого экрана и место сдачи шахмат не определены.",
+    "История покера используется для поиска уроков; его геометрия и продуктовые решения не наследуются автоматически.",
+    "Библиотека задана пользователем и доступность проверена; полнота правил применения DS для mobile-first ещё не проверена."
+  ]
+}

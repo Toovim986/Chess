@@ -1,0 +1,1240 @@
+{
+  "profileId": "chess",
+  "schema": "verifier-design-audit/1",
+  "id": "audit-1793175364077-8c73d7",
+  "kind": "revision",
+  "parentAuditId": "audit-1793113544095-c990fe",
+  "title": "Экраны по ГДД из Poker lib + экран партии · без столов 08–09",
+  "summary": "Семь мобильных экранов, шесть карт передачи и обзор из v4. Столы 08 «Партия v2» и 09 «Неоновый стол» убраны из текущей ревизии; они сохранены в предыдущих ревизиях и в рабочем файле Figma.",
+  "capturedAt": "2026-10-28T08:16:04.061Z",
+  "importedAt": "2026-10-28T08:16:04.077Z",
+  "origin": "imported-design-audit",
+  "status": "INCOMPLETE",
+  "source": {
+    "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+    "pageId": "391:21239"
+  },
+  "target": {
+    "fileKey": "QZNrOb57obLvLAadEMSjV3",
+    "pageId": "0:1"
+  },
+  "coverage": {
+    "expectedSourceFrames": 26,
+    "expectedTargetFrames": 14
+  },
+  "screens": [
+    {
+      "id": "6:2109",
+      "name": "01 · Главная / выбор режима",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "391:21239",
+        "6204:114300",
+        "1578:149054",
+        "3006:12693",
+        "652:62701",
+        "7427:78630",
+        "3309:170207",
+        "289:2298",
+        "4732:175047",
+        "248:13522",
+        "5812:65920",
+        "679:64732",
+        "421:59939",
+        "788:100114"
+      ],
+      "screenshotArtifact": "01-home",
+      "exportScale": 2
+    },
+    {
+      "id": "7:937",
+      "name": "02 · Профиль",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "391:21239",
+        "6204:114300",
+        "1578:149054",
+        "3006:12693",
+        "652:62701",
+        "7427:78630",
+        "3309:170207",
+        "289:2298",
+        "4732:175047",
+        "248:13522",
+        "5812:65920",
+        "1102:125649",
+        "595:71500",
+        "536:50354",
+        "1186:131152"
+      ],
+      "screenshotArtifact": "02-profile",
+      "exportScale": 2
+    },
+    {
+      "id": "7:1147",
+      "name": "03 · Задачи",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "391:21239",
+        "6204:114300",
+        "1578:149054",
+        "3006:12693",
+        "652:62701",
+        "7427:78630",
+        "3309:170207",
+        "289:2298",
+        "788:100114",
+        "5812:65920",
+        "6219:130458",
+        "679:64732",
+        "1102:125649",
+        "652:61336",
+        "7977:25658"
+      ],
+      "screenshotArtifact": "03-tasks",
+      "exportScale": 2
+    },
+    {
+      "id": "7:3153",
+      "name": "04 · Лига",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "391:21239",
+        "6204:114300",
+        "1578:149054",
+        "3006:12693",
+        "652:62701",
+        "7427:78630",
+        "3309:170207",
+        "289:2298",
+        "1102:125649",
+        "770:128735"
+      ],
+      "screenshotArtifact": "04-league",
+      "exportScale": 2
+    },
+    {
+      "id": "9:734",
+      "name": "05 · Результат партии · победа",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "391:21239",
+        "6204:114300",
+        "1578:149054",
+        "3006:12693",
+        "652:62701",
+        "7427:78630",
+        "3309:170207",
+        "289:2298",
+        "4732:175047",
+        "248:13522",
+        "5812:65920",
+        "679:64732",
+        "421:59939",
+        "788:100114",
+        "1102:125649"
+      ],
+      "screenshotArtifact": "05-result-win",
+      "exportScale": 2
+    },
+    {
+      "id": "9:941",
+      "name": "06 · Результат партии · поражение",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "391:21239",
+        "6204:114300",
+        "1578:149054",
+        "3006:12693",
+        "652:62701",
+        "7427:78630",
+        "3309:170207",
+        "289:2298",
+        "4732:175047",
+        "248:13522",
+        "5812:65920",
+        "679:64732",
+        "421:59939",
+        "788:100114",
+        "1102:125649"
+      ],
+      "screenshotArtifact": "06-result-loss",
+      "exportScale": 2
+    },
+    {
+      "id": "25:1047",
+      "name": "07 · Партия",
+      "width": 375,
+      "height": 812,
+      "sourceIds": [
+        "391:21239",
+        "4732:175047",
+        "679:64732",
+        "289:2298",
+        "595:71500",
+        "1102:125649",
+        "425:20163",
+        "3149:156493",
+        "6965:218219",
+        "692:66907"
+      ],
+      "screenshotArtifact": "07-game",
+      "exportScale": 2
+    },
+    {
+      "id": "14:1142",
+      "name": "Карта передачи · 01 Главная",
+      "width": 1040,
+      "height": 1669,
+      "sourceIds": [
+        "391:21239",
+        "6204:114300",
+        "1578:149054",
+        "3006:12693",
+        "652:62701",
+        "7427:78630",
+        "3309:170207",
+        "289:2298",
+        "4732:175047",
+        "248:13522",
+        "5812:65920",
+        "679:64732",
+        "421:59939",
+        "788:100114"
+      ],
+      "screenshotArtifact": "map-01-home",
+      "exportScale": 2
+    },
+    {
+      "id": "14:1417",
+      "name": "Карта передачи · 02 Профиль",
+      "width": 1040,
+      "height": 1532,
+      "sourceIds": [
+        "391:21239",
+        "6204:114300",
+        "1578:149054",
+        "3006:12693",
+        "652:62701",
+        "7427:78630",
+        "3309:170207",
+        "289:2298",
+        "4732:175047",
+        "248:13522",
+        "5812:65920",
+        "1102:125649",
+        "595:71500",
+        "536:50354",
+        "1186:131152"
+      ],
+      "screenshotArtifact": "map-02-profile",
+      "exportScale": 2
+    },
+    {
+      "id": "14:1722",
+      "name": "Карта передачи · 03 Задачи",
+      "width": 1040,
+      "height": 1740,
+      "sourceIds": [
+        "391:21239",
+        "6204:114300",
+        "1578:149054",
+        "3006:12693",
+        "652:62701",
+        "7427:78630",
+        "3309:170207",
+        "289:2298",
+        "788:100114",
+        "5812:65920",
+        "6219:130458",
+        "679:64732",
+        "1102:125649",
+        "652:61336",
+        "7977:25658"
+      ],
+      "screenshotArtifact": "map-03-tasks",
+      "exportScale": 2
+    },
+    {
+      "id": "14:2140",
+      "name": "Карта передачи · 04 Лига",
+      "width": 1040,
+      "height": 1812,
+      "sourceIds": [
+        "391:21239",
+        "6204:114300",
+        "1578:149054",
+        "3006:12693",
+        "652:62701",
+        "7427:78630",
+        "3309:170207",
+        "289:2298",
+        "1102:125649",
+        "770:128735"
+      ],
+      "screenshotArtifact": "map-04-league",
+      "exportScale": 2
+    },
+    {
+      "id": "14:2507",
+      "name": "Карта передачи · 05–06 Результат партии",
+      "width": 1040,
+      "height": 1415,
+      "sourceIds": [
+        "391:21239",
+        "6204:114300",
+        "1578:149054",
+        "3006:12693",
+        "652:62701",
+        "7427:78630",
+        "3309:170207",
+        "289:2298",
+        "4732:175047",
+        "248:13522",
+        "5812:65920",
+        "679:64732",
+        "421:59939",
+        "788:100114",
+        "1102:125649"
+      ],
+      "screenshotArtifact": "map-05-result",
+      "exportScale": 2
+    },
+    {
+      "id": "28:2146",
+      "name": "Карта передачи · 07 Партия",
+      "width": 1040,
+      "height": 1549,
+      "sourceIds": [
+        "391:21239",
+        "4732:175047",
+        "679:64732",
+        "289:2298",
+        "595:71500",
+        "1102:125649",
+        "425:20163",
+        "3149:156493",
+        "6965:218219",
+        "692:66907"
+      ],
+      "screenshotArtifact": "map-06-game",
+      "exportScale": 2
+    },
+    {
+      "id": "29:2291",
+      "name": "Обзор · все экраны и покрытие DS",
+      "width": 3041,
+      "height": 1217,
+      "sourceIds": [
+        "4732:175047",
+        "248:13522",
+        "5812:65920",
+        "679:64732",
+        "289:2298",
+        "595:71500",
+        "1102:125649",
+        "770:128735",
+        "391:21239",
+        "3006:12693",
+        "421:59939",
+        "788:100114",
+        "7427:78630",
+        "3309:170207",
+        "652:62701",
+        "6204:114300",
+        "1578:149054",
+        "536:50354",
+        "1186:131152",
+        "6219:130458",
+        "652:61336",
+        "7977:25658",
+        "425:20163",
+        "3149:156493",
+        "6965:218219",
+        "692:66907"
+      ],
+      "screenshotArtifact": "00-overview",
+      "exportScale": 2
+    }
+  ],
+  "sources": [
+    {
+      "id": "4732:175047",
+      "name": "CustomizedAvatar",
+      "targetIds": [
+        "6:2109",
+        "7:937",
+        "9:734",
+        "9:941",
+        "25:1047",
+        "14:1142",
+        "14:1417",
+        "14:2507",
+        "28:2146",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "248:13522",
+      "name": "badge no level",
+      "targetIds": [
+        "6:2109",
+        "7:937",
+        "9:734",
+        "9:941",
+        "14:1142",
+        "14:1417",
+        "14:2507",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "5812:65920",
+      "name": "progressbar",
+      "targetIds": [
+        "6:2109",
+        "7:937",
+        "7:1147",
+        "9:734",
+        "9:941",
+        "14:1142",
+        "14:1417",
+        "14:1722",
+        "14:2507",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "679:64732",
+      "name": "tab",
+      "targetIds": [
+        "6:2109",
+        "7:1147",
+        "9:734",
+        "9:941",
+        "25:1047",
+        "14:1142",
+        "14:1722",
+        "14:2507",
+        "28:2146",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "289:2298",
+      "name": "Button",
+      "targetIds": [
+        "6:2109",
+        "7:937",
+        "7:1147",
+        "7:3153",
+        "9:734",
+        "9:941",
+        "25:1047",
+        "14:1142",
+        "14:1417",
+        "14:1722",
+        "14:2140",
+        "14:2507",
+        "28:2146",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "595:71500",
+      "name": "icon Button",
+      "targetIds": [
+        "7:937",
+        "25:1047",
+        "14:1417",
+        "28:2146",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "1102:125649",
+      "name": "labels",
+      "targetIds": [
+        "7:937",
+        "7:1147",
+        "7:3153",
+        "9:734",
+        "9:941",
+        "25:1047",
+        "14:1417",
+        "14:1722",
+        "14:2140",
+        "14:2507",
+        "28:2146",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "770:128735",
+      "name": "cell",
+      "targetIds": [
+        "7:3153",
+        "14:2140",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "391:21239",
+      "name": "Color · переменные Poker lib",
+      "targetIds": [
+        "6:2109",
+        "7:937",
+        "7:1147",
+        "7:3153",
+        "9:734",
+        "9:941",
+        "25:1047",
+        "14:1142",
+        "14:1417",
+        "14:1722",
+        "14:2140",
+        "14:2507",
+        "28:2146",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "3006:12693",
+      "name": "stopwatch-start",
+      "targetIds": [
+        "6:2109",
+        "7:937",
+        "7:1147",
+        "7:3153",
+        "9:734",
+        "9:941",
+        "14:1142",
+        "14:1417",
+        "14:1722",
+        "14:2140",
+        "14:2507",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "421:59939",
+      "name": "flash",
+      "targetIds": [
+        "6:2109",
+        "9:734",
+        "9:941",
+        "14:1142",
+        "14:2507",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "788:100114",
+      "name": "gift_filled_M",
+      "targetIds": [
+        "6:2109",
+        "7:1147",
+        "9:734",
+        "9:941",
+        "14:1142",
+        "14:1722",
+        "14:2507",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "7427:78630",
+      "name": "shield-crown",
+      "targetIds": [
+        "6:2109",
+        "7:937",
+        "7:1147",
+        "7:3153",
+        "9:734",
+        "9:941",
+        "14:1142",
+        "14:1417",
+        "14:1722",
+        "14:2140",
+        "14:2507",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "3309:170207",
+      "name": "user_circle",
+      "targetIds": [
+        "6:2109",
+        "7:937",
+        "7:1147",
+        "7:3153",
+        "9:734",
+        "9:941",
+        "14:1142",
+        "14:1417",
+        "14:1722",
+        "14:2140",
+        "14:2507",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "652:62701",
+      "name": "check_circle_large_filled_S",
+      "targetIds": [
+        "6:2109",
+        "7:937",
+        "7:1147",
+        "7:3153",
+        "9:734",
+        "9:941",
+        "14:1142",
+        "14:1417",
+        "14:1722",
+        "14:2140",
+        "14:2507",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "6204:114300",
+      "name": "notification_filled",
+      "targetIds": [
+        "6:2109",
+        "7:937",
+        "7:1147",
+        "7:3153",
+        "9:734",
+        "9:941",
+        "14:1142",
+        "14:1417",
+        "14:1722",
+        "14:2140",
+        "14:2507",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "1578:149054",
+      "name": "settings-sharp",
+      "targetIds": [
+        "6:2109",
+        "7:937",
+        "7:1147",
+        "7:3153",
+        "9:734",
+        "9:941",
+        "14:1142",
+        "14:1417",
+        "14:1722",
+        "14:2140",
+        "14:2507",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "536:50354",
+      "name": "plus",
+      "targetIds": [
+        "7:937",
+        "14:1417",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "1186:131152",
+      "name": "info_circle_filled",
+      "targetIds": [
+        "7:937",
+        "14:1417",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "6219:130458",
+      "name": "Time_clock_circle_filled",
+      "targetIds": [
+        "7:1147",
+        "14:1722",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "652:61336",
+      "name": "star_circle_filled_M",
+      "targetIds": [
+        "7:1147",
+        "14:1722",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "7977:25658",
+      "name": "top arrow_filled",
+      "targetIds": [
+        "7:1147",
+        "14:1722",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "425:20163",
+      "name": "timer new",
+      "targetIds": [
+        "25:1047",
+        "28:2146",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "3149:156493",
+      "name": "list",
+      "targetIds": [
+        "25:1047",
+        "28:2146",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "6965:218219",
+      "name": "bubble_filled_M",
+      "targetIds": [
+        "25:1047",
+        "28:2146",
+        "29:2291"
+      ]
+    },
+    {
+      "id": "692:66907",
+      "name": "chevron-down",
+      "targetIds": [
+        "25:1047",
+        "28:2146",
+        "29:2291"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "storage",
+      "name": "Сохранность файлов",
+      "status": "PASS",
+      "summary": "Байты поставки скопированы с проверкой SHA-256; после импорта повторно скачиваются и сверяются все файлы.",
+      "artifactIds": [
+        "01-home",
+        "02-profile",
+        "03-tasks",
+        "04-league",
+        "05-result-win",
+        "06-result-loss",
+        "07-game",
+        "map-01-home",
+        "map-02-profile",
+        "map-03-tasks",
+        "map-04-league",
+        "map-05-result",
+        "map-06-game",
+        "00-overview",
+        "ds-audit",
+        "handoff-map",
+        "review"
+      ]
+    },
+    {
+      "id": "ds",
+      "name": "Применение дизайн-системы",
+      "status": "WARN",
+      "summary": "Экраны собраны из экземпляров Poker lib: 10–32 экземпляра на экран; все заливки и обводки вне экземпляров привязаны к переменным Color (HEX вне DS: 0 на 7 экранах и 5 локальных компонентах, включая доску и фигуры); шрифты только Montserrat и Alumni Sans. Открыты пробелы DS: фигуры, доска, иконка пешки, эмблемы лиг, иконки навигации и действий партии, CTA только 32 px, заголовок 40 px, маркер сложности.",
+      "artifactIds": [
+        "ds-audit",
+        "00-overview"
+      ]
+    },
+    {
+      "id": "handoff",
+      "name": "Карта передачи во фронт",
+      "status": "WARN",
+      "summary": "Шесть карт по формату эталона mKX13PSo2vqwCXCBQJiOi8: номера, границы, компонент и вариант, токены, шрифты сгенерированы из узлов сборки. Назначение, данные и поведение — предложение для подтверждения владельцем продукта.",
+      "artifactIds": [
+        "map-01-home",
+        "map-02-profile",
+        "map-03-tasks",
+        "map-04-league",
+        "map-05-result",
+        "map-06-game",
+        "handoff-map"
+      ]
+    },
+    {
+      "id": "composition",
+      "name": "Композиция",
+      "status": "WARN",
+      "summary": "Мобильные экраны 375×812 по размеру эталона. Композиция и viewport-политика шахмат не утверждены.",
+      "artifactIds": [
+        "01-home",
+        "02-profile",
+        "03-tasks",
+        "04-league",
+        "05-result-win",
+        "06-result-loss",
+        "07-game",
+        "review"
+      ]
+    },
+    {
+      "id": "states",
+      "name": "Состояния и переходы",
+      "status": "INCOMPLETE",
+      "summary": "Собраны основные состояния, экран партии (ход игрока, выбранная фигура, допустимые ходы) и исходы (победа, поражение). Поиск соперника, загрузка, ошибки, пустые состояния, шах и мат, подтверждения сдачи и ничьей, повышение/понижение лиги не собраны.",
+      "artifactIds": [
+        "review",
+        "handoff-map"
+      ]
+    },
+    {
+      "id": "visual",
+      "name": "Визуальное ревью",
+      "status": "WARN",
+      "summary": "Каждый экран и карта просмотрены. Исправлено: доля заливки progressbar, обрезанная строка лиги, разные портреты, перекрытие бейджей карты, контраст тёмных клеток доски, обрезанная метка уровня. Остаётся: CTA 32 px. Экран партии собран по анализу референсов: Chess.com, ChessGold, Chess Clash, Chess Royale, Clash of Kings, Lichess.",
+      "artifactIds": [
+        "01-home",
+        "02-profile",
+        "03-tasks",
+        "04-league",
+        "05-result-win",
+        "06-result-loss",
+        "07-game",
+        "map-01-home",
+        "map-02-profile",
+        "map-03-tasks",
+        "map-04-league",
+        "map-05-result",
+        "map-06-game",
+        "review"
+      ]
+    },
+    {
+      "id": "runtime",
+      "name": "Работа приложения",
+      "status": "INCOMPLETE",
+      "summary": "Сдача — скриншоты для обсуждения; измерений в приложении нет.",
+      "artifactIds": [
+        "review"
+      ]
+    }
+  ],
+  "limitations": [
+    "Скриншоты собраны из экземпляров Poker lib в рабочем файле QZNrOb57obLvLAadEMSjV3; в файле «Шахматы» 3XFu7HJrZfIFVVmlVhhi85 по запросу размещены только изображения.",
+    "Пробелы DS: иконка пешки, эмблемы лиг, иконки навигации, CTA 32 px, размер заголовка 40, маркер сложности.",
+    "Состояния поиска соперника, загрузки, ошибок, пустые, повышение/понижение лиги, подтверждения сдачи/ничьей и шах/мат в партии не собраны.",
+    "Viewport-политика шахмат не утверждена: размер 375×812 взят из эталона передачи.",
+    "Формулы наград, X/N задач, число лиг — открытые решения ГДД; значения на экранах демонстрационные.",
+    "Фигуры cburnett и цвета доски — временные решения до ассетов DS; контроль времени — демо."
+  ],
+  "findings": [
+    {
+      "id": "gap-pawn",
+      "nodeId": "5:1110",
+      "severity": "warning",
+      "status": "OPEN",
+      "title": "Нет иконки валюты «пешки» в Poker lib",
+      "detail": "Временная векторная иконка в цвете text & element/gold primary. Нужен ассет DS.",
+      "artifactIds": [
+        "ds-audit"
+      ]
+    },
+    {
+      "id": "gap-league-emblem",
+      "nodeId": "7:3153",
+      "severity": "warning",
+      "status": "OPEN",
+      "title": "Нет эмблем лиг",
+      "detail": "Временно shield-crown на фоне violet a10.",
+      "artifactIds": [
+        "04-league",
+        "map-04-league"
+      ]
+    },
+    {
+      "id": "gap-nav-icons",
+      "nodeId": "5:1256",
+      "severity": "warning",
+      "status": "OPEN",
+      "title": "Иконки навигации шахмат временные",
+      "detail": "stopwatch-start, check_circle_large_filled_S, shield-crown, user_circle из Poker lib.",
+      "artifactIds": [
+        "ds-audit"
+      ]
+    },
+    {
+      "id": "gap-cta-size",
+      "nodeId": "6:2109",
+      "severity": "warning",
+      "status": "OPEN",
+      "title": "Залитая Button Gold/Colored только размера S (32 px)",
+      "detail": "Для мобильного CTA нужен размер ≥ 40 px или подтверждение S владельцем DS.",
+      "artifactIds": [
+        "01-home",
+        "ds-audit"
+      ]
+    },
+    {
+      "id": "gap-type-40",
+      "nodeId": "9:734",
+      "severity": "info",
+      "status": "OPEN",
+      "title": "Заголовок итога партии 40 px",
+      "detail": "Alumni Sans Bold Italic 40 — в компонентах DS максимум 30.",
+      "artifactIds": [
+        "05-result-win"
+      ]
+    },
+    {
+      "id": "fix-progress",
+      "nodeId": "6:2109",
+      "severity": "warning",
+      "status": "FIXED",
+      "title": "Доля заливки progressbar не соответствовала данным",
+      "detail": "LESSON-INSTANCE-01: растянутый экземпляр сохранял заливку ~86%. Индикатор собран из progressbar/empty и progressbar/full по доле.",
+      "artifactIds": [
+        "01-home",
+        "review"
+      ],
+      "before": {
+        "expFillPx": 301,
+        "bonusFillPx": 277
+      },
+      "after": {
+        "expFillPx": 271,
+        "bonusFillPx": 97
+      }
+    },
+    {
+      "id": "fix-league-row",
+      "nodeId": "7:3153",
+      "severity": "warning",
+      "status": "FIXED",
+      "title": "Обрезанная строка дивизиона",
+      "detail": "Оставлены 4 полные строки и подсказка о прокрутке.",
+      "artifactIds": [
+        "04-league"
+      ],
+      "before": {
+        "listHeightPx": 317
+      },
+      "after": {
+        "listHeightPx": 301
+      }
+    },
+    {
+      "id": "fix-identity",
+      "nodeId": "7:937",
+      "severity": "info",
+      "status": "FIXED",
+      "title": "Разные портреты игрока на экранах",
+      "detail": "Один вариант CustomizedAvatar 136 и одно имя на всех экранах.",
+      "artifactIds": [
+        "01-home",
+        "02-profile"
+      ],
+      "before": {
+        "profileAvatar": "Size=106"
+      },
+      "after": {
+        "profileAvatar": "Size=136"
+      }
+    },
+    {
+      "id": "fix-map-badges",
+      "nodeId": "14:1142",
+      "severity": "info",
+      "status": "FIXED",
+      "title": "Бейджи карты перекрывали интерфейс",
+      "detail": "Бейджи вынесены в поле слева с выносными линиями.",
+      "artifactIds": [
+        "map-01-home"
+      ]
+    },
+    {
+      "id": "gap-pieces",
+      "nodeId": "23:1134",
+      "severity": "warning",
+      "status": "OPEN",
+      "title": "Нет шахматных фигур в Poker lib",
+      "detail": "Временно набор cburnett (CC BY-SA 3.0), цвета привязаны к white/l100 и black/l0. Нужен набор фигур DS.",
+      "artifactIds": [
+        "07-game",
+        "ds-audit"
+      ]
+    },
+    {
+      "id": "gap-board",
+      "nodeId": "23:1135",
+      "severity": "info",
+      "status": "OPEN",
+      "title": "Цвета доски — предложение",
+      "detail": "chess/Board на токенах ch40/gold l80 / l60; нужно решение владельца DS.",
+      "artifactIds": [
+        "07-game",
+        "map-06-game"
+      ]
+    },
+    {
+      "id": "gap-game-actions",
+      "nodeId": "25:1047",
+      "severity": "warning",
+      "status": "OPEN",
+      "title": "Нет иконок действий партии",
+      "detail": "Сдаться и ничья — текстовые кнопки; стрелки ходов — повёрнутая icon Button с chevron-down.",
+      "artifactIds": [
+        "07-game",
+        "map-06-game"
+      ]
+    },
+    {
+      "id": "fix-board-contrast",
+      "nodeId": "23:1135",
+      "severity": "warning",
+      "status": "FIXED",
+      "title": "Чёрные фигуры терялись на тёмных клетках",
+      "detail": "Тёмные клетки переведены на ch40/gold/l60, координаты на светлых клетках — l40.",
+      "artifactIds": [
+        "07-game"
+      ],
+      "before": {
+        "darkSquare": "#4E4739"
+      },
+      "after": {
+        "darkSquare": "#8A7F67"
+      }
+    },
+    {
+      "id": "fix-level-label",
+      "nodeId": "25:1047",
+      "severity": "info",
+      "status": "FIXED",
+      "title": "Метка уровня обрезалась рядом с именем",
+      "detail": "Метка перенесена во вторую строку к взятым фигурам.",
+      "artifactIds": [
+        "07-game"
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "01-home",
+      "label": "01 · Главная / выбор режима",
+      "role": "screen",
+      "originalPath": "chess-ds-2026-10-27-v7/01-home.png",
+      "filename": "01-home.png",
+      "bytes": 249899,
+      "sha256": "6c41ea823861af81c9f703ee1c5b37b7e3231c049a0031fa90acd7e3aa681084",
+      "dimensions": {
+        "width": 750,
+        "height": 1624
+      }
+    },
+    {
+      "id": "02-profile",
+      "label": "02 · Профиль",
+      "role": "screen",
+      "originalPath": "chess-ds-2026-10-27-v7/02-profile.png",
+      "filename": "02-profile.png",
+      "bytes": 241294,
+      "sha256": "b2e2ee1a4ac717ee80eef6e70b6fa4e03ae32a84167bc12db59d0faafb917e51",
+      "dimensions": {
+        "width": 750,
+        "height": 1624
+      }
+    },
+    {
+      "id": "03-tasks",
+      "label": "03 · Задачи",
+      "role": "screen",
+      "originalPath": "chess-ds-2026-10-27-v7/03-tasks.png",
+      "filename": "03-tasks.png",
+      "bytes": 158829,
+      "sha256": "8ee517e3c7e208ab0a9c216df1be5fb313d847ae83fd85d9fcb14f60a32609e7",
+      "dimensions": {
+        "width": 750,
+        "height": 1624
+      }
+    },
+    {
+      "id": "04-league",
+      "label": "04 · Лига",
+      "role": "screen",
+      "originalPath": "chess-ds-2026-10-27-v7/04-league.png",
+      "filename": "04-league.png",
+      "bytes": 258815,
+      "sha256": "640a5cc02bca4e3106341491bb25036279984c4420656d79e351b89f2f5b11b6",
+      "dimensions": {
+        "width": 750,
+        "height": 1624
+      }
+    },
+    {
+      "id": "05-result-win",
+      "label": "05 · Результат партии · победа",
+      "role": "screen",
+      "originalPath": "chess-ds-2026-10-27-v7/05-result-win.png",
+      "filename": "05-result-win.png",
+      "bytes": 212072,
+      "sha256": "44512bac3d5f31b7869778042f335eb5081a91352dfb7c89e79123f33175224d",
+      "dimensions": {
+        "width": 750,
+        "height": 1624
+      }
+    },
+    {
+      "id": "06-result-loss",
+      "label": "06 · Результат партии · поражение",
+      "role": "screen",
+      "originalPath": "chess-ds-2026-10-27-v7/06-result-loss.png",
+      "filename": "06-result-loss.png",
+      "bytes": 209595,
+      "sha256": "dd924aff512c6b0ef028292c6eacc82c2dc09b248a1657b026272d9686bc50ea",
+      "dimensions": {
+        "width": 750,
+        "height": 1624
+      }
+    },
+    {
+      "id": "07-game",
+      "label": "07 · Партия",
+      "role": "screen",
+      "originalPath": "chess-ds-2026-10-27-v7/07-game.png",
+      "filename": "07-game.png",
+      "bytes": 176022,
+      "sha256": "31bb92aa027ac9b0fe10895e16b237eef7edcde7704b3c951aea02986793ae57",
+      "dimensions": {
+        "width": 750,
+        "height": 1624
+      }
+    },
+    {
+      "id": "map-01-home",
+      "label": "Карта передачи · 01 Главная",
+      "role": "screen-map",
+      "originalPath": "chess-ds-2026-10-27-v7/map-01-home.png",
+      "filename": "map-01-home.png",
+      "bytes": 806103,
+      "sha256": "4303fa31eb55ac8478bfc435ee9cd73d38206373b7be820e3c5d3045f5d2db25",
+      "dimensions": {
+        "width": 2080,
+        "height": 3338
+      }
+    },
+    {
+      "id": "map-02-profile",
+      "label": "Карта передачи · 02 Профиль",
+      "role": "screen-map",
+      "originalPath": "chess-ds-2026-10-27-v7/map-02-profile.png",
+      "filename": "map-02-profile.png",
+      "bytes": 751993,
+      "sha256": "4ed0a64c78edda0e1732eb56d822b6518145678f5818d98487886a18afed7956",
+      "dimensions": {
+        "width": 2080,
+        "height": 3064
+      }
+    },
+    {
+      "id": "map-03-tasks",
+      "label": "Карта передачи · 03 Задачи",
+      "role": "screen-map",
+      "originalPath": "chess-ds-2026-10-27-v7/map-03-tasks.png",
+      "filename": "map-03-tasks.png",
+      "bytes": 758912,
+      "sha256": "522754a6ef23009b1936d3e4573a4b7d38646353a3c895909baf8f5226b67688",
+      "dimensions": {
+        "width": 2080,
+        "height": 3480
+      }
+    },
+    {
+      "id": "map-04-league",
+      "label": "Карта передачи · 04 Лига",
+      "role": "screen-map",
+      "originalPath": "chess-ds-2026-10-27-v7/map-04-league.png",
+      "filename": "map-04-league.png",
+      "bytes": 855197,
+      "sha256": "dbb8fd7781e36839bca9185c54fe854c9c6932ef5e261e1e805c09db78982a3b",
+      "dimensions": {
+        "width": 2080,
+        "height": 3624
+      }
+    },
+    {
+      "id": "map-05-result",
+      "label": "Карта передачи · 05–06 Результат партии",
+      "role": "screen-map",
+      "originalPath": "chess-ds-2026-10-27-v7/map-05-result.png",
+      "filename": "map-05-result.png",
+      "bytes": 677173,
+      "sha256": "2580e4557a4145d56a3dad65fe584cc15f6476d6d0ceb7dc3fca017dc7e39e0b",
+      "dimensions": {
+        "width": 2080,
+        "height": 2830
+      }
+    },
+    {
+      "id": "map-06-game",
+      "label": "Карта передачи · 07 Партия",
+      "role": "screen-map",
+      "originalPath": "chess-ds-2026-10-27-v7/map-06-game.png",
+      "filename": "map-06-game.png",
+      "bytes": 751743,
+      "sha256": "63d27313d3a4d16e6e75d2a3ac29fe6cfd11e9d8b4a01b2e06d2ab5cd485f83a",
+      "dimensions": {
+        "width": 2080,
+        "height": 3098
+      }
+    },
+    {
+      "id": "00-overview",
+      "label": "Обзор · все экраны и покрытие DS",
+      "role": "overview",
+      "originalPath": "chess-ds-2026-10-27-v7/00-overview.png",
+      "filename": "00-overview.png",
+      "bytes": 1658430,
+      "sha256": "0613a7a0742cf9c66e276830ce87fe655d87d6c91f2773a3ece72f0d89417405",
+      "dimensions": {
+        "width": 6082,
+        "height": 2434
+      }
+    },
+    {
+      "id": "ds-audit",
+      "label": "Аудит применения DS (измерения)",
+      "role": "report",
+      "originalPath": "chess-ds-2026-10-27-v7/ds-audit.json",
+      "filename": "ds-audit.json",
+      "bytes": 22743,
+      "sha256": "08d1e6fb6cdd14a4b945031faac12f2fe284ccafe32fb0d1c01cc5f84f0f56f8"
+    },
+    {
+      "id": "handoff-map",
+      "label": "Карта передачи · JSON",
+      "role": "report",
+      "originalPath": "chess-ds-2026-10-27-v7/handoff-map.json",
+      "filename": "handoff-map.json",
+      "bytes": 23830,
+      "sha256": "3b94374cc9b8f57e7cfe1f7553519c4ff13f750057740147f7022d13e2e0ba0f"
+    },
+    {
+      "id": "review",
+      "label": "Визуальное ревью и ограничения",
+      "role": "report",
+      "originalPath": "chess-ds-2026-10-27-v7/review.json",
+      "filename": "review.json",
+      "bytes": 7771,
+      "sha256": "0ac56ac66122903a9ff971a92a2cf412713399a3b05f1b899bba5e3ca4b69bda"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "documentId": "13PcZ5cpqjyRrojoIIVhKse6igOlLrGs6IpZnLpEHK-Q",
+  "role": "gdd",
+  "completeness": "partial",
+  "sourceHash": "8fcc1fa663549ccaea2d04b0b6ee749307a8044bbedae67265008756e068a8c6",
+  "evidenceDownloadedAndHashMatched": true,
+  "realDocsLinkVisible": true,
+  "widths": [
+    1440,
+    390
+  ],
+  "productGapPreserved": true,
+  "pageErrors": [],
+  "sourceDocumentEdited": false
+}

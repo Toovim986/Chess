@@ -1,0 +1,752 @@
+{
+  "sourceBoard": "151:22934",
+  "targetBoard": "184:77751",
+  "sourceScreens": 22,
+  "targetScreens": 22,
+  "matchedScreens": 22,
+  "visibleScreens": 22,
+  "hiddenScreens": [],
+  "matchedNodes": 6675,
+  "equalNodes": 5961,
+  "changedNodes": 714,
+  "groups": [
+    {
+      "name": "border",
+      "property": "x",
+      "count": 172,
+      "example": {
+        "source": "I151:23024;5976:87657",
+        "target": "I184:77785;5976:87657",
+        "from": 3.961109161376953,
+        "to": 7.765005588531494
+      }
+    },
+    {
+      "name": "border",
+      "property": "y",
+      "count": 172,
+      "example": {
+        "source": "I151:23024;5976:87657",
+        "target": "I184:77785;5976:87657",
+        "from": 5.99444055557251,
+        "to": 13.695012092590332
+      }
+    },
+    {
+      "name": "border",
+      "property": "width",
+      "count": 172,
+      "example": {
+        "source": "I151:23024;5976:87657",
+        "target": "I184:77785;5976:87657",
+        "from": 77.00556182861328,
+        "to": 69.30498504638672
+      }
+    },
+    {
+      "name": "border",
+      "property": "height",
+      "count": 172,
+      "example": {
+        "source": "I151:23024;5976:87657",
+        "target": "I184:77785;5976:87657",
+        "from": 77.00556182861328,
+        "to": 69.30498504638672
+      }
+    },
+    {
+      "name": "user photo_02",
+      "property": "x",
+      "count": 86,
+      "example": {
+        "source": "I151:23024;5976:87656",
+        "target": "I184:77785;5976:87656",
+        "from": 5.08769416809082,
+        "to": 8.778931617736816
+      }
+    },
+    {
+      "name": "user photo_02",
+      "property": "y",
+      "count": 86,
+      "example": {
+        "source": "I151:23024;5976:87656",
+        "target": "I184:77785;5976:87656",
+        "from": -4.211115837097168,
+        "to": 4.510013103485107
+      }
+    },
+    {
+      "name": "user photo_02",
+      "property": "width",
+      "count": 86,
+      "example": {
+        "source": "I151:23024;5976:87656",
+        "target": "I184:77785;5976:87656",
+        "from": 74.75238037109375,
+        "to": 67.27713012695312
+      }
+    },
+    {
+      "name": "user photo_02",
+      "property": "height",
+      "count": 86,
+      "example": {
+        "source": "I151:23024;5976:87656",
+        "target": "I184:77785;5976:87656",
+        "from": 87.21110534667969,
+        "to": 78.48998260498047
+      }
+    },
+    {
+      "name": "romb",
+      "property": "y",
+      "count": 86,
+      "example": {
+        "source": "I151:23042;6119:44406;6119:44516",
+        "target": "I184:77803;6119:44406;6119:44516",
+        "from": 4.175000190734863,
+        "to": 3.7574994564056396
+      }
+    },
+    {
+      "name": "romb",
+      "property": "width",
+      "count": 86,
+      "example": {
+        "source": "I151:23042;6119:44406;6119:44516",
+        "target": "I184:77803;6119:44406;6119:44516",
+        "from": 5.566667079925537,
+        "to": 5.0099992752075195
+      }
+    },
+    {
+      "name": "romb",
+      "property": "height",
+      "count": 86,
+      "example": {
+        "source": "I151:23042;6119:44406;6119:44516",
+        "target": "I184:77803;6119:44406;6119:44516",
+        "from": 5.566667079925537,
+        "to": 5.0099992752075195
+      }
+    },
+    {
+      "name": "rare gardient",
+      "property": "x",
+      "count": 62,
+      "example": {
+        "source": "I151:23024;7482:20862",
+        "target": "I184:77785;7482:20862",
+        "from": 8.350000381469727,
+        "to": 7.514998912811279
+      }
+    },
+    {
+      "name": "rare gardient",
+      "property": "width",
+      "count": 62,
+      "example": {
+        "source": "I151:23024;7482:20862",
+        "target": "I184:77785;7482:20862",
+        "from": 77.00556182861328,
+        "to": 69.30498504638672
+      }
+    },
+    {
+      "name": "rare gardient",
+      "property": "height",
+      "count": 62,
+      "example": {
+        "source": "I151:23024;7482:20862",
+        "target": "I184:77785;7482:20862",
+        "from": 92.77778625488281,
+        "to": 83.49998474121094
+      }
+    },
+    {
+      "name": "gardient",
+      "property": "width",
+      "count": 62,
+      "example": {
+        "source": "I151:23024;7482:20862;7482:20815",
+        "target": "I184:77785;7482:20862;7482:20815",
+        "from": 77.00556182861328,
+        "to": 69.30498504638672
+      }
+    },
+    {
+      "name": "gardient",
+      "property": "height",
+      "count": 62,
+      "example": {
+        "source": "I151:23024;7482:20862;7482:20815",
+        "target": "I184:77785;7482:20862;7482:20815",
+        "from": 92.77778625488281,
+        "to": 83.49998474121094
+      }
+    },
+    {
+      "name": "rare",
+      "property": "x",
+      "count": 62,
+      "example": {
+        "source": "I151:23024;6119:44406",
+        "target": "I184:77785;6119:44406",
+        "from": 38.28888702392578,
+        "to": 38.65999984741211
+      }
+    },
+    {
+      "name": "rare",
+      "property": "y",
+      "count": 62,
+      "example": {
+        "source": "I151:23024;6119:44406",
+        "target": "I184:77785;6119:44406",
+        "from": 88.1388931274414,
+        "to": 79.32498931884766
+      }
+    },
+    {
+      "name": "rare",
+      "property": "width",
+      "count": 62,
+      "example": {
+        "source": "I151:23024;6119:44406",
+        "target": "I184:77785;6119:44406",
+        "from": 7.872455596923828,
+        "to": 7.085208415985107
+      }
+    },
+    {
+      "name": "rare",
+      "property": "height",
+      "count": 62,
+      "example": {
+        "source": "I151:23024;6119:44406",
+        "target": "I184:77785;6119:44406",
+        "from": 8.350000381469727,
+        "to": 7.514998912811279
+      }
+    },
+    {
+      "name": "romb",
+      "property": "x",
+      "count": 55,
+      "example": {
+        "source": "I151:23042;6119:44406;6119:44517",
+        "target": "I184:77803;6119:44406;6119:44517",
+        "from": 10.655789375305176,
+        "to": 9.590208053588867
+      }
+    },
+    {
+      "name": "object",
+      "property": "fills",
+      "count": 43,
+      "example": {
+        "source": "156:23387",
+        "target": "184:77924",
+        "from": "[]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.7,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.1686,\"g\":0.1765,\"b\":0.2157}},{\"type\":\""
+      }
+    },
+    {
+      "name": "Gemini_Generated_Image_1ctt6s1ctt6s1ctt 1",
+      "property": "width",
+      "count": 32,
+      "example": {
+        "source": "I151:23024;5976:87656;4419:67491",
+        "target": "I184:77785;5976:87656;4419:67491",
+        "from": 74.75238037109375,
+        "to": 67.27713012695312
+      }
+    },
+    {
+      "name": "Gemini_Generated_Image_1ctt6s1ctt6s1ctt 1",
+      "property": "height",
+      "count": 32,
+      "example": {
+        "source": "I151:23024;5976:87656;4419:67491",
+        "target": "I184:77785;5976:87656;4419:67491",
+        "from": 87.21111297607422,
+        "to": 78.48998260498047
+      }
+    },
+    {
+      "name": "Rectangle 111002705",
+      "property": "y",
+      "count": 31,
+      "example": {
+        "source": "I151:23024;6119:44406;6119:44519",
+        "target": "I184:77785;6119:44406;6119:44519",
+        "from": 4.175000190734863,
+        "to": 3.7574994564056396
+      }
+    },
+    {
+      "name": "Rectangle 111002705",
+      "property": "width",
+      "count": 31,
+      "example": {
+        "source": "I151:23024;6119:44406;6119:44519",
+        "target": "I184:77785;6119:44406;6119:44519",
+        "from": 5.566667079925537,
+        "to": 5.0099992752075195
+      }
+    },
+    {
+      "name": "Rectangle 111002705",
+      "property": "height",
+      "count": 31,
+      "example": {
+        "source": "I151:23024;6119:44406;6119:44519",
+        "target": "I184:77785;6119:44406;6119:44519",
+        "from": 5.566667079925537,
+        "to": 5.0099992752075195
+      }
+    },
+    {
+      "name": "Gemini_Generated_Image_fyf6bkfyf6bkfyf6 1",
+      "property": "width",
+      "count": 28,
+      "example": {
+        "source": "I151:23036;5976:87656;4419:67593",
+        "target": "I184:77797;5976:87656;4419:67593",
+        "from": 76.89581298828125,
+        "to": 69.20621490478516
+      }
+    },
+    {
+      "name": "Gemini_Generated_Image_fyf6bkfyf6bkfyf6 1",
+      "property": "height",
+      "count": 28,
+      "example": {
+        "source": "I151:23036;5976:87656;4419:67593",
+        "target": "I184:77797;5976:87656;4419:67593",
+        "from": 89.71178436279297,
+        "to": 80.7405776977539
+      }
+    },
+    {
+      "name": "Астра 1 / Содержимое",
+      "property": "height",
+      "count": 5,
+      "example": {
+        "source": "151:23008",
+        "target": "184:77781",
+        "from": 501.5000305175781,
+        "to": 536
+      }
+    },
+    {
+      "name": "Gemini_Generated_Image_1rf9sb1rf9sb1rf9 1",
+      "property": "width",
+      "count": 5,
+      "example": {
+        "source": "I151:23026;5976:87656;4419:67587",
+        "target": "I184:77787;5976:87656;4419:67587",
+        "from": 74.74832916259766,
+        "to": 67.27348327636719
+      }
+    },
+    {
+      "name": "Gemini_Generated_Image_1rf9sb1rf9sb1rf9 1",
+      "property": "height",
+      "count": 5,
+      "example": {
+        "source": "I151:23026;5976:87656;4419:67587",
+        "target": "I184:77787;5976:87656;4419:67587",
+        "from": 87.17444610595703,
+        "to": 78.45698547363281
+      }
+    },
+    {
+      "name": "Gemini_Generated_Image_3kt3un3kt3un3kt3 1",
+      "property": "width",
+      "count": 5,
+      "example": {
+        "source": "I151:23028;5976:87656;4419:66068",
+        "target": "I184:77789;5976:87656;4419:66068",
+        "from": 74.75238037109375,
+        "to": 67.27713012695312
+      }
+    },
+    {
+      "name": "Gemini_Generated_Image_3kt3un3kt3un3kt3 1",
+      "property": "height",
+      "count": 5,
+      "example": {
+        "source": "I151:23028;5976:87656;4419:66068",
+        "target": "I184:77789;5976:87656;4419:66068",
+        "from": 87.21111297607422,
+        "to": 78.48998260498047
+      }
+    },
+    {
+      "name": "Gemini_Generated_Image_8db8s38db8s38db8 1",
+      "property": "width",
+      "count": 4,
+      "example": {
+        "source": "I151:23033;5976:87656;4419:67581",
+        "target": "I184:77794;5976:87656;4419:67581",
+        "from": 74.75238037109375,
+        "to": 67.27713012695312
+      }
+    },
+    {
+      "name": "Gemini_Generated_Image_8db8s38db8s38db8 1",
+      "property": "height",
+      "count": 4,
+      "example": {
+        "source": "I151:23033;5976:87656;4419:67581",
+        "target": "I184:77794;5976:87656;4419:67581",
+        "from": 87.21111297607422,
+        "to": 78.48998260498047
+      }
+    },
+    {
+      "name": "Gemini_Generated_Image_nvn4cpnvn4cpnvn4 1",
+      "property": "width",
+      "count": 4,
+      "example": {
+        "source": "I151:23038;5976:87656;4419:67615",
+        "target": "I184:77799;5976:87656;4419:67615",
+        "from": 74.75238037109375,
+        "to": 67.27713012695312
+      }
+    },
+    {
+      "name": "Gemini_Generated_Image_nvn4cpnvn4cpnvn4 1",
+      "property": "height",
+      "count": 4,
+      "example": {
+        "source": "I151:23038;5976:87656;4419:67615",
+        "target": "I184:77799;5976:87656;4419:67615",
+        "from": 87.21111297607422,
+        "to": 78.48998260498047
+      }
+    },
+    {
+      "name": "Gemini_Generated_Image_traacvtraacvtraa 1",
+      "property": "width",
+      "count": 4,
+      "example": {
+        "source": "I151:23040;5976:87656;4419:67621",
+        "target": "I184:77801;5976:87656;4419:67621",
+        "from": 74.75238037109375,
+        "to": 67.27713012695312
+      }
+    },
+    {
+      "name": "Gemini_Generated_Image_traacvtraacvtraa 1",
+      "property": "height",
+      "count": 4,
+      "example": {
+        "source": "I151:23040;5976:87656;4419:67621",
+        "target": "I184:77801;5976:87656;4419:67621",
+        "from": 87.21111297607422,
+        "to": 78.48998260498047
+      }
+    },
+    {
+      "name": "Gemini_Generated_Image_xb2cckxb2cckxb2c 1",
+      "property": "width",
+      "count": 4,
+      "example": {
+        "source": "I151:23042;5976:87656;4419:67609",
+        "target": "I184:77803;5976:87656;4419:67609",
+        "from": 74.75238037109375,
+        "to": 67.27713012695312
+      }
+    },
+    {
+      "name": "Gemini_Generated_Image_xb2cckxb2cckxb2c 1",
+      "property": "height",
+      "count": 4,
+      "example": {
+        "source": "I151:23042;5976:87656;4419:67609",
+        "target": "I184:77803;5976:87656;4419:67609",
+        "from": 87.21111297607422,
+        "to": 78.48998260498047
+      }
+    },
+    {
+      "name": "Астра 1 / Рекомендации",
+      "property": "y",
+      "count": 4,
+      "example": {
+        "source": "151:23059",
+        "target": "184:77820",
+        "from": 374.0000305175781,
+        "to": 424.5
+      }
+    },
+    {
+      "name": "Астра 1 / Содержимое",
+      "property": "clipsContent",
+      "count": 1,
+      "example": {
+        "source": "151:23008",
+        "target": "184:77781",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "Астра 1 / Аватар / 138:20449",
+      "property": "fills",
+      "count": 1,
+      "example": {
+        "source": "151:23023",
+        "target": "184:77784",
+        "from": "[]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.7,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.1686,\"g\":0.1765,\"b\":0.2157}},{\"type\":\""
+      }
+    },
+    {
+      "name": "Астра 1 / Аватар / 138:20462",
+      "property": "fills",
+      "count": 1,
+      "example": {
+        "source": "151:23025",
+        "target": "184:77786",
+        "from": "[]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.7,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.1686,\"g\":0.1765,\"b\":0.2157}},{\"type\":\""
+      }
+    },
+    {
+      "name": "Астра 1 / Аватар / 138:20489",
+      "property": "fills",
+      "count": 1,
+      "example": {
+        "source": "151:23032",
+        "target": "184:77793",
+        "from": "[]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.7,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.1686,\"g\":0.1765,\"b\":0.2157}},{\"type\":\""
+      }
+    },
+    {
+      "name": "Астра 1 / Аватар / 138:20500",
+      "property": "fills",
+      "count": 1,
+      "example": {
+        "source": "151:23035",
+        "target": "184:77796",
+        "from": "[]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.7,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.1686,\"g\":0.1765,\"b\":0.2157}},{\"type\":\""
+      }
+    },
+    {
+      "name": "Астра 1 / Аватар / 138:20510",
+      "property": "fills",
+      "count": 1,
+      "example": {
+        "source": "151:23037",
+        "target": "184:77798",
+        "from": "[]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.7,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.1686,\"g\":0.1765,\"b\":0.2157}},{\"type\":\""
+      }
+    },
+    {
+      "name": "Астра 1 / Аватар / 138:20521",
+      "property": "fills",
+      "count": 1,
+      "example": {
+        "source": "151:23039",
+        "target": "184:77800",
+        "from": "[]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.7,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.1686,\"g\":0.1765,\"b\":0.2157}},{\"type\":\""
+      }
+    },
+    {
+      "name": "Астра 1 / Аватар / 138:20532",
+      "property": "fills",
+      "count": 1,
+      "example": {
+        "source": "151:23041",
+        "target": "184:77802",
+        "from": "[]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.7,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.1686,\"g\":0.1765,\"b\":0.2157}},{\"type\":\""
+      }
+    },
+    {
+      "name": "Астра 1 / Аватар / 138:20546",
+      "property": "fills",
+      "count": 1,
+      "example": {
+        "source": "151:23044",
+        "target": "184:77805",
+        "from": "[]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.7,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.1686,\"g\":0.1765,\"b\":0.2157}},{\"type\":\""
+      }
+    },
+    {
+      "name": "Астра 1 / Аватар / 138:20561",
+      "property": "fills",
+      "count": 1,
+      "example": {
+        "source": "151:23046",
+        "target": "184:77807",
+        "from": "[]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.7,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.1686,\"g\":0.1765,\"b\":0.2157}},{\"type\":\""
+      }
+    },
+    {
+      "name": "Астра 1 / Аватар / 138:20576",
+      "property": "fills",
+      "count": 1,
+      "example": {
+        "source": "151:23048",
+        "target": "184:77809",
+        "from": "[]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.7,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.1686,\"g\":0.1765,\"b\":0.2157}},{\"type\":\""
+      }
+    },
+    {
+      "name": "Астра 1 / Аватар / 138:20591",
+      "property": "fills",
+      "count": 1,
+      "example": {
+        "source": "151:23050",
+        "target": "184:77811",
+        "from": "[]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.7,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.1686,\"g\":0.1765,\"b\":0.2157}},{\"type\":\""
+      }
+    },
+    {
+      "name": "Астра 1 / Аватар / 138:20606",
+      "property": "fills",
+      "count": 1,
+      "example": {
+        "source": "151:23053",
+        "target": "184:77814",
+        "from": "[]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.7,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.1686,\"g\":0.1765,\"b\":0.2157}},{\"type\":\""
+      }
+    },
+    {
+      "name": "Астра 1 / Аватар / 138:20621",
+      "property": "fills",
+      "count": 1,
+      "example": {
+        "source": "151:23055",
+        "target": "184:77816",
+        "from": "[]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.7,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.1686,\"g\":0.1765,\"b\":0.2157}},{\"type\":\""
+      }
+    },
+    {
+      "name": "Астра 1 / Аватар / 138:20636",
+      "property": "fills",
+      "count": 1,
+      "example": {
+        "source": "151:23057",
+        "target": "184:77818",
+        "from": "[]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.7,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.1686,\"g\":0.1765,\"b\":0.2157}},{\"type\":\""
+      }
+    },
+    {
+      "name": "Астра 1 / Подарить себе",
+      "property": "y",
+      "count": 1,
+      "example": {
+        "source": "167:26430",
+        "target": "184:79590",
+        "from": 422.5,
+        "to": 404
+      }
+    }
+  ],
+  "missing": [],
+  "added": [
+    {
+      "target": "195:38015",
+      "sourceParent": "151:22941",
+      "name": "Astra 2 / Плашка редактора на всю высоту",
+      "path": "Astra 2 / 01 · Аватары и рамки / source 12410:54225 / 12410:54724"
+    },
+    {
+      "target": "195:38016",
+      "sourceParent": "156:23305",
+      "name": "Astra 2 / Плашка редактора на всю высоту",
+      "path": "Astra 2 / 03 · Аватары — полная коллекция / source 12410:57115 / 12410:57615"
+    },
+    {
+      "target": "195:38017",
+      "sourceParent": "156:23801",
+      "name": "Astra 2 / Плашка редактора на всю высоту",
+      "path": "Astra 2 / 04 · Аватары — 3 ряда / source 12410:57660 / 12410:58160"
+    },
+    {
+      "target": "195:38018",
+      "sourceParent": "156:24159",
+      "name": "Astra 2 / Плашка редактора на всю высоту",
+      "path": "Astra 2 / 05 · Аватары — 2 ряда / source 12410:59963 / 12410:60463"
+    },
+    {
+      "target": "196:38015",
+      "sourceParent": "154:23261",
+      "name": "Astra 2 / Друзья",
+      "path": "Astra 2 / 02 · Статистика · MVP / source 12410:70618 / 12410:70914/Астра 1 / Заголовок личного кабинета"
+    },
+    {
+      "target": "196:38022",
+      "sourceParent": "161:26189",
+      "name": "Astra 2 / Друзья",
+      "path": "Astra 2 / 01 · Паспорт · MVP / source 12410:70618 / 12410:70832/Астра 1 / Заголовок личного кабинета"
+    },
+    {
+      "target": "196:38029",
+      "sourceParent": "164:25967",
+      "name": "Astra 2 / Друзья",
+      "path": "Astra 2 / 02 · Игровой набор · MVP / source 12410:70618 / 12410:70735/Астра 1 / Заголовок личного кабинета"
+    },
+    {
+      "target": "195:38019",
+      "sourceParent": "156:24508",
+      "name": "Astra 2 / Плашка редактора на всю высоту",
+      "path": "Astra 2 / 06 · Аватары — небольшая коллекция / source 12420:18545 / 12420:19045"
+    },
+    {
+      "target": "196:38036",
+      "sourceParent": "171:26580",
+      "name": "Astra 2 / Друзья",
+      "path": "Astra 2 / 17 · Паспорт — характеристики открыты / source 12705:66837/Астра 1 / Заголовок личного кабинета"
+    },
+    {
+      "target": "196:38043",
+      "sourceParent": "171:26854",
+      "name": "Astra 2 / Друзья",
+      "path": "Astra 2 / 18 · Паспорт — после знакомства / source 12416:16397/Астра 1 / Заголовок личного кабинета"
+    }
+  ],
+  "totalGroups": 59,
+  "totalMissing": 0,
+  "totalAdded": 12,
+  "addedByName": [
+    {
+      "name": "Astra 2 / Плашка редактора на всю высоту",
+      "count": 5,
+      "example": {
+        "target": "195:38015",
+        "sourceParent": "151:22941",
+        "name": "Astra 2 / Плашка редактора на всю высоту",
+        "path": "Astra 2 / 01 · Аватары и рамки / source 12410:54225 / 12410:54724"
+      }
+    },
+    {
+      "name": "Astra 2 / Друзья",
+      "count": 7,
+      "example": {
+        "target": "196:38015",
+        "sourceParent": "154:23261",
+        "name": "Astra 2 / Друзья",
+        "path": "Astra 2 / 02 · Статистика · MVP / source 12410:70618 / 12410:70914/Астра 1 / Заголовок личного кабинета"
+      }
+    }
+  ],
+  "groupCoverage": "all groups, examples per group; added nodes aggregated by name"
+}

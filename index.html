@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Как Claude Code работает с вашими задачами</title>
+<meta name="description" content="Claude Code читает проект, вносит правки, проверяет результат и честно отчитывается. Подробно о том, как проходит каждая задача.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Как Claude Code работает с вашими задачами">
+<meta property="og:description" content="Читает проект, вносит правки, проверяет результат и честно отчитывается.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23000'/%3E%3Cpath d='M9 10l7 6-7 6' stroke='%23A3FF12' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M18 23h6' stroke='%23A3FF12' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+<style>
+:root{
+  --bg:#000000;
+  --surface:#181818;
+  --surface-2:#1F1F1F;
+  --surface-3:#272727;
+  --line:#313131;
+  --text:#FFFFFF;
+  --muted:#9B9B9B;
+  --accent:#A3FF12;
+  --curve:cubic-bezier(0.22,1,0.36,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--bg);color:var(--text);
+  font-family:'Manrope',sans-serif;font-size:16px;line-height:24px;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4,p,li,summary{font-style:normal}
+h1,h2,h3{text-wrap:balance;font-weight:700}
+p,li{text-wrap:pretty}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+section{padding:96px 0}
+:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-radius:8px}
+
+.skip{position:absolute;left:16px;top:-80px;background:var(--accent);color:#000;padding:8px 12px;border-radius:8px;font-weight:600;z-index:100;transition:transform 300ms var(--curve)}
+.skip:focus{transform:translateY(96px)}
+
+/* Buttons */
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:8px 12px;border-radius:8px;
+  font:600 16px/24px 'Manrope',sans-serif;
+  border:1px solid transparent;cursor:pointer;
+  transition:transform 300ms var(--curve),background-color 300ms var(--curve),opacity 300ms var(--curve);
+}
+.btn-primary{background:var(--accent);color:#000}
+.btn-primary:hover{transform:translateY(-2px)}
+.btn-primary:active{transform:scale(0.98)}
+.btn-ghost{border-color:var(--line);color:var(--text);background:transparent}
+.btn-ghost:hover{background:var(--surface-3)}
+.btn-ghost:active{transform:scale(0.98)}
+.btn-sm{font-size:14px;line-height:20px}
+
+/* Nav */
+.nav{
+  position:fixed;top:16px;left:50%;transform:translateX(-50%);z-index:50;
+  display:flex;align-items:center;gap:24px;
+  padding:8px 8px 8px 16px;border-radius:12px;
+  background:rgba(24,24,24,0.7);border:1px solid var(--line);
+  backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+}
+.nav{white-space:nowrap}
+.brand{display:flex;align-items:center;gap:8px;font-weight:700}
+.brand i{color:var(--accent);font-size:20px}
+.nav-links{display:flex;gap:4px}
+.nav-links a{padding:8px 12px;border-radius:8px;font-size:14px;line-height:20px;font-weight:600;color:var(--muted);transition:background-color 300ms var(--curve),color 300ms var(--curve)}
+.nav-links a:hover{background:var(--surface-3);color:var(--text)}
+.nav-links a[aria-current="true"]{color:var(--text);background:var(--surface-3)}
+.menu-btn{display:none;width:40px;height:40px;border-radius:8px;background:transparent;border:1px solid var(--line);cursor:pointer;position:relative}
+.menu-btn span{position:absolute;left:12px;right:12px;height:2px;background:var(--text);border-radius:2px;transition:transform 500ms var(--curve),opacity 300ms var(--curve)}
+.menu-btn span:nth-child(1){top:14px}
+.menu-btn span:nth-child(2){top:24px}
+.menu-open .menu-btn span:nth-child(1){transform:translateY(5px) rotate(45deg)}
+.menu-open .menu-btn span:nth-child(2){transform:translateY(-5px) rotate(-45deg)}
+.panel{
+  position:fixed;inset:0;z-index:40;
+  background:rgba(0,0,0,0.92);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);
+  display:flex;flex-direction:column;justify-content:center;gap:16px;padding:96px 24px 48px;
+  opacity:0;pointer-events:none;transition:opacity 500ms var(--curve);
+}
+.menu-open .panel{opacity:1;pointer-events:auto}
+.panel a{font-size:30px;line-height:36px;font-weight:700;opacity:0;transform:translateY(24px);transition:transform 500ms var(--curve),opacity 500ms var(--curve)}
+.menu-open .panel a{opacity:1;transform:none}
+.menu-open .panel a:nth-child(1){transition-delay:60ms}
+.menu-open .panel a:nth-child(2){transition-delay:120ms}
+.menu-open .panel a:nth-child(3){transition-delay:180ms}
+.menu-open .panel a:nth-child(4){transition-delay:240ms}
+.menu-open .panel a:nth-child(5){transition-delay:300ms}
+
+/* Hero */
+.hero{padding-top:160px;padding-bottom:96px;position:relative;overflow:hidden}
+.glow{position:absolute;right:-96px;top:80px;width:480px;height:480px;border-radius:50%;background:var(--accent);opacity:0.12;filter:blur(160px);pointer-events:none}
+.hero-grid{position:relative;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:48px;align-items:center}
+.plat{position:relative;margin-top:64px;display:flex;flex-wrap:wrap;gap:12px}
+.plat li{display:flex;align-items:center;gap:8px;padding:8px 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);font-size:14px;line-height:20px;color:var(--muted)}
+.plat i{color:var(--accent);font-size:20px}
+.alt{background:#131209}
+.tag-grid{display:grid;grid-template-columns:240px 1fr;gap:48px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:4px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-size:14px;line-height:20px;color:var(--muted);margin-bottom:24px}
+.eyebrow i{color:var(--accent)}
+.hero h1{
+  font-size:60px;line-height:1;letter-spacing:-0.02em;max-width:680px;
+  background:linear-gradient(to right,#FFFFFF,#9B9B9B);
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;
+}
+.hero .sub{max-width:680px;margin-top:24px;font-size:20px;line-height:28px;color:var(--muted)}
+.hero .actions{margin-top:40px;display:flex;flex-wrap:wrap;align-items:center;gap:16px}
+.proof{display:flex;align-items:center;gap:8px;font-size:14px;line-height:20px;color:var(--muted)}
+.proof i{color:var(--accent);font-size:20px}
+
+.term{margin-top:0;position:relative;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:8px}
+.term-bar{display:flex;align-items:center;gap:8px;padding:8px 12px 12px}
+.term-bar b{width:12px;height:12px;border-radius:50%;background:var(--surface-3);display:block}
+.term-bar span{margin-left:8px;font-size:14px;line-height:20px;color:var(--muted)}
+.term-body{background:var(--bg);border-radius:8px;padding:32px;font-family:'Geist Mono',ui-monospace,monospace;font-size:16px;line-height:24px;display:grid;gap:16px}
+.term-body .you{color:var(--text)}
+.term-body .you::before{content:"> ";color:var(--accent)}
+.term-body .step{color:var(--muted)}
+.term-body .step em{font-style:normal;color:var(--accent)}
+.term-body .done{color:var(--text)}
+.caret{display:inline-block;width:8px;height:16px;background:var(--accent);vertical-align:-2px;margin-left:4px;animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+
+/* Reveal */
+.reveal{opacity:0;transform:translateY(32px);transition:transform 700ms var(--curve),opacity 700ms var(--curve)}
+.reveal.in{opacity:1;transform:none}
+
+/* Tagline */
+.tagline{padding:96px 0;background:#131209}
+.tagline p{font-size:48px;line-height:1;font-weight:700;letter-spacing:-0.02em;max-width:680px;text-wrap:balance}
+.tagline .w{opacity:0.3;transition:opacity 500ms var(--curve);display:inline-block}
+.tagline .w.on{opacity:1}
+
+/* Section heads */
+.head{max-width:680px;margin-bottom:48px}
+.head h2{font-size:48px;line-height:1;letter-spacing:-0.02em}
+.head p{margin-top:16px;font-size:18px;line-height:28px;color:var(--muted)}
+.kicker{display:block;margin-bottom:16px;font-size:14px;line-height:20px;font-weight:600;color:var(--accent)}
+
+/* Cards */
+.grid{display:grid;gap:16px}
+.g2{grid-template-columns:repeat(2,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:32px;transition:transform 500ms var(--curve),background-color 300ms var(--curve),border-color 300ms var(--curve)}
+.card:hover{transform:translateY(-4px);background:var(--surface-2);border-color:var(--accent)}
+.ico{width:48px;height:48px;border-radius:8px;background:var(--surface-3);display:grid;place-items:center;margin-bottom:24px}
+.ico i{font-size:24px;color:var(--accent)}
+.card h3{font-size:20px;line-height:28px}
+.card p{margin-top:8px;color:var(--muted)}
+.num{font-family:'Geist Mono',ui-monospace,monospace;font-size:60px;line-height:1;color:var(--line);margin-bottom:24px;display:block;transition:color 300ms var(--curve)}
+.card:hover .num{color:var(--accent)}
+
+/* Economy */
+.eco{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.eco .card ul{margin-top:16px;display:grid;gap:12px}
+.eco li{display:flex;gap:12px;color:var(--muted)}
+.eco li i{color:var(--accent);font-size:20px;flex:none;margin-top:2px}
+.eco li.no i{color:var(--muted)}
+.note{margin-top:16px;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);font-size:14px;line-height:20px;color:var(--muted)}
+
+/* FAQ */
+.faq{display:grid;gap:8px;max-width:800px}
+.faq details{background:var(--surface);border:1px solid var(--line);border-radius:12px;transition:background-color 300ms var(--curve)}
+.faq details[open]{background:var(--surface-2)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:16px;align-items:center;padding:16px 24px;font-weight:600;font-size:18px;line-height:28px;border-radius:12px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary i{color:var(--accent);transition:transform 500ms var(--curve);flex:none}
+.faq details[open] summary i{transform:rotate(45deg)}
+.faq details p{padding:0 24px 24px;color:var(--muted)}
+
+/* Risk + final */
+.risk{display:flex;flex-wrap:wrap;gap:16px 40px}
+.risk div{display:flex;align-items:center;gap:12px;color:var(--muted)}
+.risk i{color:var(--accent);font-size:24px}
+.final{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:64px 48px;text-align:center}
+.final h2{font-size:48px;line-height:1;letter-spacing:-0.02em;max-width:680px;margin:0 auto}
+.final p{max-width:680px;margin:16px auto 0;color:var(--muted);font-size:18px;line-height:28px}
+.final .btn{margin-top:32px}
+
+footer{padding:48px 0;border-top:1px solid var(--line);color:var(--muted);font-size:14px;line-height:20px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px}
+footer .links{display:flex;gap:24px}
+footer [aria-disabled="true"]{opacity:0.5;cursor:not-allowed}
+
+@media (max-width:900px){
+  .nav-links,.nav .btn{display:none}
+  .menu-btn{display:block}
+  .nav{gap:16px}
+  .hero{padding-top:128px}
+  .hero h1{font-size:48px}
+  .hero .sub{font-size:18px;line-height:28px}
+  .head h2,.final h2{font-size:36px;line-height:40px}
+  .tagline p{font-size:36px;line-height:40px}
+  .g2,.g3,.eco,.hero-grid{grid-template-columns:minmax(0,1fr)}
+  .tag-grid{grid-template-columns:minmax(0,1fr);gap:16px}
+  .glow{width:240px;height:240px;right:-96px}
+  .term-body{padding:24px;font-size:14px;line-height:20px}
+  .final{padding:48px 24px}
+  section{padding:80px 0}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal,.panel a{transform:none!important;transition:opacity 300ms linear!important}
+  .btn,.card,.faq summary i{transition:opacity 300ms linear,background-color 300ms linear!important}
+  .btn-primary:hover,.card:hover{transform:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Перейти к содержимому</a>
+
+<header id="top">
+  <nav class="nav" aria-label="Основная навигация">
+    <a class="brand" href="#top"><i class="ph ph-terminal-window" aria-hidden="true"></i>Claude Code</a>
+    <div class="nav-links">
+      <a href="#how">Как идёт задача</a>
+      <a href="#benefits">Принципы</a>
+      <a href="#limits">Лимиты</a>
+      <a href="#faq">Вопросы</a>
+    </div>
+    <a class="btn btn-primary btn-sm" href="#how">Смотреть процесс</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Открыть меню" aria-expanded="false" aria-controls="panel"><span></span><span></span></button>
+  </nav>
+  <div class="panel" id="panel">
+    <a href="#how">Как идёт задача</a>
+    <a href="#benefits">Принципы</a>
+    <a href="#limits">Лимиты</a>
+    <a href="#faq">Вопросы</a>
+    <a href="#final">Итог</a>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <div class="glow" aria-hidden="true"></div>
+  <div class="wrap">
+   <div class="hero-grid">
+   <div>
+    <span class="eyebrow reveal"><i class="ph ph-sparkle" aria-hidden="true"></i>Рассказ о том, как я работаю</span>
+    <h1 class="reveal">Задача приходит.<br>Результат остаётся<br>в проекте.</h1>
+    <p class="sub reveal">Я читаю ваш код, вношу правки прямо в файлы, проверяю итог и отчитываюсь по фактам. Ниже весь путь одной задачи, шаг за шагом.</p>
+    <div class="actions reveal">
+      <a class="btn btn-primary" href="#how"><i class="ph ph-arrow-down" aria-hidden="true"></i>Смотреть, как проходит задача</a>
+      <span class="proof"><i class="ph ph-check-circle" aria-hidden="true"></i>Работаю в терминале, VS Code и JetBrains</span>
+    </div>
+   </div>
+
+    <div class="term reveal" role="img" aria-label="Пример сеанса: запрос, чтение файлов, правка и итоговый отчёт">
+      <div class="term-bar"><b></b><b></b><b></b><span>Сеанс в проекте</span></div>
+      <div class="term-body">
+        <div class="you">Исправь расчёт скидки в корзине</div>
+        <div class="step">Читаю <em>cart.ts</em> и <em>discount.ts</em></div>
+        <div class="step">Нашёл причину: скидка считается дважды</div>
+        <div class="step">Правлю <em>discount.ts</em>, запускаю тесты</div>
+        <div class="done">Готово. Тесты проходят, затронут один файл.<span class="caret" aria-hidden="true"></span></div>
+      </div>
+    </div>
+   </div>
+
+    <ul class="plat reveal" aria-label="Где я работаю">
+      <li><i class="ph ph-terminal-window" aria-hidden="true"></i>Терминал</li>
+      <li><i class="ph ph-code" aria-hidden="true"></i>VS Code</li>
+      <li><i class="ph ph-brackets-curly" aria-hidden="true"></i>JetBrains</li>
+      <li><i class="ph ph-desktop" aria-hidden="true"></i>Приложение для Mac и Windows</li>
+      <li><i class="ph ph-globe" aria-hidden="true"></i>Веб</li>
+    </ul>
+  </div>
+</section>
+
+<section class="tagline" aria-label="Главная мысль">
+  <div class="wrap tag-grid">
+    <span class="kicker">Главная мысль</span>
+    <p id="tag">Работа считается выполненной, когда результат проверен, а не когда написан код.</p>
+  </div>
+</section>
+
+<section id="benefits">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="kicker">Принципы</span>
+      <h2>Четыре правила, по которым я веду каждую задачу</h2>
+      <p>Они одинаковы для маленькой правки и для большой переделки.</p>
+    </div>
+    <div class="grid g2">
+      <article class="card reveal">
+        <div class="ico"><i class="ph ph-folder-open" aria-hidden="true"></i></div>
+        <h3>Работаю в самом проекте</h3>
+        <p>Читаю реальные файлы, ищу по коду и вношу правки на месте. Не пересказываю советы, а меняю то, что нужно изменить.</p>
+      </article>
+      <article class="card reveal">
+        <div class="ico"><i class="ph ph-lightning" aria-hidden="true"></i></div>
+        <h3>Независимое делаю параллельно</h3>
+        <p>Если несколько действий не зависят друг от друга, запускаю их одновременно. Зависимые идут по очереди, чтобы не гадать.</p>
+      </article>
+      <article class="card reveal">
+        <div class="ico"><i class="ph ph-hand-palm" aria-hidden="true"></i></div>
+        <h3>Необратимое согласую</h3>
+        <p>Удаление, перезапись и всё, что видно другим людям, подтверждаю с вами заранее. Коммиты и отправку делаю только по вашей просьбе.</p>
+      </article>
+      <article class="card reveal">
+        <div class="ico"><i class="ph ph-chat-text" aria-hidden="true"></i></div>
+        <h3>Отчитываюсь честно</h3>
+        <p>Если тесты упали, скажу об этом и покажу вывод. Если шаг пропущен, так и напишу. Сделанное и проверенное называю прямо.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="how" class="alt">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="kicker">Как идёт задача</span>
+      <h2>Три шага от запроса до результата</h2>
+    </div>
+    <div class="grid g3">
+      <article class="card reveal">
+        <span class="num">01</span>
+        <h3>Понять</h3>
+        <p>Читаю запрос и нужные файлы. Если ответ можно найти в коде, не переспрашиваю. Спрашиваю только о решениях, которые принадлежат вам.</p>
+      </article>
+      <article class="card reveal">
+        <span class="num">02</span>
+        <h3>Сделать</h3>
+        <p>Вношу правки в стиле окружающего кода: те же имена, тот же уровень комментариев. Лишних файлов и перестроек не добавляю.</p>
+      </article>
+      <article class="card reveal">
+        <span class="num">03</span>
+        <h3>Сообщить</h3>
+        <p>Коротко пишу, что изменено и что проверено. Без пересказа процесса и без громких слов.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="limits">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="kicker">Лимиты и токены</span>
+      <h2>Я не трачу ресурсы без причины</h2>
+      <p>Это не режим экономии, а обычные правила работы. Они уменьшают расход как побочный эффект.</p>
+    </div>
+    <div class="eco">
+      <div class="card reveal">
+        <h3>Что я делаю</h3>
+        <ul>
+          <li><i class="ph ph-check" aria-hidden="true"></i>Берусь за дело сразу, когда данных хватает</li>
+          <li><i class="ph ph-check" aria-hidden="true"></i>Читаю только ту часть файла, которая нужна</li>
+          <li><i class="ph ph-check" aria-hidden="true"></i>Независимые вызовы объединяю в один шаг</li>
+          <li><i class="ph ph-check" aria-hidden="true"></i>Подключаю помощников для параллельной работы, а не для проверок «на всякий случай»</li>
+        </ul>
+      </div>
+      <div class="card reveal">
+        <h3>Чего я избегаю</h3>
+        <ul>
+          <li class="no"><i class="ph ph-x" aria-hidden="true"></i>Перечитывать файл, который я только что изменил</li>
+          <li class="no"><i class="ph ph-x" aria-hidden="true"></i>Проверять то, о чём вы не просили</li>
+          <li class="no"><i class="ph ph-x" aria-hidden="true"></i>Заново разбирать решение, которое вы уже приняли</li>
+          <li class="no"><i class="ph ph-x" aria-hidden="true"></i>Перечислять варианты, которые я не выберу</li>
+        </ul>
+      </div>
+    </div>
+    <p class="note reveal">Оговорка: свои лимиты и расход я не вижу, поэтому не могу сам подтвердить, что экономия стала заметнее. Выше описаны правила поведения, а не измеренный результат.</p>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="kicker">Вопросы</span>
+      <h2>Что обычно спрашивают</h2>
+    </div>
+    <div class="faq reveal">
+      <details>
+        <summary>Что именно вы делаете с моим проектом<i class="ph ph-plus" aria-hidden="true"></i></summary>
+        <p>Читаю файлы, ищу по коду, запускаю команды, вношу правки и проверяю результат. Все действия идут через инструменты в вашей среде и подчиняются выбранному вам режиму разрешений.</p>
+      </details>
+      <details>
+        <summary>Могу ли я быть уверен, что ничего не сломается<i class="ph ph-plus" aria-hidden="true"></i></summary>
+        <p>Полной гарантии нет ни у кого. Зато до удаления и перезаписи я смотрю на цель, а действия, которые трудно откатить, согласую с вами. Если проверка не прошла, я говорю об этом сразу.</p>
+      </details>
+      <details>
+        <summary>Когда вы подключаете дополнительных агентов<i class="ph ph-plus" aria-hidden="true"></i></summary>
+        <p>Когда есть независимая работа, которую выгодно вести параллельно, или нужно обойти много файлов и вернуть только вывод. Если задача решается несколькими вызовами, я делаю её сам.</p>
+      </details>
+      <details>
+        <summary>Что будет, если тесты упали<i class="ph ph-plus" aria-hidden="true"></i></summary>
+        <p>Я напишу, что они упали, приложу вывод и разберу причину. Не буду называть работу законченной, пока это не исправлено или не согласовано с вами.</p>
+      </details>
+      <details>
+        <summary>Где можно пользоваться<i class="ph ph-plus" aria-hidden="true"></i></summary>
+        <p>В терминале, в приложении для Mac и Windows, в вебе на claude.ai/code, а также в расширениях для VS Code и JetBrains.</p>
+      </details>
+      <details>
+        <summary>Вы умеете делать не только код<i class="ph ph-plus" aria-hidden="true"></i></summary>
+        <p>Да. Например, страницы, презентации и документы. Эта страница сделана по правилам отдельного скилла для лендингов.</p>
+      </details>
+      <details>
+        <summary>Что с моей почтой и личными данными<i class="ph ph-plus" aria-hidden="true"></i></summary>
+        <p>Адрес почты я использую только чтобы понять, чья это работа, например для авторства. Отправлять его в сторонние сервисы без вашей просьбы я не должен.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="risk reveal">
+      <div><i class="ph ph-shield-check" aria-hidden="true"></i>Необратимое только с вашего согласия</div>
+      <div><i class="ph ph-git-commit" aria-hidden="true"></i>Коммиты только по просьбе</div>
+      <div><i class="ph ph-eye" aria-hidden="true"></i>Любой шаг можно остановить и отклонить</div>
+    </div>
+  </div>
+</section>
+
+<section id="final">
+  <div class="wrap">
+    <div class="final reveal">
+      <h2>Начните с одной небольшой задачи</h2>
+      <p>Опишите её своими словами. Остальной путь, от чтения кода до итогового отчёта, вы уже видели выше.</p>
+      <a class="btn btn-primary" href="#how"><i class="ph ph-arrow-up" aria-hidden="true"></i>Пересмотреть, как проходит задача</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Информационная страница, не является публичной офертой.</span>
+    <div class="links">
+      <span aria-disabled="true">Политика конфиденциальности</span>
+      <span aria-disabled="true">Условия использования</span>
+      <a href="#top">Наверх</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* Scroll reveals, once per element */
+  var io = new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+    });
+  },{threshold:0.12});
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+
+  /* Tagline: words activate one at a time */
+  var tag = document.getElementById('tag');
+  var words = tag.textContent.trim().split(/\s+/);
+  tag.setAttribute('aria-label', words.join(' '));
+  tag.textContent = '';
+  words.forEach(function(w){
+    var s = document.createElement('span');
+    s.className = 'w'; s.textContent = w; s.setAttribute('aria-hidden','true');
+    tag.appendChild(s);
+    tag.appendChild(document.createTextNode(' '));
+  });
+  var wio = new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(e.isIntersecting){ e.target.classList.add('on'); wio.unobserve(e.target); }
+    });
+  },{rootMargin:'0px 0px -40% 0px'});
+  tag.querySelectorAll('.w').forEach(function(w){
+    if(reduce){ w.classList.add('on'); } else { wio.observe(w); }
+  });
+
+  /* Mobile menu */
+  var btn = document.getElementById('menuBtn');
+  var panel = document.getElementById('panel');
+  function setMenu(open){
+    document.body.classList.toggle('menu-open', open);
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    btn.setAttribute('aria-label', open ? 'Закрыть меню' : 'Открыть меню');
+  }
+  btn.addEventListener('click', function(){ setMenu(!document.body.classList.contains('menu-open')); });
+  panel.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', function(){ setMenu(false); }); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') setMenu(false); });
+
+  /* Current section in the nav */
+  var links = document.querySelectorAll('.nav-links a');
+  var map = {};
+  links.forEach(function(a){ map[a.getAttribute('href').slice(1)] = a; });
+  var sio = new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(e.isIntersecting){
+        links.forEach(function(a){ a.removeAttribute('aria-current'); });
+        var a = map[e.target.id]; if(a) a.setAttribute('aria-current','true');
+      }
+    });
+  },{rootMargin:'-40% 0px -55% 0px'});
+  Object.keys(map).forEach(function(id){ var el = document.getElementById(id); if(el) sio.observe(el); });
+})();
+</script>
+</body>
+</html>

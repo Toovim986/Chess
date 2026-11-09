@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "registeredAt": "2026-10-27T09:50:14.875240+00:00",
+  "documentId": "13PcZ5cpqjyRrojoIIVhKse6igOlLrGs6IpZnLpEHK-Q",
+  "revision": "AHj4eMQQAtjPT0cmNmb0RBAh7FOi5a5gPzjWjLvoYnaPqA-n8Jo5tcKjTj-xmfxBTmmuXuYyJ-fO1_PqIQ326AAg5t-uFA_7WGMWndEPV0JG",
+  "sourceHash": "8fcc1fa663549ccaea2d04b0b6ee749307a8044bbedae67265008756e068a8c6",
+  "completeness": "partial",
+  "productGapStillOpen": true,
+  "checks": "25 Node tests and real browser check passed before deployment",
+  "files": [
+    {
+      "path": "knowledge.mjs",
+      "beforeSha256": "5c4d720a6e5055f7aa3e13191ad6fd05252e0d1a1a26765dc7e79b7ed2d2d730",
+      "afterSha256": "92b4a874e35595ec44bfc02a162cf7cd0763ecabdc03cedd44c30d9d360199a0"
+    },
+    {
+      "path": "profiles/chess/project.json",
+      "beforeSha256": "5db5138002951b97b771fe437e7c4f08ff469a33e685a81f80f7454265c8f20a",
+      "afterSha256": "be33ca76b11e13c3678ed4de5117b02195c7d815681f698ab17cf5178e9f2bb4"
+    },
+    {
+      "path": "profiles/chess/sources/gdd-2026-10-27.json",
+      "beforeSha256": null,
+      "afterSha256": "8fcc1fa663549ccaea2d04b0b6ee749307a8044bbedae67265008756e068a8c6"
+    },
+    {
+      "path": "verifier/public/knowledge-view.js",
+      "beforeSha256": "58c802e93a68546f191c946c0ed4e9cf09398544e680005be40eb37563bc94ca",
+      "afterSha256": "ae5cb540717be5a1b16e778bf1073a82f53b14cc17d2dac721c67e991ec7dd61"
+    },
+    {
+      "path": "test/knowledge.test.mjs",
+      "beforeSha256": "b58d595e66482c0a552cad3faefaf3f39a57b740e452721df1fbb04bd69a37d0",
+      "afterSha256": "c86fcb75ad5d5ef5fd2a63c366e86b9ae07af98730f78c4f22a12995b1f80330"
+    },
+    {
+      "path": "verifier/test/portable.test.mjs",
+      "beforeSha256": "628e9445dba705db34c49c9b41c2f26c31cfae07d769b4eb3b74cdb3cfcf0ef8",
+      "afterSha256": "c186f28b539adc0a709f23a71e91b5499a1fd43323049e953d629e3016aaa852"
+    },
+    {
+      "path": "verifier/test/browser-check.mjs",
+      "beforeSha256": "8ac0c72d69dcab53d414750094c985f7348cf09a2ef74ead24668fd07d43ead6",
+      "afterSha256": "c2b3aa638866fb071ebadd47aee6697272044e7a7721a8873cbb7ad77497cbc2"
+    },
+    {
+      "path": "AGENTS.md",
+      "beforeSha256": "e2e211a6ad205fc342430d4470ab2f340c092925d37979d63a94a993b49cc6d1",
+      "afterSha256": "3e26b75ad5ea13e7c1af5f47dbd09128e403595741c8e4828a7b64366f2fc58d"
+    },
+    {
+      "path": "docs/workflow.md",
+      "beforeSha256": "057988e7ca52317aac19b72610ddf5b5543d649ee9060247e70eab5762b0da89",
+      "afterSha256": "e3b97f5a5789d366069befea39d33db8d155315f196f4b27d3b5655d568b4340"
+    }
+  ],
+  "sourceDocumentEdited": false
+}

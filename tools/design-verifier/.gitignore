@@ -1,0 +1,7 @@
+profiles/*/data/
+profiles/*/incoming/
+profiles/poker/source-repository/
+profiles/poker/snapshots/
+node_modules/
+__pycache__/
+*.pyc

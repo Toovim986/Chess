@@ -1,0 +1,56 @@
+{
+  "project": "Poker · Astra 2",
+  "sourceFile": "fSqSKlq7zAlmMcktBSHbRr",
+  "targetFile": "4c9WDZarPdud8EunFzbLW2",
+  "evidenceDate": "2026-09-08",
+  "designReference": "https://www.figma.com/design/fSqSKlq7zAlmMcktBSHbRr/?node-id=16188-22292",
+  "boards": [
+    {
+      "id": "home",
+      "name": "Главная",
+      "page": "7:2",
+      "source": "72:11840",
+      "target": "184:19343",
+      "report": "regression-home-complete.json"
+    },
+    {
+      "id": "shop",
+      "name": "Магазин",
+      "page": "12:5",
+      "source": "101:28914",
+      "target": "184:53133",
+      "report": "regression-shop-complete.json"
+    },
+    {
+      "id": "lk",
+      "name": "Личный кабинет",
+      "page": "12:3",
+      "source": "151:22934",
+      "target": "184:77751",
+      "report": "regression-lk-complete.json"
+    }
+  ],
+  "cases": [
+    {
+      "id": "portrait",
+      "name": "Контрольный портрет",
+      "board": "lk",
+      "source": "portrait-source.json",
+      "target": "portrait-corrected.json",
+      "sourceRoot": "I12410:57624;12410:60648",
+      "targetRoot": "219:38057",
+      "sourcePage": "11952:20547",
+      "targetPage": "12:3",
+      "evidenceDate": "2026-09-08",
+      "description": "Расширенная сверка 9 слоёв и независимая проверка пиксельной сетки. Этот запуск не заменяет проверку всех 86 аватаров.",
+      "figmaRounding": true
+    }
+  ],
+  "profileId": "poker",
+  "port": 43131,
+  "legacyPokerArchive": true,
+  "viewport": {
+    "input": "viewport-input.json",
+    "policy": "viewport-policy.json"
+  }
+}

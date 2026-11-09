@@ -1,0 +1,441 @@
+{
+  "sourceBoard": "72:11840",
+  "targetBoard": "184:19343",
+  "sourceScreens": 37,
+  "targetScreens": 37,
+  "matchedScreens": 37,
+  "visibleScreens": 37,
+  "hiddenScreens": [],
+  "matchedNodes": 12051,
+  "equalNodes": 11572,
+  "changedNodes": 479,
+  "groups": [
+    {
+      "name": "labels",
+      "property": "x",
+      "count": 55,
+      "example": {
+        "source": "74:11985",
+        "target": "184:19485",
+        "from": -4,
+        "to": 4
+      }
+    },
+    {
+      "name": "Header / Desktop technical controls",
+      "property": "x",
+      "count": 37,
+      "example": {
+        "source": "74:11880",
+        "target": "184:19394",
+        "from": 240,
+        "to": 296
+      }
+    },
+    {
+      "name": "Header / Desktop technical controls",
+      "property": "width",
+      "count": 37,
+      "example": {
+        "source": "74:11880",
+        "target": "184:19394",
+        "from": 136,
+        "to": 80
+      }
+    },
+    {
+      "name": "астра / Touch target / Desktop control / Sound",
+      "property": "visible",
+      "count": 37,
+      "example": {
+        "source": "74:12126",
+        "target": "184:19401",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "астра / Touch target / Desktop control / Music",
+      "property": "x",
+      "count": 37,
+      "example": {
+        "source": "74:12127",
+        "target": "184:19403",
+        "from": 112,
+        "to": 84
+      }
+    },
+    {
+      "name": "астра / Touch target / Desktop control / Music",
+      "property": "visible",
+      "count": 37,
+      "example": {
+        "source": "74:12127",
+        "target": "184:19403",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "Activity Carousel / Viewport",
+      "property": "height",
+      "count": 37,
+      "example": {
+        "source": "74:11938",
+        "target": "184:19459",
+        "from": 200,
+        "to": 160
+      }
+    },
+    {
+      "name": "Activity Carousel / Track",
+      "property": "height",
+      "count": 37,
+      "example": {
+        "source": "74:11939",
+        "target": "184:19460",
+        "from": 200,
+        "to": 160
+      }
+    },
+    {
+      "name": "Activity / 05 / Poker basics",
+      "property": "clipsContent",
+      "count": 37,
+      "example": {
+        "source": "74:11986",
+        "target": "184:19486",
+        "from": false,
+        "to": true
+      }
+    },
+    {
+      "name": "Activity / 06 / Share an idea",
+      "property": "clipsContent",
+      "count": 37,
+      "example": {
+        "source": "74:11999",
+        "target": "184:19499",
+        "from": false,
+        "to": true
+      }
+    },
+    {
+      "name": "Activity / 04 / Avatar hunt / progress",
+      "property": "clipsContent",
+      "count": 20,
+      "example": {
+        "source": "74:11962",
+        "target": "184:19462",
+        "from": false,
+        "to": true
+      }
+    },
+    {
+      "name": "Activity / 08 / Daily quest",
+      "property": "height",
+      "count": 15,
+      "example": {
+        "source": "77:13652",
+        "target": "184:19976",
+        "from": 200,
+        "to": 160
+      }
+    },
+    {
+      "name": "light",
+      "property": "height",
+      "count": 15,
+      "example": {
+        "source": "77:13654",
+        "target": "184:19978",
+        "from": 198,
+        "to": 158
+      }
+    },
+    {
+      "name": "Frame 2131330932",
+      "property": "y",
+      "count": 15,
+      "example": {
+        "source": "77:13656",
+        "target": "184:19980",
+        "from": 27.5,
+        "to": 7.5
+      }
+    },
+    {
+      "name": "button group",
+      "property": "y",
+      "count": 15,
+      "example": {
+        "source": "77:13660",
+        "target": "184:19983",
+        "from": 160,
+        "to": 120
+      }
+    },
+    {
+      "name": "progress",
+      "property": "y",
+      "count": 15,
+      "example": {
+        "source": "77:13665",
+        "target": "184:19988",
+        "from": 129,
+        "to": 88
+      }
+    },
+    {
+      "name": "task text",
+      "property": "y",
+      "count": 15,
+      "example": {
+        "source": "77:13670",
+        "target": "184:19993",
+        "from": 34,
+        "to": 32
+      }
+    },
+    {
+      "name": "task text",
+      "property": "width",
+      "count": 15,
+      "example": {
+        "source": "77:13670",
+        "target": "184:19993",
+        "from": 214,
+        "to": 316
+      }
+    },
+    {
+      "name": "task text",
+      "property": "height",
+      "count": 15,
+      "example": {
+        "source": "77:13670",
+        "target": "184:19993",
+        "from": 54,
+        "to": 18
+      }
+    },
+    {
+      "name": "астра / Награда / source 12755:70010",
+      "property": "y",
+      "count": 15,
+      "example": {
+        "source": "77:13938",
+        "target": "184:19994",
+        "from": 103,
+        "to": 85
+      }
+    },
+    {
+      "name": "астра / Награда label",
+      "property": "visible",
+      "count": 15,
+      "example": {
+        "source": "77:13945",
+        "target": "184:19995",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "Activity / 09 / Future activities",
+      "property": "clipsContent",
+      "count": 14,
+      "example": {
+        "source": "78:13815",
+        "target": "184:20551",
+        "from": false,
+        "to": true
+      }
+    },
+    {
+      "name": "Activity / 03 / Avatar hunt / completed",
+      "property": "clipsContent",
+      "count": 3,
+      "example": {
+        "source": "77:12535",
+        "target": "184:19627",
+        "from": false,
+        "to": true
+      }
+    },
+    {
+      "name": "Activity / 07 / Бонус за вход",
+      "property": "height",
+      "count": 2,
+      "example": {
+        "source": "83:22911",
+        "target": "184:21490",
+        "from": 101,
+        "to": 160
+      }
+    },
+    {
+      "name": "Art",
+      "property": "y",
+      "count": 2,
+      "example": {
+        "source": "83:22912",
+        "target": "184:21491",
+        "from": 1,
+        "to": 30.5
+      }
+    },
+    {
+      "name": "left shadow",
+      "property": "y",
+      "count": 2,
+      "example": {
+        "source": "83:22921",
+        "target": "184:21500",
+        "from": 1,
+        "to": 30.5
+      }
+    },
+    {
+      "name": "text",
+      "property": "y",
+      "count": 2,
+      "example": {
+        "source": "83:22922",
+        "target": "184:21501",
+        "from": 16,
+        "to": 45.5
+      }
+    }
+  ],
+  "missing": [
+    {
+      "source": "78:22214",
+      "targetParent": "184:23066",
+      "name": "Settings / Expanded / Poker Main 10420:26020",
+      "path": "Astra 2 / 23 / Настройки · раскрыто / source 10420:26020"
+    },
+    {
+      "source": "I78:22826;1405:139950",
+      "targetParent": "I184:23441;1405:143084",
+      "name": "star_circle_filled_M",
+      "path": "Astra 2 / 24 / Обучение 1/7 · быстрая игра / source 14333:555955/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "source": "I78:23381;1405:139950",
+      "targetParent": "I184:23624;1405:143084",
+      "name": "star_circle_filled_M",
+      "path": "Astra 2 / 25 / Обучение 2/7 · лобби / source 14333:556424/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "source": "I78:23936;1405:139950",
+      "targetParent": "I184:23807;1405:143084",
+      "name": "star_circle_filled_M",
+      "path": "Astra 2 / 26 / Обучение 3/7 · турниры / source 14341:558629/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "source": "I78:24477;1405:139950",
+      "targetParent": "I184:23990;1405:143084",
+      "name": "star_circle_filled_M",
+      "path": "Astra 2 / 27 / Обучение 4/7 · задания / source 14341:556863/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "source": "I78:25032;1405:139950",
+      "targetParent": "I184:24173;1405:143084",
+      "name": "star_circle_filled_M",
+      "path": "Astra 2 / 28 / Обучение 5/7 · магазин / source 14341:557302/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "source": "I78:25588;1405:139950",
+      "targetParent": "I184:24357;1405:143084",
+      "name": "star_circle_filled_M",
+      "path": "Astra 2 / 29 / Обучение 6/7 · профиль / source 14341:557741/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    }
+  ],
+  "added": [
+    {
+      "target": "195:38020",
+      "sourceParent": "78:22001",
+      "name": "Astra 2 / Затемнение настроек",
+      "path": "Astra 2 / 23 / Настройки · раскрыто / source 10420:26020"
+    },
+    {
+      "target": "195:38021",
+      "sourceParent": "78:22001",
+      "name": "Astra 2 / Шторка настроек",
+      "path": "Astra 2 / 23 / Настройки · раскрыто / source 10420:26020"
+    },
+    {
+      "target": "I184:23441;1405:139950",
+      "sourceParent": "I78:22826;1405:143084",
+      "name": "arrow_right_outline_M",
+      "path": "Astra 2 / 24 / Обучение 1/7 · быстрая игра / source 14333:555955/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "target": "I184:23624;1405:139950",
+      "sourceParent": "I78:23381;1405:143084",
+      "name": "arrow_right_outline_M",
+      "path": "Astra 2 / 25 / Обучение 2/7 · лобби / source 14333:556424/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "target": "I184:23807;1405:139950",
+      "sourceParent": "I78:23936;1405:143084",
+      "name": "arrow_right_outline_M",
+      "path": "Astra 2 / 26 / Обучение 3/7 · турниры / source 14341:558629/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "target": "I184:23990;1405:139950",
+      "sourceParent": "I78:24477;1405:143084",
+      "name": "arrow_right_outline_M",
+      "path": "Astra 2 / 27 / Обучение 4/7 · задания / source 14341:556863/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "target": "I184:24173;1405:139950",
+      "sourceParent": "I78:25032;1405:143084",
+      "name": "arrow_right_outline_M",
+      "path": "Astra 2 / 28 / Обучение 5/7 · магазин / source 14341:557302/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "target": "I184:24357;1405:139950",
+      "sourceParent": "I78:25588;1405:143084",
+      "name": "arrow_right_outline_M",
+      "path": "Astra 2 / 29 / Обучение 6/7 · профиль / source 14341:557741/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    }
+  ],
+  "totalGroups": 27,
+  "totalMissing": 7,
+  "totalAdded": 8,
+  "addedByName": [
+    {
+      "name": "Astra 2 / Затемнение настроек",
+      "count": 1,
+      "example": {
+        "target": "195:38020",
+        "sourceParent": "78:22001",
+        "name": "Astra 2 / Затемнение настроек",
+        "path": "Astra 2 / 23 / Настройки · раскрыто / source 10420:26020"
+      }
+    },
+    {
+      "name": "Astra 2 / Шторка настроек",
+      "count": 1,
+      "example": {
+        "target": "195:38021",
+        "sourceParent": "78:22001",
+        "name": "Astra 2 / Шторка настроек",
+        "path": "Astra 2 / 23 / Настройки · раскрыто / source 10420:26020"
+      }
+    },
+    {
+      "name": "arrow_right_outline_M",
+      "count": 6,
+      "example": {
+        "target": "I184:23441;1405:139950",
+        "sourceParent": "I78:22826;1405:143084",
+        "name": "arrow_right_outline_M",
+        "path": "Astra 2 / 24 / Обучение 1/7 · быстрая игра / source 14333:555955/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+      }
+    }
+  ],
+  "groupCoverage": "all groups, examples per group; added nodes aggregated by name"
+}

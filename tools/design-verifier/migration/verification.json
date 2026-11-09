@@ -1,0 +1,17 @@
+{
+  "schema": "verifier-migration-proof/1",
+  "checkedAt": "2026-10-27T09:04:15.668449+00:00",
+  "transferStatus": "PASS",
+  "scope": "File preservation and existing archive hashes only. No new live-Figma/design/runtime verdict.",
+  "fileCount": 5472,
+  "bytes": 3824811572,
+  "auditCount": 33,
+  "auditArtifactCount": 1171,
+  "runCount": 5,
+  "noteCount": 17,
+  "allTransferHashesMatched": true,
+  "allSavedAuditHashesMatched": true,
+  "originalPokerFilesModified": false,
+  "designSystemCompliance": "INCOMPLETE",
+  "chessRuntime": "INCOMPLETE"
+}

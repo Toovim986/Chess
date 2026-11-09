@@ -1,0 +1,325 @@
+{
+  "sourceBoard": "72:11840",
+  "targetBoard": "184:19343",
+  "sourceScreens": 37,
+  "targetScreens": 37,
+  "matchedScreens": 37,
+  "matchedNodes": 12051,
+  "equalNodes": 11572,
+  "changedNodes": 479,
+  "groups": [
+    {
+      "name": "labels",
+      "property": "x",
+      "count": 55,
+      "example": {
+        "source": "74:11985",
+        "target": "184:19485",
+        "path": "Astra 2 / 01 / Главная · Новости / source 11342:199006/Activity Carousel / Viewport/Activity Carousel / Track/Activity / 04 / Avatar hunt / progress/labels",
+        "from": -4,
+        "to": 4
+      }
+    },
+    {
+      "name": "Header / Desktop technical controls",
+      "property": "x",
+      "count": 37,
+      "example": {
+        "source": "74:11880",
+        "target": "184:19394",
+        "path": "Astra 2 / 01 / Главная · Новости / source 11342:199006/Header/Header / Desktop technical controls",
+        "from": 240,
+        "to": 296
+      }
+    },
+    {
+      "name": "Header / Desktop technical controls",
+      "property": "width",
+      "count": 37,
+      "example": {
+        "source": "74:11880",
+        "target": "184:19394",
+        "path": "Astra 2 / 01 / Главная · Новости / source 11342:199006/Header/Header / Desktop technical controls",
+        "from": 136,
+        "to": 80
+      }
+    },
+    {
+      "name": "астра / Touch target / Desktop control / Sound",
+      "property": "visible",
+      "count": 37,
+      "example": {
+        "source": "74:12126",
+        "target": "184:19401",
+        "path": "Astra 2 / 01 / Главная · Новости / source 11342:199006/Header/Header / Desktop technical controls/астра / Touch target / Desktop control / Sound",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "астра / Touch target / Desktop control / Music",
+      "property": "x",
+      "count": 37,
+      "example": {
+        "source": "74:12127",
+        "target": "184:19403",
+        "path": "Astra 2 / 01 / Главная · Новости / source 11342:199006/Header/Header / Desktop technical controls/астра / Touch target / Desktop control / Music",
+        "from": 112,
+        "to": 84
+      }
+    },
+    {
+      "name": "астра / Touch target / Desktop control / Music",
+      "property": "visible",
+      "count": 37,
+      "example": {
+        "source": "74:12127",
+        "target": "184:19403",
+        "path": "Astra 2 / 01 / Главная · Новости / source 11342:199006/Header/Header / Desktop technical controls/астра / Touch target / Desktop control / Music",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "Activity Carousel / Viewport",
+      "property": "height",
+      "count": 37,
+      "example": {
+        "source": "74:11938",
+        "target": "184:19459",
+        "path": "Astra 2 / 01 / Главная · Новости / source 11342:199006/Activity Carousel / Viewport",
+        "from": 200,
+        "to": 160
+      }
+    },
+    {
+      "name": "Activity Carousel / Track",
+      "property": "height",
+      "count": 37,
+      "example": {
+        "source": "74:11939",
+        "target": "184:19460",
+        "path": "Astra 2 / 01 / Главная · Новости / source 11342:199006/Activity Carousel / Viewport/Activity Carousel / Track",
+        "from": 200,
+        "to": 160
+      }
+    },
+    {
+      "name": "Activity / 05 / Poker basics",
+      "property": "clipsContent",
+      "count": 37,
+      "example": {
+        "source": "74:11986",
+        "target": "184:19486",
+        "path": "Astra 2 / 01 / Главная · Новости / source 11342:199006/Activity Carousel / Viewport/Activity Carousel / Track/Activity / 05 / Poker basics",
+        "from": false,
+        "to": true
+      }
+    },
+    {
+      "name": "Activity / 06 / Share an idea",
+      "property": "clipsContent",
+      "count": 37,
+      "example": {
+        "source": "74:11999",
+        "target": "184:19499",
+        "path": "Astra 2 / 01 / Главная · Новости / source 11342:199006/Activity Carousel / Viewport/Activity Carousel / Track/Activity / 06 / Share an idea",
+        "from": false,
+        "to": true
+      }
+    },
+    {
+      "name": "Activity / 04 / Avatar hunt / progress",
+      "property": "clipsContent",
+      "count": 20,
+      "example": {
+        "source": "74:11962",
+        "target": "184:19462",
+        "path": "Astra 2 / 01 / Главная · Новости / source 11342:199006/Activity Carousel / Viewport/Activity Carousel / Track/Activity / 04 / Avatar hunt / progress",
+        "from": false,
+        "to": true
+      }
+    },
+    {
+      "name": "Activity / 08 / Daily quest",
+      "property": "height",
+      "count": 15,
+      "example": {
+        "source": "77:13652",
+        "target": "184:19976",
+        "path": "Astra 2 / 04 / Охота на аватары и задание / source 11342:199180/Activity Carousel / Viewport/Activity Carousel / Track/Activity / 08 / Daily quest",
+        "from": 200,
+        "to": 160
+      }
+    },
+    {
+      "name": "light",
+      "property": "height",
+      "count": 15,
+      "example": {
+        "source": "77:13654",
+        "target": "184:19978",
+        "path": "Astra 2 / 04 / Охота на аватары и задание / source 11342:199180/Activity Carousel / Viewport/Activity Carousel / Track/Activity / 08 / Daily quest/light",
+        "from": 198,
+        "to": 158
+      }
+    },
+    {
+      "name": "Frame 2131330932",
+      "property": "y",
+      "count": 15,
+      "example": {
+        "source": "77:13656",
+        "target": "184:19980",
+        "path": "Astra 2 / 04 / Охота на аватары и задание / source 11342:199180/Activity Carousel / Viewport/Activity Carousel / Track/Activity / 08 / Daily quest/light/Frame 2131330932",
+        "from": 27.5,
+        "to": 7.5
+      }
+    },
+    {
+      "name": "button group",
+      "property": "y",
+      "count": 15,
+      "example": {
+        "source": "77:13660",
+        "target": "184:19983",
+        "path": "Astra 2 / 04 / Охота на аватары и задание / source 11342:199180/Activity Carousel / Viewport/Activity Carousel / Track/Activity / 08 / Daily quest/button group",
+        "from": 160,
+        "to": 120
+      }
+    },
+    {
+      "name": "progress",
+      "property": "y",
+      "count": 15,
+      "example": {
+        "source": "77:13665",
+        "target": "184:19988",
+        "path": "Astra 2 / 04 / Охота на аватары и задание / source 11342:199180/Activity Carousel / Viewport/Activity Carousel / Track/Activity / 08 / Daily quest/progress",
+        "from": 129,
+        "to": 88
+      }
+    },
+    {
+      "name": "task text",
+      "property": "y",
+      "count": 15,
+      "example": {
+        "source": "77:13670",
+        "target": "184:19993",
+        "path": "Astra 2 / 04 / Охота на аватары и задание / source 11342:199180/Activity Carousel / Viewport/Activity Carousel / Track/Activity / 08 / Daily quest/task text",
+        "from": 34,
+        "to": 32
+      }
+    },
+    {
+      "name": "task text",
+      "property": "width",
+      "count": 15,
+      "example": {
+        "source": "77:13670",
+        "target": "184:19993",
+        "path": "Astra 2 / 04 / Охота на аватары и задание / source 11342:199180/Activity Carousel / Viewport/Activity Carousel / Track/Activity / 08 / Daily quest/task text",
+        "from": 214,
+        "to": 316
+      }
+    }
+  ],
+  "missing": [
+    {
+      "source": "78:22214",
+      "targetParent": "184:23066",
+      "name": "Settings / Expanded / Poker Main 10420:26020",
+      "path": "Astra 2 / 23 / Настройки · раскрыто / source 10420:26020"
+    },
+    {
+      "source": "I78:22826;1405:139950",
+      "targetParent": "I184:23441;1405:143084",
+      "name": "star_circle_filled_M",
+      "path": "Astra 2 / 24 / Обучение 1/7 · быстрая игра / source 14333:555955/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "source": "I78:23381;1405:139950",
+      "targetParent": "I184:23624;1405:143084",
+      "name": "star_circle_filled_M",
+      "path": "Astra 2 / 25 / Обучение 2/7 · лобби / source 14333:556424/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "source": "I78:23936;1405:139950",
+      "targetParent": "I184:23807;1405:143084",
+      "name": "star_circle_filled_M",
+      "path": "Astra 2 / 26 / Обучение 3/7 · турниры / source 14341:558629/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "source": "I78:24477;1405:139950",
+      "targetParent": "I184:23990;1405:143084",
+      "name": "star_circle_filled_M",
+      "path": "Astra 2 / 27 / Обучение 4/7 · задания / source 14341:556863/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "source": "I78:25032;1405:139950",
+      "targetParent": "I184:24173;1405:143084",
+      "name": "star_circle_filled_M",
+      "path": "Astra 2 / 28 / Обучение 5/7 · магазин / source 14341:557302/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "source": "I78:25588;1405:139950",
+      "targetParent": "I184:24357;1405:143084",
+      "name": "star_circle_filled_M",
+      "path": "Astra 2 / 29 / Обучение 6/7 · профиль / source 14341:557741/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    }
+  ],
+  "added": [
+    {
+      "target": "195:38020",
+      "sourceParent": "78:22001",
+      "name": "Astra 2 / Затемнение настроек",
+      "path": "Astra 2 / 23 / Настройки · раскрыто / source 10420:26020"
+    },
+    {
+      "target": "195:38021",
+      "sourceParent": "78:22001",
+      "name": "Astra 2 / Шторка настроек",
+      "path": "Astra 2 / 23 / Настройки · раскрыто / source 10420:26020"
+    },
+    {
+      "target": "I184:23441;1405:139950",
+      "sourceParent": "I78:22826;1405:143084",
+      "name": "arrow_right_outline_M",
+      "path": "Astra 2 / 24 / Обучение 1/7 · быстрая игра / source 14333:555955/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "target": "I184:23624;1405:139950",
+      "sourceParent": "I78:23381;1405:143084",
+      "name": "arrow_right_outline_M",
+      "path": "Astra 2 / 25 / Обучение 2/7 · лобби / source 14333:556424/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "target": "I184:23807;1405:139950",
+      "sourceParent": "I78:23936;1405:143084",
+      "name": "arrow_right_outline_M",
+      "path": "Astra 2 / 26 / Обучение 3/7 · турниры / source 14341:558629/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "target": "I184:23990;1405:139950",
+      "sourceParent": "I78:24477;1405:143084",
+      "name": "arrow_right_outline_M",
+      "path": "Astra 2 / 27 / Обучение 4/7 · задания / source 14341:556863/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "target": "I184:24173;1405:139950",
+      "sourceParent": "I78:25032;1405:143084",
+      "name": "arrow_right_outline_M",
+      "path": "Astra 2 / 28 / Обучение 5/7 · магазин / source 14341:557302/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    },
+    {
+      "target": "I184:24357;1405:139950",
+      "sourceParent": "I78:25588;1405:143084",
+      "name": "arrow_right_outline_M",
+      "path": "Astra 2 / 29 / Обучение 6/7 · профиль / source 14341:557741/Tutorial / Tooltip/Tutorial / Layout/Tutorial / Actions/Tutorial / Next/content"
+    }
+  ],
+  "totalGroups": 27,
+  "totalMissing": 7,
+  "totalAdded": 8
+}

@@ -1,0 +1,61 @@
+{
+  "schema": "verifier-project/1",
+  "id": "poker",
+  "name": "Покер · исторический профиль",
+  "surface": "mobile-migration",
+  "designSystem": {
+    "packageId": "poker-library",
+    "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+    "nodeId": "391:21239",
+    "revision": "inventory-2026-10-27",
+    "reviewedBy": "Codex: read-only inventory of supplied source, not full DS approval",
+    "verifiedAt": "2026-10-27T08:52:16Z",
+    "evidencePath": "sources/design-system.json",
+    "sha256": "68b2ddebc8434075426923d389cd754e34e4e66dd0cd015c105c0eaa3fcb8f76",
+    "scope": "Entry/page inventory; sampled Button variants; Input component inventory; local style/variable collection inventory. Not a full usage-policy, token-binding or mobile-pattern audit."
+  },
+  "productContract": null,
+  "compositionContract": null,
+  "destination": null,
+  "viewportPolicy": null,
+  "ruleIds": [
+    "CORE-SOURCE-01",
+    "CORE-SCOPE-01",
+    "CORE-EVIDENCE-01",
+    "CORE-REVISION-01",
+    "CORE-EXCEPTION-01",
+    "CORE-HANDOFF-01",
+    "CORE-FRESHNESS-01"
+  ],
+  "historicalProfileIds": [],
+  "historicalSources": [
+    {
+      "role": "components",
+      "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+      "nodeId": "391:21239",
+      "status": "historical",
+      "evidence": "source-repository/docs/mobile/design-sources.md"
+    },
+    {
+      "role": "product-flow",
+      "fileKey": "fSqSKlq7zAlmMcktBSHbRr",
+      "nodeId": "58:2",
+      "status": "historical",
+      "evidence": "source-repository/docs/mobile/design-sources.md"
+    },
+    {
+      "role": "casual-composition",
+      "fileKey": "4c9WDZarPdud8EunFzbLW2",
+      "nodeId": "749:299507",
+      "status": "historical",
+      "evidence": "source-repository/docs/mobile/47-casual-final-2026-09-22.md"
+    }
+  ],
+  "status": "INCOMPLETE",
+  "limitations": [
+    "Снимок накопленной истории, не новая проверка живой Figma.",
+    "Действующий канон зависит от конкретного экрана и ревизии; исторические источники не назначены каноном новых игр.",
+    "Сохранённые FAIL/INCOMPLETE остаются результатами исходных проверок.",
+    "Библиотека задана пользователем и доступность проверена; полнота правил применения DS для mobile-first ещё не проверена."
+  ]
+}

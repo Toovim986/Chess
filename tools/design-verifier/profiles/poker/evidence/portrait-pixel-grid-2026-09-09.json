@@ -1,0 +1,250 @@
+{
+  "status": "PASS_WITH_ROUNDING",
+  "coverageComplete": true,
+  "scale": 0.9277778441817841,
+  "tolerancePx": 0.25,
+  "sourceRoot": "I12410:57624;12410:60648",
+  "targetRoot": "219:38057",
+  "matchedNodes": 9,
+  "findings": [],
+  "expectedChanges": [],
+  "rounding": [
+    {
+      "source": "I12410:57624;12410:60648;5976:87656",
+      "target": "I219:38057;5976:87656",
+      "property": "y",
+      "delta": -0.5000050395343436,
+      "limit": 0.963988922090892
+    },
+    {
+      "source": "I12410:57624;12410:60648;5976:87657",
+      "target": "I219:38057;5976:87657",
+      "property": "x",
+      "delta": 0.2500064663356847,
+      "limit": 0.963988922090892
+    },
+    {
+      "source": "I12410:57624;12410:60648;5976:87657",
+      "target": "I219:38057;5976:87657",
+      "property": "y",
+      "delta": -0.49998556115894033,
+      "limit": 0.963988922090892
+    },
+    {
+      "source": "I12410:57624;12410:60648;5976:87658",
+      "target": "I219:38057;5976:87658",
+      "property": "x",
+      "delta": 0.2500064663356847,
+      "limit": 0.963988922090892
+    },
+    {
+      "source": "I12410:57624;12410:60648;5976:87658",
+      "target": "I219:38057;5976:87658",
+      "property": "y",
+      "delta": -0.49998556115894033,
+      "limit": 0.963988922090892
+    },
+    {
+      "source": "I12410:57624;12410:60648;6119:44406",
+      "target": "I219:38057;6119:44406",
+      "property": "x",
+      "delta": 0.25000630018442394,
+      "limit": 0.963988922090892
+    }
+  ],
+  "pixelGrid": {
+    "status": "FAIL",
+    "gridStepPx": 2,
+    "numericEpsilonPx": 0.001,
+    "scope": "container geometry, text positions, Auto Layout spacing",
+    "rootPlacementChecked": false,
+    "checkedNodes": 9,
+    "checkedValues": 14,
+    "errors": 13,
+    "warnings": 0,
+    "coverageComplete": false,
+    "findings": [
+      {
+        "node": "219:38057",
+        "name": "Avatar way",
+        "property": "width",
+        "actual": 83.49998474121094,
+        "code": "FRACTIONAL_PIXEL",
+        "severity": "error",
+        "nearestWholePx": 83,
+        "nearestGridPx": 84
+      },
+      {
+        "node": "219:38057",
+        "name": "Avatar way",
+        "property": "height",
+        "actual": 83.49998474121094,
+        "code": "FRACTIONAL_PIXEL",
+        "severity": "error",
+        "nearestWholePx": 83,
+        "nearestGridPx": 84
+      },
+      {
+        "node": "I219:38057;7482:20862",
+        "name": "rare gardient",
+        "property": "x",
+        "actual": 7.514998912811279,
+        "code": "FRACTIONAL_PIXEL",
+        "severity": "error",
+        "nearestWholePx": 8,
+        "nearestGridPx": 8
+      },
+      {
+        "node": "I219:38057;7482:20862",
+        "name": "rare gardient",
+        "property": "width",
+        "actual": 69.30498504638672,
+        "code": "FRACTIONAL_PIXEL",
+        "severity": "error",
+        "nearestWholePx": 69,
+        "nearestGridPx": 70
+      },
+      {
+        "node": "I219:38057;7482:20862",
+        "name": "rare gardient",
+        "property": "height",
+        "actual": 83.49998474121094,
+        "code": "FRACTIONAL_PIXEL",
+        "severity": "error",
+        "nearestWholePx": 83,
+        "nearestGridPx": 84
+      },
+      {
+        "node": "I219:38057;5976:87656",
+        "name": "user photo_02",
+        "property": "x",
+        "actual": 8.778931617736816,
+        "code": "FRACTIONAL_PIXEL",
+        "severity": "error",
+        "nearestWholePx": 9,
+        "nearestGridPx": 8
+      },
+      {
+        "node": "I219:38057;5976:87656",
+        "name": "user photo_02",
+        "property": "y",
+        "actual": 4.510013103485107,
+        "code": "FRACTIONAL_PIXEL",
+        "severity": "error",
+        "nearestWholePx": 5,
+        "nearestGridPx": 4
+      },
+      {
+        "node": "I219:38057;5976:87656",
+        "name": "user photo_02",
+        "property": "width",
+        "actual": 67.27713012695312,
+        "code": "FRACTIONAL_PIXEL",
+        "severity": "error",
+        "nearestWholePx": 67,
+        "nearestGridPx": 68
+      },
+      {
+        "node": "I219:38057;5976:87656",
+        "name": "user photo_02",
+        "property": "height",
+        "actual": 78.48998260498047,
+        "code": "FRACTIONAL_PIXEL",
+        "severity": "error",
+        "nearestWholePx": 78,
+        "nearestGridPx": 78
+      },
+      {
+        "node": "I219:38057;6119:44406",
+        "name": "rare",
+        "property": "x",
+        "actual": 38.65999984741211,
+        "code": "FRACTIONAL_PIXEL",
+        "severity": "error",
+        "nearestWholePx": 39,
+        "nearestGridPx": 38
+      },
+      {
+        "node": "I219:38057;6119:44406",
+        "name": "rare",
+        "property": "y",
+        "actual": 79.32498931884766,
+        "code": "FRACTIONAL_PIXEL",
+        "severity": "error",
+        "nearestWholePx": 79,
+        "nearestGridPx": 80
+      },
+      {
+        "node": "I219:38057;6119:44406",
+        "name": "rare",
+        "property": "width",
+        "actual": 7.085208415985107,
+        "code": "FRACTIONAL_PIXEL",
+        "severity": "error",
+        "nearestWholePx": 7,
+        "nearestGridPx": 8
+      },
+      {
+        "node": "I219:38057;6119:44406",
+        "name": "rare",
+        "property": "height",
+        "actual": 7.514998912811279,
+        "code": "FRACTIONAL_PIXEL",
+        "severity": "error",
+        "nearestWholePx": 8,
+        "nearestGridPx": 8
+      }
+    ],
+    "exceptions": [],
+    "missing": [
+      {
+        "node": "I219:38057;6119:44406",
+        "property": "paddingLeft",
+        "reason": "Missing or invalid numeric value"
+      },
+      {
+        "node": "I219:38057;6119:44406",
+        "property": "paddingRight",
+        "reason": "Missing or invalid numeric value"
+      },
+      {
+        "node": "I219:38057;6119:44406",
+        "property": "paddingTop",
+        "reason": "Missing or invalid numeric value"
+      },
+      {
+        "node": "I219:38057;6119:44406",
+        "property": "paddingBottom",
+        "reason": "Missing or invalid numeric value"
+      },
+      {
+        "node": "I219:38057;6119:44406",
+        "property": "itemSpacing",
+        "reason": "Missing or invalid numeric value"
+      }
+    ],
+    "skipped": [
+      {
+        "node": "I219:38057;7482:20862;7482:20815",
+        "reason": "Artwork geometry; enable --include-artwork to inspect"
+      },
+      {
+        "node": "I219:38057;5976:87656;4419:67491",
+        "reason": "Artwork geometry; enable --include-artwork to inspect"
+      },
+      {
+        "node": "I219:38057;5976:87657",
+        "reason": "Artwork geometry; enable --include-artwork to inspect"
+      },
+      {
+        "node": "I219:38057;5976:87658",
+        "reason": "Artwork geometry; enable --include-artwork to inspect"
+      },
+      {
+        "node": "I219:38057;6119:44406;6119:44519",
+        "reason": "Artwork geometry; enable --include-artwork to inspect"
+      }
+    ]
+  },
+  "overallStatus": "FAIL"
+}

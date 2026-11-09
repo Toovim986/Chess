@@ -1,0 +1,1350 @@
+{
+  "schema": "vkchess-ds-evidence/1",
+  "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+  "observedDuring": "2026-10-27",
+  "origin": "figma-mcp-read-only",
+  "scope": "Component inventory and sampled typography/bindings; not full DS approval or verification of PNG concepts.",
+  "data": {
+    "pageId": "1500:144829",
+    "pageName": "Interface",
+    "components": [
+      {
+        "id": "600:89504",
+        "name": "interface",
+        "type": "COMPONENT_SET",
+        "key": "da3065fc0ba505799f1136ace085ffb1155ed269",
+        "description": "",
+        "properties": {
+          "interface": {
+            "type": "VARIANT",
+            "defaultValue": "off",
+            "variantOptions": [
+              "off",
+              "on"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "586:32601",
+            "key": "d354d44555ef109593239351d8217f9a883eb158",
+            "name": "interface=off",
+            "properties": {
+              "interface": "off"
+            },
+            "width": 1280,
+            "height": 720,
+            "boundVariables": {}
+          },
+          {
+            "id": "600:89505",
+            "key": "41fa6514d417f597b0829ca5ec3cb03d53fa4a52",
+            "name": "interface=on",
+            "properties": {
+              "interface": "on"
+            },
+            "width": 1280,
+            "height": 720,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": [
+          {
+            "id": "370:80586",
+            "text": "Интерфейс",
+            "segments": [
+              {
+                "characters": "Интерфейс",
+                "start": 0,
+                "end": 9,
+                "fontSize": 10,
+                "fontName": {
+                  "family": "Montserrat",
+                  "style": "Medium",
+                  "variationSettings": {
+                    "wght": 500
+                  }
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 0
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.6705882549285889,
+                      "g": 0.615686297416687,
+                      "b": 0.501960813999176
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2616:38208"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38208"
+                }
+              ]
+            }
+          },
+          {
+            "id": "I1881:126769;294:3018",
+            "text": "Чат",
+            "segments": [
+              {
+                "characters": "Чат",
+                "start": 0,
+                "end": 3,
+                "fontSize": 11,
+                "fontName": {
+                  "family": "Montserrat",
+                  "style": "SemiBold",
+                  "variationSettings": {
+                    "wght": 600
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 12
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 0
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.9372549057006836,
+                      "g": 0.8627451062202454,
+                      "b": 0.7137255072593689
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2616:38183"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38183"
+                }
+              ]
+            }
+          },
+          {
+            "id": "I8030:42318;8496:24415",
+            "text": "Palladium",
+            "segments": [
+              {
+                "characters": "Palladium",
+                "start": 0,
+                "end": 9,
+                "fontSize": 12,
+                "fontName": {
+                  "family": "Montserrat",
+                  "style": "Medium",
+                  "variationSettings": {
+                    "wght": 500
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PERCENT",
+                  "value": 110.00000238418579
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 0
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 0.699999988079071,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.800000011920929,
+                      "g": 0.7372549176216125,
+                      "b": 0.6039215922355652
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2671:40558"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2671:40558"
+                }
+              ]
+            }
+          },
+          {
+            "id": "I8030:42318;8496:24230",
+            "text": "1 234",
+            "segments": [
+              {
+                "characters": "1 234",
+                "start": 0,
+                "end": 5,
+                "fontSize": 12,
+                "fontName": {
+                  "family": "Montserrat",
+                  "style": "Medium",
+                  "variationSettings": {
+                    "wght": 500
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PERCENT",
+                  "value": 110.00000238418579
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 2
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.800000011920929,
+                      "g": 0.7372549176216125,
+                      "b": 0.6039215922355652
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2671:40551"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2671:40551"
+                }
+              ]
+            }
+          },
+          {
+            "id": "I8030:42318;8030:24175;2804:86181",
+            "text": "134.55 К",
+            "segments": [
+              {
+                "characters": "134.55 К",
+                "start": 0,
+                "end": 8,
+                "fontSize": 12,
+                "fontName": {
+                  "family": "Montserrat",
+                  "style": "Medium",
+                  "variationSettings": {
+                    "wght": 500
+                  }
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 2
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.800000011920929,
+                      "g": 0.7372549176216125,
+                      "b": 0.6039215922355652
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2671:40551"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2671:40551"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "586:32588",
+        "name": "Plane",
+        "type": "COMPONENT",
+        "key": "ba1d12460be79eba4047aa27a9d0811d8d52ce9b",
+        "description": "",
+        "properties": {},
+        "variants": [
+          {
+            "id": "586:32588",
+            "key": "ba1d12460be79eba4047aa27a9d0811d8d52ce9b",
+            "name": "Plane",
+            "properties": null,
+            "width": 500,
+            "height": 236,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": []
+      },
+      {
+        "id": "2801:28234",
+        "name": "decor triangle",
+        "type": "COMPONENT",
+        "key": "12bf45d14738164615114bfc0314cc2ad65fe122",
+        "description": "",
+        "properties": {},
+        "variants": [
+          {
+            "id": "2801:28234",
+            "key": "12bf45d14738164615114bfc0314cc2ad65fe122",
+            "name": "decor triangle",
+            "properties": null,
+            "width": 499,
+            "height": 236,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": []
+      },
+      {
+        "id": "1945:58336",
+        "name": "panel controls",
+        "type": "COMPONENT_SET",
+        "key": "adcd327932d5d80acbd50f1dcf2f15338f944ccf",
+        "description": "",
+        "properties": {
+          "Property 1": {
+            "type": "VARIANT",
+            "defaultValue": "normal",
+            "variantOptions": [
+              "hover",
+              "normal",
+              "desabled",
+              "active"
+            ]
+          },
+          "type": {
+            "type": "VARIANT",
+            "defaultValue": "top",
+            "variantOptions": [
+              "top",
+              "bottom",
+              "centre"
+            ]
+          },
+          "direction": {
+            "type": "VARIANT",
+            "defaultValue": "left",
+            "variantOptions": [
+              "left",
+              "right"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "1945:58335",
+            "key": "72e57e3af7b6f8809d7de5427289ca51ec42fa89",
+            "name": "Property 1=hover, type=top, direction=left",
+            "properties": {
+              "Property 1": "hover",
+              "type": "top",
+              "direction": "left"
+            },
+            "width": 32,
+            "height": 38,
+            "boundVariables": {}
+          },
+          {
+            "id": "4988:14551",
+            "key": "e59d3ab58257fbe8439d76715d63c57d5d77aba5",
+            "name": "Property 1=active, type=top, direction=left",
+            "properties": {
+              "Property 1": "active",
+              "type": "top",
+              "direction": "left"
+            },
+            "width": 32,
+            "height": 38,
+            "boundVariables": {}
+          },
+          {
+            "id": "4988:14506",
+            "key": "f875c7ae1e63afab4f4de0252b82936c8b267660",
+            "name": "Property 1=hover, type=top, direction=right",
+            "properties": {
+              "Property 1": "hover",
+              "type": "top",
+              "direction": "right"
+            },
+            "width": 32,
+            "height": 38,
+            "boundVariables": {}
+          },
+          {
+            "id": "4988:14554",
+            "key": "0afda045e103c1b0ab025a819d9debcf5c2e080e",
+            "name": "Property 1=active, type=top, direction=right",
+            "properties": {
+              "Property 1": "active",
+              "type": "top",
+              "direction": "right"
+            },
+            "width": 32,
+            "height": 38,
+            "boundVariables": {}
+          },
+          {
+            "id": "4972:82139",
+            "key": "0938f91d4b6a43b93e08619e6740fb3c8398a594",
+            "name": "Property 1=hover, type=centre, direction=left",
+            "properties": {
+              "Property 1": "hover",
+              "type": "centre",
+              "direction": "left"
+            },
+            "width": 32,
+            "height": 38,
+            "boundVariables": {}
+          },
+          {
+            "id": "4988:14557",
+            "key": "de7a8832f508d1040995c60b741775f5adb05142",
+            "name": "Property 1=active, type=centre, direction=left",
+            "properties": {
+              "Property 1": "active",
+              "type": "centre",
+              "direction": "left"
+            },
+            "width": 32,
+            "height": 38,
+            "boundVariables": {}
+          },
+          {
+            "id": "4988:14509",
+            "key": "e645e09b5b9977214bcbabcc7147fcd09f17c55c",
+            "name": "Property 1=hover, type=centre, direction=right",
+            "properties": {
+              "Property 1": "hover",
+              "type": "centre",
+              "direction": "right"
+            },
+            "width": 32,
+            "height": 38,
+            "boundVariables": {}
+          },
+          {
+            "id": "4988:14560",
+            "key": "300a655ae4604c770e751c6c8c8c2c3dc357d479",
+            "name": "Property 1=active, type=centre, direction=right",
+            "properties": {
+              "Property 1": "active",
+              "type": "centre",
+              "direction": "right"
+            },
+            "width": 32,
+            "height": 38,
+            "boundVariables": {}
+          },
+          {
+            "id": "1945:58334",
+            "key": "b2810dfb6e49467248e7052e00b41842a86c5875",
+            "name": "Property 1=normal, type=top, direction=left",
+            "properties": {
+              "Property 1": "normal",
+              "type": "top",
+              "direction": "left"
+            },
+            "width": 32,
+            "height": 38,
+            "boundVariables": {}
+          },
+          {
+            "id": "4972:82142",
+            "key": "60bac8cde53acd86d7a851d44d81a3dee3a9d017",
+            "name": "Property 1=normal, type=centre, direction=left",
+            "properties": {
+              "Property 1": "normal",
+              "type": "centre",
+              "direction": "left"
+            },
+            "width": 32,
+            "height": 38,
+            "boundVariables": {}
+          },
+          {
+            "id": "4673:192247",
+            "key": "aac2f62735f6567b1948d623d70db62abb3e9285",
+            "name": "Property 1=desabled, type=top, direction=left",
+            "properties": {
+              "Property 1": "desabled",
+              "type": "top",
+              "direction": "left"
+            },
+            "width": 32,
+            "height": 38,
+            "boundVariables": {}
+          },
+          {
+            "id": "4972:82145",
+            "key": "599b5aba808cbe5f50314a2bd7d7d2da4d1ee45f",
+            "name": "Property 1=desabled, type=centre, direction=left",
+            "properties": {
+              "Property 1": "desabled",
+              "type": "centre",
+              "direction": "left"
+            },
+            "width": 32,
+            "height": 38,
+            "boundVariables": {}
+          },
+          {
+            "id": "1945:58332",
+            "key": "09fcc48e9de704927a0a3003cfce8b5274508069",
+            "name": "Property 1=hover, type=bottom, direction=left",
+            "properties": {
+              "Property 1": "hover",
+              "type": "bottom",
+              "direction": "left"
+            },
+            "width": 32,
+            "height": 38,
+            "boundVariables": {}
+          },
+          {
+            "id": "4988:14563",
+            "key": "47cf7a60a7101c351ff6e768af6b0b49cf33284b",
+            "name": "Property 1=active, type=bottom, direction=left",
+            "properties": {
+              "Property 1": "active",
+              "type": "bottom",
+              "direction": "left"
+            },
+            "width": 32,
+            "height": 38,
+            "boundVariables": {}
+          },
+          {
+            "id": "4988:14512",
+            "key": "8eff0453373c6671255bcfea5a4d64e169b2423c",
+            "name": "Property 1=hover, type=bottom, direction=right",
+            "properties": {
+              "Property 1": "hover",
+              "type": "bottom",
+              "direction": "right"
+            },
+            "width": 32,
+            "height": 38,
+            "boundVariables": {}
+          },
+          {
+            "id": "4988:14566",
+            "key": "49d106645a651b3a71c634a9aa957e7807b4f286",
+            "name": "Property 1=active, type=bottom, direction=right",
+            "properties": {
+              "Property 1": "active",
+              "type": "bottom",
+              "direction": "right"
+            },
+            "width": 32,
+            "height": 38,
+            "boundVariables": {}
+          },
+          {
+            "id": "1945:58333",
+            "key": "653b23010062a70f5347ed8610c207841e4ebaf4",
+            "name": "Property 1=normal, type=bottom, direction=left",
+            "properties": {
+              "Property 1": "normal",
+              "type": "bottom",
+              "direction": "left"
+            },
+            "width": 32,
+            "height": 38,
+            "boundVariables": {}
+          },
+          {
+            "id": "4673:192250",
+            "key": "abe33cc14a4e100b484ce9fa1de2b6e6b400772f",
+            "name": "Property 1=desabled, type=bottom, direction=left",
+            "properties": {
+              "Property 1": "desabled",
+              "type": "bottom",
+              "direction": "left"
+            },
+            "width": 32,
+            "height": 38,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": []
+      },
+      {
+        "id": "2807:87498",
+        "name": "amount",
+        "type": "COMPONENT_SET",
+        "key": "947f97d37cb74300478a910d8bac2c7a8e22088e",
+        "description": "",
+        "properties": {
+          "Property 1": {
+            "type": "VARIANT",
+            "defaultValue": "normal",
+            "variantOptions": [
+              "hover",
+              "normal"
+            ]
+          },
+          "shape": {
+            "type": "VARIANT",
+            "defaultValue": "true",
+            "variantOptions": [
+              "true",
+              "false"
+            ]
+          },
+          "plus": {
+            "type": "VARIANT",
+            "defaultValue": "true",
+            "variantOptions": [
+              "true",
+              "false"
+            ]
+          },
+          "size": {
+            "type": "VARIANT",
+            "defaultValue": "m",
+            "variantOptions": [
+              "m",
+              "s"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "2807:87497",
+            "key": "7517abb5ae57595c9e3915609c15f4d6fc7d223e",
+            "name": "Property 1=normal, shape=true, plus=true, size=m",
+            "properties": {
+              "Property 1": "normal",
+              "shape": "true",
+              "plus": "true",
+              "size": "m"
+            },
+            "width": 96,
+            "height": 20,
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2679:47749"
+                }
+              ]
+            }
+          },
+          {
+            "id": "8560:13992",
+            "key": "be788955a9c04ddf3e2fed4a03a266578b997f5c",
+            "name": "Property 1=normal, shape=true, plus=false, size=m",
+            "properties": {
+              "Property 1": "normal",
+              "shape": "true",
+              "plus": "false",
+              "size": "m"
+            },
+            "width": 79,
+            "height": 20,
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2679:47749"
+                }
+              ]
+            }
+          },
+          {
+            "id": "8560:31350",
+            "key": "3c60d3e66602814f991f43f92230ddb440d9aa2e",
+            "name": "Property 1=normal, shape=false, plus=false, size=m",
+            "properties": {
+              "Property 1": "normal",
+              "shape": "false",
+              "plus": "false",
+              "size": "m"
+            },
+            "width": 79,
+            "height": 20,
+            "boundVariables": {}
+          },
+          {
+            "id": "8560:31431",
+            "key": "e19605f587133b0658bf81674ce559fa7b37b3f7",
+            "name": "Property 1=normal, shape=false, plus=false, size=s",
+            "properties": {
+              "Property 1": "normal",
+              "shape": "false",
+              "plus": "false",
+              "size": "s"
+            },
+            "width": 65,
+            "height": 16,
+            "boundVariables": {}
+          },
+          {
+            "id": "2807:87496",
+            "key": "f9fb53cd57f9969d05e03acea8db9bbdcc530c65",
+            "name": "Property 1=hover, shape=true, plus=true, size=m",
+            "properties": {
+              "Property 1": "hover",
+              "shape": "true",
+              "plus": "true",
+              "size": "m"
+            },
+            "width": 96,
+            "height": 20,
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2679:47750"
+                }
+              ]
+            }
+          },
+          {
+            "id": "8560:14039",
+            "key": "d074b7ee11fb27bb7c462cb42ac6e34cc604ce69",
+            "name": "Property 1=hover, shape=true, plus=false, size=m",
+            "properties": {
+              "Property 1": "hover",
+              "shape": "true",
+              "plus": "false",
+              "size": "m"
+            },
+            "width": 79,
+            "height": 20,
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2679:47750"
+                }
+              ]
+            }
+          },
+          {
+            "id": "8560:31396",
+            "key": "857a897207ba144479864552aaf5ebe9362935f3",
+            "name": "Property 1=hover, shape=false, plus=false, size=m",
+            "properties": {
+              "Property 1": "hover",
+              "shape": "false",
+              "plus": "false",
+              "size": "m"
+            },
+            "width": 79,
+            "height": 20,
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2679:47749"
+                }
+              ]
+            }
+          },
+          {
+            "id": "8560:31477",
+            "key": "03fdb2f5b9331ff3d89a0bf66b91cb219d653417",
+            "name": "Property 1=hover, shape=false, plus=false, size=s",
+            "properties": {
+              "Property 1": "hover",
+              "shape": "false",
+              "plus": "false",
+              "size": "s"
+            },
+            "width": 65,
+            "height": 16,
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2679:47749"
+                }
+              ]
+            }
+          }
+        ],
+        "textSample": [
+          {
+            "id": "2804:86181",
+            "text": "134.55 К",
+            "segments": [
+              {
+                "characters": "134.55 К",
+                "start": 0,
+                "end": 8,
+                "fontSize": 12,
+                "fontName": {
+                  "family": "Montserrat",
+                  "style": "Medium",
+                  "variationSettings": {
+                    "wght": 500
+                  }
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 2
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.800000011920929,
+                      "g": 0.7372549176216125,
+                      "b": 0.6039215922355652
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2671:40551"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2671:40551"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "4135:8256",
+        "name": "panel controls",
+        "type": "COMPONENT_SET",
+        "key": "4e1a3122d10346ce6afc0eeb8e3e759b24874e41",
+        "description": "",
+        "properties": {
+          "mode": {
+            "type": "VARIANT",
+            "defaultValue": "dark",
+            "variantOptions": [
+              "ligh",
+              "dark"
+            ]
+          },
+          "direction": {
+            "type": "VARIANT",
+            "defaultValue": "right",
+            "variantOptions": [
+              "right",
+              "left"
+            ]
+          },
+          "Sectors": {
+            "type": "VARIANT",
+            "defaultValue": "2",
+            "variantOptions": [
+              "2",
+              "3"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "4135:8255",
+            "key": "d285428736eb5bbf583e708f7f1db0ffc9147562",
+            "name": "mode=dark, direction=right, Sectors=2",
+            "properties": {
+              "mode": "dark",
+              "direction": "right",
+              "Sectors": "2"
+            },
+            "width": 32,
+            "height": 93,
+            "boundVariables": {}
+          },
+          {
+            "id": "7310:5536",
+            "key": "7dfc05d63d8e64c36a73449c7c9a94d22eac1e7b",
+            "name": "mode=dark, direction=right, Sectors=3",
+            "properties": {
+              "mode": "dark",
+              "direction": "right",
+              "Sectors": "3"
+            },
+            "width": 32,
+            "height": 132,
+            "boundVariables": {}
+          },
+          {
+            "id": "4980:11313",
+            "key": "706455dd01fa92c1d3fb9246380229d4e1d7f48c",
+            "name": "mode=dark, direction=left, Sectors=2",
+            "properties": {
+              "mode": "dark",
+              "direction": "left",
+              "Sectors": "2"
+            },
+            "width": 32,
+            "height": 249,
+            "boundVariables": {}
+          },
+          {
+            "id": "4135:8254",
+            "key": "b2481e7ee9d1b744e7ca7c681e259fba9b268466",
+            "name": "mode=ligh, direction=right, Sectors=2",
+            "properties": {
+              "mode": "ligh",
+              "direction": "right",
+              "Sectors": "2"
+            },
+            "width": 32,
+            "height": 77,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": []
+      },
+      {
+        "id": "4365:109646",
+        "name": "master_modal_bg",
+        "type": "COMPONENT",
+        "key": "6508665e575c51a3050f0786b7dbd952e0c7827e",
+        "description": "",
+        "properties": {},
+        "variants": [
+          {
+            "id": "4365:109646",
+            "key": "6508665e575c51a3050f0786b7dbd952e0c7827e",
+            "name": "master_modal_bg",
+            "properties": null,
+            "width": 480,
+            "height": 300,
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3047:143059"
+                }
+              ]
+            }
+          }
+        ],
+        "textSample": []
+      },
+      {
+        "id": "4946:11274",
+        "name": "Fade",
+        "type": "COMPONENT",
+        "key": "8d1c65c4a399666b6d66d88a1810b371cfa66825",
+        "description": "",
+        "properties": {},
+        "variants": [
+          {
+            "id": "4946:11274",
+            "key": "8d1c65c4a399666b6d66d88a1810b371cfa66825",
+            "name": "Fade",
+            "properties": null,
+            "width": 1280,
+            "height": 720,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": []
+      },
+      {
+        "id": "4980:13280",
+        "name": "item for panel",
+        "type": "COMPONENT_SET",
+        "key": "dde941489cc3488b39a9b74629d35d7dd94c652b",
+        "description": "",
+        "properties": {
+          "Property 1": {
+            "type": "VARIANT",
+            "defaultValue": "text",
+            "variantOptions": [
+              "text",
+              "icon"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "4980:13279",
+            "key": "fea5f7b13cc8ec9bf12e41a1e8a288e55861b4a9",
+            "name": "Property 1=icon",
+            "properties": {
+              "Property 1": "icon"
+            },
+            "width": 16,
+            "height": 16,
+            "boundVariables": {}
+          },
+          {
+            "id": "4980:13278",
+            "key": "6b03d439960386afd36542d9771d585847c80402",
+            "name": "Property 1=text",
+            "properties": {
+              "Property 1": "text"
+            },
+            "width": 7,
+            "height": 19,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": []
+      },
+      {
+        "id": "6690:70911",
+        "name": "menu",
+        "type": "COMPONENT_SET",
+        "key": "cb92ed1040bf46015bdd88e5f6b56649c57e8c69",
+        "description": "",
+        "properties": {
+          "Property 1": {
+            "type": "VARIANT",
+            "defaultValue": "Default",
+            "variantOptions": [
+              "Default",
+              "beta",
+              "tournament",
+              "game"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "2015:135567",
+            "key": "0ca73af1b869e77ec1a35d1fa17279f4b8a2979e",
+            "name": "Property 1=Default",
+            "properties": {
+              "Property 1": "Default"
+            },
+            "width": 1280,
+            "height": 32,
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3802:158259"
+                }
+              ]
+            }
+          },
+          {
+            "id": "8029:21845",
+            "key": "13a9af506b1147dcfeae1dd7d311858bae9f509b",
+            "name": "Property 1=tournament",
+            "properties": {
+              "Property 1": "tournament"
+            },
+            "width": 1280,
+            "height": 32,
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3802:158259"
+                }
+              ]
+            }
+          },
+          {
+            "id": "8030:24103",
+            "key": "c45fe5aa94706a3baf8d70dcc75edd39b2cce13c",
+            "name": "Property 1=game",
+            "properties": {
+              "Property 1": "game"
+            },
+            "width": 1280,
+            "height": 32,
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3802:158259"
+                }
+              ]
+            }
+          },
+          {
+            "id": "6690:70912",
+            "key": "1150dae333bba771c734384292c0280b41f339d2",
+            "name": "Property 1=beta",
+            "properties": {
+              "Property 1": "beta"
+            },
+            "width": 1280,
+            "height": 32,
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:3802:158259"
+                }
+              ]
+            }
+          }
+        ],
+        "textSample": [
+          {
+            "id": "I3689:170674;2755:62252",
+            "text": "На главную",
+            "segments": [
+              {
+                "characters": "На главную",
+                "start": 0,
+                "end": 10,
+                "fontSize": 11,
+                "fontName": {
+                  "family": "Montserrat",
+                  "style": "SemiBold",
+                  "variationSettings": {
+                    "wght": 600
+                  }
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 2
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.6705882549285889,
+                      "g": 0.615686297416687,
+                      "b": 0.501960813999176
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2616:38208"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38208"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "7646:29652",
+        "name": "Breadcrumbs",
+        "type": "COMPONENT",
+        "key": "ea44add3805115f8b4aa35e60d204cf82be4951a",
+        "description": "",
+        "properties": {},
+        "variants": [
+          {
+            "id": "7646:29652",
+            "key": "ea44add3805115f8b4aa35e60d204cf82be4951a",
+            "name": "Breadcrumbs",
+            "properties": null,
+            "width": 197,
+            "height": 24,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": [
+          {
+            "id": "7646:29634",
+            "text": "Личный кабинет",
+            "segments": [
+              {
+                "characters": "Личный кабинет",
+                "start": 0,
+                "end": 14,
+                "fontSize": 11,
+                "fontName": {
+                  "family": "Montserrat",
+                  "style": "SemiBold",
+                  "variationSettings": {
+                    "wght": 600
+                  }
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 0
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 0.4000000059604645,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.800000011920929,
+                      "g": 0.7372549176216125,
+                      "b": 0.6039215922355652
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2679:47751"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2679:47751"
+                }
+              ]
+            }
+          },
+          {
+            "id": "7646:29641",
+            "text": "Достижения",
+            "segments": [
+              {
+                "characters": "Достижения",
+                "start": 0,
+                "end": 10,
+                "fontSize": 11,
+                "fontName": {
+                  "family": "Montserrat",
+                  "style": "SemiBold",
+                  "variationSettings": {
+                    "wght": 600
+                  }
+                },
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "letterSpacing": {
+                  "unit": "PERCENT",
+                  "value": 0
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.6705882549285889,
+                      "g": 0.615686297416687,
+                      "b": 0.501960813999176
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2616:38208"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38208"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

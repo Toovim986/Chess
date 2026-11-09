@@ -1,0 +1,244 @@
+{
+  "schema": "verifier-concept-review/1",
+  "profileId": "chess",
+  "createdAt": "2026-10-27",
+  "purpose": "Изображения мобильных экранов для обсуждения",
+  "releaseStatus": "CONCEPT_NOT_HANDOFF_READY",
+  "generator": "built-in-imagegen",
+  "ruleIds": [
+    "CORE-SOURCE-01",
+    "CORE-SCOPE-01",
+    "CORE-EVIDENCE-01",
+    "CORE-REVISION-01",
+    "CORE-HANDOFF-01",
+    "CORE-FRESHNESS-01"
+  ],
+  "source": {
+    "documentId": "13PcZ5cpqjyRrojoIIVhKse6igOlLrGs6IpZnLpEHK-Q",
+    "title": "VKChess: идеи меты",
+    "revision": "AHj4eMQQAtjPT0cmNmb0RBAh7FOi5a5gPzjWjLvoYnaPqA-n8Jo5tcKjTj-xmfxBTmmuXuYyJ-fO1_PqIQ326AAg5t-uFA_7WGMWndEPV0JG",
+    "snapshotSha256": "8fcc1fa663549ccaea2d04b0b6ee749307a8044bbedae67265008756e068a8c6"
+  },
+  "designReferences": [
+    {
+      "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+      "nodeId": "2990:18095",
+      "role": "gold buttons visual reference"
+    },
+    {
+      "fileKey": "fSqSKlq7zAlmMcktBSHbRr",
+      "nodeId": "8813:133214",
+      "role": "palette, framed avatars and visual language only; no product behavior inheritance"
+    }
+  ],
+  "screens": [
+    {
+      "id": 1,
+      "label": "Выбор режима",
+      "board": "01-game-profile.png",
+      "gddIndices": [
+        979,
+        1537
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Партия",
+      "board": "01-game-profile.png",
+      "gddIndices": [
+        965,
+        1250
+      ]
+    },
+    {
+      "id": 3,
+      "label": "Профиль",
+      "board": "01-game-profile.png",
+      "gddIndices": [
+        294,
+        539
+      ]
+    },
+    {
+      "id": 4,
+      "label": "Распределение 5 очков",
+      "board": "01-game-profile.png",
+      "gddIndices": [
+        582,
+        761
+      ]
+    },
+    {
+      "id": 5,
+      "label": "Список задач",
+      "board": "02-tasks-league.png",
+      "gddIndices": [
+        1538,
+        2143
+      ]
+    },
+    {
+      "id": 6,
+      "label": "Решение задачи",
+      "board": "02-tasks-league.png",
+      "gddIndices": [
+        1538,
+        2143
+      ],
+      "note": "Мат в один ход и компоновка — предложение дизайнера; позиция Kh8, Kf6, Qg6, ход белых Qg7#."
+    },
+    {
+      "id": 7,
+      "label": "Лига",
+      "board": "02-tasks-league.png",
+      "gddIndices": [
+        2147,
+        3778
+      ]
+    },
+    {
+      "id": 8,
+      "label": "Результат партии",
+      "board": "02-tasks-league.png",
+      "gddIndices": [
+        1145,
+        1250
+      ]
+    },
+    {
+      "id": 9,
+      "label": "Календарь",
+      "board": "03-additional-mechanics.png",
+      "gddIndices": [
+        5529,
+        6227
+      ]
+    },
+    {
+      "id": 10,
+      "label": "Территория",
+      "board": "03-additional-mechanics.png",
+      "gddIndices": [
+        6228,
+        7095
+      ]
+    },
+    {
+      "id": 11,
+      "label": "Дерево талантов",
+      "board": "03-additional-mechanics.png",
+      "gddIndices": [
+        7204,
+        7493
+      ],
+      "status": "idea"
+    },
+    {
+      "id": 12,
+      "label": "Инвентарь расходников",
+      "board": "03-additional-mechanics.png",
+      "gddIndices": [
+        5324,
+        5528
+      ],
+      "status": "under_consideration"
+    }
+  ],
+  "revisions": [
+    {
+      "board": "02-tasks-league.png",
+      "parent": "history/02-tasks-league-r1.png",
+      "before": "Баланс 134.55 K в четырёх экранах",
+      "after": "Баланс 1 240 в четырёх экранах"
+    },
+    {
+      "board": "03-additional-mechanics.png",
+      "parent": "history/03-additional-mechanics-r1.png",
+      "before": "Poker account Palladium; баланс 134.55 K; задача обучения вне ГДД; текст таланта неоднозначен",
+      "after": "Александр • 12; баланс 1 240; Решить задачу дня; Бонус развития профиля."
+    }
+  ],
+  "checks": {
+    "storage": {
+      "status": "LOCAL_SAVED_HASHED",
+      "artifactCount": 7
+    },
+    "designSystem": {
+      "status": "INCOMPLETE",
+      "reason": "Визуальный концепт по снимкам, без реальных экземпляров Figma, связей с токенами и измерений свойств компонентов."
+    },
+    "composition": {
+      "status": "PROPOSED",
+      "reason": "Мобильная компоновка предложена для обсуждения. Viewport и навигация не утверждены."
+    },
+    "stateCoverage": {
+      "status": "INCOMPLETE",
+      "reason": "Показаны 12 основных концептов; загрузка, ошибки, ничья, поражение, отключение и остальные переходы не покрыты."
+    },
+    "visualReview": {
+      "status": "REVIEWED_WITH_LIMITS",
+      "reason": "Просмотрены все 3 изображения; проверены состав экранов, крупные доски 8×8, читаемость и подписи; внесены исправления. Нет pixel-perfect DS проверки. Стили заголовков и аватары между подборками требуют унификации в редактируемых макетах."
+    },
+    "runtime": {
+      "status": "INCOMPLETE",
+      "reason": "Статические PNG; поведение не реализовано и не проверялось."
+    },
+    "figmaDestination": {
+      "status": "INCOMPLETE",
+      "reason": "Место сдачи Chess не назначено; новые Figma узлы не создавались, их ID не выдуманы."
+    }
+  },
+  "assumptions": [
+    "Все числа и имена демонстрационные, баланс не утверждён.",
+    "Третья подборка — дополнительные механики, не утверждённый состав первой версии.",
+    "Ресурсы и иконки территории — визуальные предложения, типы ресурсов не зафиксированы ГДД.",
+    "Картинки для обсуждения допускаются CORE-HANDOFF-01 при явных пробелах; они не являются прошедшим проверку макетом для вёрстки."
+  ],
+  "artifacts": [
+    {
+      "file": "01-game-profile.png",
+      "bytes": 1907913,
+      "sha256": "b7b2f7b53da40eaa3b20d4396a16a69f748cac9f4fd20a5d822c535303071e3b",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "file": "02-tasks-league.png",
+      "bytes": 1804629,
+      "sha256": "9b01adfaa5a95d6466c3af26239e9382975b5aa15bcc4a7610bb0584070f1cd3",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "file": "03-additional-mechanics.png",
+      "bytes": 1981403,
+      "sha256": "feec63f5cd0436991ec0d3c3b8bce47d5d2fcd1d7b658605bee87b176bb00d13",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "file": "history/02-tasks-league-r1.png",
+      "bytes": 1807075,
+      "sha256": "a452c1473e9856b1053ca631f14146e5a1c14334b8722a9ad3e3829a8c4ada10",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "file": "history/03-additional-mechanics-r1.png",
+      "bytes": 2055927,
+      "sha256": "f530cfe449b7e35bafb0c2d7040562573c5453a6b1097b6883ece6c696b81053",
+      "width": 1586,
+      "height": 992
+    },
+    {
+      "file": "prompts.json",
+      "bytes": 14126,
+      "sha256": "b0b803e058166457d47caa8884bfe9559429b9c2f5cc3ae33170fac6cce02d7b"
+    },
+    {
+      "file": "edit-prompts.json",
+      "bytes": 1472,
+      "sha256": "5c48aa65dd3393deec3ab792209cd27579d7cd77e35306503feeb89bd3465468"
+    }
+  ]
+}

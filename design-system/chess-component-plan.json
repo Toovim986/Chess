@@ -1,0 +1,143 @@
+{
+  "schema": "vkchess-component-plan/1",
+  "scope": "Live DS components selected as assembly sources; not implemented in existing concept PNGs",
+  "components": [
+    {
+      "id": "account",
+      "title": "Аватар и профиль",
+      "description": "BaseAvatar и рамки User из библиотеки. Имя, уровень и опыт — данные шахмат; расположение на главной предложено. Сгенерированный портрет из старого PNG не является экспортом DS.",
+      "source": {
+        "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+        "nodeId": "2998:26864",
+        "key": "8b0ddaa0d5f353f4dc4f96653a686d46508d571f"
+      },
+      "previewUrl": "/screen-map/ds/avatar.png",
+      "variant": "BaseAvatar: Size=3xl 52, Color=default; исходный вариант 2765:143583."
+    },
+    {
+      "id": "modes",
+      "title": "Карточки выбора режима",
+      "description": "Использовать семейство category с его normal/hover/active. Текст Обычная/Рапид — шахматный. Показан исходный текстовый вариант без покерной иллюстрации; содержимое карточки ещё нужно заменить при сборке.",
+      "source": {
+        "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+        "nodeId": "3036:139759",
+        "key": "c16e0fa79c9331a4d38cfab7fb655baa07f8247c"
+      },
+      "previewUrl": "/screen-map/ds/category-text.png",
+      "variant": "category 5112:167247: State=normal, Mode=text, 190×56. Montserrat SemiBold 14, line height 110%. Мобильная адаптация ещё не проверена."
+    },
+    {
+      "id": "primary-action",
+      "title": "Основная кнопка",
+      "description": "Использовать библиотечный Button с золотым оформлением, нативным шрифтом и состояниями. Текст Играть заменить через поддерживаемое свойство; не перерисовывать кнопку генератором. Экспорт ниже сохраняет исходное содержимое библиотеки.",
+      "source": {
+        "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+        "nodeId": "289:2298",
+        "key": "01b52a69710ccb94b9cfe8f589b5411c1aa80690"
+      },
+      "previewUrl": "/screen-map/ds/button.png",
+      "variant": "Считан вариант 294:2897: State=normal, Color=Gold, mode=Colored, Round=false, Size=S. Его размер 53×32; растягивание не равно проверенной адаптации."
+    },
+    {
+      "id": "progress",
+      "title": "Прогресс",
+      "description": "Переиспользовать progressbar. Значение опыта и счётчик первых десяти игр относятся к Chess. Имеющиеся варианты med/empty/full не доказывают поддержку произвольного значения — это нужно проверить перед сборкой.",
+      "source": {
+        "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+        "nodeId": "5812:65920",
+        "key": "92db5a5d3b4c22a2ca147a81ca9e25c8ecab22a5"
+      },
+      "variant": "Считан med 5812:65919, 153×4."
+    },
+    {
+      "id": "shortcuts",
+      "title": "Входы в задачи и лигу",
+      "description": "Переиспользовать Small button и иконки библиотеки. Сценарии и подписи берутся из шахмат. Конкретные иконки и состояния нужно выбрать; неподтверждённое пополнение баланса убрать.",
+      "source": {
+        "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+        "nodeId": "294:3022",
+        "key": "705c82d59af0488a68cc8b8e5b1579916fca00e0"
+      },
+      "variant": "Компонент существует; ключ уточняется по сохранённому инвентарю."
+    },
+    {
+      "id": "navigation",
+      "title": "Навигация",
+      "description": "Для элементов использовать tab, его active/inactive/disabled. Мобильная нижняя панель целиком ещё не назначена каноном шахмат: структура и переходы предложены отдельно от DS-примитива.",
+      "source": {
+        "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+        "nodeId": "679:64732",
+        "key": "edce7ba8691c816480cc9e42b033825b08125a32"
+      },
+      "variant": "tab: size S/M, Appearance accent/dark/blue. Адаптация панели не подтверждена."
+    },
+    {
+      "id": "illustration",
+      "title": "Иллюстрация",
+      "description": "Большая шахматная сцена текущего PNG сгенерирована; библиотечным ассетом не является. Для следующей сборки исключить её либо отдельно согласовать шахматную иллюстрацию. Не подменять ею отсутствующий DS-компонент.",
+      "source": null
+    },
+    {
+      "id": "game-board",
+      "title": "Шахматная доска",
+      "description": "В исследованных компонентах Poker нет подтверждённой шахматной доски и фигур. Требуется отдельный компонент Chess: сетка, фигуры, выбор, допустимые ходы, последний ход и шах.",
+      "source": null
+    },
+    {
+      "id": "game-timer",
+      "title": "Таймер партии",
+      "description": "Внешний вид можно взять из Timer. Покерный таймер хода не определяет шахматный контроль времени, инкремент или поведение при отключении.",
+      "source": {
+        "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+        "nodeId": "425:20163",
+        "key": ""
+      },
+      "variant": "timer new — источник внешнего вида, поведение требует контракта Chess."
+    },
+    {
+      "id": "task-card",
+      "title": "Карточка задачи",
+      "description": "Взять основу dayly task new: unfinished/finished/done/empty. Убрать покерные подписи и награды, заполнить шахматным содержимым. Карточка решения с доской остаётся отдельной композицией.",
+      "source": {
+        "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+        "nodeId": "5811:63500",
+        "key": "ec99bd79268c15e49b4da30ef1bf1451d7b61856"
+      },
+      "previewUrl": "/screen-map/ds/task.png",
+      "variant": "Оригинал 5812:138914: unfinished, winline=false, 446×64; мобильная адаптация ещё не проверена."
+    },
+    {
+      "id": "league-row",
+      "title": "Строка рейтинга",
+      "description": "Использовать основу cell для строки игрока, с аватаром из User. Покерные поля, кикер, банк и результаты заменить данными дивизиона Chess после проверки поддерживаемых свойств.",
+      "source": {
+        "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+        "nodeId": "770:128735",
+        "key": "83a42586cbd3ab67c70447969dad3ccd03aa43b9"
+      },
+      "variant": "cell: normal/hover/active; ширина исходного образца 532, адаптация не подтверждена."
+    },
+    {
+      "id": "typography",
+      "title": "Шрифты и текст",
+      "description": "Применять параметры реально выбранного компонента: font family, начертание, размер, line height и letter spacing. В считанной кнопке встретились Montserrat Bold и Alumni Sans SemiBold Italic. Заголовок PNG, похожий на этот шрифт, не считается его точным применением.",
+      "source": {
+        "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+        "nodeId": "294:2897",
+        "key": "da337241d8d761d825163fba1bd1b221a1ee677e"
+      },
+      "variant": "Локальных Text Styles найдено 0; это не отсутствие типографики. Есть реальные настройки текста внутри компонентов."
+    },
+    {
+      "id": "colors",
+      "title": "Цвета и переменные",
+      "description": "Использовать семантические цветовые переменные выбранных компонентов. В библиотеке найдена Color: 696 переменных, один режим; в проект сохранены значения 28 связанных токенов. Цвета текущих PNG не проходят проверку привязок.",
+      "source": {
+        "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+        "nodeId": "391:21239",
+        "key": ""
+      },
+      "variant": "Наличие похожего золота на картинке не подтверждает применение токена."
+    }
+  ]
+}

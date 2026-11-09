@@ -1,0 +1,650 @@
+{
+  "schema": "vkchess-ds-evidence/1",
+  "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+  "observedDuring": "2026-10-27",
+  "origin": "figma-mcp-read-only",
+  "scope": "Component inventory and sampled typography/bindings; not full DS approval or verification of PNG concepts.",
+  "data": {
+    "pageId": "939:3069",
+    "pageName": "Input",
+    "components": [
+      {
+        "id": "945:165075",
+        "name": "Input",
+        "type": "COMPONENT_SET",
+        "key": "00c23ba98f0d4ef6f62b2dcd9740836ef0122f9a",
+        "description": "",
+        "properties": {
+          "caption#945:0": {
+            "type": "BOOLEAN",
+            "defaultValue": true
+          },
+          "right icon#945:12": {
+            "type": "BOOLEAN",
+            "defaultValue": true
+          },
+          "left icon#945:24": {
+            "type": "BOOLEAN",
+            "defaultValue": true
+          },
+          "clear button#4405:0": {
+            "type": "BOOLEAN",
+            "defaultValue": true
+          },
+          "State": {
+            "type": "VARIANT",
+            "defaultValue": "normal",
+            "variantOptions": [
+              "normal",
+              "hover",
+              "active",
+              "Disabled"
+            ]
+          },
+          "Text field": {
+            "type": "VARIANT",
+            "defaultValue": "false",
+            "variantOptions": [
+              "false",
+              "true"
+            ]
+          },
+          "Size": {
+            "type": "VARIANT",
+            "defaultValue": "M",
+            "variantOptions": [
+              "M",
+              "S",
+              "xs"
+            ]
+          },
+          "Type": {
+            "type": "VARIANT",
+            "defaultValue": "Default",
+            "variantOptions": [
+              "Default",
+              "Error",
+              "Valid"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "945:165074",
+            "key": "3093febf6e25fb9bbab1d6acacd276cd57abe6e0",
+            "name": "State=normal, Text field=false, Size=M, Type=Default",
+            "properties": {
+              "State": "normal",
+              "Text field": "false",
+              "Size": "M",
+              "Type": "Default"
+            },
+            "width": 360,
+            "height": 74,
+            "boundVariables": {}
+          },
+          {
+            "id": "1877:4035",
+            "key": "fe4f9ae91ccec232b30fb8dd13fc2bce784286ec",
+            "name": "State=normal, Text field=false, Size=S, Type=Default",
+            "properties": {
+              "State": "normal",
+              "Text field": "false",
+              "Size": "S",
+              "Type": "Default"
+            },
+            "width": 280,
+            "height": 58,
+            "boundVariables": {}
+          },
+          {
+            "id": "6868:120190",
+            "key": "6823c3541e7f4c2d67771f9a481514819323cebd",
+            "name": "State=normal, Text field=false, Size=xs, Type=Default",
+            "properties": {
+              "State": "normal",
+              "Text field": "false",
+              "Size": "xs",
+              "Type": "Default"
+            },
+            "width": 280,
+            "height": 50,
+            "boundVariables": {}
+          },
+          {
+            "id": "945:165071",
+            "key": "ecaf83e7bfd1ea58679de0c5900aafc6e3682a4d",
+            "name": "State=hover, Text field=false, Size=M, Type=Default",
+            "properties": {
+              "State": "hover",
+              "Text field": "false",
+              "Size": "M",
+              "Type": "Default"
+            },
+            "width": 360,
+            "height": 74,
+            "boundVariables": {}
+          },
+          {
+            "id": "1877:4045",
+            "key": "0827ed8f27cd2c532e5280f0024d36d3f28db901",
+            "name": "State=hover, Text field=false, Size=S, Type=Default",
+            "properties": {
+              "State": "hover",
+              "Text field": "false",
+              "Size": "S",
+              "Type": "Default"
+            },
+            "width": 280,
+            "height": 58,
+            "boundVariables": {}
+          },
+          {
+            "id": "945:165073",
+            "key": "0a56997057c9e50e38fe7438f429fa555b8f61eb",
+            "name": "State=active, Text field=false, Size=M, Type=Default",
+            "properties": {
+              "State": "active",
+              "Text field": "false",
+              "Size": "M",
+              "Type": "Default"
+            },
+            "width": 360,
+            "height": 74,
+            "boundVariables": {}
+          },
+          {
+            "id": "1877:4055",
+            "key": "cafb278f3d3afbf71ddbc5ec82bce56b10cd66c1",
+            "name": "State=active, Text field=false, Size=S, Type=Default",
+            "properties": {
+              "State": "active",
+              "Text field": "false",
+              "Size": "S",
+              "Type": "Default"
+            },
+            "width": 280,
+            "height": 58,
+            "boundVariables": {}
+          },
+          {
+            "id": "945:165072",
+            "key": "32306ee103c71f58d3c6fd804bf2dff212039a80",
+            "name": "State=normal, Text field=true, Size=M, Type=Default",
+            "properties": {
+              "State": "normal",
+              "Text field": "true",
+              "Size": "M",
+              "Type": "Default"
+            },
+            "width": 360,
+            "height": 74,
+            "boundVariables": {}
+          },
+          {
+            "id": "2860:198696",
+            "key": "e0d8b14b731d194fab52b7bad86021f0e8239924",
+            "name": "State=active, Text field=true, Size=M, Type=Default",
+            "properties": {
+              "State": "active",
+              "Text field": "true",
+              "Size": "M",
+              "Type": "Default"
+            },
+            "width": 360,
+            "height": 74,
+            "boundVariables": {}
+          },
+          {
+            "id": "1877:4066",
+            "key": "f8fb46ef3a90a42d10334b66d22e29288947e49f",
+            "name": "State=normal, Text field=true, Size=S, Type=Default",
+            "properties": {
+              "State": "normal",
+              "Text field": "true",
+              "Size": "S",
+              "Type": "Default"
+            },
+            "width": 280,
+            "height": 58,
+            "boundVariables": {}
+          },
+          {
+            "id": "2860:198705",
+            "key": "db7f343815d1260d044c8be856afdcea18b7c772",
+            "name": "State=active, Text field=true, Size=S, Type=Default",
+            "properties": {
+              "State": "active",
+              "Text field": "true",
+              "Size": "S",
+              "Type": "Default"
+            },
+            "width": 280,
+            "height": 58,
+            "boundVariables": {}
+          },
+          {
+            "id": "945:165070",
+            "key": "802276d102066ddb6ca4884895a3141413d73a9e",
+            "name": "State=normal, Text field=false, Size=M, Type=Error",
+            "properties": {
+              "State": "normal",
+              "Text field": "false",
+              "Size": "M",
+              "Type": "Error"
+            },
+            "width": 360,
+            "height": 74,
+            "boundVariables": {}
+          },
+          {
+            "id": "2820:91729",
+            "key": "8cf9e844b4928f2992fe893ce4ae4cb3a8bf8681",
+            "name": "State=active, Text field=false, Size=M, Type=Error",
+            "properties": {
+              "State": "active",
+              "Text field": "false",
+              "Size": "M",
+              "Type": "Error"
+            },
+            "width": 360,
+            "height": 74,
+            "boundVariables": {}
+          },
+          {
+            "id": "1877:4079",
+            "key": "0425b7079dd943c4ce0fadd9643d6e3c8a44d71b",
+            "name": "State=normal, Text field=false, Size=S, Type=Error",
+            "properties": {
+              "State": "normal",
+              "Text field": "false",
+              "Size": "S",
+              "Type": "Error"
+            },
+            "width": 280,
+            "height": 58,
+            "boundVariables": {}
+          },
+          {
+            "id": "2820:91739",
+            "key": "d2ff43b83b88d4bda5cc678da5ff58da1b0e5715",
+            "name": "State=active, Text field=false, Size=S, Type=Error",
+            "properties": {
+              "State": "active",
+              "Text field": "false",
+              "Size": "S",
+              "Type": "Error"
+            },
+            "width": 280,
+            "height": 58,
+            "boundVariables": {}
+          },
+          {
+            "id": "945:165068",
+            "key": "8c5df056b546bc327da80abd6382da40f8bd2355",
+            "name": "State=hover, Text field=false, Size=M, Type=Error",
+            "properties": {
+              "State": "hover",
+              "Text field": "false",
+              "Size": "M",
+              "Type": "Error"
+            },
+            "width": 360,
+            "height": 74,
+            "boundVariables": {}
+          },
+          {
+            "id": "1877:4089",
+            "key": "9f0f7c7ef2d4683e7d438c558235298cf3dd3bca",
+            "name": "State=hover, Text field=false, Size=S, Type=Error",
+            "properties": {
+              "State": "hover",
+              "Text field": "false",
+              "Size": "S",
+              "Type": "Error"
+            },
+            "width": 280,
+            "height": 58,
+            "boundVariables": {}
+          },
+          {
+            "id": "945:165067",
+            "key": "b101eb56918182cedb6b6ddca51af83fbb171ef8",
+            "name": "State=normal, Text field=true, Size=M, Type=Error",
+            "properties": {
+              "State": "normal",
+              "Text field": "true",
+              "Size": "M",
+              "Type": "Error"
+            },
+            "width": 360,
+            "height": 74,
+            "boundVariables": {}
+          },
+          {
+            "id": "2860:198766",
+            "key": "97617332bf5fc5516192de6f48cdc92216f5cbc5",
+            "name": "State=active, Text field=true, Size=M, Type=Error",
+            "properties": {
+              "State": "active",
+              "Text field": "true",
+              "Size": "M",
+              "Type": "Error"
+            },
+            "width": 360,
+            "height": 74,
+            "boundVariables": {}
+          },
+          {
+            "id": "1877:4099",
+            "key": "ee77c6c9907095c5eb9911e64d4da8e4caa5cc98",
+            "name": "State=normal, Text field=true, Size=S, Type=Error",
+            "properties": {
+              "State": "normal",
+              "Text field": "true",
+              "Size": "S",
+              "Type": "Error"
+            },
+            "width": 280,
+            "height": 58,
+            "boundVariables": {}
+          },
+          {
+            "id": "2860:198775",
+            "key": "0974a35edead4d922a3c9cf4c650f1076b09f895",
+            "name": "State=active, Text field=true, Size=S, Type=Error",
+            "properties": {
+              "State": "active",
+              "Text field": "true",
+              "Size": "S",
+              "Type": "Error"
+            },
+            "width": 280,
+            "height": 58,
+            "boundVariables": {}
+          },
+          {
+            "id": "945:165069",
+            "key": "8ff6e17ed9157b3f2324bd61a50ad32084e33c1e",
+            "name": "State=normal, Text field=false, Size=M, Type=Valid",
+            "properties": {
+              "State": "normal",
+              "Text field": "false",
+              "Size": "M",
+              "Type": "Valid"
+            },
+            "width": 360,
+            "height": 74,
+            "boundVariables": {}
+          },
+          {
+            "id": "2820:91749",
+            "key": "50d6065ce6f7002c7823140252e0ab3246eba753",
+            "name": "State=active, Text field=false, Size=M, Type=Valid",
+            "properties": {
+              "State": "active",
+              "Text field": "false",
+              "Size": "M",
+              "Type": "Valid"
+            },
+            "width": 360,
+            "height": 74,
+            "boundVariables": {}
+          },
+          {
+            "id": "1877:4111",
+            "key": "c80b86743bc95140409c891ba658a71469ad65d1",
+            "name": "State=normal, Text field=false, Size=S, Type=Valid",
+            "properties": {
+              "State": "normal",
+              "Text field": "false",
+              "Size": "S",
+              "Type": "Valid"
+            },
+            "width": 280,
+            "height": 58,
+            "boundVariables": {}
+          },
+          {
+            "id": "2820:91759",
+            "key": "d7a85e98410cdde58cb582d2ab10ad63163995a9",
+            "name": "State=active, Text field=false, Size=S, Type=Valid",
+            "properties": {
+              "State": "active",
+              "Text field": "false",
+              "Size": "S",
+              "Type": "Valid"
+            },
+            "width": 280,
+            "height": 58,
+            "boundVariables": {}
+          },
+          {
+            "id": "945:165065",
+            "key": "3cc1a496c3a1205bad3473d939325e16b53cd171",
+            "name": "State=hover, Text field=false, Size=M, Type=Valid",
+            "properties": {
+              "State": "hover",
+              "Text field": "false",
+              "Size": "M",
+              "Type": "Valid"
+            },
+            "width": 360,
+            "height": 74,
+            "boundVariables": {}
+          },
+          {
+            "id": "1877:4121",
+            "key": "cf378a300c8307fe3ac8858cb1a28c24ccfd0d40",
+            "name": "State=hover, Text field=false, Size=S, Type=Valid",
+            "properties": {
+              "State": "hover",
+              "Text field": "false",
+              "Size": "S",
+              "Type": "Valid"
+            },
+            "width": 280,
+            "height": 58,
+            "boundVariables": {}
+          },
+          {
+            "id": "945:165066",
+            "key": "3940b5215c0bea184e8265e6860be5c42594c5fa",
+            "name": "State=normal, Text field=true, Size=M, Type=Valid",
+            "properties": {
+              "State": "normal",
+              "Text field": "true",
+              "Size": "M",
+              "Type": "Valid"
+            },
+            "width": 360,
+            "height": 74,
+            "boundVariables": {}
+          },
+          {
+            "id": "2860:198836",
+            "key": "1db0a272916f45fffaae3603cbac49f099e6ad44",
+            "name": "State=active, Text field=true, Size=M, Type=Valid",
+            "properties": {
+              "State": "active",
+              "Text field": "true",
+              "Size": "M",
+              "Type": "Valid"
+            },
+            "width": 360,
+            "height": 74,
+            "boundVariables": {}
+          },
+          {
+            "id": "1877:4131",
+            "key": "d7861281640aee63f43529ebb9d2ffecdfba6ac3",
+            "name": "State=normal, Text field=true, Size=S, Type=Valid",
+            "properties": {
+              "State": "normal",
+              "Text field": "true",
+              "Size": "S",
+              "Type": "Valid"
+            },
+            "width": 280,
+            "height": 58,
+            "boundVariables": {}
+          },
+          {
+            "id": "2860:198845",
+            "key": "fb2fae2fc7eac3e871586247e313cd99f35ab56e",
+            "name": "State=active, Text field=true, Size=S, Type=Valid",
+            "properties": {
+              "State": "active",
+              "Text field": "true",
+              "Size": "S",
+              "Type": "Valid"
+            },
+            "width": 280,
+            "height": 58,
+            "boundVariables": {}
+          },
+          {
+            "id": "945:165064",
+            "key": "cf2d28de567c2d3d7e83f7d0085d7a9dffb5c886",
+            "name": "State=Disabled, Text field=false, Size=M, Type=Default",
+            "properties": {
+              "State": "Disabled",
+              "Text field": "false",
+              "Size": "M",
+              "Type": "Default"
+            },
+            "width": 360,
+            "height": 74,
+            "boundVariables": {}
+          },
+          {
+            "id": "1877:4143",
+            "key": "f63e7d5c4d7db019f44ae685ebbf952969a58b03",
+            "name": "State=Disabled, Text field=false, Size=S, Type=Default",
+            "properties": {
+              "State": "Disabled",
+              "Text field": "false",
+              "Size": "S",
+              "Type": "Default"
+            },
+            "width": 280,
+            "height": 58,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": [
+          {
+            "id": "942:58411",
+            "text": "Введите email друга",
+            "segments": [
+              {
+                "characters": "Введите email друга",
+                "start": 0,
+                "end": 19,
+                "fontSize": 16,
+                "fontName": {
+                  "family": "Montserrat",
+                  "style": "Regular",
+                  "variationSettings": {
+                    "wght": 400
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 24
+                },
+                "letterSpacing": {
+                  "unit": "PIXELS",
+                  "value": 0
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 0.6000000238418579,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2616:38390"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38390"
+                }
+              ]
+            }
+          },
+          {
+            "id": "942:58414",
+            "text": "Подпись",
+            "segments": [
+              {
+                "characters": "Подпись",
+                "start": 0,
+                "end": 7,
+                "fontSize": 14,
+                "fontName": {
+                  "family": "Montserrat",
+                  "style": "Regular",
+                  "variationSettings": {
+                    "wght": 400
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 18
+                },
+                "letterSpacing": {
+                  "unit": "PIXELS",
+                  "value": 0
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 0.6000000238418579,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:2616:38390"
+                      }
+                    }
+                  }
+                ],
+                "textStyleId": ""
+              }
+            ],
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2616:38390"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

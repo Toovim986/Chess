@@ -1,0 +1,1134 @@
+{
+  "capturedAt": "2026-10-28T07:11:12.031Z",
+  "fileKey": "QZNrOb57obLvLAadEMSjV3",
+  "pageId": "0:1",
+  "mutatedNodeIds": [
+    "48:3105",
+    "I48:3344;5:1117",
+    "48:3401",
+    "48:3407",
+    "48:3409",
+    "48:3418",
+    "48:3425",
+    "48:3433",
+    "48:3440",
+    "I48:3455;5:1117",
+    "48:3512",
+    "48:3518",
+    "48:3520",
+    "48:3529",
+    "48:3536",
+    "48:3544",
+    "48:3551",
+    "48:3528",
+    "50:5382",
+    "I50:5642;5:1117",
+    "50:5699",
+    "50:5705",
+    "50:5707",
+    "50:5716",
+    "50:5723",
+    "50:5731",
+    "50:5738",
+    "I50:5760;5:1117",
+    "50:5817",
+    "50:5823",
+    "50:5825",
+    "50:5834",
+    "50:5841",
+    "50:5849",
+    "50:5856",
+    "50:5833"
+  ],
+  "components": [
+    {
+      "name": "chess/MobileHeader",
+      "key": "22d15de2016db68f900b1539096f2e3f48ff613d",
+      "remote": false
+    },
+    {
+      "name": "⚠ GAP · chess/currency/pawn",
+      "key": "a98018a9b0d62df90810b3524f1b43cc44ffac60",
+      "remote": false
+    },
+    {
+      "name": "notification_filled",
+      "key": "3de9c0ef7ff3f8fa3dda8c2d4a6b5d1a92e3b96b",
+      "remote": true
+    },
+    {
+      "name": "settings-sharp",
+      "key": "083084c94e415438149b4de5c48cce746ba8fa5d",
+      "remote": true
+    },
+    {
+      "name": "chess/BottomNav",
+      "key": "f817ae433d8aa7cc30590e0875d34245b0fb2fed",
+      "remote": false
+    },
+    {
+      "name": "stopwatch-start",
+      "key": "61976632863f4efdeb544748eb0145fb84c085aa",
+      "remote": true
+    },
+    {
+      "name": "check_circle_large_filled_S",
+      "key": "1a953bdf9bb89997d06cc5dc27ac6852b0109f73",
+      "remote": true
+    },
+    {
+      "name": "shield-crown",
+      "key": "07c07abd2569e815a55df3b923b1a26ee6687d93",
+      "remote": true
+    },
+    {
+      "name": "user_circle",
+      "key": "60b5c700ad9f146fc9ec5265a4b3d8d8033f70cf",
+      "remote": true
+    },
+    {
+      "name": "CustomizedAvatar",
+      "key": "66c64375674814acdf0f097ef379e103c700abcf",
+      "remote": true
+    },
+    {
+      "name": "gradients",
+      "key": "f10198ff7634856a1427d87b18ca48628ab52cd9",
+      "remote": true
+    },
+    {
+      "name": "frames new",
+      "key": "a4115b84a5ed6730373332610bd1c5646238f5c1",
+      "remote": true
+    },
+    {
+      "name": "avatar size",
+      "key": "70854daf5a140e8556070e8c7b8cb91b2b69d3c3",
+      "remote": true
+    },
+    {
+      "name": "user photo_02",
+      "key": "6c9d2d00662b860ee66c1a8a5f125a064b701a3a",
+      "remote": true
+    },
+    {
+      "name": "chess/Board · 368",
+      "key": "78c89dcd6ef58e3074a68d107c7d89e15a037f7c",
+      "remote": false
+    },
+    {
+      "name": "⚠ GAP · chess/piece",
+      "key": "7c5056d79998708c712f8010558718852775b5f3",
+      "remote": false
+    },
+    {
+      "name": "tab",
+      "key": "edce7ba8691c816480cc9e42b033825b08125a32",
+      "remote": true
+    },
+    {
+      "name": "flash",
+      "key": "10e430406dd3b4dfd96e6e82cc9126afe4105f86",
+      "remote": true
+    },
+    {
+      "name": "Button",
+      "key": "01b52a69710ccb94b9cfe8f589b5411c1aa80690",
+      "remote": true
+    },
+    {
+      "name": "gift_filled_M",
+      "key": "01bf3006205e1c9453f81744770af39e6ad93b03",
+      "remote": true
+    },
+    {
+      "name": "progressbar",
+      "key": "92db5a5d3b4c22a2ca147a81ca9e25c8ecab22a5",
+      "remote": true
+    },
+    {
+      "name": "labels",
+      "key": "009dc1af828a88a578e34fb955e9e017bb1d8a50",
+      "remote": true
+    },
+    {
+      "name": "icon Button",
+      "key": "21a2857cafdc56c3d575e0fc90c8dae0d62bb7bc",
+      "remote": true
+    },
+    {
+      "name": "plus",
+      "key": "56331ad93729d2693793e0ab3638437c51d3d503",
+      "remote": true
+    },
+    {
+      "name": "Time_clock_circle_filled",
+      "key": "e237d849be49a346fb096fef0d4387eee68b3376",
+      "remote": true
+    },
+    {
+      "name": "star_circle_filled_M",
+      "key": "493d9d44a2f112eef5556c7f8e60bc691048a300",
+      "remote": true
+    },
+    {
+      "name": "top arrow_filled",
+      "key": "a4cdeff35647f64a8b13dff7dd211bf8553f8d63",
+      "remote": true
+    },
+    {
+      "name": "cell",
+      "key": "83a42586cbd3ab67c70447969dad3ccd03aa43b9",
+      "remote": true
+    },
+    {
+      "name": "BaseAvatar",
+      "key": "8b0ddaa0d5f353f4dc4f96653a686d46508d571f",
+      "remote": true
+    },
+    {
+      "name": "list",
+      "key": "d89e6e35db12531d99bb32b418948c5725bf0436",
+      "remote": true
+    },
+    {
+      "name": "timer new",
+      "key": "19665491e24bca1df4492f18d0bfd02fe0335b22",
+      "remote": true
+    },
+    {
+      "name": "hourglass",
+      "key": "52b7dd973b54ee0510c126e1c6ae8675621702fb",
+      "remote": true
+    },
+    {
+      "name": "bubble_filled_M",
+      "key": "e17c5efa5edd3ebe0568dc4e94d198e3573a2255",
+      "remote": true
+    },
+    {
+      "name": "chevron-down",
+      "key": "8004f458efbf4c65ced6a87510bbdf0e2d4fb044",
+      "remote": true
+    },
+    {
+      "name": "BG for preview",
+      "key": "663ce997740738a85a3c8c2c4f0b2663d4e4f9b7",
+      "remote": true
+    }
+  ],
+  "screens": [
+    {
+      "id": "48:2151",
+      "name": "LAB A · Клуб / 01 · Главная",
+      "variant": "club",
+      "width": 375,
+      "height": 812,
+      "descendants": 352,
+      "nodeTypes": {
+        "INSTANCE": 53,
+        "FRAME": 23,
+        "VECTOR": 138,
+        "TEXT": 33,
+        "BOOLEAN_OPERATION": 2,
+        "RECTANGLE": 74,
+        "GROUP": 23,
+        "ELLIPSE": 6
+      },
+      "instances": 53,
+      "remoteInstances": 19,
+      "localInstances": 34,
+      "ownSolids": 17,
+      "ownUnboundFills": 0,
+      "boundVariableIds": [
+        "VariableID:248e673d0f5c111b49c57276ec81d35577d9ab5f/3847:935",
+        "VariableID:0f43795e74ba700e7aceb9c015955f153b77354d/3847:852",
+        "VariableID:b5b1eefcd653a3f0963f54a29bd190bba7362779/3847:939",
+        "VariableID:95d09c005ee94414561a27dc2896dfbae35e8184/3847:936",
+        "VariableID:ef6f26b45ef697304b0debadfc39562c60ba46cb/7881:60",
+        "VariableID:0395aa38379aee8a564a9f4110369ddf85bd7016/6881:6",
+        "VariableID:8c187a52aca52caacc772753c25ea3bfe51da7dd/3847:960",
+        "VariableID:8502b499cf6584843f0ebf68f7ab47fefd5b187d/3847:937"
+      ],
+      "componentNames": [
+        "chess/MobileHeader",
+        "⚠ GAP · chess/currency/pawn",
+        "notification_filled",
+        "settings-sharp",
+        "chess/BottomNav",
+        "stopwatch-start",
+        "check_circle_large_filled_S",
+        "shield-crown",
+        "user_circle",
+        "CustomizedAvatar",
+        "gradients",
+        "frames new",
+        "avatar size",
+        "user photo_02",
+        "chess/Board · 368",
+        "⚠ GAP · chess/piece",
+        "tab",
+        "flash",
+        "Button",
+        "gift_filled_M",
+        "progressbar"
+      ],
+      "fonts": [
+        "Montserrat",
+        "Alumni Sans"
+      ],
+      "bodyBottom": 613,
+      "imageNodes": [
+        {
+          "id": "I48:2204;8569:120224;190:15690",
+          "name": "Ellipse 6465",
+          "width": 55.69811248779297,
+          "height": 55.69811248779297
+        },
+        {
+          "id": "I48:2204;8569:120225;8368:26066",
+          "name": "frame_img",
+          "width": 72,
+          "height": 72
+        },
+        {
+          "id": "I48:2204;8569:120225;8368:26068",
+          "name": "untitled_ChatGPT-Images-2.0-Edit_2026-08-25_20-18-24-4 2",
+          "width": 72,
+          "height": 72
+        },
+        {
+          "id": "I48:2204;8569:120226;4340:71648;4419:66056",
+          "name": "Gemini_Generated_Image_xg7q81xg7q81xg7q 1",
+          "width": 50.26415252685547,
+          "height": 58.64150619506836
+        }
+      ]
+    },
+    {
+      "id": "48:2287",
+      "name": "LAB A · Клуб / 02 · Профиль",
+      "variant": "club",
+      "width": 375,
+      "height": 812,
+      "descendants": 114,
+      "nodeTypes": {
+        "INSTANCE": 22,
+        "FRAME": 28,
+        "VECTOR": 26,
+        "TEXT": 23,
+        "BOOLEAN_OPERATION": 2,
+        "RECTANGLE": 7,
+        "GROUP": 3,
+        "ELLIPSE": 3
+      },
+      "instances": 22,
+      "remoteInstances": 19,
+      "localInstances": 3,
+      "ownSolids": 23,
+      "ownUnboundFills": 0,
+      "boundVariableIds": [
+        "VariableID:248e673d0f5c111b49c57276ec81d35577d9ab5f/3847:935",
+        "VariableID:0f43795e74ba700e7aceb9c015955f153b77354d/3847:852",
+        "VariableID:b5b1eefcd653a3f0963f54a29bd190bba7362779/3847:939",
+        "VariableID:95d09c005ee94414561a27dc2896dfbae35e8184/3847:936",
+        "VariableID:b6e23a5eaa8b57eb83bbee4f9904e2f6983319c8/3847:934"
+      ],
+      "componentNames": [
+        "chess/MobileHeader",
+        "⚠ GAP · chess/currency/pawn",
+        "notification_filled",
+        "settings-sharp",
+        "chess/BottomNav",
+        "stopwatch-start",
+        "check_circle_large_filled_S",
+        "shield-crown",
+        "user_circle",
+        "CustomizedAvatar",
+        "gradients",
+        "frames new",
+        "avatar size",
+        "user photo_02",
+        "progressbar",
+        "labels",
+        "icon Button",
+        "Button"
+      ],
+      "fonts": [
+        "Montserrat",
+        "Alumni Sans"
+      ],
+      "bodyBottom": 659,
+      "imageNodes": [
+        {
+          "id": "I48:2340;8569:120224;190:15690",
+          "name": "Ellipse 6465",
+          "width": 55.69811248779297,
+          "height": 55.69811248779297
+        },
+        {
+          "id": "I48:2340;8569:120225;8368:26066",
+          "name": "frame_img",
+          "width": 72,
+          "height": 72
+        },
+        {
+          "id": "I48:2340;8569:120225;8368:26068",
+          "name": "untitled_ChatGPT-Images-2.0-Edit_2026-08-25_20-18-24-4 2",
+          "width": 72,
+          "height": 72
+        },
+        {
+          "id": "I48:2340;8569:120226;4340:71648;4419:66056",
+          "name": "Gemini_Generated_Image_xg7q81xg7q81xg7q 1",
+          "width": 50.26415252685547,
+          "height": 58.64150619506836
+        }
+      ]
+    },
+    {
+      "id": "48:2432",
+      "name": "LAB A · Клуб / 03 · Распределение очков",
+      "variant": "club",
+      "width": 375,
+      "height": 812,
+      "descendants": 113,
+      "nodeTypes": {
+        "INSTANCE": 20,
+        "FRAME": 30,
+        "VECTOR": 27,
+        "TEXT": 22,
+        "BOOLEAN_OPERATION": 2,
+        "RECTANGLE": 9,
+        "GROUP": 2,
+        "ELLIPSE": 1
+      },
+      "instances": 20,
+      "remoteInstances": 17,
+      "localInstances": 3,
+      "ownSolids": 20,
+      "ownUnboundFills": 0,
+      "boundVariableIds": [
+        "VariableID:248e673d0f5c111b49c57276ec81d35577d9ab5f/3847:935",
+        "VariableID:0f43795e74ba700e7aceb9c015955f153b77354d/3847:852",
+        "VariableID:95d09c005ee94414561a27dc2896dfbae35e8184/3847:936",
+        "VariableID:b5b1eefcd653a3f0963f54a29bd190bba7362779/3847:939",
+        "VariableID:b6e23a5eaa8b57eb83bbee4f9904e2f6983319c8/3847:934"
+      ],
+      "componentNames": [
+        "chess/MobileHeader",
+        "⚠ GAP · chess/currency/pawn",
+        "notification_filled",
+        "settings-sharp",
+        "chess/BottomNav",
+        "stopwatch-start",
+        "check_circle_large_filled_S",
+        "shield-crown",
+        "user_circle",
+        "labels",
+        "icon Button",
+        "plus",
+        "Button"
+      ],
+      "fonts": [
+        "Montserrat",
+        "Alumni Sans"
+      ],
+      "bodyBottom": 599,
+      "imageNodes": []
+    },
+    {
+      "id": "48:2511",
+      "name": "LAB A · Клуб / 04 · Задачи",
+      "variant": "club",
+      "width": 375,
+      "height": 812,
+      "descendants": 206,
+      "nodeTypes": {
+        "INSTANCE": 39,
+        "FRAME": 54,
+        "VECTOR": 70,
+        "TEXT": 33,
+        "BOOLEAN_OPERATION": 2,
+        "RECTANGLE": 4,
+        "GROUP": 2,
+        "ELLIPSE": 2
+      },
+      "instances": 39,
+      "remoteInstances": 32,
+      "localInstances": 7,
+      "ownSolids": 20,
+      "ownUnboundFills": 0,
+      "boundVariableIds": [
+        "VariableID:248e673d0f5c111b49c57276ec81d35577d9ab5f/3847:935",
+        "VariableID:0f43795e74ba700e7aceb9c015955f153b77354d/3847:852",
+        "VariableID:b5b1eefcd653a3f0963f54a29bd190bba7362779/3847:939",
+        "VariableID:8502b499cf6584843f0ebf68f7ab47fefd5b187d/3847:937",
+        "VariableID:95d09c005ee94414561a27dc2896dfbae35e8184/3847:936",
+        "VariableID:b4b64fc7ab27c7590e70a6c6f1fa97458c3256d0/3839:681"
+      ],
+      "componentNames": [
+        "chess/MobileHeader",
+        "⚠ GAP · chess/currency/pawn",
+        "notification_filled",
+        "settings-sharp",
+        "chess/BottomNav",
+        "stopwatch-start",
+        "check_circle_large_filled_S",
+        "shield-crown",
+        "user_circle",
+        "gift_filled_M",
+        "progressbar",
+        "Time_clock_circle_filled",
+        "Button",
+        "tab",
+        "labels",
+        "star_circle_filled_M",
+        "top arrow_filled"
+      ],
+      "fonts": [
+        "Montserrat",
+        "Alumni Sans"
+      ],
+      "bodyBottom": 684,
+      "imageNodes": []
+    },
+    {
+      "id": "48:2631",
+      "name": "LAB A · Клуб / 05 · Решение задачи",
+      "variant": "club",
+      "width": 375,
+      "height": 812,
+      "descendants": 301,
+      "nodeTypes": {
+        "INSTANCE": 41,
+        "FRAME": 16,
+        "VECTOR": 125,
+        "TEXT": 26,
+        "BOOLEAN_OPERATION": 2,
+        "RECTANGLE": 68,
+        "GROUP": 20,
+        "ELLIPSE": 3
+      },
+      "instances": 41,
+      "remoteInstances": 7,
+      "localInstances": 34,
+      "ownSolids": 10,
+      "ownUnboundFills": 0,
+      "boundVariableIds": [
+        "VariableID:248e673d0f5c111b49c57276ec81d35577d9ab5f/3847:935",
+        "VariableID:0f43795e74ba700e7aceb9c015955f153b77354d/3847:852",
+        "VariableID:95d09c005ee94414561a27dc2896dfbae35e8184/3847:936",
+        "VariableID:ef6f26b45ef697304b0debadfc39562c60ba46cb/7881:60",
+        "VariableID:0395aa38379aee8a564a9f4110369ddf85bd7016/6881:6",
+        "VariableID:8c187a52aca52caacc772753c25ea3bfe51da7dd/3847:960",
+        "VariableID:b5b1eefcd653a3f0963f54a29bd190bba7362779/3847:939"
+      ],
+      "componentNames": [
+        "chess/MobileHeader",
+        "⚠ GAP · chess/currency/pawn",
+        "notification_filled",
+        "settings-sharp",
+        "chess/BottomNav",
+        "stopwatch-start",
+        "check_circle_large_filled_S",
+        "shield-crown",
+        "user_circle",
+        "chess/Board · 368",
+        "⚠ GAP · chess/piece",
+        "Button"
+      ],
+      "fonts": [
+        "Montserrat",
+        "Alumni Sans"
+      ],
+      "bodyBottom": 641,
+      "imageNodes": []
+    },
+    {
+      "id": "48:2732",
+      "name": "LAB A · Клуб / 06 · Лига",
+      "variant": "club",
+      "width": 375,
+      "height": 812,
+      "descendants": 186,
+      "nodeTypes": {
+        "INSTANCE": 39,
+        "FRAME": 46,
+        "VECTOR": 34,
+        "TEXT": 34,
+        "BOOLEAN_OPERATION": 2,
+        "RECTANGLE": 11,
+        "GROUP": 4,
+        "ELLIPSE": 16
+      },
+      "instances": 39,
+      "remoteInstances": 36,
+      "localInstances": 3,
+      "ownSolids": 16,
+      "ownUnboundFills": 0,
+      "boundVariableIds": [
+        "VariableID:248e673d0f5c111b49c57276ec81d35577d9ab5f/3847:935",
+        "VariableID:0f43795e74ba700e7aceb9c015955f153b77354d/3847:852",
+        "VariableID:b5b1eefcd653a3f0963f54a29bd190bba7362779/3847:939",
+        "VariableID:7a08a0341ef6de47ef4e106a97cbcb464187b828/6252:11",
+        "VariableID:95d09c005ee94414561a27dc2896dfbae35e8184/3847:936",
+        "VariableID:a51f73c103fc86b2c7d50d4e57c5b0a6046c3a95/3839:371",
+        "VariableID:8502b499cf6584843f0ebf68f7ab47fefd5b187d/3847:937"
+      ],
+      "componentNames": [
+        "chess/MobileHeader",
+        "⚠ GAP · chess/currency/pawn",
+        "notification_filled",
+        "settings-sharp",
+        "chess/BottomNav",
+        "stopwatch-start",
+        "check_circle_large_filled_S",
+        "shield-crown",
+        "user_circle",
+        "labels",
+        "cell",
+        "BaseAvatar",
+        "gradients",
+        "avatar size",
+        "user photo_02",
+        "Button"
+      ],
+      "fonts": [
+        "Montserrat",
+        "Alumni Sans"
+      ],
+      "bodyBottom": 738,
+      "imageNodes": [
+        {
+          "id": "I48:2800;2765:143584;2765:143552;190:15690",
+          "name": "Ellipse 6465",
+          "width": 48.8944091796875,
+          "height": 48.8944091796875
+        },
+        {
+          "id": "I48:2800;2765:143584;4352:89520;4340:71737;4419:66068",
+          "name": "Gemini_Generated_Image_3kt3un3kt3un3kt3 1",
+          "width": 48,
+          "height": 56
+        },
+        {
+          "id": "I48:2804;2765:143584;2765:143552;190:15690",
+          "name": "Ellipse 6465",
+          "width": 48.8944091796875,
+          "height": 48.8944091796875
+        },
+        {
+          "id": "I48:2804;2765:143584;4352:89520;4340:71737;4419:66068",
+          "name": "Gemini_Generated_Image_3kt3un3kt3un3kt3 1",
+          "width": 48,
+          "height": 56
+        },
+        {
+          "id": "I48:2808;2765:143584;2765:143552;190:15690",
+          "name": "Ellipse 6465",
+          "width": 48.8944091796875,
+          "height": 48.8944091796875
+        },
+        {
+          "id": "I48:2808;2765:143584;4352:89520;4340:71737;4419:66068",
+          "name": "Gemini_Generated_Image_3kt3un3kt3un3kt3 1",
+          "width": 48,
+          "height": 56
+        },
+        {
+          "id": "I48:2812;2765:143584;2765:143552;190:15690",
+          "name": "Ellipse 6465",
+          "width": 48.8944091796875,
+          "height": 48.8944091796875
+        },
+        {
+          "id": "I48:2812;2765:143584;4352:89520;4340:71737;4419:66068",
+          "name": "Gemini_Generated_Image_3kt3un3kt3un3kt3 1",
+          "width": 48,
+          "height": 56
+        },
+        {
+          "id": "I48:2817;2765:143987;2765:143552;190:15690",
+          "name": "Ellipse 6465",
+          "width": 48.8944091796875,
+          "height": 48.8944091796875
+        },
+        {
+          "id": "I48:2817;2765:143987;4352:89520;4340:71737;4419:66068",
+          "name": "Gemini_Generated_Image_3kt3un3kt3un3kt3 1",
+          "width": 48,
+          "height": 56
+        }
+      ]
+    },
+    {
+      "id": "48:2827",
+      "name": "LAB A · Клуб / 07 · Партия",
+      "variant": "club",
+      "width": 375,
+      "height": 812,
+      "descendants": 397,
+      "nodeTypes": {
+        "FRAME": 29,
+        "INSTANCE": 68,
+        "VECTOR": 154,
+        "TEXT": 39,
+        "ELLIPSE": 6,
+        "RECTANGLE": 77,
+        "GROUP": 24
+      },
+      "instances": 68,
+      "remoteInstances": 34,
+      "localInstances": 34,
+      "ownSolids": 22,
+      "ownUnboundFills": 0,
+      "boundVariableIds": [
+        "VariableID:d421536089c301c0c307cfb8817092cf7ae542ac/4653:48",
+        "VariableID:b6e23a5eaa8b57eb83bbee4f9904e2f6983319c8/3847:934",
+        "VariableID:0f43795e74ba700e7aceb9c015955f153b77354d/3847:852",
+        "VariableID:b5b1eefcd653a3f0963f54a29bd190bba7362779/3847:939",
+        "VariableID:8502b499cf6584843f0ebf68f7ab47fefd5b187d/3847:937",
+        "VariableID:248e673d0f5c111b49c57276ec81d35577d9ab5f/3847:935",
+        "VariableID:ef6f26b45ef697304b0debadfc39562c60ba46cb/7881:60",
+        "VariableID:0395aa38379aee8a564a9f4110369ddf85bd7016/6881:6",
+        "VariableID:8c187a52aca52caacc772753c25ea3bfe51da7dd/3847:960",
+        "VariableID:3ea2499d72d22b97d0190b746a92443604c29794/4653:39"
+      ],
+      "componentNames": [
+        "icon Button",
+        "list",
+        "⚠ GAP · chess/currency/pawn",
+        "tab",
+        "CustomizedAvatar",
+        "gradients",
+        "frames new",
+        "avatar size",
+        "user photo_02",
+        "labels",
+        "⚠ GAP · chess/piece",
+        "timer new",
+        "hourglass",
+        "chess/Board · 368",
+        "bubble_filled_M",
+        "Button",
+        "chevron-down",
+        "gift_filled_M",
+        "progressbar"
+      ],
+      "fonts": [
+        "Alumni Sans",
+        "Montserrat"
+      ],
+      "bodyBottom": null,
+      "imageNodes": [
+        {
+          "id": "I48:2847;8569:120224;190:15690",
+          "name": "Ellipse 6465",
+          "width": 55.69811248779297,
+          "height": 55.69811248779297
+        },
+        {
+          "id": "I48:2847;8569:120225;8368:26095",
+          "name": "frame_img",
+          "width": 72,
+          "height": 72
+        },
+        {
+          "id": "I48:2847;8569:120225;8368:26097",
+          "name": "untitled_ChatGPT-Images-2.0-Edit_2026-08-25_20-18-24-4 2",
+          "width": 72,
+          "height": 72
+        },
+        {
+          "id": "I48:2847;8569:120226;4340:71648;4419:66068",
+          "name": "Gemini_Generated_Image_3kt3un3kt3un3kt3 1",
+          "width": 50.26415252685547,
+          "height": 58.64151382446289
+        },
+        {
+          "id": "I48:2893;8569:120224;190:15690",
+          "name": "Ellipse 6465",
+          "width": 55.69811248779297,
+          "height": 55.69811248779297
+        },
+        {
+          "id": "I48:2893;8569:120225;8368:26095",
+          "name": "frame_img",
+          "width": 72,
+          "height": 72
+        },
+        {
+          "id": "I48:2893;8569:120225;8368:26097",
+          "name": "untitled_ChatGPT-Images-2.0-Edit_2026-08-25_20-18-24-4 2",
+          "width": 72,
+          "height": 72
+        },
+        {
+          "id": "I48:2893;8569:120226;4340:71648;4419:66068",
+          "name": "Gemini_Generated_Image_3kt3un3kt3un3kt3 1",
+          "width": 50.26415252685547,
+          "height": 58.64151382446289
+        }
+      ]
+    },
+    {
+      "id": "48:2918",
+      "name": "LAB A · Клуб / 08 · Победа",
+      "variant": "club",
+      "width": 375,
+      "height": 812,
+      "descendants": 106,
+      "nodeTypes": {
+        "INSTANCE": 19,
+        "FRAME": 25,
+        "VECTOR": 28,
+        "TEXT": 19,
+        "BOOLEAN_OPERATION": 2,
+        "RECTANGLE": 7,
+        "GROUP": 3,
+        "ELLIPSE": 3
+      },
+      "instances": 19,
+      "remoteInstances": 16,
+      "localInstances": 3,
+      "ownSolids": 13,
+      "ownUnboundFills": 0,
+      "boundVariableIds": [
+        "VariableID:248e673d0f5c111b49c57276ec81d35577d9ab5f/3847:935",
+        "VariableID:0f43795e74ba700e7aceb9c015955f153b77354d/3847:852",
+        "VariableID:95d09c005ee94414561a27dc2896dfbae35e8184/3847:936",
+        "VariableID:b5b1eefcd653a3f0963f54a29bd190bba7362779/3847:939"
+      ],
+      "componentNames": [
+        "chess/MobileHeader",
+        "⚠ GAP · chess/currency/pawn",
+        "notification_filled",
+        "settings-sharp",
+        "chess/BottomNav",
+        "stopwatch-start",
+        "check_circle_large_filled_S",
+        "shield-crown",
+        "user_circle",
+        "CustomizedAvatar",
+        "gradients",
+        "frames new",
+        "avatar size",
+        "user photo_02",
+        "progressbar",
+        "labels",
+        "Button"
+      ],
+      "fonts": [
+        "Montserrat",
+        "Alumni Sans"
+      ],
+      "bodyBottom": 624,
+      "imageNodes": [
+        {
+          "id": "I48:2972;8569:120224;190:15690",
+          "name": "Ellipse 6465",
+          "width": 55.69811248779297,
+          "height": 55.69811248779297
+        },
+        {
+          "id": "I48:2972;8569:120225;8368:26066",
+          "name": "frame_img",
+          "width": 72,
+          "height": 72
+        },
+        {
+          "id": "I48:2972;8569:120225;8368:26068",
+          "name": "untitled_ChatGPT-Images-2.0-Edit_2026-08-25_20-18-24-4 2",
+          "width": 72,
+          "height": 72
+        },
+        {
+          "id": "I48:2972;8569:120226;4340:71648;4419:66056",
+          "name": "Gemini_Generated_Image_xg7q81xg7q81xg7q 1",
+          "width": 50.26415252685547,
+          "height": 58.64150619506836
+        }
+      ]
+    },
+    {
+      "id": "48:3024",
+      "name": "LAB A · Клуб / 09 · Поражение",
+      "variant": "club",
+      "width": 375,
+      "height": 812,
+      "descendants": 106,
+      "nodeTypes": {
+        "INSTANCE": 19,
+        "FRAME": 25,
+        "VECTOR": 28,
+        "TEXT": 19,
+        "BOOLEAN_OPERATION": 2,
+        "RECTANGLE": 7,
+        "GROUP": 3,
+        "ELLIPSE": 3
+      },
+      "instances": 19,
+      "remoteInstances": 16,
+      "localInstances": 3,
+      "ownSolids": 13,
+      "ownUnboundFills": 0,
+      "boundVariableIds": [
+        "VariableID:248e673d0f5c111b49c57276ec81d35577d9ab5f/3847:935",
+        "VariableID:0f43795e74ba700e7aceb9c015955f153b77354d/3847:852",
+        "VariableID:95d09c005ee94414561a27dc2896dfbae35e8184/3847:936",
+        "VariableID:b5b1eefcd653a3f0963f54a29bd190bba7362779/3847:939"
+      ],
+      "componentNames": [
+        "chess/MobileHeader",
+        "⚠ GAP · chess/currency/pawn",
+        "notification_filled",
+        "settings-sharp",
+        "chess/BottomNav",
+        "stopwatch-start",
+        "check_circle_large_filled_S",
+        "shield-crown",
+        "user_circle",
+        "CustomizedAvatar",
+        "gradients",
+        "frames new",
+        "avatar size",
+        "user photo_02",
+        "progressbar",
+        "labels",
+        "Button"
+      ],
+      "fonts": [
+        "Montserrat",
+        "Alumni Sans"
+      ],
+      "bodyBottom": 624,
+      "imageNodes": [
+        {
+          "id": "I48:3078;8569:120224;190:15690",
+          "name": "Ellipse 6465",
+          "width": 55.69811248779297,
+          "height": 55.69811248779297
+        },
+        {
+          "id": "I48:3078;8569:120225;8368:26066",
+          "name": "frame_img",
+          "width": 72,
+          "height": 72
+        },
+        {
+          "id": "I48:3078;8569:120225;8368:26068",
+          "name": "untitled_ChatGPT-Images-2.0-Edit_2026-08-25_20-18-24-4 2",
+          "width": 72,
+          "height": 72
+        },
+        {
+          "id": "I48:3078;8569:120226;4340:71648;4419:66056",
+          "name": "Gemini_Generated_Image_xg7q81xg7q81xg7q 1",
+          "width": 50.26415252685547,
+          "height": 58.64150619506836
+        }
+      ]
+    },
+    {
+      "id": "48:3130",
+      "name": "LAB A · Клуб / 10 · Календарь",
+      "variant": "club",
+      "width": 375,
+      "height": 812,
+      "descendants": 99,
+      "nodeTypes": {
+        "INSTANCE": 13,
+        "FRAME": 27,
+        "VECTOR": 16,
+        "TEXT": 34,
+        "BOOLEAN_OPERATION": 2,
+        "RECTANGLE": 4,
+        "GROUP": 2,
+        "ELLIPSE": 1
+      },
+      "instances": 13,
+      "remoteInstances": 10,
+      "localInstances": 3,
+      "ownSolids": 37,
+      "ownUnboundFills": 0,
+      "boundVariableIds": [
+        "VariableID:248e673d0f5c111b49c57276ec81d35577d9ab5f/3847:935",
+        "VariableID:0f43795e74ba700e7aceb9c015955f153b77354d/3847:852",
+        "VariableID:95d09c005ee94414561a27dc2896dfbae35e8184/3847:936",
+        "VariableID:b5b1eefcd653a3f0963f54a29bd190bba7362779/3847:939",
+        "VariableID:8502b499cf6584843f0ebf68f7ab47fefd5b187d/3847:937"
+      ],
+      "componentNames": [
+        "chess/MobileHeader",
+        "⚠ GAP · chess/currency/pawn",
+        "notification_filled",
+        "settings-sharp",
+        "chess/BottomNav",
+        "stopwatch-start",
+        "check_circle_large_filled_S",
+        "shield-crown",
+        "user_circle",
+        "gift_filled_M",
+        "progressbar",
+        "Button"
+      ],
+      "fonts": [
+        "Montserrat",
+        "Alumni Sans"
+      ],
+      "bodyBottom": 674,
+      "imageNodes": []
+    },
+    {
+      "id": "48:3233",
+      "name": "LAB A · Клуб / 11 · Территория",
+      "variant": "club",
+      "width": 375,
+      "height": 812,
+      "descendants": 81,
+      "nodeTypes": {
+        "INSTANCE": 19,
+        "FRAME": 19,
+        "VECTOR": 16,
+        "TEXT": 20,
+        "BOOLEAN_OPERATION": 2,
+        "RECTANGLE": 1,
+        "GROUP": 2,
+        "ELLIPSE": 2
+      },
+      "instances": 19,
+      "remoteInstances": 16,
+      "localInstances": 3,
+      "ownSolids": 6,
+      "ownUnboundFills": 0,
+      "boundVariableIds": [
+        "VariableID:248e673d0f5c111b49c57276ec81d35577d9ab5f/3847:935",
+        "VariableID:0f43795e74ba700e7aceb9c015955f153b77354d/3847:852",
+        "VariableID:95d09c005ee94414561a27dc2896dfbae35e8184/3847:936",
+        "VariableID:b5b1eefcd653a3f0963f54a29bd190bba7362779/3847:939"
+      ],
+      "componentNames": [
+        "chess/MobileHeader",
+        "⚠ GAP · chess/currency/pawn",
+        "notification_filled",
+        "settings-sharp",
+        "chess/BottomNav",
+        "stopwatch-start",
+        "check_circle_large_filled_S",
+        "shield-crown",
+        "user_circle",
+        "tab",
+        "Button"
+      ],
+      "fonts": [
+        "Montserrat",
+        "Alumni Sans"
+      ],
+      "bodyBottom": 579,
+      "imageNodes": []
+    },
+    {
+      "id": "48:3343",
+      "name": "LAB A · Клуб / 12 · Таланты",
+      "variant": "club",
+      "width": 375,
+      "height": 812,
+      "descendants": 151,
+      "nodeTypes": {
+        "INSTANCE": 29,
+        "FRAME": 48,
+        "TEXT": 26,
+        "BOOLEAN_OPERATION": 2,
+        "RECTANGLE": 1,
+        "VECTOR": 42,
+        "GROUP": 2,
+        "ELLIPSE": 1
+      },
+      "instances": 29,
+      "remoteInstances": 24,
+      "localInstances": 5,
+      "ownSolids": 17,
+      "ownUnboundFills": 0,
+      "boundVariableIds": [
+        "VariableID:248e673d0f5c111b49c57276ec81d35577d9ab5f/3847:935",
+        "VariableID:0f43795e74ba700e7aceb9c015955f153b77354d/3847:852",
+        "VariableID:95d09c005ee94414561a27dc2896dfbae35e8184/3847:936",
+        "VariableID:b5b1eefcd653a3f0963f54a29bd190bba7362779/3847:939",
+        "VariableID:b4b64fc7ab27c7590e70a6c6f1fa97458c3256d0/3839:681"
+      ],
+      "componentNames": [
+        "chess/MobileHeader",
+        "notification_filled",
+        "settings-sharp",
+        "chess/BottomNav",
+        "stopwatch-start",
+        "check_circle_large_filled_S",
+        "shield-crown",
+        "user_circle",
+        "labels",
+        "star_circle_filled_M",
+        "top arrow_filled",
+        "⚠ GAP · chess/currency/pawn",
+        "Button"
+      ],
+      "fonts": [
+        "Montserrat",
+        "Alumni Sans"
+      ],
+      "bodyBottom": 658,
+      "imageNodes": []
+    },
+    {
+      "id": "48:3454",
+      "name": "LAB A · Клуб / 13 · Расходники",
+      "variant": "club",
+      "width": 375,
+      "height": 812,
+      "descendants": 141,
+      "nodeTypes": {
+        "INSTANCE": 29,
+        "FRAME": 45,
+        "TEXT": 25,
+        "BOOLEAN_OPERATION": 2,
+        "RECTANGLE": 1,
+        "VECTOR": 36,
+        "GROUP": 2,
+        "ELLIPSE": 1
+      },
+      "instances": 29,
+      "remoteInstances": 24,
+      "localInstances": 5,
+      "ownSolids": 17,
+      "ownUnboundFills": 0,
+      "boundVariableIds": [
+        "VariableID:248e673d0f5c111b49c57276ec81d35577d9ab5f/3847:935",
+        "VariableID:0f43795e74ba700e7aceb9c015955f153b77354d/3847:852",
+        "VariableID:95d09c005ee94414561a27dc2896dfbae35e8184/3847:936",
+        "VariableID:b5b1eefcd653a3f0963f54a29bd190bba7362779/3847:939",
+        "VariableID:b4b64fc7ab27c7590e70a6c6f1fa97458c3256d0/3839:681"
+      ],
+      "componentNames": [
+        "chess/MobileHeader",
+        "notification_filled",
+        "settings-sharp",
+        "chess/BottomNav",
+        "stopwatch-start",
+        "check_circle_large_filled_S",
+        "shield-crown",
+        "user_circle",
+        "labels",
+        "star_circle_filled_M",
+        "top arrow_filled",
+        "⚠ GAP · chess/currency/pawn",
+        "Button"
+      ],
+      "fonts": [
+        "Montserrat",
+        "Alumni Sans"
+      ],
+      "bodyBottom": 643,
+      "imageNodes": []
+    }
+  ]
+}

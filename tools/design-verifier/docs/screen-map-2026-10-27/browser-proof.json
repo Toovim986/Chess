@@ -1,0 +1,140 @@
+{
+  "status": "PASS",
+  "scope": "Screen Map reference tab, two profiles, source previews, responsive layout, navigation, reload and fetch error recovery; not approval of game designs",
+  "checkedAt": "2026-10-27T11:18:58.127Z",
+  "checks": [
+    {
+      "profile": "chess",
+      "width": 1440,
+      "tab": true,
+      "componentCounts": [
+        8,
+        9
+      ],
+      "images": "PASS",
+      "navigation": "PASS",
+      "reload": "PASS",
+      "overflow": false
+    },
+    {
+      "profile": "chess",
+      "width": 1024,
+      "tab": true,
+      "componentCounts": [
+        8,
+        9
+      ],
+      "images": "PASS",
+      "navigation": "PASS",
+      "reload": "PASS",
+      "overflow": false
+    },
+    {
+      "profile": "chess",
+      "width": 820,
+      "tab": true,
+      "componentCounts": [
+        8,
+        9
+      ],
+      "images": "PASS",
+      "navigation": "PASS",
+      "reload": "PASS",
+      "overflow": false
+    },
+    {
+      "profile": "chess",
+      "width": 390,
+      "tab": true,
+      "componentCounts": [
+        8,
+        9
+      ],
+      "images": "PASS",
+      "navigation": "PASS",
+      "reload": "PASS",
+      "overflow": false
+    },
+    {
+      "profile": "poker",
+      "width": 1440,
+      "tab": true,
+      "componentCounts": [
+        8,
+        9
+      ],
+      "images": "PASS",
+      "navigation": "PASS",
+      "reload": "PASS",
+      "overflow": false
+    },
+    {
+      "profile": "poker",
+      "width": 1024,
+      "tab": true,
+      "componentCounts": [
+        8,
+        9
+      ],
+      "images": "PASS",
+      "navigation": "PASS",
+      "reload": "PASS",
+      "overflow": false
+    },
+    {
+      "profile": "poker",
+      "width": 820,
+      "tab": true,
+      "componentCounts": [
+        8,
+        9
+      ],
+      "images": "PASS",
+      "navigation": "PASS",
+      "reload": "PASS",
+      "overflow": false
+    },
+    {
+      "profile": "poker",
+      "width": 390,
+      "tab": true,
+      "componentCounts": [
+        8,
+        9
+      ],
+      "images": "PASS",
+      "navigation": "PASS",
+      "reload": "PASS",
+      "overflow": false
+    }
+  ],
+  "errorRecovery": "PASS",
+  "javascriptErrors": [],
+  "artifacts": [
+    {
+      "file": "reference.json",
+      "bytes": 30723,
+      "sha256": "bc2bc429e988feab7b45bdba7d1b887fe7ca5c7ec3cf350124b601220b2990bb"
+    },
+    {
+      "file": "sketches.png",
+      "bytes": 1102435,
+      "sha256": "8730a67b8715e8940dd2c2b16f2bcf9493cfc98893729b7752f88726483377fc"
+    },
+    {
+      "file": "mobile-map.png",
+      "bytes": 85115,
+      "sha256": "c879b0e0484551fda5d985857fc40278454443fdbf3c64bf2033ce6d0175144f"
+    },
+    {
+      "file": "desktop-map.png",
+      "bytes": 90420,
+      "sha256": "7583e5e23aa8af70b63874b05947e72ff0efc28e1f0e5f286460532ee543a6c5"
+    },
+    {
+      "file": "contract.png",
+      "bytes": 260884,
+      "sha256": "749204bdbddc25647025ea14de18358a97e145e85adb05fe9fcbe4f94e839b0b"
+    }
+  ]
+}

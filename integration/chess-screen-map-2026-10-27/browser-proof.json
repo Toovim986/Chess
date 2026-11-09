@@ -1,0 +1,31 @@
+{
+  "scope": "Chess screen-map UI and referenced image delivery; not DS certification of PNG concepts",
+  "status": "PASS",
+  "checks": [
+    {
+      "width": 1440,
+      "screens": 12,
+      "variantSwitch": "PASS",
+      "images": "PASS",
+      "overflow": "PASS"
+    },
+    {
+      "width": 768,
+      "screens": 12,
+      "variantSwitch": "PASS",
+      "images": "PASS",
+      "overflow": "PASS"
+    },
+    {
+      "width": 390,
+      "screens": 12,
+      "variantSwitch": "PASS",
+      "images": "PASS",
+      "overflow": "PASS"
+    }
+  ],
+  "reload": "PASS",
+  "errorRecovery": "PASS",
+  "javascriptErrors": [],
+  "url": "http://127.0.0.1:43132/?view=screen-map"
+}

@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "profileId": "chess",
+  "testedAt": "2026-10-27T09:49:24.863Z",
+  "scope": "Runtime UI only: six tabs, empty cases, scoped knowledge, evidence links, note persistence and 390px geometry. Does not certify game design or DS usage.",
+  "designSystem": {
+    "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+    "nodeId": "391:21239",
+    "revision": "inventory-2026-10-27"
+  },
+  "preflightStatus": "INCOMPLETE",
+  "openGapFields": [
+    "productContract",
+    "compositionContract",
+    "destination",
+    "viewportPolicy"
+  ],
+  "checks": {
+    "tabs": 6,
+    "noPokerArtifactsOnDashboard": true,
+    "missingCaseDisabled": true,
+    "scopedSourcesVisible": true,
+    "productContractExplicitlySupplied": true,
+    "evidenceLinksVisible": true,
+    "notePersistedAfterReload": true,
+    "horizontalOverflowAt390": false,
+    "pageErrors": []
+  },
+  "screenshots": [
+    "chess-rules-mobile.png",
+    "chess-rules-desktop.png"
+  ]
+}

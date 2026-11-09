@@ -1,0 +1,24 @@
+{
+  "schema": "verifier-source/1",
+  "id": "poker-library",
+  "role": "shared-components-and-visual-foundations",
+  "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+  "nodeId": "391:21239",
+  "url": "https://www.figma.com/design/XSrnXoAtfXrNMIH1mFPjGc/?node-id=391-21239",
+  "providedBy": "user",
+  "verifiedAt": "2026-10-27T08:52:16Z",
+  "revision": "inventory-2026-10-27",
+  "scope": "Entry/page inventory; sampled Button variants; Input component inventory; local style/variable collection inventory. Not a full usage-policy, token-binding or mobile-pattern audit.",
+  "inventories": [
+    "knowledge/sources/library-entry-2026-10-27.json",
+    "knowledge/sources/buttons-2026-10-27.json",
+    "knowledge/sources/input-2026-10-27.json",
+    "knowledge/sources/tokens-2026-10-27.json"
+  ],
+  "productReference": {
+    "fileKey": "fSqSKlq7zAlmMcktBSHbRr",
+    "nodeId": "58:2",
+    "url": "https://www.figma.com/design/fSqSKlq7zAlmMcktBSHbRr/?node-id=58-2",
+    "scope": "Poker product/history examples; not Chess product authority"
+  }
+}

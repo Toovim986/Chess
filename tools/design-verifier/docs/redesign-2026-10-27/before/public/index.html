@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#17191c">
+  <title>Верификатор</title>
+  <link rel="stylesheet" href="/assets/fonts.css">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/refinements.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <div class="workbench">
+    <header class="masthead">
+      <div class="wordmark"><span class="brand-line">DESIGN CONTROL SYSTEM</span><h1>Верификатор<span class="model-no">V·02</span></h1></div>
+      <div class="header-right"><div id="connection" class="connection"><i class="led"></i><span>Подключение к сервису</span></div><div class="header-caption">Источник. Изменение. Доказательство.</div></div>
+    </header>
+    <nav class="navigation" aria-label="Разделы Верификатора">
+      <div class="nav-tabs"><button data-view="overview" class="active">Пульт</button><button data-view="knowledge">Правила и источники</button><button data-view="findings">Расхождения <span id="nav-count">—</span></button><button data-view="runs">История запусков</button><button data-view="audits">Ревизии макетов</button><button data-view="notes">Пометки</button></div>
+      <span class="workspace-label">Профиль проекта</span>
+    </nav>
+    <main id="app"><div class="loading">Считываю сохранённые проверки…</div></main>
+    <footer class="site-footer"><span>ВЕРИФИКАТОР <b>·</b> ЛОКАЛЬНАЯ СТАНЦИЯ СВЕРКИ</span><span>Снимок → проверка → исправление → повторная проверка</span><a id="design-reference" hidden target="_blank" rel="noreferrer">Визуальный источник ↗</a></footer>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="capture-dialog">
+    <div class="dialog-header"><span class="eyebrow">ОБНОВЛЕНИЕ ИСТОЧНИКОВ</span><button class="close-button" data-close="capture-dialog" aria-label="Закрыть">×</button></div>
+    <h2>Свежие снимки из Figma</h2>
+    <p>Ассистент считывает исходник и рабочий макет через Figma MCP. Сервис сохраняет снимки, их дату и контрольные суммы, после чего запускает Верификатор.</p>
+    <div class="callout">Кнопка создаёт запрос ассистенту. Сама по себе она не запускает фоновую синхронизацию и не меняет макеты.</div>
+    <button id="request-capture" class="button primary">Создать запрос на обновление</button>
+    <div id="request-result"></div>
+    <a href="/capture-script.js" download="figma-capture.js" class="text-link">Скачать скрипт чтения Figma ↓</a>
+  </dialog>
+</body>
+</html>

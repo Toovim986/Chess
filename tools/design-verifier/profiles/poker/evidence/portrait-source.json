@@ -1,0 +1,571 @@
+{
+  "schema": 1,
+  "fileKey": "fSqSKlq7zAlmMcktBSHbRr",
+  "pageId": "11952:20547",
+  "roots": [
+    "I12410:57624;12410:60648"
+  ],
+  "coverage": "complete",
+  "unavailable": [],
+  "nodes": [
+    {
+      "id": "I12410:57624;12410:60648",
+      "name": "Avatar way",
+      "type": "INSTANCE",
+      "parent": null,
+      "geometry": {
+        "x": 0.000003337860107421875,
+        "y": 0.000003814697265625,
+        "width": 89.9999771118164,
+        "height": 89.99998474121094
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          0.000003337860107421875
+        ],
+        [
+          0,
+          1,
+          0.000003814697265625
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "children": [
+        "I12410:57624;12410:60648;7482:20862",
+        "I12410:57624;12410:60648;5976:87656",
+        "I12410:57624;12410:60648;5976:87657",
+        "I12410:57624;12410:60648;5976:87658",
+        "I12410:57624;12410:60648;6119:44406"
+      ],
+      "clipsContent": false,
+      "isMask": false,
+      "maskType": "ALPHA",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutMode": "NONE",
+      "layoutPositioning": "AUTO",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "paints": [],
+      "componentKey": "593d782650fb744a9f7dba36aedcb39ac6012c8e",
+      "componentId": "13707:92856",
+      "componentProperties": {
+        "rare#6628:0": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Property 1": {
+          "value": "active",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "Size": {
+          "value": "S",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "type": {
+          "value": "shape",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I12410:57624;12410:60648;7482:20862",
+      "name": "rare gardient",
+      "type": "INSTANCE",
+      "parent": "I12410:57624;12410:60648",
+      "geometry": {
+        "x": 8.099998474121094,
+        "y": 0,
+        "width": 74.69998168945312,
+        "height": 89.9999771118164
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          8.099998474121094
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "children": [
+        "I12410:57624;12410:60648;7482:20862;7482:20815"
+      ],
+      "clipsContent": false,
+      "isMask": false,
+      "maskType": "ALPHA",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutMode": "NONE",
+      "layoutPositioning": "AUTO",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "paints": [],
+      "componentKey": "420ef3d7c1cf378f59ceba090cd1231e0e88bae9",
+      "componentId": "13215:76236",
+      "componentProperties": {
+        "Property 1": {
+          "value": "common",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "round": {
+          "value": "true",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I12410:57624;12410:60648;7482:20862;7482:20815",
+      "name": "gardient",
+      "type": "RECTANGLE",
+      "parent": "I12410:57624;12410:60648;7482:20862",
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 74.69998168945312,
+        "height": 89.9999771118164
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "children": [],
+      "isMask": false,
+      "maskType": "ALPHA",
+      "constraints": {
+        "horizontal": "SCALE",
+        "vertical": "SCALE"
+      },
+      "layoutPositioning": "AUTO",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "paints": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "gradientStops": [
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0
+              },
+              "position": 0,
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:206d938db0107e115641f7e9cf795d0e661817bb/4078:1"
+                }
+              }
+            },
+            {
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 0.30000001192092896
+              },
+              "position": 1,
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:785535a87bdc2ac36264a1d52117d3116a179b44/3847:932"
+                }
+              }
+            }
+          ],
+          "gradientTransform": [
+            [
+              6.123234262925839e-17,
+              1,
+              0
+            ],
+            [
+              -1,
+              6.123234262925839e-17,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I12410:57624;12410:60648;5976:87656",
+      "name": "user photo_02",
+      "type": "INSTANCE",
+      "parent": "I12410:57624;12410:60648",
+      "geometry": {
+        "x": 9.192862510681152,
+        "y": 5.40001916885376,
+        "width": 72.51426696777344,
+        "height": 84.5999755859375
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          9.192862510681152
+        ],
+        [
+          0,
+          1,
+          5.40001916885376
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "children": [
+        "I12410:57624;12410:60648;5976:87656;4419:67491"
+      ],
+      "clipsContent": true,
+      "isMask": false,
+      "maskType": "ALPHA",
+      "constraints": {
+        "horizontal": "CENTER",
+        "vertical": "MAX"
+      },
+      "layoutMode": "NONE",
+      "layoutPositioning": "AUTO",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "paints": [],
+      "componentKey": "18cab982e3a0ed6927fc9c32f2cbd3f6b9ba334a",
+      "componentId": "9154:9296",
+      "componentProperties": {
+        "Property 1": {
+          "value": "Gemini_Generated_Image_wn6jq6wn6jq6wn6j 1",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I12410:57624;12410:60648;5976:87656;4419:67491",
+      "name": "Gemini_Generated_Image_1ctt6s1ctt6s1ctt 1",
+      "type": "RECTANGLE",
+      "parent": "I12410:57624;12410:60648;5976:87656",
+      "geometry": {
+        "x": 0.044878825545310974,
+        "y": 0.017888028174638748,
+        "width": 72.51426696777344,
+        "height": 84.5999755859375
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          0.044878825545310974
+        ],
+        [
+          0,
+          1,
+          0.017888028174638748
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "children": [],
+      "isMask": false,
+      "maskType": "ALPHA",
+      "constraints": {
+        "horizontal": "SCALE",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "AUTO",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "paints": [
+        {
+          "type": "IMAGE",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FILL",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "464f27df4008ea5a94811ea0b25b4a7dafdacab6"
+        },
+        {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FILL",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "55933a119626f1e4eae2898a04cd61d5a733e628"
+        }
+      ]
+    },
+    {
+      "id": "I12410:57624;12410:60648;5976:87657",
+      "name": "border",
+      "type": "ELLIPSE",
+      "parent": "I12410:57624;12410:60648",
+      "geometry": {
+        "x": 8.099998474121094,
+        "y": 15.299996376037598,
+        "width": 74.69998168945312,
+        "height": 74.69998168945312
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          8.099998474121094
+        ],
+        [
+          0,
+          1,
+          15.299996376037598
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "children": [],
+      "isMask": false,
+      "maskType": "ALPHA",
+      "constraints": {
+        "horizontal": "CENTER",
+        "vertical": "MAX"
+      },
+      "layoutPositioning": "AUTO",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "paints": []
+    },
+    {
+      "id": "I12410:57624;12410:60648;5976:87658",
+      "name": "border",
+      "type": "ELLIPSE",
+      "parent": "I12410:57624;12410:60648",
+      "geometry": {
+        "x": 8.099998474121094,
+        "y": 15.299996376037598,
+        "width": 74.69998168945312,
+        "height": 74.69998168945312
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          8.099998474121094
+        ],
+        [
+          0,
+          1,
+          15.299996376037598
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "children": [],
+      "isMask": false,
+      "maskType": "ALPHA",
+      "constraints": {
+        "horizontal": "CENTER",
+        "vertical": "MAX"
+      },
+      "layoutPositioning": "AUTO",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "paints": []
+    },
+    {
+      "id": "I12410:57624;12410:60648;6119:44406",
+      "name": "rare",
+      "type": "INSTANCE",
+      "parent": "I12410:57624;12410:60648",
+      "geometry": {
+        "x": 41.39999008178711,
+        "y": 85.4999771118164,
+        "width": 7.636751174926758,
+        "height": 8.099998474121094
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          41.39999008178711
+        ],
+        [
+          0,
+          1,
+          85.4999771118164
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 0,
+      "children": [
+        "I12410:57624;12410:60648;6119:44406;6119:44519"
+      ],
+      "clipsContent": false,
+      "isMask": false,
+      "maskType": "ALPHA",
+      "constraints": {
+        "horizontal": "CENTER",
+        "vertical": "MIN"
+      },
+      "layoutMode": "HORIZONTAL",
+      "layoutPositioning": "AUTO",
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "FIXED",
+      "paints": [],
+      "componentKey": "24ac3db9de614d11b9caebb5090772e8c982699d",
+      "componentId": "12410:53703",
+      "componentProperties": {
+        "Property 1": {
+          "value": "common",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "border": {
+          "value": "true",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "size": {
+          "value": "m",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "I12410:57624;12410:60648;6119:44406;6119:44519",
+      "name": "Rectangle 111002705",
+      "type": "RECTANGLE",
+      "parent": "I12410:57624;12410:60648;6119:44406",
+      "geometry": {
+        "x": 0,
+        "y": 4.049999237060547,
+        "width": 5.399998664855957,
+        "height": 5.399998664855957
+      },
+      "relativeTransform": [
+        [
+          0.7071067690849304,
+          0.7071067690849304,
+          0
+        ],
+        [
+          -0.7071067690849304,
+          0.7071067690849304,
+          4.049999237060547
+        ]
+      ],
+      "visible": true,
+      "opacity": 1,
+      "rotation": 45,
+      "children": [],
+      "isMask": false,
+      "maskType": "ALPHA",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "AUTO",
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7450980544090271,
+            "g": 0.7450980544090271,
+            "b": 0.7450980544090271
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1f9c7e6aef24bc530147efbf372478f5879a8b60/3847:973"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

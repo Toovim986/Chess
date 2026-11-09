@@ -1,0 +1,60 @@
+<frame id="12410:57615" name="lesson" x="876" y="32" width="404" height="688">
+  <instance id="12410:57616" name="icon Button" x="364" y="40" width="32" height="32" />
+  <frame id="12410:57617" name="Frame 2131331195" x="0" y="0" width="404" height="624">
+    <frame id="12410:57618" name="top" x="16" y="8" width="372" height="617">
+      <text id="12410:57619" name="Настройте аватар и рамку" x="0" y="0" width="211" height="29" />
+      <line id="12467:48325" name="separator" x="0" y="37" width="371.9999694824219" height="0" />
+      <frame id="12410:57620" name="Frame 2131331196" x="0" y="45" width="371.9999694824219" height="24">
+        <instance id="12410:57621" name="tab" x="0" y="0" width="184.99998474121094" height="24" />
+        <instance id="12410:57622" name="tab" x="186.99998474121094" y="0" width="184.99998474121094" height="24" />
+      </frame>
+      <frame id="13180:79104" name="Frame 2131331275" x="0" y="77" width="372" height="538">
+        <frame id="12410:57623" name="Frame 2131331183" x="0" y="-1.0263671875" width="371.9999694824219" height="580">
+          <instance id="12410:57624" name="object" x="0" y="0" width="89.99999237060547" height="90" />
+          <instance id="12410:57625" name="object" x="93.99999237060547" y="0" width="89.99999237060547" height="90" />
+          <instance id="12410:57626" name="object" x="187.99998474121094" y="0" width="89.99999237060547" height="90" />
+          <instance id="12410:57627" name="object" x="281.9999694824219" y="0" width="89.99999237060547" height="90" />
+          <instance id="12410:57628" name="object" x="0" y="98" width="89.99999237060547" height="90" />
+          <instance id="12410:57629" name="object" x="93.99999237060547" y="98" width="89.99999237060547" height="90" />
+          <instance id="12410:57630" name="object" x="187.99998474121094" y="98" width="89.99999237060547" height="90" />
+          <instance id="12410:57631" name="object" x="281.9999694824219" y="98" width="89.99999237060547" height="90" />
+          <instance id="12410:57632" name="object" x="0" y="196" width="89.99999237060547" height="90" />
+          <instance id="12410:57633" name="object" x="93.99999237060547" y="196" width="89.99999237060547" height="90" />
+          <instance id="12410:57634" name="object" x="187.99998474121094" y="196" width="89.99999237060547" height="90" />
+          <instance id="12410:57635" name="object" x="281.9999694824219" y="196" width="89.99999237060547" height="90" />
+          <instance id="12410:57636" name="object" x="0" y="294" width="89.99999237060547" height="90" />
+          <instance id="12410:57637" name="object" x="93.99999237060547" y="294" width="89.99999237060547" height="90" />
+          <instance id="12410:57638" name="object" x="187.99998474121094" y="294" width="89.99999237060547" height="90" />
+          <instance id="12410:57639" name="object" x="281.9999694824219" y="294" width="89.99999237060547" height="90" />
+          <instance id="12410:57640" name="object" x="0" y="392" width="89.99999237060547" height="90" />
+          <instance id="12410:57641" name="object" x="93.99999237060547" y="392" width="89.99999237060547" height="90" />
+          <instance id="12410:57642" name="object" x="187.99998474121094" y="392" width="89.99999237060547" height="90" />
+          <instance id="12410:57643" name="object" x="281.9999694824219" y="392" width="89.99999237060547" height="90" />
+          <instance id="13180:79043" name="object" x="0" y="490" width="89.99999237060547" height="90" />
+          <instance id="13180:79044" name="object" x="93.99999237060547" y="490" width="89.99999237060547" height="90" />
+          <instance id="13180:79045" name="object" x="187.99998474121094" y="490" width="89.99999237060547" height="90" />
+          <instance id="13180:79046" name="object" x="281.9999694824219" y="490" width="89.99999237060547" height="90" />
+        </frame>
+      </frame>
+      <text id="12410:57644" name="Ваши рамки" x="0" y="250.00064086914062" width="90" height="26" hidden="true" />
+      <frame id="12410:57645" name="Frame 2131331184" x="0" y="250.00064086914062" width="424" height="208.00064086914062" hidden="true">
+        <instance id="12410:57646" name="Avatar way" x="0.00016021728515625" y="0.00016021728515625" width="100" height="100.00000762939453" />
+        <instance id="12410:57647" name="Avatar way" x="108" y="0.00016021728515625" width="100" height="100.00000762939453" />
+        <frame id="12410:57648" name="Frame 2131331185" x="216" y="0" width="100" height="100.00000762939453">
+          <instance id="12410:57649" name="Avatar way" x="0.5" y="-0.810546875" width="100" height="100.00000762939453" />
+          <instance id="12410:57650" name="favorite_star_filled_M" x="4" y="2.189453125" width="20" height="20" />
+        </frame>
+        <instance id="12410:57651" name="Avatar way" x="324" y="0.00016021728515625" width="100" height="100.00000762939453" />
+        <instance id="12410:57652" name="Avatar way" x="0" y="108" width="100" height="100.00000762939453" />
+        <instance id="12410:57653" name="Avatar way" x="108" y="108" width="100" height="100.00000762939453" />
+        <instance id="12410:57654" name="Avatar way" x="216" y="108" width="100" height="100.00000762939453" />
+        <instance id="12410:57655" name="Avatar way" x="324" y="108" width="100" height="100.00000762939453" />
+      </frame>
+    </frame>
+  </frame>
+  <line id="12410:57656" name="separator" x="0.0000152587890625" y="624" width="403.9999694824219" height="0" />
+  <rounded-rectangle id="12410:57657" name="scroll" x="397" y="95" width="2" height="80" />
+  <frame id="12410:57658" name="Frame 2131331199" x="0.0000152587890625" y="624" width="403.9999694824219" height="64">
+    <instance id="12410:57659" name="Small button" x="16" y="16" width="371.9999694824219" height="32" />
+  </frame>
+</frame>

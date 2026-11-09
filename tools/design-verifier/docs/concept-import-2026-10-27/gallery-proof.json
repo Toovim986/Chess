@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "Isolated headless integration test of local concept gallery; no approval of game designs",
+  "url": "http://127.0.0.1:43130/?audit=audit-1793099238237-5e166a",
+  "checks": [
+    {
+      "width": 1440,
+      "images": 3,
+      "reload": "PASS",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "images": 3,
+      "reload": "PASS",
+      "overflow": false
+    }
+  ],
+  "parentNavigation": "PASS",
+  "imageDownload": "PASS",
+  "javascriptErrors": []
+}

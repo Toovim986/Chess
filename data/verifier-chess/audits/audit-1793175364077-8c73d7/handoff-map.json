@@ -1,0 +1,447 @@
+{
+  "schema": "vkchess-screen-map/1",
+  "format": "Screen Map по эталону mKX13PSo2vqwCXCBQJiOi8 (страница 02 · Screen Map). Строка spec сгенерирована из узлов сборки; description — назначение, данные и поведение.",
+  "build": {
+    "fileKey": "QZNrOb57obLvLAadEMSjV3",
+    "mapsPage": "11:1026"
+  },
+  "legend": {
+    "green": "экземпляр ♦️ Poker lib",
+    "teal": "локальный компонент шахмат на токенах Poker lib",
+    "violet": "контейнер на токенах Poker lib",
+    "redDashed": "пробел DS"
+  },
+  "maps": [
+    {
+      "boardId": "14:1142",
+      "screenNodeId": "6:2109",
+      "title": "Главная / выбор режима · 375 × 812",
+      "items": [
+        {
+          "marker": "M1",
+          "title": "Главная / выбор режима",
+          "spec": "Экран — фон ch10/dark blue/l25-c10-h275 · 375×812 · вертикальный auto-layout",
+          "description": "Стартовый экран шахмат: профиль, выбор режима, запуск партии, бонус дня."
+        },
+        {
+          "marker": "M2",
+          "title": "MobileHeader",
+          "spec": "Локальный компонент · chess/MobileHeader",
+          "description": "Баланс пешек; кнопки уведомлений и настроек. Данные: pawns_balance."
+        },
+        {
+          "marker": "M3",
+          "title": "Content / scroll",
+          "spec": "Контейнер на токенах Poker lib",
+          "description": "Прокручиваемая область между шапкой и навигацией. Отступы 18/14, интервал 20."
+        },
+        {
+          "marker": "M4",
+          "title": "Профиль игрока · аватар, рамка, уровень",
+          "spec": "CustomizedAvatar [136], badge no level [lv3·M], progressbar [empty] + [full]; Alumni Sans SemiBold Italic 20 / gold primary; Montserrat Medium 12 / white secondary",
+          "description": "Аватар с рамкой по уровню (визуальный прогресс, как в Poker), имя на плашке, уровень и exp. Данные: avatar, frame(level), name, level, exp, exp_to_next."
+        },
+        {
+          "marker": "M5",
+          "title": "Заголовок секции",
+          "spec": "Текст Alumni Sans SemiBold Italic 24 / gold primary",
+          "description": "Заголовок секции выбора режима."
+        },
+        {
+          "marker": "M6",
+          "title": "Выбор режима · tab",
+          "spec": "tab [active·M·accent], tab [inactive·M·accent]; иконки stopwatch-start / flash",
+          "description": "Два режима из ГДД: Обычная / Рапид. Активная вкладка = выбранный режим; переключение меняет описание M7 и параметры поиска."
+        },
+        {
+          "marker": "M7",
+          "title": "Описание режима",
+          "spec": "Фон white/l100-c0-h0-a5; Montserrat SemiBold 14 / white primary; Montserrat Medium 12 / white secondary",
+          "description": "Правила меты из ГДД для выбранного режима. Формулы кона и наград — открытое решение."
+        },
+        {
+          "marker": "M8",
+          "title": "CTA · Играть",
+          "spec": "♦️ Poker lib · Button [Gold·Colored·S]",
+          "description": "Запуск поиска соперника в выбранном режиме. Состояния поиска, отмены и ошибок не покрыты."
+        },
+        {
+          "marker": "M9",
+          "title": "Бонус · первые 10 партий дня",
+          "spec": "gift_filled_M, progressbar [empty] + [full]; фон white/l100-c0-h0-a5; Montserrat SemiBold 14 / white primary, gold primary; Montserrat Medium 12 / white tertiary",
+          "description": "Счётчик первых 10 партий за день (0–10): повышенные exp и выигрыш. Время сброса не задано."
+        },
+        {
+          "marker": "M10",
+          "title": "BottomNav · active=play",
+          "spec": "Локальный компонент · chess/BottomNav [play]",
+          "description": "Нижняя навигация, active = Играть."
+        }
+      ],
+      "gapsAndDecisions": [
+        "Иконка валюты «пешки» — нет в Poker lib.",
+        "Иконки навигации — временно из Poker lib.",
+        "Button Gold/Colored только размера S (32 px).",
+        "progressbar: трек empty + full по доле; во фронте — один компонент с value.",
+        "В Poker lib нет текстовых стилей."
+      ]
+    },
+    {
+      "boardId": "14:1417",
+      "screenNodeId": "7:937",
+      "title": "Профиль · 375 × 812",
+      "items": [
+        {
+          "marker": "M1",
+          "title": "Профиль",
+          "spec": "Экран — фон ch10/dark blue/l25-c10-h275 · 375×812",
+          "description": "Профиль игрока — якорная механика ГДД: уровень, аватар с рамкой, exp и статы."
+        },
+        {
+          "marker": "M2",
+          "title": "MobileHeader",
+          "spec": "Локальный компонент · chess/MobileHeader",
+          "description": "Баланс пешек; уведомления и настройки."
+        },
+        {
+          "marker": "M3",
+          "title": "TopBar · Профиль",
+          "spec": "user_circle; фон ch10/dark blue/l25, линия white/l100-c0-h0-a10; Alumni Sans SemiBold Italic 24 / gold primary",
+          "description": "Заголовок раздела с иконкой и нижним разделителем."
+        },
+        {
+          "marker": "M4",
+          "title": "Content / scroll",
+          "spec": "Контейнер на токенах Poker lib",
+          "description": "Прокручиваемая область. Отступы 16/14, интервал 18."
+        },
+        {
+          "marker": "M5",
+          "title": "Аватар, рамка уровня, exp",
+          "spec": "CustomizedAvatar [136], badge no level [lv3·M], progressbar [empty] + [full]",
+          "description": "Аватар и рамка по уровню (хардкод для каждого уровня, как в Poker), имя, уровень и exp. Данные: avatar, frame(level), name, level, exp, exp_to_next."
+        },
+        {
+          "marker": "M6",
+          "title": "Характеристики · распределение очков",
+          "spec": "labels [M·Yellow·Default], icon Button [S·Outline·gold] ×4 с иконкой plus; фон white/l100-c0-h0-a5",
+          "description": "Четыре стата из ГДД: тактика, расчёт, стратегия, удача/интуиция. labels — свободные очки; «+» добавляет очко, пока они есть. Данные: stats{tactics, calculation, strategy, luck}, free_points."
+        },
+        {
+          "marker": "M7",
+          "title": "Правило очков · подсказка",
+          "spec": "info_circle_filled; Montserrat Medium 12 / white tertiary",
+          "description": "5 очков за уровень; основа профиля видна другим игрокам."
+        },
+        {
+          "marker": "M8",
+          "title": "Действия · сохранить / сбросить",
+          "spec": "Button [Gold·Colored·S], Button [Gold·Outline·S]",
+          "description": "Сохранить фиксирует распределение; Сбросить возвращает несохранённые очки."
+        },
+        {
+          "marker": "M9",
+          "title": "BottomNav · active=profile",
+          "spec": "Локальный компонент · chess/BottomNav [profile]",
+          "description": "Нижняя навигация, active = Профиль."
+        }
+      ],
+      "gapsAndDecisions": [
+        "Иконка валюты «пешки» — нет в Poker lib.",
+        "Влияние статов на награды в ГДД не определено.",
+        "Отмена сохранённого распределения не описана."
+      ]
+    },
+    {
+      "boardId": "14:1722",
+      "screenNodeId": "7:1147",
+      "title": "Задачи · 375 × 812",
+      "items": [
+        {
+          "marker": "M1",
+          "title": "Задачи",
+          "spec": "Экран — фон ch10/dark blue/l25-c10-h275 · 375×812",
+          "description": "Режим задач (freefloat): прогресс, бесплатные задачи, обновление за пешки, список с маркерами статов и сложности."
+        },
+        {
+          "marker": "M2",
+          "title": "MobileHeader",
+          "spec": "Локальный компонент · chess/MobileHeader",
+          "description": "Баланс пешек — тратится на обновление задач."
+        },
+        {
+          "marker": "M3",
+          "title": "TopBar · Задачи",
+          "spec": "check_circle_large_filled_S; Alumni Sans SemiBold Italic 24 / gold primary",
+          "description": "Заголовок раздела."
+        },
+        {
+          "marker": "M4",
+          "title": "Content / scroll",
+          "spec": "Контейнер на токенах Poker lib",
+          "description": "Прокручиваемая область. Отступы 14, интервал 14."
+        },
+        {
+          "marker": "M5",
+          "title": "Прогресс задач · бонус при заполнении",
+          "spec": "gift_filled_M, progressbar [empty] + [full]; фон white/l100-c0-h0-a5",
+          "description": "Отдельный прогресс-бар задач: заполняется решениями; при заполнении — бонус и сброс. Данные: progress, progress_max, bonus."
+        },
+        {
+          "marker": "M6",
+          "title": "Бесплатные задачи · таймер · обновление",
+          "spec": "Time_clock_circle_filled, Button [Gold·Outline·S] с иконкой пешки",
+          "description": "X бесплатных задач со сбросом раз в N часов; «Обновить» пополняет все задачи за пешки. Данные: free_left, free_total, reset_at, refresh_price."
+        },
+        {
+          "marker": "M7",
+          "title": "Фильтр сложности · tab",
+          "spec": "tab [active·M·accent], tab [inactive·M·accent] ×3, без иконки",
+          "description": "Фильтр по сложности. ГДД допускает вкладки или общий список — решение открыто."
+        },
+        {
+          "marker": "M8",
+          "title": "Список задач",
+          "spec": "Вертикальный список, интервал 8",
+          "description": "Список карточек задач."
+        },
+        {
+          "marker": "M9",
+          "title": "Карточка задачи",
+          "spec": "labels (статы), star_circle_filled_M ×3 (сложность), top arrow_filled, иконка пешки, Button [Gold·Colored·S]; фон white/l100-c0-h0-a5",
+          "description": "Маркеры статов, сложность 1–3, награда пешки и exp. Стрелка — стат игрока выше, награда больше. Решённая: прозрачность 55% и check. Данные: title, stats[], difficulty, reward_pawns, reward_exp, boosted, solved."
+        },
+        {
+          "marker": "M10",
+          "title": "BottomNav · active=tasks",
+          "spec": "Локальный компонент · chess/BottomNav [tasks]",
+          "description": "Нижняя навигация, active = Задачи."
+        }
+      ],
+      "gapsAndDecisions": [
+        "Иконка валюты «пешки» — нет в Poker lib.",
+        "X, N и цена обновления не заданы в ГДД: 5, таймер и 50 — демо.",
+        "Маркер сложности в DS отсутствует: star_circle_filled_M ×3.",
+        "Цвета маркеров статов — предложение."
+      ]
+    },
+    {
+      "boardId": "14:2140",
+      "screenNodeId": "7:3153",
+      "title": "Лига · 375 × 812",
+      "items": [
+        {
+          "marker": "M1",
+          "title": "Лига",
+          "spec": "Экран — фон ch10/dark blue/l25-c10-h275 · 375×812",
+          "description": "Турнирная/рейтинговая игра: лига, дивизион 10–15 игроков, турнирные очки, зоны повышения и понижения."
+        },
+        {
+          "marker": "M2",
+          "title": "MobileHeader",
+          "spec": "Локальный компонент · chess/MobileHeader",
+          "description": "Баланс пешек; уведомления и настройки."
+        },
+        {
+          "marker": "M3",
+          "title": "TopBar · Лига",
+          "spec": "shield-crown; Alumni Sans SemiBold Italic 24 / gold primary",
+          "description": "Заголовок раздела."
+        },
+        {
+          "marker": "M4",
+          "title": "Content",
+          "spec": "Контейнер на токенах Poker lib",
+          "description": "Без общей прокрутки: прокручивается только список дивизиона."
+        },
+        {
+          "marker": "M5",
+          "title": "Текущая лига · период",
+          "spec": "эмблема (пробел DS), stopwatch-start; Alumni Sans Bold Italic 28 / gold primary; фон white/l100-c0-h0-a5",
+          "description": "Лига, размер дивизиона, таймер до пересчёта (7 дней по ГДД). Данные: league, division_size, period_end."
+        },
+        {
+          "marker": "M6",
+          "title": "Бонусные очки · маркеры",
+          "spec": "labels [M·dark green], labels [M·Yellow]",
+          "description": "Первая победа дня, серия побед. MMR (Glicko-2) игроку не показывается."
+        },
+        {
+          "marker": "M7",
+          "title": "Заголовок дивизиона · легенда зон",
+          "spec": "Montserrat SemiBold 14 / white primary; Montserrat Medium 11 / white tertiary; маркеры green / accent red",
+          "description": "Топ-3 выше, нижние N ниже."
+        },
+        {
+          "marker": "M8",
+          "title": "Список дивизиона · прокрутка",
+          "spec": "cell [Default] ×N, маркер зоны 3 px",
+          "description": "Игроки по ТО; боты добивают до размера дивизиона."
+        },
+        {
+          "marker": "M9",
+          "title": "Строка дивизиона",
+          "spec": "ранг Alumni Sans Bold Italic 20 + cell [Default]",
+          "description": "Аватар, имя, ТО. Иконка фишки в cell скрыта. Данные: rank, avatar, name, points, zone."
+        },
+        {
+          "marker": "M10",
+          "title": "Своя позиция · закреплена",
+          "spec": "cell [active·Default]",
+          "description": "Закреплена над CTA."
+        },
+        {
+          "marker": "M11",
+          "title": "CTA · Играть в турнире",
+          "spec": "♦️ Poker lib · Button [Gold·Colored·S]",
+          "description": "Подбор соперника из своей лиги без повторов."
+        },
+        {
+          "marker": "M12",
+          "title": "BottomNav · active=league",
+          "spec": "Локальный компонент · chess/BottomNav [league]",
+          "description": "Нижняя навигация, active = Лига."
+        }
+      ],
+      "gapsAndDecisions": [
+        "Иконка валюты «пешки» — нет в Poker lib.",
+        "Эмблемы лиг — нет в Poker lib.",
+        "Button Gold/Colored только S.",
+        "cell рассчитан на desktop: видно 4 строки + своя позиция.",
+        "Число лиг, N понижения, защита от падения — нужны правила отображения."
+      ]
+    },
+    {
+      "boardId": "14:2507",
+      "screenNodeId": "9:734",
+      "relatedScreenNodeIds": [
+        "9:941"
+      ],
+      "title": "Результат партии · 375 × 812",
+      "items": [
+        {
+          "marker": "M1",
+          "title": "Результат партии · победа",
+          "spec": "Экран — фон ch10/dark blue/l25-c10-h275 · 375×812",
+          "description": "Итог партии поверх главной. Экран 06 — поражение без плитки пешек."
+        },
+        {
+          "marker": "M2",
+          "title": "Фон · экран 01",
+          "spec": "Экран 01 без изменений",
+          "description": "Главная под модальным окном."
+        },
+        {
+          "marker": "M3",
+          "title": "Затемнение",
+          "spec": "фон black/l0-c0-h0-a50",
+          "description": "Затемнение на весь экран."
+        },
+        {
+          "marker": "M4",
+          "title": "Модальное окно результата",
+          "spec": "фон ch10/dark blue/l30-c10-h275, линия text & element/gold tertiary; ширина 335",
+          "description": "По центру экрана."
+        },
+        {
+          "marker": "M5",
+          "title": "Итог партии",
+          "spec": "Alumni Sans Bold Italic 40 / gold primary (поражение — white secondary); Montserrat Medium 12 / white tertiary",
+          "description": "ПОБЕДА / ПОРАЖЕНИЕ, режим и соперник."
+        },
+        {
+          "marker": "M6",
+          "title": "Награды партии",
+          "spec": "иконка пешки; Montserrat SemiBold 20 / white primary, violet primary; фон white/l100-c0-h0-a5",
+          "description": "Победа: кон в пешках + exp. Поражение: немного exp. Данные: pot, exp_gain."
+        },
+        {
+          "marker": "M7",
+          "title": "Бонус первых 10 партий",
+          "spec": "labels [M·dark green]",
+          "description": "Номер партии дня и повышенная награда."
+        },
+        {
+          "marker": "M8",
+          "title": "Прогресс уровня",
+          "spec": "progressbar [empty] + [full]",
+          "description": "Прогресс после начисления exp."
+        },
+        {
+          "marker": "M9",
+          "title": "Действия",
+          "spec": "Button [Gold·Colored·S], Button [Gold·Outline·S]",
+          "description": "Ещё партия — поиск в том же режиме; На главную — экран 01."
+        }
+      ],
+      "gapsAndDecisions": [
+        "Иконка валюты «пешки» — нет в Poker lib.",
+        "Button Gold/Colored только S.",
+        "Alumni Sans Bold Italic 40 — новый размер.",
+        "Списание ставки при поражении и ничья не описаны в ГДД."
+      ]
+    },
+    {
+      "boardId": "28:2146",
+      "screenNodeId": "25:1047",
+      "title": "Партия · 375 × 812",
+      "items": [
+        {
+          "marker": "M1",
+          "title": "Партия",
+          "spec": "Экран — фон ch10/dark blue/l25-c10-h275 · 375×812",
+          "description": "Главный рабочий экран: доска, соперники, часы, ходы и кон. Нижняя навигация в партии скрыта."
+        },
+        {
+          "marker": "M2",
+          "title": "Шапка партии · меню, режим, кон",
+          "spec": "icon Button [S·Overlay·gold] + list; Alumni Sans SemiBold Italic 20 / gold primary; кон: фон white a5, иконка пешки, Montserrat SemiBold 14 / gold primary",
+          "description": "Меню партии, режим, кон в пешках. Данные: mode, pot."
+        },
+        {
+          "marker": "M3",
+          "title": "Ходы партии",
+          "spec": "tab [S·dark] inactive ×5, active ×1; Montserrat Medium 12 / white tertiary",
+          "description": "Лента ходов в русской нотации, последний ход активен. Данные: moves[], current_ply."
+        },
+        {
+          "marker": "M4",
+          "title": "Соперник",
+          "spec": "CustomizedAvatar [72], labels [M·purple], мини-фигуры, timer new [goaway·M]",
+          "description": "Аватар, имя, уровень, взятые фигуры, часы ожидающей стороны."
+        },
+        {
+          "marker": "M5",
+          "title": "Доска · позиция и подсказки",
+          "spec": "chess/Board · 368 (клетка 46), фигуры ⚠ GAP · chess/piece; подсветки yellow a40 / a50, точки black a20",
+          "description": "Белые снизу. Данные: fen, last_move, selected, legal_moves."
+        },
+        {
+          "marker": "M6",
+          "title": "Игрок",
+          "spec": "CustomizedAvatar [72], labels [M·Yellow], мини-фигуры, timer new [high·M]",
+          "description": "Активные часы: high; предложение: < 1 мин — med, < 10 с — low. Данные: clock_ms, increment."
+        },
+        {
+          "marker": "M7",
+          "title": "Бонус первых 10 партий",
+          "spec": "labels [M·dark green]; Montserrat Medium 12 / white secondary",
+          "description": "Номер партии дня и повышенная награда."
+        },
+        {
+          "marker": "M8",
+          "title": "Действия партии",
+          "spec": "icon Button [S·Overlay] ×3 (bubble, chevron), Button [Gold·Outline·S] ×2; фон ch10/dark blue/l20, линия white a10",
+          "description": "Чат и эмоции, ничья, сдаться, ходы назад/вперёд. Подтверждения — модальные окна (не собраны)."
+        }
+      ],
+      "gapsAndDecisions": [
+        "Фигуры — пробел DS: временно cburnett.",
+        "Цвета клеток доски — предложение.",
+        "Сопоставление timer new с шахматными часами — предложение.",
+        "Нет иконок «сдаться», «ничья», стрелок.",
+        "Контроль времени в ГДД не задан: 10:00 — демо."
+      ]
+    }
+  ]
+}

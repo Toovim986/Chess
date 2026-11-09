@@ -1,0 +1,357 @@
+{
+  "schema": "verifier-figma-inventory/1",
+  "capturedAt": "2026-10-27 08:52:16 UTC",
+  "origin": "figma-mcp-readonly",
+  "scope": "Page inventory and entry node only; not full design-system verification",
+  "result": {
+    "found": true,
+    "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+    "entry": {
+      "id": "391:21239",
+      "name": "🎨 Colors",
+      "type": "PAGE"
+    },
+    "pages": [
+      {
+        "id": "6047:185876",
+        "name": "Change log"
+      },
+      {
+        "id": "391:21239",
+        "name": "🎨 Colors"
+      },
+      {
+        "id": "2850:183684",
+        "name": "---"
+      },
+      {
+        "id": "131:15991",
+        "name": "Buttons"
+      },
+      {
+        "id": "391:21236",
+        "name": "Cards"
+      },
+      {
+        "id": "781:97986",
+        "name": "Cell"
+      },
+      {
+        "id": "4410:117901",
+        "name": "Chat"
+      },
+      {
+        "id": "6581:85297",
+        "name": "chips"
+      },
+      {
+        "id": "1419:443722",
+        "name": "Collections"
+      },
+      {
+        "id": "1821:67768",
+        "name": "Counter / notification"
+      },
+      {
+        "id": "1448:226930",
+        "name": "Dropdown"
+      },
+      {
+        "id": "1022:182113",
+        "name": "Emoji"
+      },
+      {
+        "id": "391:21238",
+        "name": "Elements"
+      },
+      {
+        "id": "2860:197872",
+        "name": "Label"
+      },
+      {
+        "id": "1439:226770",
+        "name": "Gift"
+      },
+      {
+        "id": "1500:144829",
+        "name": "Interface"
+      },
+      {
+        "id": "939:3069",
+        "name": "Input"
+      },
+      {
+        "id": "1875:131665",
+        "name": "Lobby elements"
+      },
+      {
+        "id": "531:49910",
+        "name": "🟠 icons"
+      },
+      {
+        "id": "7848:80708",
+        "name": "mail"
+      },
+      {
+        "id": "6047:193739",
+        "name": "modal element"
+      },
+      {
+        "id": "7840:157173",
+        "name": "news"
+      },
+      {
+        "id": "905:155068",
+        "name": "Notice / toast/ snackbar"
+      },
+      {
+        "id": "2915:7804",
+        "name": "Pagination"
+      },
+      {
+        "id": "391:21234",
+        "name": "Pot"
+      },
+      {
+        "id": "8591:3128",
+        "name": "rareness"
+      },
+      {
+        "id": "1821:143615",
+        "name": "rpg move"
+      },
+      {
+        "id": "1876:1285",
+        "name": "Selection controls"
+      },
+      {
+        "id": "600:93381",
+        "name": "Slider"
+      },
+      {
+        "id": "6643:72903",
+        "name": "shop element"
+      },
+      {
+        "id": "2755:62384",
+        "name": "Switch"
+      },
+      {
+        "id": "1102:120690",
+        "name": "Tab"
+      },
+      {
+        "id": "1996:133855",
+        "name": "🟠 Table _BG"
+      },
+      {
+        "id": "6047:193740",
+        "name": "Task elements"
+      },
+      {
+        "id": "1778:125943",
+        "name": "Title"
+      },
+      {
+        "id": "391:21237",
+        "name": "Timer"
+      },
+      {
+        "id": "1180:2563",
+        "name": "Tooltip"
+      },
+      {
+        "id": "264:23605",
+        "name": "User"
+      },
+      {
+        "id": "7300:125125",
+        "name": "Winline"
+      },
+      {
+        "id": "391:21232",
+        "name": "---"
+      },
+      {
+        "id": "5739:91239",
+        "name": "Avatars"
+      },
+      {
+        "id": "391:21231",
+        "name": "🚫 drafts "
+      },
+      {
+        "id": "6890:133566",
+        "name": "banners"
+      },
+      {
+        "id": "5299:230242",
+        "name": "Page 34"
+      },
+      {
+        "id": "5112:161346",
+        "name": "🛑 Shop"
+      }
+    ],
+    "pageChildren": [
+      {
+        "id": "2850:163447",
+        "name": "Fade",
+        "type": "FRAME",
+        "childCount": 3
+      },
+      {
+        "id": "4653:187469",
+        "name": "Fade",
+        "type": "FRAME",
+        "childCount": 42
+      },
+      {
+        "id": "2850:183817",
+        "name": "Gradient",
+        "type": "FRAME",
+        "childCount": 30
+      },
+      {
+        "id": "2860:197206",
+        "name": "Gradient",
+        "type": "FRAME",
+        "childCount": 18
+      },
+      {
+        "id": "2850:164009",
+        "name": "Normal",
+        "type": "FRAME",
+        "childCount": 4
+      },
+      {
+        "id": "6892:79383",
+        "name": "Frame 2131330414",
+        "type": "FRAME",
+        "childCount": 10
+      },
+      {
+        "id": "6116:42107",
+        "name": ".color",
+        "type": "INSTANCE",
+        "childCount": 2
+      },
+      {
+        "id": "4209:49488",
+        "name": "Normal",
+        "type": "FRAME",
+        "childCount": 4
+      },
+      {
+        "id": "3456:167678",
+        "name": "CH - Chroma",
+        "type": "TEXT",
+        "childCount": 0
+      },
+      {
+        "id": "3456:167679",
+        "name": "H - hue",
+        "type": "TEXT",
+        "childCount": 0
+      },
+      {
+        "id": "3456:167680",
+        "name": "L- lightness",
+        "type": "TEXT",
+        "childCount": 0
+      },
+      {
+        "id": "3456:167677",
+        "name": "Условные обозначения",
+        "type": "TEXT",
+        "childCount": 0
+      },
+      {
+        "id": "3413:166645",
+        "name": "normal",
+        "type": "FRAME",
+        "childCount": 17
+      },
+      {
+        "id": "3413:166646",
+        "name": "fade",
+        "type": "FRAME",
+        "childCount": 17
+      },
+      {
+        "id": "3423:167128",
+        "name": "Gray",
+        "type": "FRAME",
+        "childCount": 38
+      },
+      {
+        "id": "4392:3727",
+        "name": "Gold opacity",
+        "type": "FRAME",
+        "childCount": 30
+      },
+      {
+        "id": "6892:79367",
+        "name": "Rectangle 111002780",
+        "type": "RECTANGLE",
+        "childCount": 0
+      },
+      {
+        "id": "6892:79449",
+        "name": "Rectangle 111002786",
+        "type": "RECTANGLE",
+        "childCount": 0
+      },
+      {
+        "id": "6892:79450",
+        "name": "Rectangle 111002787",
+        "type": "RECTANGLE",
+        "childCount": 0
+      },
+      {
+        "id": "6892:79451",
+        "name": "Rectangle 111002788",
+        "type": "RECTANGLE",
+        "childCount": 0
+      },
+      {
+        "id": "6892:79452",
+        "name": "Rectangle 111002789",
+        "type": "RECTANGLE",
+        "childCount": 0
+      },
+      {
+        "id": "6892:79444",
+        "name": "Rectangle 111002781",
+        "type": "RECTANGLE",
+        "childCount": 0
+      },
+      {
+        "id": "6892:79445",
+        "name": "Rectangle 111002782",
+        "type": "RECTANGLE",
+        "childCount": 0
+      },
+      {
+        "id": "6892:79446",
+        "name": "Rectangle 111002783",
+        "type": "RECTANGLE",
+        "childCount": 0
+      },
+      {
+        "id": "6892:79447",
+        "name": "Rectangle 111002784",
+        "type": "RECTANGLE",
+        "childCount": 0
+      },
+      {
+        "id": "6892:79448",
+        "name": "Rectangle 111002785",
+        "type": "RECTANGLE",
+        "childCount": 0
+      }
+    ],
+    "componentsOnEntryPage": [],
+    "note": "Read-only page inventory; component values, bindings and mobile usage not fully audited."
+  }
+}

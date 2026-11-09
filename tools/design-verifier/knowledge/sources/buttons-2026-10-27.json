@@ -1,0 +1,741 @@
+{
+  "schema": "verifier-figma-inventory/1",
+  "capturedAt": "2026-10-27 08:54:13 UTC",
+  "origin": "figma-mcp-readonly",
+  "result": {
+    "pageId": "131:15991",
+    "name": "Buttons",
+    "componentSets": [
+      {
+        "id": "289:2298",
+        "name": "Button",
+        "key": "01b52a69710ccb94b9cfe8f589b5411c1aa80690",
+        "description": "",
+        "properties": {
+          "Icon right#1405:0": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "Icon left#1606:0": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "counter#5434:2": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "notification#5812:57": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "State": {
+            "type": "VARIANT",
+            "defaultValue": "normal",
+            "variantOptions": [
+              "normal",
+              "hover",
+              "active",
+              "disabled"
+            ]
+          },
+          "Color": {
+            "type": "VARIANT",
+            "defaultValue": "Gold",
+            "variantOptions": [
+              "Gold",
+              "Red",
+              "Accent",
+              "Winline",
+              "Winline 2"
+            ]
+          },
+          "mode": {
+            "type": "VARIANT",
+            "defaultValue": "Colored",
+            "variantOptions": [
+              "Colored",
+              "Outline",
+              "Overlay",
+              "Ghost"
+            ]
+          },
+          "Round": {
+            "type": "VARIANT",
+            "defaultValue": "false",
+            "variantOptions": [
+              "false"
+            ]
+          },
+          "Size": {
+            "type": "VARIANT",
+            "defaultValue": "S",
+            "variantOptions": [
+              "XS",
+              "S",
+              "M",
+              "l"
+            ]
+          }
+        },
+        "variantCount": 68,
+        "variantExamples": [
+          {
+            "id": "294:2688",
+            "name": "State=normal, Color=Red, mode=Colored, Round=false, Size=S",
+            "key": "6c987d0bd72a8e50a5bc5118a04b7dea4032b8f0",
+            "width": 53,
+            "height": 32
+          },
+          {
+            "id": "2723:50187",
+            "name": "State=active, Color=Red, mode=Colored, Round=false, Size=S",
+            "key": "509b512e00586872a98f42349c30d9aecdac3b84",
+            "width": 53,
+            "height": 32
+          },
+          {
+            "id": "2723:50202",
+            "name": "State=disabled, Color=Red, mode=Colored, Round=false, Size=S",
+            "key": "2ef94c751275367eff2eb92d5404cb38cce888ba",
+            "width": 53,
+            "height": 32
+          },
+          {
+            "id": "2723:50100",
+            "name": "State=hover, Color=Red, mode=Colored, Round=false, Size=S",
+            "key": "6a833a41a0126bae31c11b87d177088e9bebfdce",
+            "width": 53,
+            "height": 32
+          }
+        ]
+      },
+      {
+        "id": "2990:18095",
+        "name": "Large button",
+        "key": "d2d2ef235de76a516744078746e01a45d9792a9f",
+        "description": "",
+        "properties": {
+          "State": {
+            "type": "VARIANT",
+            "defaultValue": "normal",
+            "variantOptions": [
+              "normal",
+              "hover",
+              "active"
+            ]
+          }
+        },
+        "variantCount": 3,
+        "variantExamples": [
+          {
+            "id": "2990:18270",
+            "name": "State=normal",
+            "key": "6babd85b1d71f4069da1b6fe74414e3596d0be95",
+            "width": 172,
+            "height": 58
+          },
+          {
+            "id": "2990:18280",
+            "name": "State=hover",
+            "key": "0de1fa867cfd05372faa97f18d91105017c40954",
+            "width": 172,
+            "height": 58
+          },
+          {
+            "id": "2990:18291",
+            "name": "State=active",
+            "key": "b43d065071a9516b167822bf530a228e6a44c469",
+            "width": 172,
+            "height": 58
+          }
+        ]
+      },
+      {
+        "id": "2723:47774",
+        "name": "Radio Button",
+        "key": "56436519696eeabdf2a422652f7ee9263d7f957c",
+        "description": "",
+        "properties": {
+          "State": {
+            "type": "VARIANT",
+            "defaultValue": "normal",
+            "variantOptions": [
+              "normal",
+              "hover",
+              "action",
+              "disabled"
+            ]
+          },
+          "Color": {
+            "type": "VARIANT",
+            "defaultValue": "Gold",
+            "variantOptions": [
+              "Gold",
+              "Red"
+            ]
+          },
+          "Radio": {
+            "type": "VARIANT",
+            "defaultValue": "true",
+            "variantOptions": [
+              "true"
+            ]
+          },
+          "raise the rate": {
+            "type": "VARIANT",
+            "defaultValue": "false",
+            "variantOptions": [
+              "false",
+              "true"
+            ]
+          },
+          "Round": {
+            "type": "VARIANT",
+            "defaultValue": "false",
+            "variantOptions": [
+              "false"
+            ]
+          },
+          "Size": {
+            "type": "VARIANT",
+            "defaultValue": "S",
+            "variantOptions": [
+              "S",
+              "m"
+            ]
+          }
+        },
+        "variantCount": 13,
+        "variantExamples": [
+          {
+            "id": "2723:47775",
+            "name": "State=normal, Color=Gold, Radio=true, raise the rate=false, Round=false, Size=S",
+            "key": "49a000499eeee0bb92293e5d81c1fc1e13d22c08",
+            "width": 88,
+            "height": 32
+          },
+          {
+            "id": "8532:34973",
+            "name": "State=normal, Color=Gold, Radio=true, raise the rate=false, Round=false, Size=m",
+            "key": "fc1d5efc30863a05b073393ecb3fab1e61caddbb",
+            "width": 88,
+            "height": 40
+          },
+          {
+            "id": "8544:35046",
+            "name": "State=disabled, Color=Gold, Radio=true, raise the rate=false, Round=false, Size=m",
+            "key": "320713c2776646cd6710f7f16b498d8ce85c396d",
+            "width": 88,
+            "height": 40
+          },
+          {
+            "id": "8544:35016",
+            "name": "State=normal, Color=Red, Radio=true, raise the rate=false, Round=false, Size=m",
+            "key": "76886bfb2bde24e13fa69663dfb264bf5ce54511",
+            "width": 88,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "id": "294:3022",
+        "name": "Small button",
+        "key": "705c82d59af0488a68cc8b8e5b1579916fca00e0",
+        "description": "",
+        "properties": {
+          "Icon right#652:0": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "Icon left#1500:7": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "counter#1881:0": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "notification#5812:0": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "State": {
+            "type": "VARIANT",
+            "defaultValue": "normal",
+            "variantOptions": [
+              "normal",
+              "hover",
+              "disabled",
+              "active"
+            ]
+          },
+          "Mode": {
+            "type": "VARIANT",
+            "defaultValue": "primary",
+            "variantOptions": [
+              "primary",
+              "outline",
+              "overlay"
+            ]
+          },
+          "Appearance": {
+            "type": "VARIANT",
+            "defaultValue": "gold",
+            "variantOptions": [
+              "gold",
+              "accent",
+              "red"
+            ]
+          },
+          "Size": {
+            "type": "VARIANT",
+            "defaultValue": "M",
+            "variantOptions": [
+              "M",
+              "S",
+              "L"
+            ]
+          },
+          "text": {
+            "type": "VARIANT",
+            "defaultValue": "true",
+            "variantOptions": [
+              "true",
+              "false"
+            ]
+          }
+        },
+        "variantCount": 68,
+        "variantExamples": [
+          {
+            "id": "294:3021",
+            "name": "State=normal, Mode=primary, Appearance=gold, Size=M, text=true",
+            "key": "721cb17cd229cb08c72aac3107d2b4436c7f460f",
+            "width": 58,
+            "height": 24
+          },
+          {
+            "id": "4664:189704",
+            "name": "State=normal, Mode=primary, Appearance=gold, Size=L, text=true",
+            "key": "04ecba49b6d7575766c24d85ac36d9df6934bc8f",
+            "width": 72,
+            "height": 32
+          },
+          {
+            "id": "8854:1374",
+            "name": "State=normal, Mode=overlay, Appearance=gold, Size=L, text=true",
+            "key": "a88f42ab198902f5c5a3bdc50c11dad216978a5e",
+            "width": 72,
+            "height": 32
+          },
+          {
+            "id": "8855:70868",
+            "name": "State=disabled, Mode=overlay, Appearance=gold, Size=L, text=true",
+            "key": "3a10c1fc08c33fe062ac439a84614a9a1caa974a",
+            "width": 72,
+            "height": 32
+          }
+        ]
+      },
+      {
+        "id": "249:27968",
+        "name": ".Button user",
+        "key": "df1560d4caa10f89dd1bb1dc9f6ef8884f9313a3",
+        "description": "",
+        "properties": {
+          "State": {
+            "type": "VARIANT",
+            "defaultValue": "Normal",
+            "variantOptions": [
+              "Normal",
+              "hover",
+              "Disabled",
+              "Active"
+            ]
+          },
+          "Size": {
+            "type": "VARIANT",
+            "defaultValue": "XL",
+            "variantOptions": [
+              "M",
+              "S",
+              "XL",
+              "L"
+            ]
+          }
+        },
+        "variantCount": 16,
+        "variantExamples": [
+          {
+            "id": "249:24000",
+            "name": "State=Normal, Size=M",
+            "key": "538471403228faaa88ef703a9ab638ab2254b044",
+            "width": 28,
+            "height": 28
+          },
+          {
+            "id": "2755:113767",
+            "name": "State=Active, Size=M",
+            "key": "5ba6097828766cab9f258245fd8dc252158aafc7",
+            "width": 28,
+            "height": 28
+          },
+          {
+            "id": "2755:113695",
+            "name": "State=Disabled, Size=M",
+            "key": "5420aef3eb2ad979453deeefb35d2ca17d576f21",
+            "width": 28,
+            "height": 28
+          },
+          {
+            "id": "531:49898",
+            "name": "State=Normal, Size=S",
+            "key": "2356cf086545063b3679577c29b1e7bcb511c212",
+            "width": 20,
+            "height": 20
+          }
+        ]
+      },
+      {
+        "id": "379:88639",
+        "name": ".Button long",
+        "key": "aa833ae532167b10e058b39f7b0de4648ef14771",
+        "description": "",
+        "properties": {
+          "Property 1": {
+            "type": "VARIANT",
+            "defaultValue": "1",
+            "variantOptions": [
+              "3",
+              "1",
+              "2"
+            ]
+          }
+        },
+        "variantCount": 3,
+        "variantExamples": [
+          {
+            "id": "379:88638",
+            "name": "Property 1=1",
+            "key": "61bd543d7a3dbb55a7f4adb88861d921251132f0",
+            "width": 172,
+            "height": 32
+          },
+          {
+            "id": "379:88636",
+            "name": "Property 1=2",
+            "key": "df3b0eab398c830ae9280af9df7c42f3baee9c33",
+            "width": 172,
+            "height": 32
+          },
+          {
+            "id": "379:88637",
+            "name": "Property 1=3",
+            "key": "ca1ab9eb561e8ae6098b4830cd7759e69ede4087",
+            "width": 172,
+            "height": 32
+          }
+        ]
+      },
+      {
+        "id": "595:71500",
+        "name": "icon Button",
+        "key": "21a2857cafdc56c3d575e0fc90c8dae0d62bb7bc",
+        "description": "",
+        "properties": {
+          "Notification#2765:0": {
+            "type": "BOOLEAN",
+            "defaultValue": true
+          },
+          "notification romb#5908:0": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "State": {
+            "type": "VARIANT",
+            "defaultValue": "normal",
+            "variantOptions": [
+              "normal",
+              "hover",
+              "active",
+              "disabled"
+            ]
+          },
+          "Size": {
+            "type": "VARIANT",
+            "defaultValue": "XS",
+            "variantOptions": [
+              "XS",
+              "S",
+              "M",
+              "L"
+            ]
+          },
+          "Appearance": {
+            "type": "VARIANT",
+            "defaultValue": "Primary",
+            "variantOptions": [
+              "Secondary",
+              "Primary",
+              "Outline",
+              "Overlay",
+              "Dark"
+            ]
+          },
+          "Round": {
+            "type": "VARIANT",
+            "defaultValue": "true",
+            "variantOptions": [
+              "true",
+              "false"
+            ]
+          },
+          "color": {
+            "type": "VARIANT",
+            "defaultValue": "gold",
+            "variantOptions": [
+              "gold",
+              "accent"
+            ]
+          }
+        },
+        "variantCount": 120,
+        "variantExamples": [
+          {
+            "id": "1581:149822",
+            "name": "State=normal, Size=XS, Appearance=Secondary, Round=true, color=gold",
+            "key": "1f0c7b20fc1b206af8b6699123ced924fb86dfa4",
+            "width": 20,
+            "height": 20
+          },
+          {
+            "id": "2755:59506",
+            "name": "State=normal, Size=XS, Appearance=Primary, Round=true, color=gold",
+            "key": "bc7b4f8b326c9ade26ba7ead12021745f18e89c5",
+            "width": 20,
+            "height": 20
+          },
+          {
+            "id": "2915:16853",
+            "name": "State=normal, Size=XS, Appearance=Overlay, Round=false, color=gold",
+            "key": "b9d21a8fa03cfcb5d47aeb6934030905ef0b10dc",
+            "width": 20,
+            "height": 20
+          },
+          {
+            "id": "7420:153726",
+            "name": "State=normal, Size=XS, Appearance=Overlay, Round=true, color=gold",
+            "key": "6140e155b6b724317fd3a5ba116a68da6a67940e",
+            "width": 20,
+            "height": 20
+          }
+        ]
+      },
+      {
+        "id": "600:91457",
+        "name": "menu more",
+        "key": "696127fb6f693f5711d32fa56f84a3958df35772",
+        "description": "",
+        "properties": {
+          "State": {
+            "type": "VARIANT",
+            "defaultValue": "normal",
+            "variantOptions": [
+              "hover",
+              "normal",
+              "active"
+            ]
+          },
+          "type": {
+            "type": "VARIANT",
+            "defaultValue": "Default",
+            "variantOptions": [
+              "Default",
+              "more"
+            ]
+          }
+        },
+        "variantCount": 4,
+        "variantExamples": [
+          {
+            "id": "600:91456",
+            "name": "State=normal, type=Default",
+            "key": "c361edabaf909d2b23f551f15ecfd9510899eaa2",
+            "width": 24,
+            "height": 24
+          },
+          {
+            "id": "4643:183948",
+            "name": "State=normal, type=more",
+            "key": "d00a30358fc42b5b2f41945f54de5a058961f0b7",
+            "width": 24,
+            "height": 24
+          },
+          {
+            "id": "1497:146953",
+            "name": "State=active, type=Default",
+            "key": "cd5a448280f4917f6d6b80be7de4340889f0ab0b",
+            "width": 24,
+            "height": 24
+          },
+          {
+            "id": "600:91455",
+            "name": "State=hover, type=Default",
+            "key": "37c1ebc60639a895155eb6dfca5c80372cf44206",
+            "width": 24,
+            "height": 24
+          }
+        ]
+      },
+      {
+        "id": "1500:145121",
+        "name": "link button",
+        "key": "60554f7365515c2ab4a8175a6b913dd6785e39b2",
+        "description": "",
+        "properties": {
+          "Property 1": {
+            "type": "VARIANT",
+            "defaultValue": "normal",
+            "variantOptions": [
+              "hover",
+              "normal",
+              "Active",
+              "disabled"
+            ]
+          }
+        },
+        "variantCount": 4,
+        "variantExamples": [
+          {
+            "id": "1500:145119",
+            "name": "Property 1=normal",
+            "key": "d28bcedea56072e61856c93e023e433fb1dfcf80",
+            "width": 48,
+            "height": 12
+          },
+          {
+            "id": "2755:113818",
+            "name": "Property 1=disabled",
+            "key": "1565dba7bce6184a17b4a9dd5a2a5a84dad69b9b",
+            "width": 48,
+            "height": 12
+          },
+          {
+            "id": "2755:113813",
+            "name": "Property 1=Active",
+            "key": "dc6b39109792044d5d9c4467fc7e5d8d090f1908",
+            "width": 48,
+            "height": 12
+          },
+          {
+            "id": "1500:145118",
+            "name": "Property 1=hover",
+            "key": "b2eb779897eca68f74e304554caf72d007d162e9",
+            "width": 48,
+            "height": 12
+          }
+        ]
+      },
+      {
+        "id": "6821:135474",
+        "name": "icon illustration",
+        "key": "62725a6ef7029e0fa5580d3234a423b0e710f127",
+        "description": "",
+        "properties": {
+          "Property 1": {
+            "type": "VARIANT",
+            "defaultValue": "table",
+            "variantOptions": [
+              "gift",
+              "scroll",
+              "shop",
+              "table",
+              "study",
+              "inventory",
+              "achievement",
+              "news",
+              "calendar",
+              "mail"
+            ]
+          }
+        },
+        "variantCount": 10,
+        "variantExamples": [
+          {
+            "id": "6821:135473",
+            "name": "Property 1=shop",
+            "key": "4cf7949139c86e5afb3d395063f0c2673c49f3c0",
+            "width": 40,
+            "height": 40
+          },
+          {
+            "id": "6821:135472",
+            "name": "Property 1=scroll",
+            "key": "779d9788ade677c64c69e93f66de7aba8346d2fe",
+            "width": 40,
+            "height": 40
+          },
+          {
+            "id": "6821:135471",
+            "name": "Property 1=table",
+            "key": "b1c1e9401b053a1915ae1430b7fd144e55fc9d11",
+            "width": 40,
+            "height": 40
+          },
+          {
+            "id": "6821:135470",
+            "name": "Property 1=gift",
+            "key": "6c269b1286278c51fc91ba95ff3ee1f9f7e89c27",
+            "width": 40,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "id": "6821:135533",
+        "name": "custom button",
+        "key": "ff40096e89a624525c7e5bfd50c452bc17d4d5ca",
+        "description": "",
+        "properties": {
+          "label#6868:0": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "Property 1": {
+            "type": "VARIANT",
+            "defaultValue": "Default",
+            "variantOptions": [
+              "Default",
+              "hover"
+            ]
+          },
+          "size": {
+            "type": "VARIANT",
+            "defaultValue": "m",
+            "variantOptions": [
+              "m"
+            ]
+          }
+        },
+        "variantCount": 2,
+        "variantExamples": [
+          {
+            "id": "6821:135532",
+            "name": "Property 1=Default, size=m",
+            "key": "4a9a366318c0b95cc738fce33be2ce5a4c55a911",
+            "width": 97,
+            "height": 40
+          },
+          {
+            "id": "6821:135531",
+            "name": "Property 1=hover, size=m",
+            "key": "ea63c1ba6e4f68dc185e8c90d6327a6c6462ff25",
+            "width": 97,
+            "height": 40
+          }
+        ]
+      }
+    ],
+    "scope": "All component sets on Buttons page; at most four variants sampled per set; not all variants audited."
+  }
+}

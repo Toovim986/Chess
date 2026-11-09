@@ -1,0 +1,758 @@
+{
+  "schema": "vkchess-ds-application-audit/1",
+  "measuredAt": "2026-10-27",
+  "method": "Read-only use_figma по узлам сборки. Экземпляры верхнего уровня (не вложенные в другие экземпляры) классифицированы по mainComponent.remote. Для всех узлов вне экземпляров подсчитаны видимые заливки и обводки: привязанные к переменной Color (boundVariables.color) и непривязанные (HEX). Шрифты собраны с текстовых узлов вне экземпляров.",
+  "scopeLimits": [
+    "Внутренности экземпляров Poker lib не проверялись: они принадлежат библиотеке.",
+    "Отступы и радиусы заданы числами: в Poker lib не найдено переменных отступов и радиусов, проверка привязки не выполнялась.",
+    "В Poker lib нет текстовых стилей. Типографика сверена с компонентами DS вручную, не привязкой к стилю."
+  ],
+  "sources": {
+    "designSystem": {
+      "name": "♦️ Poker lib",
+      "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+      "libraryKey": "lk-8f777f5263a1fcdfd56837c4db6cc6cc36bf4d81c1c0d1e8d87257d2d81f79fbc72690acf2149b4b382a45769ee42d44aab297708160456ddf3d4d2d7d7b9eb9",
+      "colorsPage": "391:21239",
+      "variableCollection": "Color (696 переменных, 1 режим)"
+    },
+    "gdd": {
+      "title": "VKChess: идеи меты",
+      "documentId": "13PcZ5cpqjyRrojoIIVhKse6igOlLrGs6IpZnLpEHK-Q",
+      "revision": "AHj4eMQQAtjPT0cmNmb0RBAh7FOi5a5gPzjWjLvoYnaPqA-n8Jo5tcKjTj-xmfxBTmmuXuYyJ-fO1_PqIQ326AAg5t-uFA_7WGMWndEPV0JG"
+    },
+    "handoffReference": {
+      "name": "Эталон передачи дизайна — Новости - Poker",
+      "fileKey": "mKX13PSo2vqwCXCBQJiOi8",
+      "pages": {
+        "sketches": "3:2",
+        "map": "3:3",
+        "contract": "3:4"
+      }
+    },
+    "build": {
+      "name": "Шахматы — сборка экранов из Poker lib (рабочий)",
+      "fileKey": "QZNrOb57obLvLAadEMSjV3",
+      "pages": {
+        "screens": "0:1",
+        "maps": "11:1026",
+        "overview": "11:1027"
+      }
+    },
+    "destination": {
+      "name": "Шахматы",
+      "fileKey": "3XFu7HJrZfIFVVmlVhhi85",
+      "pages": {
+        "screenshots": "0:1",
+        "mapScreenshots": "3:2"
+      },
+      "note": "Только скриншоты, без редактируемых макетов, по запросу пользователя."
+    }
+  },
+  "screens": [
+    {
+      "nodeId": "6:2109",
+      "name": "01 · Главная / выбор режима",
+      "pokerLibInstances": 10,
+      "localInstances": 2,
+      "boundPaints": 10,
+      "rawPaints": 0,
+      "fonts": [
+        "Alumni Sans SemiBold Italic 20",
+        "Alumni Sans SemiBold Italic 24",
+        "Montserrat Medium 12",
+        "Montserrat SemiBold 14"
+      ],
+      "gaps": [
+        "иконка пешки"
+      ]
+    },
+    {
+      "nodeId": "7:937",
+      "name": "02 · Профиль",
+      "pokerLibInstances": 13,
+      "localInstances": 2,
+      "boundPaints": 21,
+      "rawPaints": 0,
+      "fonts": [
+        "Alumni Sans SemiBold Italic 24",
+        "Alumni Sans SemiBold Italic 20",
+        "Montserrat Medium 12",
+        "Montserrat Medium 14",
+        "Montserrat SemiBold 14"
+      ],
+      "gaps": [
+        "иконка пешки"
+      ]
+    },
+    {
+      "nodeId": "7:1147",
+      "name": "03 · Задачи",
+      "pokerLibInstances": 32,
+      "localInstances": 6,
+      "boundPaints": 26,
+      "rawPaints": 0,
+      "fonts": [
+        "Alumni Sans SemiBold Italic 24",
+        "Montserrat SemiBold 14",
+        "Montserrat Medium 12",
+        "Montserrat SemiBold 12"
+      ],
+      "gaps": [
+        "иконка пешки"
+      ]
+    },
+    {
+      "nodeId": "7:3153",
+      "name": "04 · Лига",
+      "pokerLibInstances": 11,
+      "localInstances": 2,
+      "boundPaints": 22,
+      "rawPaints": 0,
+      "fonts": [
+        "Alumni Sans SemiBold Italic 24",
+        "Alumni Sans Bold Italic 28",
+        "Alumni Sans Bold Italic 20",
+        "Montserrat Medium 12",
+        "Montserrat Medium 11",
+        "Montserrat SemiBold 14"
+      ],
+      "gaps": [
+        "иконка пешки",
+        "эмблема лиги"
+      ]
+    },
+    {
+      "nodeId": "9:734",
+      "name": "05 · Результат партии · победа",
+      "pokerLibInstances": 15,
+      "localInstances": 3,
+      "boundPaints": 25,
+      "rawPaints": 0,
+      "fonts": [
+        "Alumni Sans Bold Italic 40",
+        "Alumni Sans SemiBold Italic 18",
+        "Montserrat SemiBold 20",
+        "Montserrat Medium 11",
+        "Montserrat Medium 12"
+      ],
+      "gaps": [
+        "иконка пешки"
+      ]
+    },
+    {
+      "nodeId": "9:941",
+      "name": "06 · Результат партии · поражение",
+      "pokerLibInstances": 15,
+      "localInstances": 2,
+      "boundPaints": 22,
+      "rawPaints": 0,
+      "fonts": [
+        "Alumni Sans Bold Italic 40",
+        "Alumni Sans SemiBold Italic 18",
+        "Montserrat SemiBold 20",
+        "Montserrat Medium 11",
+        "Montserrat Medium 12"
+      ],
+      "gaps": [
+        "иконка пешки"
+      ]
+    },
+    {
+      "nodeId": "25:1047",
+      "name": "07 · Партия",
+      "pokerLibInstances": 19,
+      "localInstances": 34,
+      "boundPaints": 19,
+      "rawPaints": 0,
+      "fonts": [
+        "Alumni Sans SemiBold Italic 20",
+        "Alumni Sans SemiBold Italic 22",
+        "Montserrat Medium 11",
+        "Montserrat Medium 12",
+        "Montserrat SemiBold 14"
+      ],
+      "gaps": [
+        "иконка пешки",
+        "фигуры"
+      ]
+    }
+  ],
+  "localComponents": [
+    {
+      "nodeId": "5:1115",
+      "name": "chess/MobileHeader",
+      "boundPaints": 9,
+      "rawPaints": 0,
+      "pokerLibInstances": [
+        "notification_filled",
+        "settings-sharp"
+      ],
+      "localInstances": [
+        "⚠ GAP · chess/currency/pawn"
+      ]
+    },
+    {
+      "nodeId": "5:1256",
+      "name": "chess/BottomNav (active=play|tasks|league|profile)",
+      "boundPaints": 64,
+      "rawPaints": 0,
+      "pokerLibInstances": [
+        "stopwatch-start",
+        "check_circle_large_filled_S",
+        "shield-crown",
+        "user_circle"
+      ]
+    },
+    {
+      "nodeId": "5:1110",
+      "name": "⚠ GAP · chess/currency/pawn",
+      "boundPaints": 3,
+      "rawPaints": 0,
+      "note": "Временная векторная иконка; ассета в Poker lib нет."
+    },
+    {
+      "nodeId": "23:1135",
+      "name": "chess/Board · 368",
+      "boundPaints": 80,
+      "rawPaints": 0,
+      "note": "Доска 8×8 на токенах Poker lib; цвета клеток — предложение."
+    },
+    {
+      "nodeId": "23:1134",
+      "name": "⚠ GAP · chess/piece",
+      "boundPaints": 118,
+      "rawPaints": 0,
+      "note": "Набор cburnett (CC BY-SA 3.0), цвета привязаны к white/l100 и black/l0."
+    }
+  ],
+  "components": [
+    {
+      "name": "CustomizedAvatar",
+      "libNodeId": "4732:175047",
+      "key": "66c64375674814acdf0f097ef379e103c700abcf",
+      "variantsUsed": [
+        "Size=136",
+        "Size=72"
+      ],
+      "screens": [
+        "6:2109",
+        "7:937",
+        "9:734",
+        "9:941",
+        "25:1047"
+      ]
+    },
+    {
+      "name": "badge no level",
+      "libNodeId": "248:13522",
+      "key": "52662ed3c835b2c0e80ab19e48115f50c58d968a",
+      "variantsUsed": [
+        "Property 1=lv3, Size=M, Disabled=false"
+      ],
+      "screens": [
+        "6:2109",
+        "7:937",
+        "9:734",
+        "9:941"
+      ]
+    },
+    {
+      "name": "progressbar",
+      "libNodeId": "5812:65920",
+      "key": "92db5a5d3b4c22a2ca147a81ca9e25c8ecab22a5",
+      "variantsUsed": [
+        "Property 1=empty",
+        "Property 1=full"
+      ],
+      "screens": [
+        "6:2109",
+        "7:937",
+        "7:1147",
+        "9:734",
+        "9:941"
+      ],
+      "note": "Трек empty + full, обрезанный по доле: растянутый экземпляр не пересчитывает заливку."
+    },
+    {
+      "name": "tab",
+      "libNodeId": "679:64732",
+      "key": "edce7ba8691c816480cc9e42b033825b08125a32",
+      "variantsUsed": [
+        "state=active, size=M, text=true, Appearance=accent",
+        "state=inactive, size=M, text=true, Appearance=accent",
+        "state=active|inactive, size=S, text=true, Appearance=dark"
+      ],
+      "screens": [
+        "6:2109",
+        "7:1147",
+        "9:734",
+        "9:941",
+        "25:1047"
+      ]
+    },
+    {
+      "name": "Button",
+      "libNodeId": "289:2298",
+      "key": "01b52a69710ccb94b9cfe8f589b5411c1aa80690",
+      "variantsUsed": [
+        "State=normal, Color=Gold, mode=Colored, Size=S",
+        "State=normal, Color=Gold, mode=Outline, Size=S"
+      ],
+      "screens": [
+        "6:2109",
+        "7:937",
+        "7:1147",
+        "7:3153",
+        "9:734",
+        "9:941",
+        "25:1047"
+      ]
+    },
+    {
+      "name": "icon Button",
+      "libNodeId": "595:71500",
+      "key": "21a2857cafdc56c3d575e0fc90c8dae0d62bb7bc",
+      "variantsUsed": [
+        "State=normal, Size=S, Appearance=Outline, Round=true, color=gold",
+        "State=normal, Size=S, Appearance=Overlay, Round=false, color=gold"
+      ],
+      "screens": [
+        "7:937",
+        "25:1047"
+      ]
+    },
+    {
+      "name": "labels",
+      "libNodeId": "1102:125649",
+      "key": "009dc1af828a88a578e34fb955e9e017bb1d8a50",
+      "variantsUsed": [
+        "Size=M, Color=purple|blue|Yellow|white|dark green, Type=Default"
+      ],
+      "screens": [
+        "7:937",
+        "7:1147",
+        "7:3153",
+        "9:734",
+        "9:941",
+        "25:1047"
+      ]
+    },
+    {
+      "name": "cell",
+      "libNodeId": "770:128735",
+      "key": "83a42586cbd3ab67c70447969dad3ccd03aa43b9",
+      "variantsUsed": [
+        "State=normal, mode=Default",
+        "State=active, mode=Default"
+      ],
+      "screens": [
+        "7:3153"
+      ],
+      "note": "Иконка фишки внутри cell скрыта переопределением видимости."
+    },
+    {
+      "name": "timer new",
+      "libNodeId": "425:20163",
+      "key": "19665491e24bca1df4492f18d0bfd02fe0335b22",
+      "variantsUsed": [
+        "Property 1=high, Size=M",
+        "Property 1=goaway, Size=M"
+      ],
+      "screens": [
+        "25:1047"
+      ],
+      "note": "Шахматные часы: ход — high, ожидание — goaway (сопоставление — предложение)."
+    },
+    {
+      "name": "stopwatch-start",
+      "libNodeId": "3006:12693",
+      "key": "61976632863f4efdeb544748eb0145fb84c085aa",
+      "screens": [
+        "all: навигация",
+        "6:2109",
+        "7:3153"
+      ]
+    },
+    {
+      "name": "flash",
+      "libNodeId": "421:59939",
+      "key": "10e430406dd3b4dfd96e6e82cc9126afe4105f86",
+      "screens": [
+        "6:2109",
+        "9:734",
+        "9:941"
+      ]
+    },
+    {
+      "name": "gift_filled_M",
+      "libNodeId": "788:100114",
+      "key": "01bf3006205e1c9453f81744770af39e6ad93b03",
+      "screens": [
+        "6:2109",
+        "7:1147",
+        "9:734",
+        "9:941"
+      ]
+    },
+    {
+      "name": "shield-crown",
+      "libNodeId": "7427:78630",
+      "key": "07c07abd2569e815a55df3b923b1a26ee6687d93",
+      "screens": [
+        "all: навигация",
+        "7:3153"
+      ]
+    },
+    {
+      "name": "user_circle",
+      "libNodeId": "3309:170207",
+      "key": "60b5c700ad9f146fc9ec5265a4b3d8d8033f70cf",
+      "screens": [
+        "all: навигация",
+        "7:937"
+      ]
+    },
+    {
+      "name": "check_circle_large_filled_S",
+      "libNodeId": "652:62701",
+      "key": "1a953bdf9bb89997d06cc5dc27ac6852b0109f73",
+      "screens": [
+        "all: навигация",
+        "7:1147"
+      ]
+    },
+    {
+      "name": "notification_filled",
+      "libNodeId": "6204:114300",
+      "key": "3de9c0ef7ff3f8fa3dda8c2d4a6b5d1a92e3b96b",
+      "screens": [
+        "all: шапка"
+      ]
+    },
+    {
+      "name": "settings-sharp",
+      "libNodeId": "1578:149054",
+      "key": "083084c94e415438149b4de5c48cce746ba8fa5d",
+      "screens": [
+        "all: шапка"
+      ]
+    },
+    {
+      "name": "plus",
+      "libNodeId": "536:50354",
+      "key": "56331ad93729d2693793e0ab3638437c51d3d503",
+      "screens": [
+        "7:937"
+      ]
+    },
+    {
+      "name": "info_circle_filled",
+      "libNodeId": "1186:131152",
+      "key": "60290fe64362bfda858799fe3b26fb8078174074",
+      "screens": [
+        "7:937"
+      ]
+    },
+    {
+      "name": "Time_clock_circle_filled",
+      "libNodeId": "6219:130458",
+      "key": "e237d849be49a346fb096fef0d4387eee68b3376",
+      "screens": [
+        "7:1147"
+      ]
+    },
+    {
+      "name": "star_circle_filled_M",
+      "libNodeId": "652:61336",
+      "key": "493d9d44a2f112eef5556c7f8e60bc691048a300",
+      "screens": [
+        "7:1147"
+      ]
+    },
+    {
+      "name": "top arrow_filled",
+      "libNodeId": "7977:25658",
+      "key": "a4cdeff35647f64a8b13dff7dd211bf8553f8d63",
+      "screens": [
+        "7:1147"
+      ]
+    },
+    {
+      "name": "list",
+      "libNodeId": "3149:156493",
+      "key": "d89e6e35db12531d99bb32b418948c5725bf0436",
+      "screens": [
+        "25:1047"
+      ]
+    },
+    {
+      "name": "bubble_filled_M",
+      "libNodeId": "6965:218219",
+      "key": "e17c5efa5edd3ebe0568dc4e94d198e3573a2255",
+      "screens": [
+        "25:1047"
+      ]
+    },
+    {
+      "name": "chevron-down",
+      "libNodeId": "692:66907",
+      "key": "8004f458efbf4c65ced6a87510bbdf0e2d4fb044",
+      "screens": [
+        "25:1047"
+      ]
+    }
+  ],
+  "tokens": [
+    {
+      "role": "фон экрана, шапки, TopBar",
+      "variable": "ch10/dark blue/l25-c10-h275",
+      "hex": "#1F2129",
+      "key": "d421536089c301c0c307cfb8817092cf7ae542ac"
+    },
+    {
+      "role": "фон нижней навигации",
+      "variable": "ch10/dark blue/l20-c10-h275",
+      "hex": "#14161C",
+      "key": "3ea2499d72d22b97d0190b746a92443604c29794"
+    },
+    {
+      "role": "фон модального окна",
+      "variable": "ch10/dark blue/l30-c10-h275",
+      "hex": "#2B2D37",
+      "key": "5a39ad32c4074409045add658a55dd2e9743aa50"
+    },
+    {
+      "role": "фон карточек и блоков",
+      "variable": "white/l100-c0-h0-a5",
+      "hex": "#FFFFFF 5%",
+      "key": "b5b1eefcd653a3f0963f54a29bd190bba7362779"
+    },
+    {
+      "role": "разделители",
+      "variable": "white/l100-c0-h0-a10",
+      "hex": "#FFFFFF 10%",
+      "key": "b6e23a5eaa8b57eb83bbee4f9904e2f6983319c8"
+    },
+    {
+      "role": "заголовки, уровень, суммы",
+      "variable": "text & element/gold primary",
+      "hex": "#CCBC9A",
+      "key": "0f43795e74ba700e7aceb9c015955f153b77354d"
+    },
+    {
+      "role": "неактивная навигация, обводка модалки",
+      "variable": "text & element/gold tertiary",
+      "hex": "#CCBC9A 70%",
+      "key": "24ec8c658b7e7f6596aa68c0e53fb1a4a77b6fed"
+    },
+    {
+      "role": "основной текст",
+      "variable": "text & element/white primary",
+      "hex": "#FFFFFF",
+      "key": "248e673d0f5c111b49c57276ec81d35577d9ab5f"
+    },
+    {
+      "role": "вторичный текст",
+      "variable": "text & element/white secondary",
+      "hex": "#FFFFFF 80%",
+      "key": "95d09c005ee94414561a27dc2896dfbae35e8184"
+    },
+    {
+      "role": "подсказки",
+      "variable": "text & element/white tertiary",
+      "hex": "#FFFFFF 60%",
+      "key": "8502b499cf6584843f0ebf68f7ab47fefd5b187d"
+    },
+    {
+      "role": "EXP, активная навигация",
+      "variable": "text & element/violet primary",
+      "hex": "#C2B1F9",
+      "key": "b4b64fc7ab27c7590e70a6c6f1fa97458c3256d0"
+    },
+    {
+      "role": "фон эмблемы лиги",
+      "variable": "ch90/violet/l70-c90-h295-a10",
+      "hex": "#A787F6 10%",
+      "key": "7a08a0341ef6de47ef4e106a97cbcb464187b828"
+    },
+    {
+      "role": "зона повышения, стрелка бонуса стата",
+      "variable": "ch90/bright green/l80-c90-h140",
+      "hex": "#5BDF38",
+      "key": "a51f73c103fc86b2c7d50d4e57c5b0a6046c3a95"
+    },
+    {
+      "role": "зона понижения",
+      "variable": "accent/red l65-c90-h30",
+      "hex": "#F64835",
+      "key": "aba2ce49226c69134856e4aaee004b216aa16db4"
+    },
+    {
+      "role": "затемнение под модалкой",
+      "variable": "black/l0-c0-h0-a50",
+      "hex": "#000000 50%",
+      "key": "526cccc11ef0974fe9530d8f021977b919b9bd7d"
+    },
+    {
+      "role": "светлые клетки доски",
+      "variable": "ch40/gold/l80-c40-h85",
+      "hex": "#CCBC9A",
+      "key": "311f2ae2ba70fd8ba464ba5b374b9649bed569a6"
+    },
+    {
+      "role": "тёмные клетки доски",
+      "variable": "ch40/gold/l60-c40-h85",
+      "hex": "#8A7F67",
+      "key": "ea2405535b1f355f3e89c885f4d5042930ae28db"
+    },
+    {
+      "role": "координаты на светлых клетках",
+      "variable": "ch40/gold/l40-c40-h85",
+      "hex": "#4E4739",
+      "key": "404f77e295a888a3af7c40164486ac14b0eaba08"
+    },
+    {
+      "role": "последний ход",
+      "variable": "accent/yellow l90-c100-h83-a40",
+      "hex": "#FFD88E 40%",
+      "key": "ef6f26b45ef697304b0debadfc39562c60ba46cb"
+    },
+    {
+      "role": "выбранная фигура",
+      "variable": "accent/yellow l90-c100-h83-a50",
+      "hex": "#FFD88E 50%",
+      "key": "0395aa38379aee8a564a9f4110369ddf85bd7016"
+    },
+    {
+      "role": "допустимый ход",
+      "variable": "black/l0-c0-h0-a20",
+      "hex": "#000000 20%",
+      "key": "8c187a52aca52caacc772753c25ea3bfe51da7dd"
+    },
+    {
+      "role": "фигуры: белые",
+      "variable": "white/l100-c0-h0",
+      "hex": "#FFFFFF",
+      "key": "03867d7a18c547050afbe31a052878bcb9ae4f20"
+    },
+    {
+      "role": "фигуры: чёрные",
+      "variable": "black/l0-c0-h0",
+      "hex": "#000000",
+      "key": "4dd000f918c4ebb59346abff9435fb916f0b1153"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "GAP-PAWN",
+      "type": "DESIGN_GAP",
+      "what": "Иконка валюты «пешки»",
+      "where": [
+        "шапка всех экранов",
+        "награды задач",
+        "кон партии",
+        "кнопка обновления задач"
+      ],
+      "temporary": "вектор 5:1110 в text & element/gold primary",
+      "owner": "владелец DS"
+    },
+    {
+      "id": "GAP-LEAGUE-EMBLEM",
+      "type": "DESIGN_GAP",
+      "what": "Эмблемы лиг (Начальная … Алмазная)",
+      "where": [
+        "04 · Лига"
+      ],
+      "temporary": "shield-crown на фоне violet a10",
+      "owner": "владелец DS"
+    },
+    {
+      "id": "GAP-NAV-ICONS",
+      "type": "DESIGN_GAP",
+      "what": "Иконки нижней навигации шахмат",
+      "where": [
+        "chess/BottomNav"
+      ],
+      "temporary": "stopwatch-start, check_circle_large_filled_S, shield-crown, user_circle",
+      "owner": "владелец DS"
+    },
+    {
+      "id": "GAP-CTA-SIZE",
+      "type": "DESIGN_GAP",
+      "what": "Залитая Button Gold/Colored есть только размера S (32 px)",
+      "where": [
+        "CTA «Играть», «Играть в турнире», «Ещё партия»"
+      ],
+      "decision": "Нужен размер ≥ 40 px для мобильного CTA или подтверждение S.",
+      "owner": "владелец DS"
+    },
+    {
+      "id": "GAP-TYPE-40",
+      "type": "DESIGN_GAP",
+      "what": "Alumni Sans Bold Italic 40 для итога партии",
+      "where": [
+        "05/06 · Результат партии"
+      ],
+      "decision": "В компонентах DS максимум 30; нужен шаг типографики или замена.",
+      "owner": "владелец DS"
+    },
+    {
+      "id": "GAP-DIFFICULTY",
+      "type": "DESIGN_GAP",
+      "what": "Маркер сложности задачи",
+      "where": [
+        "03 · Задачи"
+      ],
+      "temporary": "star_circle_filled_M ×3",
+      "owner": "владелец DS"
+    },
+    {
+      "id": "GAP-PIECES",
+      "type": "DESIGN_GAP",
+      "what": "Шахматные фигуры",
+      "where": [
+        "07 · Партия"
+      ],
+      "temporary": "набор cburnett (CC BY-SA 3.0), цвета на токенах",
+      "owner": "владелец DS"
+    },
+    {
+      "id": "GAP-BOARD",
+      "type": "DESIGN_GAP",
+      "what": "Доска и цвета клеток",
+      "where": [
+        "07 · Партия"
+      ],
+      "temporary": "chess/Board на токенах ch40/gold l80 / l60 — предложение",
+      "owner": "владелец DS"
+    },
+    {
+      "id": "GAP-GAME-ACTIONS",
+      "type": "DESIGN_GAP",
+      "what": "Иконки «сдаться», «ничья», стрелки ходов",
+      "where": [
+        "07 · Партия"
+      ],
+      "temporary": "текстовые Button Outline; стрелки — повёрнутая icon Button с chevron-down",
+      "owner": "владелец DS"
+    },
+    {
+      "id": "PG-FORMULAS",
+      "type": "PRODUCT_GAP",
+      "what": "Формулы кона, наград, влияния статов; X бесплатных задач и период N; число лиг и N понижения; ничья и списание ставки при поражении",
+      "owner": "владелец продукта"
+    },
+    {
+      "id": "PG-STATES",
+      "type": "PRODUCT_GAP",
+      "what": "Поиск соперника, отмена, загрузка, ошибки, пустые состояния, повышение/понижение лиги, решение задачи",
+      "owner": "владелец продукта"
+    },
+    {
+      "id": "PG-TIME-CONTROL",
+      "type": "PRODUCT_GAP",
+      "what": "Контроль времени обычной партии и рапида (минуты, добавка), правила ничьей и сдачи",
+      "owner": "владелец продукта"
+    }
+  ]
+}

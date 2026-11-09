@@ -1,0 +1,355 @@
+{
+  "sourceBoard": "101:28914",
+  "targetBoard": "184:53133",
+  "sourceScreens": 30,
+  "targetScreens": 30,
+  "matchedScreens": 30,
+  "matchedNodes": 15019,
+  "equalNodes": 14187,
+  "changedNodes": 832,
+  "groups": [
+    {
+      "name": "Vector",
+      "property": "fills",
+      "count": 145,
+      "example": {
+        "source": "I102:29304;332:64518",
+        "target": "I184:53461;332:64518",
+        "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Mobile Navigation / Shop active/Button/Bold Text/Poker Library / Poker coin icon / Home/Exclude/Vector",
+        "from": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.7333,\"g\":0.549,\"b\":1}}]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.62,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.8,\"g\":0.7373,\"b\":0.6039}}]"
+      }
+    },
+    {
+      "name": "Purchase bar",
+      "property": "visible",
+      "count": 108,
+      "example": {
+        "source": "105:29529",
+        "target": "184:53560",
+        "path": "Astra 2 / 01 / Пополнение · фишки / source 9825:57047/Shop content / Vertical scroll/Chip offer / 100/Purchase bar",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "Cost",
+      "property": "visible",
+      "count": 108,
+      "example": {
+        "source": "105:29530",
+        "target": "184:53561",
+        "path": "Astra 2 / 01 / Пополнение · фишки / source 9825:57047/Shop content / Vertical scroll/Chip offer / 100/Cost",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "price shop",
+      "property": "y",
+      "count": 77,
+      "example": {
+        "source": "103:31379",
+        "target": "184:53218",
+        "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Ряд товаров/астра / Товар / source 9825:54383/price/price shop",
+        "from": 32,
+        "to": 38
+      }
+    },
+    {
+      "name": "price shop",
+      "property": "height",
+      "count": 77,
+      "example": {
+        "source": "103:31379",
+        "target": "184:53218",
+        "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Ряд товаров/астра / Товар / source 9825:54383/price/price shop",
+        "from": 90,
+        "to": 92
+      }
+    },
+    {
+      "name": "Exclude",
+      "property": "fills",
+      "count": 58,
+      "example": {
+        "source": "I102:29304;332:66088",
+        "target": "I184:53461;332:66088",
+        "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Mobile Navigation / Shop active/Button/Bold Text/Poker Library / Poker coin icon / Home/Exclude",
+        "from": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.7333,\"g\":0.549,\"b\":1}}]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.62,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.8,\"g\":0.7373,\"b\":0.6039}}]"
+      }
+    },
+    {
+      "name": "Button",
+      "property": "y",
+      "count": 32,
+      "example": {
+        "source": "107:38389",
+        "target": "184:53722",
+        "path": "Astra 2 / 03 / Аватары · каталог / source 9825:56201/Shop content / Vertical scroll/астра / Полный каталог/астра / Ряд товаров/астра / Товар / source 9825:56458/price/Button",
+        "from": 32,
+        "to": 38
+      }
+    },
+    {
+      "name": "Главная",
+      "property": "fills",
+      "count": 30,
+      "example": {
+        "source": "102:29306",
+        "target": "184:53463",
+        "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Mobile Navigation / Shop active/Button/Text/Главная",
+        "from": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.7333,\"g\":0.549,\"b\":1}}]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.62,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.8,\"g\":0.7373,\"b\":0.6039}}]"
+      }
+    },
+    {
+      "name": "Rectangle 111001883",
+      "property": "fills",
+      "count": 29,
+      "example": {
+        "source": "I102:29304;332:63738",
+        "target": "I184:53461;332:63738",
+        "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Mobile Navigation / Shop active/Button/Bold Text/Poker Library / Poker coin icon / Home/Mask group/Rectangle 111001883",
+        "from": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.7333,\"g\":0.549,\"b\":1}}]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.62,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.8,\"g\":0.7373,\"b\":0.6039}}]"
+      }
+    },
+    {
+      "name": "Rectangle 111001885",
+      "property": "fills",
+      "count": 29,
+      "example": {
+        "source": "I102:29304;332:63741",
+        "target": "I184:53461;332:63741",
+        "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Mobile Navigation / Shop active/Button/Bold Text/Poker Library / Poker coin icon / Home/Mask group/Rectangle 111001885",
+        "from": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.7333,\"g\":0.549,\"b\":1}}]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.62,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.8,\"g\":0.7373,\"b\":0.6039}}]"
+      }
+    },
+    {
+      "name": "Rectangle 111001884",
+      "property": "fills",
+      "count": 29,
+      "example": {
+        "source": "I102:29304;332:63739",
+        "target": "I184:53461;332:63739",
+        "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Mobile Navigation / Shop active/Button/Bold Text/Poker Library / Poker coin icon / Home/Mask group/Rectangle 111001884",
+        "from": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.7333,\"g\":0.549,\"b\":1}}]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.62,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.8,\"g\":0.7373,\"b\":0.6039}}]"
+      }
+    },
+    {
+      "name": "Rectangle",
+      "property": "y",
+      "count": 20,
+      "example": {
+        "source": "106:37357",
+        "target": "184:57114",
+        "path": "Astra 2 / 21 / Обмен · исходное состояние / source 9967:38400/Exchange mobile / 9967:38400/Rectangle",
+        "from": 340,
+        "to": 424
+      }
+    },
+    {
+      "name": "Cost",
+      "property": "characters",
+      "count": 18,
+      "example": {
+        "source": "105:29555",
+        "target": "184:53586",
+        "path": "Astra 2 / 01 / Пополнение · фишки / source 9825:57047/Shop content / Vertical scroll/Chip offer / 3 500/Cost",
+        "from": "БАНК",
+        "to": "100 голосов"
+      }
+    },
+    {
+      "name": "currency illustration",
+      "property": "y",
+      "count": 10,
+      "example": {
+        "source": "106:37350",
+        "target": "184:57107",
+        "path": "Astra 2 / 21 / Обмен · исходное состояние / source 9967:38400/Exchange mobile / 9967:38400/currency illustration",
+        "from": 294,
+        "to": 378
+      }
+    },
+    {
+      "name": "МИН. 50 100 300 500 1К МАКС.",
+      "property": "visible",
+      "count": 10,
+      "example": {
+        "source": "106:37354",
+        "target": "184:57111",
+        "path": "Astra 2 / 21 / Обмен · исходное состояние / source 9967:38400/Exchange mobile / 9967:38400/МИН. 50 100 300 500 1К МАКС.",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "↓",
+      "property": "y",
+      "count": 10,
+      "example": {
+        "source": "106:37355",
+        "target": "184:57112",
+        "path": "Astra 2 / 21 / Обмен · исходное состояние / source 9967:38400/Exchange mobile / 9967:38400/↓",
+        "from": 278,
+        "to": 362
+      }
+    },
+    {
+      "name": "Зачисление",
+      "property": "y",
+      "count": 10,
+      "example": {
+        "source": "106:37356",
+        "target": "184:57113",
+        "path": "Astra 2 / 21 / Обмен · исходное состояние / source 9967:38400/Exchange mobile / 9967:38400/Зачисление",
+        "from": 316,
+        "to": 400
+      }
+    },
+    {
+      "name": "ОБМЕНЯТЬ",
+      "property": "y",
+      "count": 10,
+      "example": {
+        "source": "106:37360",
+        "target": "184:57117",
+        "path": "Astra 2 / 21 / Обмен · исходное состояние / source 9967:38400/Exchange mobile / 9967:38400/ОБМЕНЯТЬ",
+        "from": 445,
+        "to": 529
+      }
+    }
+  ],
+  "missing": [
+    {
+      "source": "I106:32030;629:99214",
+      "targetParent": "184:55667",
+      "name": "add_circle_outline_M",
+      "path": "Astra 2 / 10 / Загрузка магазина / source 13402:120283/астра / Header/Header / Balance/Text/астра / Пополнить"
+    },
+    {
+      "source": "I106:32034;629:99214",
+      "targetParent": "184:55671",
+      "name": "add_circle_outline_M",
+      "path": "Astra 2 / 10 / Загрузка магазина / source 13402:120283/астра / Header/Header / Balance/Text/астра / Пополнить"
+    },
+    {
+      "source": "I106:32037;2755:62038",
+      "targetParent": "184:55674",
+      "name": "bug_filled_M",
+      "path": "Astra 2 / 10 / Загрузка магазина / source 13402:120283/астра / Header/Header / Desktop technical controls/астра / Touch target / Desktop control / Bug/Desktop control / Bug"
+    },
+    {
+      "source": "I106:32039;2755:62038",
+      "targetParent": "184:55676",
+      "name": "settings_filled_M",
+      "path": "Astra 2 / 10 / Загрузка магазина / source 13402:120283/астра / Header/Header / Desktop technical controls/астра / Touch target / Desktop control / Settings/Desktop control / Settings"
+    },
+    {
+      "source": "I106:32041;2755:62038",
+      "targetParent": "184:55678",
+      "name": "notification_filled_M",
+      "path": "Astra 2 / 10 / Загрузка магазина / source 13402:120283/астра / Header/Header / Desktop technical controls/астра / Touch target / Desktop control / Notifications/Desktop control / Notifications"
+    },
+    {
+      "source": "I106:32043;2755:62038",
+      "targetParent": "184:55680",
+      "name": "volume_filled_M",
+      "path": "Astra 2 / 10 / Загрузка магазина / source 13402:120283/астра / Header/Header / Desktop technical controls/астра / Touch target / Desktop control / Sound/Desktop control / Sound"
+    },
+    {
+      "source": "I106:32045;2755:62038",
+      "targetParent": "184:55682",
+      "name": "music_note_filled_M",
+      "path": "Astra 2 / 10 / Загрузка магазина / source 13402:120283/астра / Header/Header / Desktop technical controls/астра / Touch target / Desktop control / Music/Desktop control / Music"
+    },
+    {
+      "source": "I106:31933;1781:133179",
+      "targetParent": "184:55717",
+      "name": "bg",
+      "path": "Astra 2 / 10 / Загрузка магазина / source 13402:120283/Shop content / Vertical scroll/Gift / Королевский Блеск/Poker Library / Gift cell"
+    },
+    {
+      "source": "I106:31933;1433:224903",
+      "targetParent": "184:55717",
+      "name": "Gift",
+      "path": "Astra 2 / 10 / Загрузка магазина / source 13402:120283/Shop content / Vertical scroll/Gift / Королевский Блеск/Poker Library / Gift cell"
+    },
+    {
+      "source": "I106:31933;693:71981",
+      "targetParent": "184:55717",
+      "name": "price label",
+      "path": "Astra 2 / 10 / Загрузка магазина / source 13402:120283/Shop content / Vertical scroll/Gift / Королевский Блеск/Poker Library / Gift cell"
+    }
+  ],
+  "added": [
+    {
+      "target": "195:67951",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / Все",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    },
+    {
+      "target": "195:67958",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / Вещи",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    },
+    {
+      "target": "195:67964",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / Ювелир",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    },
+    {
+      "target": "195:67969",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / Романтика",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    },
+    {
+      "target": "195:67974",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / Питомцы",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    },
+    {
+      "target": "195:67979",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / Еда",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    },
+    {
+      "target": "195:67984",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / VIP",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    },
+    {
+      "target": "195:67989",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / Игрушки",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    },
+    {
+      "target": "195:67994",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / Напитки",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    },
+    {
+      "target": "195:67999",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / Знаки зодиака",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    }
+  ],
+  "totalGroups": 55,
+  "totalMissing": 88,
+  "totalAdded": 188
+}

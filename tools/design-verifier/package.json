@@ -1,0 +1,14 @@
+{
+  "name": "game-design-verifier",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node verifier/server.mjs",
+    "start:poker": "node cli.mjs serve poker",
+    "start:chess": "node cli.mjs serve chess",
+    "context:chess": "node cli.mjs context chess",
+    "check:chess": "node cli.mjs preflight chess",
+    "test": "node --test test/*.test.mjs verifier/test/*.test.mjs"
+  }
+}

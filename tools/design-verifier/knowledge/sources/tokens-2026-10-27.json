@@ -1,0 +1,77 @@
+{
+  "schema": "verifier-figma-inventory/1",
+  "capturedAt": "2026-10-27 08:52:16 UTC",
+  "origin": "figma-mcp-readonly",
+  "result": {
+    "pageId": "391:21239",
+    "paintStyles": [
+      {
+        "id": "S:fd553ddf3db63ee897b6672b65b0763387485e8a,",
+        "key": "fd553ddf3db63ee897b6672b65b0763387485e8a",
+        "name": "separator pimary"
+      },
+      {
+        "id": "S:1d4e347a9e32cb26b0c0bee9b7fccad89e405074,",
+        "key": "1d4e347a9e32cb26b0c0bee9b7fccad89e405074",
+        "name": "Border gradient"
+      },
+      {
+        "id": "S:135fb019f0f1e58d56e085bfb18fe2a385dcdc55,",
+        "key": "135fb019f0f1e58d56e085bfb18fe2a385dcdc55",
+        "name": "Gold gradient 70"
+      },
+      {
+        "id": "S:dc1af1633633baf5c77c669decaa0aa6758c577b,",
+        "key": "dc1af1633633baf5c77c669decaa0aa6758c577b",
+        "name": "Gold gradient 100"
+      },
+      {
+        "id": "S:5b47ffc584cfea7b6c6f11bd8ca942469edc6d27,",
+        "key": "5b47ffc584cfea7b6c6f11bd8ca942469edc6d27",
+        "name": "Button border"
+      },
+      {
+        "id": "S:53578a216aa0f9f241ace2b99e1e8f52297a1636,",
+        "key": "53578a216aa0f9f241ace2b99e1e8f52297a1636",
+        "name": "Button fill"
+      },
+      {
+        "id": "S:d71a8c0bd9cf944e31effbe9dabdcad968364547,",
+        "key": "d71a8c0bd9cf944e31effbe9dabdcad968364547",
+        "name": "Button red fill"
+      },
+      {
+        "id": "S:fe39f360a3fabccb651a2979819d48ae498e0a78,",
+        "key": "fe39f360a3fabccb651a2979819d48ae498e0a78",
+        "name": "Button winline fill"
+      },
+      {
+        "id": "S:8711ba7d839104c36e8c9fa2d1e09e1b0c7f154e,",
+        "key": "8711ba7d839104c36e8c9fa2d1e09e1b0c7f154e",
+        "name": "separator secondary"
+      },
+      {
+        "id": "S:c37ff9ecb82ac9cd296bf2ee919f3d56ce7a263d,",
+        "key": "c37ff9ecb82ac9cd296bf2ee919f3d56ce7a263d",
+        "name": "Button violet fill"
+      }
+    ],
+    "textStyles": [],
+    "effectStyles": [],
+    "variableCollections": [
+      {
+        "id": "VariableCollectionId:2616:38181",
+        "key": "8558fd2fcb154c090a0830ea8788d5546c6cb9a1",
+        "name": "Color",
+        "modes": [
+          {
+            "name": "Mode 1",
+            "modeId": "2616:0"
+          }
+        ],
+        "variableCount": 696
+      }
+    ],
+    "scope": "Local style and variable collection inventory; bindings and mobile patterns not audited."
+  }
+}

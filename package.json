@@ -1,0 +1,12 @@
+{
+  "name": "vkchess-design",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/verifier.mjs serve",
+    "context": "node scripts/verifier.mjs context",
+    "preflight": "node scripts/verifier.mjs preflight",
+    "history": "node scripts/verifier.mjs history"
+  },
+  "engines": { "node": ">=20" }
+}

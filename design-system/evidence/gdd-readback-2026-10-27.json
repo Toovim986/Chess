@@ -1,0 +1,900 @@
+{
+  "schema": "vkchess-gdd-readback/1",
+  "observedDuring": "2026-10-27",
+  "origin": "google-drive-connector",
+  "documentId": "13PcZ5cpqjyRrojoIIVhKse6igOlLrGs6IpZnLpEHK-Q",
+  "title": "VKChess: идеи меты",
+  "revisionId": "AHj4eMQQAtjPT0cmNmb0RBAh7FOi5a5gPzjWjLvoYnaPqA-n8Jo5tcKjTj-xmfxBTmmuXuYyJ-fO1_PqIQ326AAg5t-uFA_7WGMWndEPV0JG",
+  "tabId": "t.0",
+  "paragraphs": [
+    {
+      "text": "Можно стартануть с любым числом доп механик, основной якорной является профиль со статами и уровнем.",
+      "startIndex": 1,
+      "endIndex": 101,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Все механики можно сделать взаимодействующими друг с другом, для увеличения глубины меты.",
+      "startIndex": 103,
+      "endIndex": 192,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Все механики ложатся на будущую социализацию и опосредованное (не связанное с шахматами) пвп/кланы.",
+      "startIndex": 194,
+      "endIndex": 293,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Профиль",
+      "startIndex": 294,
+      "endIndex": 301,
+      "tabId": "t.0",
+      "namedStyleType": "HEADING_2",
+      "isListItem": false
+    },
+    {
+      "text": "Каждому игроку создаем профиль:",
+      "startIndex": 302,
+      "endIndex": 333,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Текущий уровень",
+      "startIndex": 334,
+      "endIndex": 349,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Аватар + рамка аватара (хардкодим для каждого уровня, чисто визуальный прогресс, переиспользуем с покера)",
+      "startIndex": 350,
+      "endIndex": 455,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Текущий exp/exp до следующего уровня",
+      "startIndex": 456,
+      "endIndex": 492,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Статы:",
+      "startIndex": 493,
+      "endIndex": 499,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "тактика",
+      "startIndex": 500,
+      "endIndex": 507,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "расчет",
+      "startIndex": 508,
+      "endIndex": 514,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "стратегия",
+      "startIndex": 515,
+      "endIndex": 524,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "удача/интуиция",
+      "startIndex": 525,
+      "endIndex": 539,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "\tОснова профиля видна другим игрокам.",
+      "startIndex": 543,
+      "endIndex": 580,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Игрок получает exp с различных действий в игре. Когда игрок получает достаточно exp для следующего уровня, он получает 5 очков которые может распределить в любые статы по желанию.",
+      "startIndex": 582,
+      "endIndex": 761,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Валюты",
+      "startIndex": 762,
+      "endIndex": 768,
+      "tabId": "t.0",
+      "namedStyleType": "HEADING_2",
+      "isListItem": false
+    },
+    {
+      "text": "exp - влияют только на рост уровня",
+      "startIndex": 769,
+      "endIndex": 803,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "пешки ",
+      "startIndex": 804,
+      "endIndex": 810,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "можно выкупать элементы в механиках (день в календаре)",
+      "startIndex": 811,
+      "endIndex": 865,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "можно покупать/обновлять задачи ",
+      "startIndex": 866,
+      "endIndex": 898,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "можно покупать exp",
+      "startIndex": 899,
+      "endIndex": 917,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "в дальнейшем прикрутим ко всем новым механикам",
+      "startIndex": 918,
+      "endIndex": 964,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Основная игра",
+      "startIndex": 965,
+      "endIndex": 978,
+      "tabId": "t.0",
+      "namedStyleType": "HEADING_2",
+      "isListItem": false
+    },
+    {
+      "text": "\tДва режима, обычный и рапид. Логика меты для них примерно одинаковая.",
+      "startIndex": 979,
+      "endIndex": 1049,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "\tВ начале игры по какому-то алгоритму генерируем сумму “пешек” (валюта игры) которая на кону.",
+      "startIndex": 1051,
+      "endIndex": 1144,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "\tТот, кто выиграл получает больше exp, получает кон из “пешек”.",
+      "startIndex": 1145,
+      "endIndex": 1208,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "\tТот, кто проиграл, получает немного exp.",
+      "startIndex": 1209,
+      "endIndex": 1250,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "\tКак влияют статы (какие именно на что влияют решить потом):",
+      "startIndex": 1252,
+      "endIndex": 1312,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Могут гарантировать фиксированный выигрыш",
+      "startIndex": 1313,
+      "endIndex": 1354,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Могут увеличить размер выигрыша на %%",
+      "startIndex": 1355,
+      "endIndex": 1392,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "… и так далее",
+      "startIndex": 1393,
+      "endIndex": 1406,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Удача может увеличить выигрыш случайным образом",
+      "startIndex": 1407,
+      "endIndex": 1454,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Первые 10 игр в день несут увеличенный объем exp и выигрыша (для стимуляции игры)",
+      "startIndex": 1456,
+      "endIndex": 1537,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Режим задач",
+      "startIndex": 1538,
+      "endIndex": 1549,
+      "tabId": "t.0",
+      "namedStyleType": "HEADING_2",
+      "isListItem": false
+    },
+    {
+      "text": "\tFreefloat игра.",
+      "startIndex": 1550,
+      "endIndex": 1566,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "\tИгроку дается X бесплатных задач. Они ресетаются раз в N часов.",
+      "startIndex": 1567,
+      "endIndex": 1631,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "\tЗаплатив “пешками” можно обновить и пополнить все задачи.",
+      "startIndex": 1632,
+      "endIndex": 1690,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "\tКаждая задача имеет маркер одного или более статов. Если соответствующий стат прокачан выше у игрока - больше награда (пешки, exp).",
+      "startIndex": 1692,
+      "endIndex": 1824,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "\tКаждая задача имеет маркер сложности, чем выше - тем больше награда. Можем разнести по вкладкам, можем генерить в одну кучу.",
+      "startIndex": 1826,
+      "endIndex": 1951,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "\tИмеет отдельный прогресс-бар, который заполняется при решении задач.",
+      "startIndex": 1953,
+      "endIndex": 2022,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Каждый раз при заполнении до конца, игрок получает бонусы, после чего прогресс-бар сбрасывается и начинает расти заново.",
+      "startIndex": 2023,
+      "endIndex": 2143,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "\t",
+      "startIndex": 2144,
+      "endIndex": 2145,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Турнирная/Рейтинговая игра",
+      "startIndex": 2147,
+      "endIndex": 2173,
+      "tabId": "t.0",
+      "namedStyleType": "HEADING_2",
+      "isListItem": false
+    },
+    {
+      "text": "Максимальна мягкая к нерегулярной игре, при том вовлекающая систему, которая дает ощущение вознаграждения",
+      "startIndex": 2174,
+      "endIndex": 2279,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Скрытый match-making rating (MMR) - считаем по glicko-2, используется для оптимального подбора противника.",
+      "startIndex": 2281,
+      "endIndex": 2387,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Вводятся лиги, как пример: Начальная, Бронза III, Бронза II, Бронза I, Серебро III, Серебро II… Платина I, Алмазная (их количество определим позднее). Игрок начинает с Начальной лиги.",
+      "startIndex": 2389,
+      "endIndex": 2572,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Период лиги: 7 дней (скорее всего такой, но можем подбрать другое значение), период в который происходит перерасчет лиг.",
+      "startIndex": 2574,
+      "endIndex": 2694,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Игроки внутри лиги делятся на небольшие дивизионы по 10-15 человек. Игрок видит только игроков из своего дивизиона. Недостающих игроков добиваем фейками-ботами.",
+      "startIndex": 2696,
+      "endIndex": 2856,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Пока длится период лиги, игрок входя в Турнир, играет с игроками из любого дивизиона своей лиги. Подбор соперника делается с минимальным расхождением Glicko-2 (который считается, можем показывать игроку его, можем не показывать), при этом исключаем повторение противников.",
+      "startIndex": 2858,
+      "endIndex": 3130,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "За каждую игру игрок получает Турнирные очки (ТО) - сколько-то за выигрыш, сколько-то за проигрыш.",
+      "startIndex": 3132,
+      "endIndex": 3230,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Первая игра дня дает бонусные очки (First Win of The Day).",
+      "startIndex": 3231,
+      "endIndex": 3289,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Победы подряд дают бонусные очки (Streak Winner).",
+      "startIndex": 3290,
+      "endIndex": 3339,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Учет MMR (Glicko-2)",
+      "startIndex": 3340,
+      "endIndex": 3359,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "За победу над игроком с более высоким MMR даются бонусные очки",
+      "startIndex": 3360,
+      "endIndex": 3422,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "За победу над примерно равным игроком нет бонусов и штрафов",
+      "startIndex": 3423,
+      "endIndex": 3482,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "За победу над более слабым MMR дается небольшой штраф к результирующим очкам (уравнивание скорости прогресса)",
+      "startIndex": 3483,
+      "endIndex": 3592,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Игрок видит, сколько очков у игроков из его дивизиона. Когда кончается период лиги, происходит расчет изменения статусов:",
+      "startIndex": 3594,
+      "endIndex": 3715,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Топ-3 игрока по очкам в дивизионе переходят в следующую лигу.",
+      "startIndex": 3717,
+      "endIndex": 3778,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Нижние N (зависит от размера дивизиона, это 3-4 человека для дивизионов 15 человек) переходят в лигу ниже, остальные остаются в той же лиге.",
+      "startIndex": 3779,
+      "endIndex": 3919,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Дивизионы в лигах пересобираются заново (случайным образом) с учетом изменения лиг игроков. ",
+      "startIndex": 3920,
+      "endIndex": 4012,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Очки в дивизионах сбрасываются для всех.",
+      "startIndex": 4013,
+      "endIndex": 4053,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "При переходе в лигу качеством выше (например, из Бронзы I в Серебро III), игрок фиксирует лигу - он не может упасть ниже (вернуться в Бронзу).",
+      "startIndex": 4055,
+      "endIndex": 4197,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Из первой лиги (Новички) нельзя никуда упасть.",
+      "startIndex": 4198,
+      "endIndex": 4244,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Особенная лига - топовая (Алмазная). Это лига Царь Горы, в которой играют топовые игроки:",
+      "startIndex": 4246,
+      "endIndex": 4335,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "В ней нет защиты от падения в предыдущую лигу (Платина). ",
+      "startIndex": 4336,
+      "endIndex": 4393,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "В ней один дивизион, единый для всех игроков, которые в нее попали. Это будет большой дивизион, например 100 человек.",
+      "startIndex": 4394,
+      "endIndex": 4511,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "В конце периода из нее вылетают обратно в предыдущую лигу (Платина) нижние N человек (зависит от числа дивизионов в предыдущей лиге) и замещаются на топ-игроков предыдущей лиги (Платина)",
+      "startIndex": 4512,
+      "endIndex": 4698,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "В результате наверху всегда остаются самые лучшие игроки, из которых можно всегда взять победителей сезона.",
+      "startIndex": 4700,
+      "endIndex": 4807,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Получаем систему:",
+      "startIndex": 4809,
+      "endIndex": 4826,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "игрок всегда заинтересован сыграть хотя бы один раз в день",
+      "startIndex": 4827,
+      "endIndex": 4885,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "игрок казуальный всегда получает ощущение прогресса и защиту от регресса",
+      "startIndex": 4886,
+      "endIndex": 4958,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "игрок всегда видит свой статус (который только растет)",
+      "startIndex": 4959,
+      "endIndex": 5013,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "игрок не сражается со всем сервером, а видит конкретных игроков и цель",
+      "startIndex": 5014,
+      "endIndex": 5084,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "не привязаны к турнирной сетке и времени проведения турниров",
+      "startIndex": 5085,
+      "endIndex": 5145,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "игрок топовый получает место для борьбы",
+      "startIndex": 5146,
+      "endIndex": 5185,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "имеем возможность регулярно запускать новые сезоны, с наградами и определением топовых игроков, при этом будет нормально восприниматься.",
+      "startIndex": 5186,
+      "endIndex": 5322,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Расходники",
+      "startIndex": 5324,
+      "endIndex": 5334,
+      "tabId": "t.0",
+      "namedStyleType": "HEADING_2",
+      "isListItem": false
+    },
+    {
+      "text": "\tНа рассмотрение:",
+      "startIndex": 5335,
+      "endIndex": 5352,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "ап случайного стата",
+      "startIndex": 5353,
+      "endIndex": 5372,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "токен на сброс задач",
+      "startIndex": 5373,
+      "endIndex": 5393,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "токен на получение exp",
+      "startIndex": 5394,
+      "endIndex": 5416,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "ап конкретного стата",
+      "startIndex": 5417,
+      "endIndex": 5437,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "расходники для механик",
+      "startIndex": 5438,
+      "endIndex": 5460,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "разлочка дня в календаре",
+      "startIndex": 5461,
+      "endIndex": 5485,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "ресурсы для “территории”",
+      "startIndex": 5486,
+      "endIndex": 5510,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "ап для “талантов”",
+      "startIndex": 5511,
+      "endIndex": 5528,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Календарь",
+      "startIndex": 5529,
+      "endIndex": 5538,
+      "tabId": "t.0",
+      "namedStyleType": "HEADING_2",
+      "isListItem": false
+    },
+    {
+      "text": "Заводится календарь на каждый день",
+      "startIndex": 5539,
+      "endIndex": 5573,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "На каждый день заведено несколько задач. ",
+      "startIndex": 5580,
+      "endIndex": 5621,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Игроку доступны только задачи этого дня",
+      "startIndex": 5622,
+      "endIndex": 5661,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Если игрок решает их - день помечается, игрок получает звездочку",
+      "startIndex": 5662,
+      "endIndex": 5726,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "выводится рейтинг по звездочкам за неделю",
+      "startIndex": 5727,
+      "endIndex": 5768,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "выводится рейтинг по звездочкам за месяц",
+      "startIndex": 5769,
+      "endIndex": 5809,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "по результатам рейтингов игрокам выплачивается бонус exp",
+      "startIndex": 5810,
+      "endIndex": 5866,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Если игрок пропустил или хочет переиграть день из прошлого, то может разлочить этот день (за валюту)",
+      "startIndex": 5867,
+      "endIndex": 5967,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Параллельно показывается прогресс за последние 7 дней (скользящее окно), в виде слайдера на плашке “Идеально”",
+      "startIndex": 5968,
+      "endIndex": 6077,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "положение слайдера зависит от процента от всех задач решенных за период",
+      "startIndex": 6078,
+      "endIndex": 6149,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "на следующий день игроку начисляется exp, в зависимости от положения слайдера",
+      "startIndex": 6150,
+      "endIndex": 6227,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": true
+    },
+    {
+      "text": "Территория",
+      "startIndex": 6228,
+      "endIndex": 6238,
+      "tabId": "t.0",
+      "namedStyleType": "HEADING_2",
+      "isListItem": false
+    },
+    {
+      "text": "\tЕсть карта, в центре которой стоит башня игрока. Территория вокруг нарезана на небольшие кусочки. У игрока есть несколько вариантов, какие территории он может атаковать ",
+      "startIndex": 6241,
+      "endIndex": 6411,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Игрок, получая бонусы, может получить расходники. Набрав нужное число для конкретной территории расходников он разлочивает территорию (присоединяет к себе).",
+      "startIndex": 6412,
+      "endIndex": 6568,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "От разлоченных территорий зависит размер ежедневных бонусов, также получает единоразовые бонусы.",
+      "startIndex": 6569,
+      "endIndex": 6665,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "На некоторых территориях находятся особые маркеры, на которых написано какой бонус они дают. Разлочив такую территорию игрок получает гарантированный большой бонус (плюс к стату, плюс ко всем статам и так далее).",
+      "startIndex": 6666,
+      "endIndex": 6878,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "От статов зависит: сколько территорий может захватить игрок, сколько территорий он может атаковать (по сути размер выбора какую территорию захватить дальше), сколько бонусов он получает с территории и тому подобное.",
+      "startIndex": 6880,
+      "endIndex": 7095,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Это “разминочная” механика перед кланами, где реализуется глобальная карта похожая с войной за территории.",
+      "startIndex": 7097,
+      "endIndex": 7203,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "Дерево талантов",
+      "startIndex": 7204,
+      "endIndex": 7219,
+      "tabId": "t.0",
+      "namedStyleType": "HEADING_2",
+      "isListItem": false
+    },
+    {
+      "text": "\tЕще одна идея механики.",
+      "startIndex": 7222,
+      "endIndex": 7246,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "\tУ игрока есть огромное дерево талантов. Каждый талант дает какой-то бонус (плюс к статам, плюс к бонусу после игры, ежедневный бонус, и т. д.)",
+      "startIndex": 7247,
+      "endIndex": 7390,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "\tПолучив уровень, игрок получает очко таланта, которое может потратить на разлочку следующего таланта.",
+      "startIndex": 7391,
+      "endIndex": 7493,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "\tОчки талантов можно давать дополнительные за определенный уровень стата, как награду, продавать.",
+      "startIndex": 7494,
+      "endIndex": 7591,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    },
+    {
+      "text": "\tТаланты можно связать с любыми механиками.",
+      "startIndex": 7593,
+      "endIndex": 7636,
+      "tabId": "t.0",
+      "namedStyleType": "NORMAL_TEXT",
+      "isListItem": false
+    }
+  ],
+  "document_url": "https://docs.google.com/document/d/13PcZ5cpqjyRrojoIIVhKse6igOlLrGs6IpZnLpEHK-Q"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "Installed package tests, shared DS source configuration and historical search only; not Chess design approval",
+  "nodeTests": 25,
+  "pythonTests": 17,
+  "archivedAudits": 33,
+  "activeRules": 7,
+  "lessons": 5,
+  "chessPreflight": "INCOMPLETE",
+  "gaps": [
+    "productContract",
+    "compositionContract",
+    "destination",
+    "viewportPolicy"
+  ],
+  "historicalSearchResults": 30
+}

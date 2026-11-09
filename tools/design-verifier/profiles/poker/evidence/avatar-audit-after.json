@@ -1,0 +1,445 @@
+{
+  "checked": 86,
+  "failed": 35,
+  "checks": [
+    {
+      "target": "184:77785",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:77787",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:77789",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:77794",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:77797",
+      "differences": 3,
+      "maxDelta": 2.25059063553185
+    },
+    {
+      "target": "184:77799",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:77801",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:77803",
+      "differences": 7,
+      "maxDelta": 1.8528261574918368
+    },
+    {
+      "target": "184:77806",
+      "differences": 7,
+      "maxDelta": 1.8528261574918368
+    },
+    {
+      "target": "184:77808",
+      "differences": 7,
+      "maxDelta": 1.8528261574918368
+    },
+    {
+      "target": "184:77810",
+      "differences": 7,
+      "maxDelta": 1.8528261574918368
+    },
+    {
+      "target": "184:77812",
+      "differences": 7,
+      "maxDelta": 1.8528261574918368
+    },
+    {
+      "target": "184:77815",
+      "differences": 7,
+      "maxDelta": 1.8528261574918368
+    },
+    {
+      "target": "184:77817",
+      "differences": 7,
+      "maxDelta": 1.8528261574918368
+    },
+    {
+      "target": "184:77819",
+      "differences": 10,
+      "maxDelta": 2.9184064221271306
+    },
+    {
+      "target": "184:77825",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:77830",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:77835",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:77840",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "219:38057",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:77927",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:77929",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:77934",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:77937",
+      "differences": 3,
+      "maxDelta": 2.25059063553185
+    },
+    {
+      "target": "184:77939",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:77941",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:77943",
+      "differences": 7,
+      "maxDelta": 1.8528261574918368
+    },
+    {
+      "target": "184:77946",
+      "differences": 7,
+      "maxDelta": 1.8528261574918368
+    },
+    {
+      "target": "184:77948",
+      "differences": 7,
+      "maxDelta": 1.8528261574918368
+    },
+    {
+      "target": "184:77950",
+      "differences": 7,
+      "maxDelta": 1.8528261574918368
+    },
+    {
+      "target": "184:77952",
+      "differences": 10,
+      "maxDelta": 2.9184064221271306
+    },
+    {
+      "target": "184:77955",
+      "differences": 10,
+      "maxDelta": 2.9184064221271306
+    },
+    {
+      "target": "184:77957",
+      "differences": 10,
+      "maxDelta": 2.9184064221271306
+    },
+    {
+      "target": "184:77959",
+      "differences": 13,
+      "maxDelta": 3.983984779413788
+    },
+    {
+      "target": "184:77961",
+      "differences": 13,
+      "maxDelta": 3.983984779413788
+    },
+    {
+      "target": "184:77964",
+      "differences": 13,
+      "maxDelta": 3.983984779413788
+    },
+    {
+      "target": "184:77966",
+      "differences": 13,
+      "maxDelta": 3.983984779413788
+    },
+    {
+      "target": "184:77968",
+      "differences": 13,
+      "maxDelta": 3.983984779413788
+    },
+    {
+      "target": "184:77970",
+      "differences": 13,
+      "maxDelta": 3.983984779413788
+    },
+    {
+      "target": "184:77973",
+      "differences": 13,
+      "maxDelta": 3.983984779413788
+    },
+    {
+      "target": "184:77975",
+      "differences": 13,
+      "maxDelta": 3.983984779413788
+    },
+    {
+      "target": "184:77977",
+      "differences": 13,
+      "maxDelta": 3.983984779413788
+    },
+    {
+      "target": "184:77979",
+      "differences": 13,
+      "maxDelta": 3.983984779413788
+    },
+    {
+      "target": "184:78064",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78066",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78068",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78073",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78076",
+      "differences": 3,
+      "maxDelta": 2.25059063553185
+    },
+    {
+      "target": "184:78078",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78080",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78082",
+      "differences": 7,
+      "maxDelta": 1.8528261574918368
+    },
+    {
+      "target": "184:78085",
+      "differences": 7,
+      "maxDelta": 1.8528261574918368
+    },
+    {
+      "target": "184:78087",
+      "differences": 7,
+      "maxDelta": 1.8528261574918368
+    },
+    {
+      "target": "184:78089",
+      "differences": 7,
+      "maxDelta": 1.8528261574918368
+    },
+    {
+      "target": "184:78091",
+      "differences": 7,
+      "maxDelta": 1.8528261574918368
+    },
+    {
+      "target": "184:78098",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78103",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78108",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78113",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78198",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78200",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78202",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78207",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78210",
+      "differences": 3,
+      "maxDelta": 2.25059063553185
+    },
+    {
+      "target": "184:78212",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78214",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78216",
+      "differences": 7,
+      "maxDelta": 1.8528261574918368
+    },
+    {
+      "target": "184:78223",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78226",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78231",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78236",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78242",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78247",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78252",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78257",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78821",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78823",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78825",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78835",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78838",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78843",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78848",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78854",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78859",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78864",
+      "differences": 0,
+      "maxDelta": 0
+    },
+    {
+      "target": "184:78869",
+      "differences": 0,
+      "maxDelta": 0
+    }
+  ],
+  "positionRounding": "CENTER/MAX only: 0.5 * (1 + source-to-target scale) + 0.0001 px; all sizes 0.25 px",
+  "replacements": [
+    {
+      "old": "184:77925",
+      "id": "219:38057",
+      "w": 83.49998474121094,
+      "h": 83.49998474121094
+    }
+  ]
+}

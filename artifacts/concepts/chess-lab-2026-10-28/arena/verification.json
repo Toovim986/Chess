@@ -1,0 +1,92 @@
+{
+  "auditId": "audit-1793171527318-7f3607",
+  "parentAuditId": "audit-1793113544095-c990fe",
+  "title": "Коллекция 3 · Арена",
+  "reused": true,
+  "storageVerification": "PASS",
+  "designAuditStatus": "INCOMPLETE",
+  "manifestHash": "1fe651b081f0367dd8da2b4cec77e49edd3bacfa5f20bf676a38c41f460261df",
+  "screens": 13,
+  "filesVerified": 15,
+  "bytesChecked": 2698407,
+  "artifacts": [
+    {
+      "id": "screen-01",
+      "sha256": "ed73c4c15e4730c8b7f4a9d589e37726ae3c9fd2829c0500dc443c80f2baeb5d",
+      "bytes": 205259
+    },
+    {
+      "id": "screen-02",
+      "sha256": "53ea83fa4e720fb706ef20a989aae264f992d143c02b164fd5691873b31b5159",
+      "bytes": 211972
+    },
+    {
+      "id": "screen-03",
+      "sha256": "e4379e90de80b0f4af612368ef9f6b4506d4de7321dc810e860f2b6650c24369",
+      "bytes": 208343
+    },
+    {
+      "id": "screen-04",
+      "sha256": "089ab09e3a2152e1b821fa9d21fc2c3899a498f2edb13f365cf2985c09b93f0c",
+      "bytes": 218169
+    },
+    {
+      "id": "screen-05",
+      "sha256": "6378b314fd1866cccbe13a15840b232a287a19eff1a70ad95922f89a1b123a4d",
+      "bytes": 149371
+    },
+    {
+      "id": "screen-06",
+      "sha256": "6a2271c7fba210b26e127e00af958f74cb4f3144366c4166626f0494495a5dcd",
+      "bytes": 240616
+    },
+    {
+      "id": "screen-07",
+      "sha256": "f3726ad5668c83140e53d1afd591c6728b1ecd39d512c14dd055e8bbd6aaadb6",
+      "bytes": 158542
+    },
+    {
+      "id": "screen-08",
+      "sha256": "892a5de68fb6d4789d5739b7e4903c48cbd0bc40416828b286687eb7b37d902f",
+      "bytes": 212161
+    },
+    {
+      "id": "screen-09",
+      "sha256": "40c85a6f5d470fafb3c0ec36dae623f8f9dc4b0dfddfbe68a0e5e973d14254a7",
+      "bytes": 213496
+    },
+    {
+      "id": "screen-10",
+      "sha256": "11ea4fccd2611b3adc5498778c2bf605e84504e97c3ae2bd40b03c2005dbaf5a",
+      "bytes": 203621
+    },
+    {
+      "id": "screen-11",
+      "sha256": "775cdac4da763ad20a7189a7406e16b8a109b44449db658312fa0c33e29e8ccd",
+      "bytes": 193016
+    },
+    {
+      "id": "screen-12",
+      "sha256": "a65a6065360260210bf079a3850a28dcd0ff402c592965fa95488225b2536d83",
+      "bytes": 214249
+    },
+    {
+      "id": "screen-13",
+      "sha256": "0771c0c6ea01af0ff21b5cc8056f1bc19651210d3ffcb544f857b91cb286623b",
+      "bytes": 208074
+    },
+    {
+      "id": "review",
+      "sha256": "36f0ae8fd24637b56eca385e9212736434b6a5136e765f02f5ee03d91a7695d1",
+      "bytes": 7733
+    },
+    {
+      "id": "ds-audit",
+      "sha256": "8660c79bd03bf5ec1a1ff5b5f20e8e7518b90f5bc0daa89676d9dc0625a8fddf",
+      "bytes": 38394
+    }
+  ],
+  "verifiedAt": "2026-10-28T07:21:10.993Z",
+  "url": "http://127.0.0.1:43132/?audit=audit-1793171527318-7f3607",
+  "scope": "Проверены сохранённый манифест, SHA-256 и размеры всех файлов. Проверки дизайна не исполняются импортёром."
+}

@@ -1,0 +1,809 @@
+{
+  "schema": "vkchess-ds-evidence/1",
+  "fileKey": "XSrnXoAtfXrNMIH1mFPjGc",
+  "observedDuring": "2026-10-27",
+  "origin": "figma-mcp-read-only",
+  "scope": "Component inventory and sampled typography/bindings; not full DS approval or verification of PNG concepts.",
+  "data": {
+    "pageId": "5739:91239",
+    "pageName": "Avatars",
+    "components": [
+      {
+        "id": "753:84200",
+        "name": ".user/left/normal/true/false/true",
+        "type": "COMPONENT",
+        "key": "68fc12432b08b1f0622d5c69e257a73355f7324a",
+        "description": "",
+        "properties": {
+          "Hover controls#264:1": {
+            "type": "BOOLEAN",
+            "defaultValue": true
+          },
+          "Gift#265:1": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "Action#510:67": {
+            "type": "BOOLEAN",
+            "defaultValue": true
+          },
+          "Card two#510:74": {
+            "type": "BOOLEAN",
+            "defaultValue": true
+          },
+          "respect#1417:44": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          }
+        },
+        "variants": [
+          {
+            "id": "753:84200",
+            "key": "68fc12432b08b1f0622d5c69e257a73355f7324a",
+            "name": ".user/left/normal/true/false/true",
+            "properties": null,
+            "width": 200,
+            "height": 150,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": []
+      },
+      {
+        "id": "753:84246",
+        "name": ".user/right/normal/true/false/true",
+        "type": "COMPONENT",
+        "key": "471ddf7fdafbee84e48e79d56c694490449c0534",
+        "description": "",
+        "properties": {
+          "Hover controls#264:1": {
+            "type": "BOOLEAN",
+            "defaultValue": true
+          },
+          "Gift#265:1": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          },
+          "Action#510:67": {
+            "type": "BOOLEAN",
+            "defaultValue": true
+          },
+          "Card two#510:74": {
+            "type": "BOOLEAN",
+            "defaultValue": true
+          },
+          "respect#1417:45": {
+            "type": "BOOLEAN",
+            "defaultValue": false
+          }
+        },
+        "variants": [
+          {
+            "id": "753:84246",
+            "key": "471ddf7fdafbee84e48e79d56c694490449c0534",
+            "name": ".user/right/normal/true/false/true",
+            "properties": null,
+            "width": 200,
+            "height": 150,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": []
+      },
+      {
+        "id": "4340:70034",
+        "name": "user photo_02",
+        "type": "COMPONENT_SET",
+        "key": "6c9d2d00662b860ee66c1a8a5f125a064b701a3a",
+        "description": "",
+        "properties": {
+          "Property 1": {
+            "type": "VARIANT",
+            "defaultValue": "Gemini_Generated_Image_6ngetd6ngetd6nge 1",
+            "variantOptions": [
+              "Gemini_Generated_Image_11wt8311wt8311wt 1",
+              "Gemini_Generated_Image_6ngetd6ngetd6nge 1",
+              "Gemini_Generated_Image_8ocnoy8ocnoy8ocn 1",
+              "Gemini_Generated_Image_aex83xaex83xaex8 1",
+              "Gemini_Generated_Image_aitsp2aitsp2aits 1",
+              "Gemini_Generated_Image_cgoy08cgoy08cgoy 1",
+              "anime",
+              "Gemini_Generated_Image_hbpze8hbpze8hbpz 1",
+              "Gemini_Generated_Image_hhyluhhhyluhhhyl 1",
+              "Gemini_Generated_Image_lkr4mulkr4mulkr4 1",
+              "Gemini_Generated_Image_pj29a8pj29a8pj29 1",
+              "vika",
+              "Gemini_Generated_Image_wn6jq6wn6jq6wn6j 1",
+              "vanya",
+              "nikita",
+              "girl on the moon",
+              "bunny",
+              "demon",
+              "hunter",
+              "sheep",
+              "trex",
+              "Variant24",
+              "Variant25",
+              "Variant26",
+              "kirill",
+              "sasha",
+              "albert",
+              "youlya",
+              "denis",
+              "anya",
+              "elena",
+              "denis e",
+              "gildjamal",
+              "Variant36",
+              "Variant37",
+              "Variant38",
+              "Variant39",
+              "Variant40",
+              "Variant41",
+              "Variant42",
+              "Variant43",
+              "Variant44",
+              "Variant45",
+              "Variant46",
+              "Variant47",
+              "Variant48",
+              "youri",
+              "Variant50",
+              "nikita s",
+              "vany2",
+              "vanya3",
+              "vanya4",
+              "vanya5",
+              "vanya6",
+              "placeholder",
+              "default 1",
+              "default 2",
+              "default 3"
+            ]
+          }
+        },
+        "variants": [
+          {
+            "id": "4340:70033",
+            "key": "20f8532a0f028fdb5561961d5e856a00f8659a55",
+            "name": "Property 1=Gemini_Generated_Image_6ngetd6ngetd6nge 1",
+            "properties": {
+              "Property 1": "Gemini_Generated_Image_6ngetd6ngetd6nge 1"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67486",
+            "key": "afb411b4bcaab0f3ddcf06f2608b4fff122dbc42",
+            "name": "Property 1=nikita",
+            "properties": {
+              "Property 1": "nikita"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67807",
+            "key": "b5c684e6b2296091da8eb589eb216105740affd4",
+            "name": "Property 1=nikita s",
+            "properties": {
+              "Property 1": "nikita s"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67579",
+            "key": "d6c3f69388091002c0e677e418dd009eb9542e98",
+            "name": "Property 1=girl on the moon",
+            "properties": {
+              "Property 1": "girl on the moon"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67585",
+            "key": "0f0e17dadf9efd548d007d2976551c71c46fcfb0",
+            "name": "Property 1=bunny",
+            "properties": {
+              "Property 1": "bunny"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67591",
+            "key": "b25b54586ed2d594413d6a602bc4da74b82e97f0",
+            "name": "Property 1=demon",
+            "properties": {
+              "Property 1": "demon"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67597",
+            "key": "663d7dbf170de53adedb3ef92929e244f6dd8c6f",
+            "name": "Property 1=hunter",
+            "properties": {
+              "Property 1": "hunter"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67601",
+            "key": "0d902d062200447757c3d9543a1cb1daf41e2ac6",
+            "name": "Property 1=sheep",
+            "properties": {
+              "Property 1": "sheep"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67605",
+            "key": "23ee4f8afa71c9b1fe92e658272797007aa9b78d",
+            "name": "Property 1=trex",
+            "properties": {
+              "Property 1": "trex"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4340:70031",
+            "key": "03b46802893a5f2c43ceb3bd3ffbf696ea840a40",
+            "name": "Property 1=Gemini_Generated_Image_8ocnoy8ocnoy8ocn 1",
+            "properties": {
+              "Property 1": "Gemini_Generated_Image_8ocnoy8ocnoy8ocn 1"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "5737:60255",
+            "key": "7c8680f140710185b5e47753d633d721714dd1a5",
+            "name": "Property 1=placeholder",
+            "properties": {
+              "Property 1": "placeholder"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4340:70030",
+            "key": "9671cdab1cf3349d6f1097486fc1429d78547903",
+            "name": "Property 1=Gemini_Generated_Image_11wt8311wt8311wt 1",
+            "properties": {
+              "Property 1": "Gemini_Generated_Image_11wt8311wt8311wt 1"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4340:70028",
+            "key": "98b3f53ff85b7bdb485c14350ac1b55cdd1b3672",
+            "name": "Property 1=Gemini_Generated_Image_aex83xaex83xaex8 1",
+            "properties": {
+              "Property 1": "Gemini_Generated_Image_aex83xaex83xaex8 1"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4340:70027",
+            "key": "869e2a8011c183c9dc08094243bafa06238862ec",
+            "name": "Property 1=Gemini_Generated_Image_aitsp2aitsp2aits 1",
+            "properties": {
+              "Property 1": "Gemini_Generated_Image_aitsp2aitsp2aits 1"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4340:70024",
+            "key": "33b47c1cb62d29320ddd0997486667e6d079f180",
+            "name": "Property 1=Gemini_Generated_Image_cgoy08cgoy08cgoy 1",
+            "properties": {
+              "Property 1": "Gemini_Generated_Image_cgoy08cgoy08cgoy 1"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67653",
+            "key": "58bb4c7e384a21db4b84429332ea432905a8e978",
+            "name": "Property 1=Variant26",
+            "properties": {
+              "Property 1": "Variant26"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67613",
+            "key": "b006a441afd808d8ad27241c1c4ca0575d2e511d",
+            "name": "Property 1=Variant24",
+            "properties": {
+              "Property 1": "Variant24"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67792",
+            "key": "f71e8c47994f45f150aca83136133239354cd35e",
+            "name": "Property 1=Variant48",
+            "properties": {
+              "Property 1": "Variant48"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67733",
+            "key": "4203f6b8bcb5a9e4010a4bd2a22ef501d38eba9e",
+            "name": "Property 1=Variant39",
+            "properties": {
+              "Property 1": "Variant39"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67757",
+            "key": "95944428c395b9fa85c1b439184d8cb421c7cd51",
+            "name": "Property 1=Variant43",
+            "properties": {
+              "Property 1": "Variant43"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67739",
+            "key": "f27b6d8fa3bc07d84ee5536c3c772d0cd98dd6fa",
+            "name": "Property 1=Variant40",
+            "properties": {
+              "Property 1": "Variant40"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67709",
+            "key": "db2fb64c5d5bc2f9ab580dd708ce6ab164d81021",
+            "name": "Property 1=gildjamal",
+            "properties": {
+              "Property 1": "gildjamal"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67721",
+            "key": "54c919f44a813505d9aad2b4d9875e64c39f448d",
+            "name": "Property 1=Variant37",
+            "properties": {
+              "Property 1": "Variant37"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67745",
+            "key": "1281fe9a523c391ad6240d4e0d4beae553f74e5a",
+            "name": "Property 1=Variant41",
+            "properties": {
+              "Property 1": "Variant41"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67763",
+            "key": "d2930eff5aff8d9a2eaaefbb38bac9e3c9304e67",
+            "name": "Property 1=Variant44",
+            "properties": {
+              "Property 1": "Variant44"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67715",
+            "key": "391ac78e8b3ee675cfd3f4d7274ac0fc7f14b818",
+            "name": "Property 1=Variant36",
+            "properties": {
+              "Property 1": "Variant36"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67751",
+            "key": "52aefc0cfaa879be9b13a97a7361aefd03046275",
+            "name": "Property 1=Variant42",
+            "properties": {
+              "Property 1": "Variant42"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67785",
+            "key": "79f3e005aefbd7bb1859087cd519e9f0d7b08647",
+            "name": "Property 1=Variant47",
+            "properties": {
+              "Property 1": "Variant47"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67727",
+            "key": "35a490b11a6f5b4d26ce62cf4ff557964c21d4b1",
+            "name": "Property 1=Variant38",
+            "properties": {
+              "Property 1": "Variant38"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67769",
+            "key": "b81c8496dbbd631d99d6759b6fdfd7e7424f259c",
+            "name": "Property 1=Variant45",
+            "properties": {
+              "Property 1": "Variant45"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67820",
+            "key": "854072adf1fe94f5165407952f9a93d5f8a73fcd",
+            "name": "Property 1=Variant50",
+            "properties": {
+              "Property 1": "Variant50"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67619",
+            "key": "db1f750f4b4490cac75a35592c3b2326ed190aee",
+            "name": "Property 1=Variant25",
+            "properties": {
+              "Property 1": "Variant25"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4340:70023",
+            "key": "fdc6cf745ef49ba42d4c19461e6d9944e16d970e",
+            "name": "Property 1=anime",
+            "properties": {
+              "Property 1": "anime"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4340:70032",
+            "key": "5fe5fd74908e5de0c15a0f1c7959d757f829fafb",
+            "name": "Property 1=Gemini_Generated_Image_hbpze8hbpze8hbpz 1",
+            "properties": {
+              "Property 1": "Gemini_Generated_Image_hbpze8hbpze8hbpz 1"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4340:70021",
+            "key": "de4e4c18d5549c64aef541afe827fca46d2f0131",
+            "name": "Property 1=Gemini_Generated_Image_hhyluhhhyluhhhyl 1",
+            "properties": {
+              "Property 1": "Gemini_Generated_Image_hhyluhhhyluhhhyl 1"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4340:70020",
+            "key": "c2209900c164153ff13d4d481ceaa620df24aed5",
+            "name": "Property 1=Gemini_Generated_Image_lkr4mulkr4mulkr4 1",
+            "properties": {
+              "Property 1": "Gemini_Generated_Image_lkr4mulkr4mulkr4 1"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4340:70029",
+            "key": "d31ed39f3e3b9f55ce6953047e25a105947cc777",
+            "name": "Property 1=Gemini_Generated_Image_pj29a8pj29a8pj29 1",
+            "properties": {
+              "Property 1": "Gemini_Generated_Image_pj29a8pj29a8pj29 1"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67779",
+            "key": "6691533e82783fcc12fb9dde8cada549dcf613b8",
+            "name": "Property 1=Variant46",
+            "properties": {
+              "Property 1": "Variant46"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67659",
+            "key": "4d1e6a39fd39a017ee1968669924c7da0c5356e2",
+            "name": "Property 1=kirill",
+            "properties": {
+              "Property 1": "kirill"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67814",
+            "key": "ee3f295acb3f439b5ceeb5ba4b8de9dc5fd409f0",
+            "name": "Property 1=youri",
+            "properties": {
+              "Property 1": "youri"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67665",
+            "key": "e2d66f023b6147ee4a73af3b053ede76c5680e0e",
+            "name": "Property 1=sasha",
+            "properties": {
+              "Property 1": "sasha"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67671",
+            "key": "829fc2fecdadf788d7a12f65626358d054c9f016",
+            "name": "Property 1=albert",
+            "properties": {
+              "Property 1": "albert"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67691",
+            "key": "8a458e03af82348b7f2b550f8ea4717591c824f6",
+            "name": "Property 1=anya",
+            "properties": {
+              "Property 1": "anya"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67685",
+            "key": "b47cd7248aed0742a8cdacfe07cb1b2ae2ac9751",
+            "name": "Property 1=denis",
+            "properties": {
+              "Property 1": "denis"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67703",
+            "key": "b3bcc707e38d2218f4f659c4feb1cc77cf0f112d",
+            "name": "Property 1=denis e",
+            "properties": {
+              "Property 1": "denis e"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67697",
+            "key": "12e38491b3969247f747f03c76af9edad62b5971",
+            "name": "Property 1=elena",
+            "properties": {
+              "Property 1": "elena"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4419:67679",
+            "key": "a41244a3a64c9197a6e428a98c21001f397a31fd",
+            "name": "Property 1=youlya",
+            "properties": {
+              "Property 1": "youlya"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4340:70018",
+            "key": "2d94cff7e354cc0795fb230839b763753fbeb9f8",
+            "name": "Property 1=vika",
+            "properties": {
+              "Property 1": "vika"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4340:70019",
+            "key": "18cab982e3a0ed6927fc9c32f2cbd3f6b9ba334a",
+            "name": "Property 1=Gemini_Generated_Image_wn6jq6wn6jq6wn6j 1",
+            "properties": {
+              "Property 1": "Gemini_Generated_Image_wn6jq6wn6jq6wn6j 1"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4340:70022",
+            "key": "4aba31e916adf511c39ba0c628a2be1f95ff4de5",
+            "name": "Property 1=vanya",
+            "properties": {
+              "Property 1": "vanya"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4958:12311",
+            "key": "afd76bbce9a5aa0bfd2f75ac2687915ea3c6ec78",
+            "name": "Property 1=vany2",
+            "properties": {
+              "Property 1": "vany2"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4958:77085",
+            "key": "3011f481d543bac874bbd77062ab3e6c9f717047",
+            "name": "Property 1=vanya3",
+            "properties": {
+              "Property 1": "vanya3"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4958:77091",
+            "key": "b500c94d42ea8c449d334bfbe194a3546135537b",
+            "name": "Property 1=vanya4",
+            "properties": {
+              "Property 1": "vanya4"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4958:77097",
+            "key": "afd35ac64536db33d4807c1c07a8af7ca9bb076b",
+            "name": "Property 1=vanya5",
+            "properties": {
+              "Property 1": "vanya5"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "4958:77103",
+            "key": "a88d02b661a154d1e7e38c88885ec9589f2406c0",
+            "name": "Property 1=vanya6",
+            "properties": {
+              "Property 1": "vanya6"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "8301:27208",
+            "key": "95687616c163ec12656972db94dc9d773e8c6f3c",
+            "name": "Property 1=default 1",
+            "properties": {
+              "Property 1": "default 1"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "8301:140538",
+            "key": "7bc67ba8cc35cf7867063baf71e889e4953f92d7",
+            "name": "Property 1=default 2",
+            "properties": {
+              "Property 1": "default 2"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          },
+          {
+            "id": "8301:140549",
+            "key": "ea9450689efa49b94285aee7ca622588e1f13e1e",
+            "name": "Property 1=default 3",
+            "properties": {
+              "Property 1": "default 3"
+            },
+            "width": 800,
+            "height": 933.3333129882812,
+            "boundVariables": {}
+          }
+        ],
+        "textSample": []
+      }
+    ]
+  }
+}

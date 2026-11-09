@@ -1,0 +1,10 @@
+{
+  "name": "design-verifier-runtime",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "check:viewports": "node viewport.mjs"
+  }
+}

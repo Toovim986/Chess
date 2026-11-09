@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "verifiedAt": "2026-10-28T07:22:16.796Z",
+  "scope": "Галерея экспериментариума, доставка и декодирование 26 PNG, навигация, просмотр, перезагрузка и отсутствие горизонтального переполнения. Проверка не подтверждает содержание дизайна.",
+  "checks": [
+    {
+      "width": 1440,
+      "navigation": "PASS",
+      "collections": 2,
+      "imagesDecoded": 26,
+      "previousCollections": 3,
+      "overflow": "PASS",
+      "reload": "PASS",
+      "lightboxes": [
+        {
+          "collection": "club",
+          "open": "PASS",
+          "close": "PASS"
+        },
+        {
+          "collection": "arena",
+          "open": "PASS",
+          "close": "PASS"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "navigation": "PASS",
+      "collections": 2,
+      "imagesDecoded": 26,
+      "previousCollections": 3,
+      "overflow": "PASS",
+      "reload": "PASS",
+      "lightboxes": [
+        {
+          "collection": "club",
+          "open": "PASS",
+          "close": "PASS"
+        },
+        {
+          "collection": "arena",
+          "open": "PASS",
+          "close": "PASS"
+        }
+      ]
+    }
+  ],
+  "previousCollections": [
+    {
+      "id": "audit-1793101230391-7b15ae",
+      "hash": "0f014c2f184b669c23240e3887bb8e404845c0b6d51dbd250c110404e53ddf11",
+      "title": "Главная / выбор режима · A и B"
+    },
+    {
+      "id": "audit-1793099238237-5e166a",
+      "hash": "4f198eb062370fdc18a35ff91a978de5bc989aff08a8cd7c1f5f4378148fcc85",
+      "title": "Chess · 12 мобильных экранов · исправленные концепты"
+    },
+    {
+      "id": "audit-1793099238121-d4efd6",
+      "hash": "9849ac430b26ccdbc4abf7e23bace97de4b05aff833029cc64b72f10dd1a1c64",
+      "title": "Chess · 12 мобильных экранов · первоначальные концепты"
+    }
+  ],
+  "javascriptErrors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "collections": [
+    {
+      "name": "club",
+      "title": "Коллекция 2 · Клуб",
+      "auditId": "audit-1793171526896-30dfc6",
+      "url": "http://127.0.0.1:43132/?audit=audit-1793171526896-30dfc6"
+    },
+    {
+      "name": "arena",
+      "title": "Коллекция 3 · Арена",
+      "auditId": "audit-1793171527318-7f3607",
+      "url": "http://127.0.0.1:43132/?audit=audit-1793171527318-7f3607"
+    }
+  ]
+}

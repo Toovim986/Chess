@@ -1,0 +1,58 @@
+{
+    "scope":  "Chess screen map and real DS source previews; prior PNGs remain unverified",
+    "files":  [
+                  {
+                      "path":  "verifier/public/app.js",
+                      "bytes":  29989,
+                      "sha256":  "58c703a68e20288fbdb8de152ba89a72674aa2262b3a7bc05526c09a566bd9f2"
+                  },
+                  {
+                      "path":  "verifier/public/index.html",
+                      "bytes":  4761,
+                      "sha256":  "75e910f1880ffbeca02861890196259000b80797bfdefdcd3d39fd4e12644fa6"
+                  },
+                  {
+                      "path":  "verifier/public/screen-map-view.js",
+                      "bytes":  7016,
+                      "sha256":  "20b8ccc240004f238e1029d53ba47e780851ec4589dd9db291935af1074387c0"
+                  },
+                  {
+                      "path":  "verifier/public/chess-screen-map.js",
+                      "bytes":  10322,
+                      "sha256":  "a2c293c332be49ce0ddb19a96b42eb0a5d30037a6a54488e9d518f656c4d3d57"
+                  },
+                  {
+                      "path":  "verifier/public/chess-screen-map.css",
+                      "bytes":  5494,
+                      "sha256":  "82a6844ca082cdb8e7f54d41f52d0f42e55cc6fc487860384507b35de2ef4f02"
+                  },
+                  {
+                      "path":  "verifier/public/screen-map/chess.json",
+                      "bytes":  46576,
+                      "sha256":  "de5f0e4fa0a9ce25f7adc3cca8076b8d2cdcecf8c1b4b5ecd20e1e5ed274c9de"
+                  },
+                  {
+                      "path":  "verifier/public/screen-map/ds/avatar.png",
+                      "bytes":  7298,
+                      "sha256":  "4b243eee847dcdf6163c115c7165869ab5c1ccf236b1abf52f981bf03ced9515"
+                  },
+                  {
+                      "path":  "verifier/public/screen-map/ds/button.png",
+                      "bytes":  2089,
+                      "sha256":  "e322ff2de29896d7c16cb34183260508def1b0a765df02b436a63fdac956eb2a"
+                  },
+                  {
+                      "path":  "verifier/public/screen-map/ds/category-text.png",
+                      "bytes":  1868,
+                      "sha256":  "3eabdfc11e280dd8b78e6f2e26897306a897ad4b0d0d56ef4d0de8956c204d01"
+                  },
+                  {
+                      "path":  "verifier/public/screen-map/ds/task.png",
+                      "bytes":  5887,
+                      "sha256":  "6c095d3e97a35e1f3a800d636f2aed70e698af20d89f6af2a6ec81520a291926"
+                  }
+              ],
+    "browserProof":  "integration/chess-screen-map-2026-10-27/browser-proof.json",
+    "javascriptTests":  29,
+    "preservedReference":  "tools/design-verifier/verifier/public/screen-map/reference.json"
+}

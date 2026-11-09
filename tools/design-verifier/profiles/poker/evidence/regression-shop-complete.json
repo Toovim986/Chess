@@ -1,0 +1,814 @@
+{
+  "sourceBoard": "101:28914",
+  "targetBoard": "184:53133",
+  "sourceScreens": 30,
+  "targetScreens": 30,
+  "matchedScreens": 30,
+  "visibleScreens": 29,
+  "hiddenScreens": [
+    {
+      "source": "106:31883",
+      "target": "184:55660",
+      "reason": "Target hidden by node or ancestor"
+    }
+  ],
+  "matchedNodes": 14891,
+  "equalNodes": 14060,
+  "changedNodes": 831,
+  "groups": [
+    {
+      "name": "Vector",
+      "property": "fills",
+      "count": 145,
+      "example": {
+        "source": "I102:29304;332:64518",
+        "target": "I184:53461;332:64518",
+        "from": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.7333,\"g\":0.549,\"b\":1}}]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.62,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.8,\"g\":0.7373,\"b\":0.6039}}]"
+      }
+    },
+    {
+      "name": "Purchase bar",
+      "property": "visible",
+      "count": 108,
+      "example": {
+        "source": "105:29529",
+        "target": "184:53560",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "Cost",
+      "property": "visible",
+      "count": 108,
+      "example": {
+        "source": "105:29530",
+        "target": "184:53561",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "price shop",
+      "property": "y",
+      "count": 77,
+      "example": {
+        "source": "103:31379",
+        "target": "184:53218",
+        "from": 32,
+        "to": 38
+      }
+    },
+    {
+      "name": "price shop",
+      "property": "height",
+      "count": 77,
+      "example": {
+        "source": "103:31379",
+        "target": "184:53218",
+        "from": 90,
+        "to": 92
+      }
+    },
+    {
+      "name": "Exclude",
+      "property": "fills",
+      "count": 58,
+      "example": {
+        "source": "I102:29304;332:66088",
+        "target": "I184:53461;332:66088",
+        "from": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.7333,\"g\":0.549,\"b\":1}}]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.62,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.8,\"g\":0.7373,\"b\":0.6039}}]"
+      }
+    },
+    {
+      "name": "Button",
+      "property": "y",
+      "count": 32,
+      "example": {
+        "source": "107:38389",
+        "target": "184:53722",
+        "from": 32,
+        "to": 38
+      }
+    },
+    {
+      "name": "Rectangle 111001883",
+      "property": "fills",
+      "count": 29,
+      "example": {
+        "source": "I102:29304;332:63738",
+        "target": "I184:53461;332:63738",
+        "from": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.7333,\"g\":0.549,\"b\":1}}]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.62,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.8,\"g\":0.7373,\"b\":0.6039}}]"
+      }
+    },
+    {
+      "name": "Rectangle 111001885",
+      "property": "fills",
+      "count": 29,
+      "example": {
+        "source": "I102:29304;332:63741",
+        "target": "I184:53461;332:63741",
+        "from": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.7333,\"g\":0.549,\"b\":1}}]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.62,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.8,\"g\":0.7373,\"b\":0.6039}}]"
+      }
+    },
+    {
+      "name": "Rectangle 111001884",
+      "property": "fills",
+      "count": 29,
+      "example": {
+        "source": "I102:29304;332:63739",
+        "target": "I184:53461;332:63739",
+        "from": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.7333,\"g\":0.549,\"b\":1}}]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.62,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.8,\"g\":0.7373,\"b\":0.6039}}]"
+      }
+    },
+    {
+      "name": "Главная",
+      "property": "fills",
+      "count": 29,
+      "example": {
+        "source": "102:29306",
+        "target": "184:53463",
+        "from": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.7333,\"g\":0.549,\"b\":1}}]",
+        "to": "[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":0.62,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0.8,\"g\":0.7373,\"b\":0.6039}}]"
+      }
+    },
+    {
+      "name": "Rectangle",
+      "property": "y",
+      "count": 20,
+      "example": {
+        "source": "106:37357",
+        "target": "184:57114",
+        "from": 340,
+        "to": 424
+      }
+    },
+    {
+      "name": "Cost",
+      "property": "characters",
+      "count": 18,
+      "example": {
+        "source": "105:29555",
+        "target": "184:53586",
+        "from": "БАНК",
+        "to": "100 голосов"
+      }
+    },
+    {
+      "name": "currency illustration",
+      "property": "y",
+      "count": 10,
+      "example": {
+        "source": "106:37350",
+        "target": "184:57107",
+        "from": 294,
+        "to": 378
+      }
+    },
+    {
+      "name": "МИН. 50 100 300 500 1К МАКС.",
+      "property": "visible",
+      "count": 10,
+      "example": {
+        "source": "106:37354",
+        "target": "184:57111",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "↓",
+      "property": "y",
+      "count": 10,
+      "example": {
+        "source": "106:37355",
+        "target": "184:57112",
+        "from": 278,
+        "to": 362
+      }
+    },
+    {
+      "name": "Зачисление",
+      "property": "y",
+      "count": 10,
+      "example": {
+        "source": "106:37356",
+        "target": "184:57113",
+        "from": 316,
+        "to": 400
+      }
+    },
+    {
+      "name": "ОБМЕНЯТЬ",
+      "property": "y",
+      "count": 10,
+      "example": {
+        "source": "106:37360",
+        "target": "184:57117",
+        "from": 445,
+        "to": 529
+      }
+    },
+    {
+      "name": "астра / Все",
+      "property": "x",
+      "count": 7,
+      "example": {
+        "source": "105:32161",
+        "target": "184:53188",
+        "from": 0,
+        "to": 66
+      }
+    },
+    {
+      "name": "астра / Все",
+      "property": "visible",
+      "count": 7,
+      "example": {
+        "source": "105:32161",
+        "target": "184:53188",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "астра / Вещи",
+      "property": "x",
+      "count": 7,
+      "example": {
+        "source": "105:32163",
+        "target": "184:53190",
+        "from": 52,
+        "to": 147
+      }
+    },
+    {
+      "name": "астра / Вещи",
+      "property": "visible",
+      "count": 7,
+      "example": {
+        "source": "105:32163",
+        "target": "184:53190",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "астра / Ювелир",
+      "property": "x",
+      "count": 7,
+      "example": {
+        "source": "105:32165",
+        "target": "184:53192",
+        "from": 116,
+        "to": 247
+      }
+    },
+    {
+      "name": "астра / Ювелир",
+      "property": "visible",
+      "count": 7,
+      "example": {
+        "source": "105:32165",
+        "target": "184:53192",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "астра / Романтика",
+      "property": "x",
+      "count": 7,
+      "example": {
+        "source": "105:32167",
+        "target": "184:53194",
+        "from": 195,
+        "to": 368
+      }
+    },
+    {
+      "name": "астра / Романтика",
+      "property": "visible",
+      "count": 7,
+      "example": {
+        "source": "105:32167",
+        "target": "184:53194",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "астра / Питомцы",
+      "property": "x",
+      "count": 7,
+      "example": {
+        "source": "105:32169",
+        "target": "184:53196",
+        "from": 290,
+        "to": 476
+      }
+    },
+    {
+      "name": "астра / Питомцы",
+      "property": "visible",
+      "count": 7,
+      "example": {
+        "source": "105:32169",
+        "target": "184:53196",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "астра / Еда",
+      "property": "x",
+      "count": 7,
+      "example": {
+        "source": "105:32171",
+        "target": "184:53198",
+        "from": 375,
+        "to": 542
+      }
+    },
+    {
+      "name": "астра / Еда",
+      "property": "visible",
+      "count": 7,
+      "example": {
+        "source": "105:32171",
+        "target": "184:53198",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "астра / VIP",
+      "property": "x",
+      "count": 7,
+      "example": {
+        "source": "105:32173",
+        "target": "184:53200",
+        "from": 427,
+        "to": 605
+      }
+    },
+    {
+      "name": "астра / VIP",
+      "property": "visible",
+      "count": 7,
+      "example": {
+        "source": "105:32173",
+        "target": "184:53200",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "астра / Игрушки",
+      "property": "x",
+      "count": 7,
+      "example": {
+        "source": "105:32175",
+        "target": "184:53202",
+        "from": 477,
+        "to": 712
+      }
+    },
+    {
+      "name": "астра / Игрушки",
+      "property": "visible",
+      "count": 7,
+      "example": {
+        "source": "105:32175",
+        "target": "184:53202",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "астра / Напитки",
+      "property": "x",
+      "count": 7,
+      "example": {
+        "source": "105:32177",
+        "target": "184:53204",
+        "from": 561,
+        "to": 815
+      }
+    },
+    {
+      "name": "астра / Напитки",
+      "property": "visible",
+      "count": 7,
+      "example": {
+        "source": "105:32177",
+        "target": "184:53204",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "астра / Знаки зодиака",
+      "property": "x",
+      "count": 7,
+      "example": {
+        "source": "105:32179",
+        "target": "184:53206",
+        "from": 642,
+        "to": 964
+      }
+    },
+    {
+      "name": "астра / Знаки зодиака",
+      "property": "visible",
+      "count": 7,
+      "example": {
+        "source": "105:32179",
+        "target": "184:53206",
+        "from": true,
+        "to": false
+      }
+    },
+    {
+      "name": "Frame 2131330879",
+      "property": "y",
+      "count": 7,
+      "example": {
+        "source": "103:33251",
+        "target": "184:53432",
+        "from": 32,
+        "to": 106
+      }
+    },
+    {
+      "name": "ARCHIVE · SOURCE MARKED UPDATE",
+      "property": "y",
+      "count": 7,
+      "example": {
+        "source": "106:38838",
+        "target": "184:58785",
+        "from": 558,
+        "to": 642
+      }
+    },
+    {
+      "name": "price label",
+      "property": "y",
+      "count": 6,
+      "example": {
+        "source": "107:39358",
+        "target": "184:53820",
+        "from": 32,
+        "to": 58
+      }
+    },
+    {
+      "name": "acquired",
+      "property": "y",
+      "count": 6,
+      "example": {
+        "source": "107:39361",
+        "target": "184:53823",
+        "from": 133,
+        "to": 164
+      }
+    },
+    {
+      "name": "Frame",
+      "property": "y",
+      "count": 4,
+      "example": {
+        "source": "106:38345",
+        "target": "184:57478",
+        "from": 492,
+        "to": 576
+      }
+    },
+    {
+      "name": "1 000 000",
+      "property": "y",
+      "count": 4,
+      "example": {
+        "source": "106:39327",
+        "target": "184:58962",
+        "from": 356,
+        "to": 440
+      }
+    },
+    {
+      "name": "1 100",
+      "property": "y",
+      "count": 3,
+      "example": {
+        "source": "106:37358",
+        "target": "184:57115",
+        "from": 356,
+        "to": 440
+      }
+    },
+    {
+      "name": "1",
+      "property": "y",
+      "count": 2,
+      "example": {
+        "source": "106:38835",
+        "target": "184:58782",
+        "from": 356,
+        "to": 440
+      }
+    },
+    {
+      "name": "Недостаточно фишек для получения указанной суммы",
+      "property": "y",
+      "count": 2,
+      "example": {
+        "source": "106:39328",
+        "target": "184:58963",
+        "from": 398,
+        "to": 482
+      }
+    },
+    {
+      "name": "Button",
+      "property": "width",
+      "count": 1,
+      "example": {
+        "source": "107:44963",
+        "target": "184:55016",
+        "from": 85,
+        "to": 174
+      }
+    },
+    {
+      "name": "content",
+      "property": "width",
+      "count": 1,
+      "example": {
+        "source": "I107:44963;1606:108519",
+        "target": "I184:55016;1606:108519",
+        "from": 85,
+        "to": 174
+      }
+    },
+    {
+      "name": "Пас",
+      "property": "x",
+      "count": 1,
+      "example": {
+        "source": "I107:44963;1606:108520",
+        "target": "I184:55016;1606:108520",
+        "from": 8,
+        "to": 52.5
+      }
+    },
+    {
+      "name": "Small button",
+      "property": "x",
+      "count": 1,
+      "example": {
+        "source": "107:44964",
+        "target": "184:55017",
+        "from": 89,
+        "to": 0
+      }
+    },
+    {
+      "name": "Small button",
+      "property": "y",
+      "count": 1,
+      "example": {
+        "source": "107:44964",
+        "target": "184:55017",
+        "from": 0,
+        "to": 50
+      }
+    },
+    {
+      "name": "Small button",
+      "property": "width",
+      "count": 1,
+      "example": {
+        "source": "107:44964",
+        "target": "184:55017",
+        "from": 85,
+        "to": 174
+      }
+    },
+    {
+      "name": "Банк",
+      "property": "x",
+      "count": 1,
+      "example": {
+        "source": "I107:44964;1787:15096",
+        "target": "I184:55017;1787:15096",
+        "from": 8.5,
+        "to": 53
+      }
+    },
+    {
+      "name": "110",
+      "property": "y",
+      "count": 1,
+      "example": {
+        "source": "106:41304",
+        "target": "184:59691",
+        "from": 356,
+        "to": 440
+      }
+    }
+  ],
+  "missing": [],
+  "added": [
+    {
+      "target": "195:67951",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / Все",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    },
+    {
+      "target": "195:67958",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / Вещи",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    },
+    {
+      "target": "195:67964",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / Ювелир",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    },
+    {
+      "target": "195:67969",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / Романтика",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    },
+    {
+      "target": "195:67974",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / Питомцы",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    },
+    {
+      "target": "195:67979",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / Еда",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    },
+    {
+      "target": "195:67984",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / VIP",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    },
+    {
+      "target": "195:67989",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / Игрушки",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    },
+    {
+      "target": "195:67994",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / Напитки",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    },
+    {
+      "target": "195:67999",
+      "sourceParent": "105:32160",
+      "name": "Astra 2 / Категория / Знаки зодиака",
+      "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+    }
+  ],
+  "totalGroups": 55,
+  "totalMissing": 0,
+  "totalAdded": 188,
+  "addedByName": [
+    {
+      "name": "Astra 2 / Категория / Все",
+      "count": 7,
+      "example": {
+        "target": "195:67951",
+        "sourceParent": "105:32160",
+        "name": "Astra 2 / Категория / Все",
+        "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+      }
+    },
+    {
+      "name": "Astra 2 / Категория / Вещи",
+      "count": 7,
+      "example": {
+        "target": "195:67958",
+        "sourceParent": "105:32160",
+        "name": "Astra 2 / Категория / Вещи",
+        "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+      }
+    },
+    {
+      "name": "Astra 2 / Категория / Ювелир",
+      "count": 7,
+      "example": {
+        "target": "195:67964",
+        "sourceParent": "105:32160",
+        "name": "Astra 2 / Категория / Ювелир",
+        "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+      }
+    },
+    {
+      "name": "Astra 2 / Категория / Романтика",
+      "count": 7,
+      "example": {
+        "target": "195:67969",
+        "sourceParent": "105:32160",
+        "name": "Astra 2 / Категория / Романтика",
+        "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+      }
+    },
+    {
+      "name": "Astra 2 / Категория / Питомцы",
+      "count": 7,
+      "example": {
+        "target": "195:67974",
+        "sourceParent": "105:32160",
+        "name": "Astra 2 / Категория / Питомцы",
+        "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+      }
+    },
+    {
+      "name": "Astra 2 / Категория / Еда",
+      "count": 7,
+      "example": {
+        "target": "195:67979",
+        "sourceParent": "105:32160",
+        "name": "Astra 2 / Категория / Еда",
+        "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+      }
+    },
+    {
+      "name": "Astra 2 / Категория / VIP",
+      "count": 7,
+      "example": {
+        "target": "195:67984",
+        "sourceParent": "105:32160",
+        "name": "Astra 2 / Категория / VIP",
+        "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+      }
+    },
+    {
+      "name": "Astra 2 / Категория / Игрушки",
+      "count": 7,
+      "example": {
+        "target": "195:67989",
+        "sourceParent": "105:32160",
+        "name": "Astra 2 / Категория / Игрушки",
+        "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+      }
+    },
+    {
+      "name": "Astra 2 / Категория / Напитки",
+      "count": 7,
+      "example": {
+        "target": "195:67994",
+        "sourceParent": "105:32160",
+        "name": "Astra 2 / Категория / Напитки",
+        "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+      }
+    },
+    {
+      "name": "Astra 2 / Категория / Знаки зодиака",
+      "count": 7,
+      "example": {
+        "target": "195:67999",
+        "sourceParent": "105:32160",
+        "name": "Astra 2 / Категория / Знаки зодиака",
+        "path": "Astra 2 / 02 / Подарки · каталог / source 9825:54126/Shop content / Vertical scroll/астра / Полный каталог/астра / Категории подарков"
+      }
+    },
+    {
+      "name": "Astra 2 / Купить фишки / Poker Library",
+      "count": 108,
+      "example": {
+        "target": "196:68209",
+        "sourceParent": "105:29525",
+        "name": "Astra 2 / Купить фишки / Poker Library",
+        "path": "Astra 2 / 01 / Пополнение · фишки / source 9825:57047/Shop content / Vertical scroll/Chip offer / 100"
+      }
+    },
+    {
+      "name": "Astra 2 / Быстрые суммы обмена",
+      "count": 10,
+      "example": {
+        "target": "197:57534",
+        "sourceParent": "106:37340",
+        "name": "Astra 2 / Быстрые суммы обмена",
+        "path": "Astra 2 / 21 / Обмен · исходное состояние / source 9967:38400/Exchange mobile / 9967:38400"
+      }
+    }
+  ],
+  "groupCoverage": "all groups, examples per group; added nodes aggregated by name"
+}

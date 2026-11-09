@@ -1,0 +1,162 @@
+{
+  "status": "PASS",
+  "deployedAt": "2026-10-27T09:27:47.315560+00:00",
+  "scope": "Frontend styling/templates/assets and browser proof only; no game design approval",
+  "destination": "D:\\Porfiriy\\Projects\\Work\\Верификатор",
+  "files": [
+    {
+      "path": "verifier/public/app.js",
+      "beforeSha256": "bb690b9e4333ccf09c39f77bef6e919ba27ddbd27ff2d89886463caec7e4da3e",
+      "afterSha256": "dafdd4e07d3e89f729e4c336d99cd45bba42416dbd1dcd6df2550afc2c3febb3"
+    },
+    {
+      "path": "verifier/public/dashboard.js",
+      "beforeSha256": null,
+      "afterSha256": "fc57e477c1f2f188a02258ba2e416a822cdcbf8ea94b97bb4d90f896b5b9aa1a"
+    },
+    {
+      "path": "verifier/public/design-audits.js",
+      "beforeSha256": "1c0422b7a5540dc232f079b1592d55e84ad26ddc02ea1a1f1ffdd684df88a082",
+      "afterSha256": "34bceb49d6c31106139cb644c0268436f62b5e65026a2ed4ee55857500a04295"
+    },
+    {
+      "path": "verifier/public/index.html",
+      "beforeSha256": "1a95b29a5a9194204de3921bc5348a3b0e98ab613d5c83a3fbc6c7f0c4e8c813",
+      "afterSha256": "02fbf9e9b59d684e444508fdc16a20ef8e01c1642100c58ab2a2ca1bdeda472e"
+    },
+    {
+      "path": "verifier/public/knowledge-view.js",
+      "beforeSha256": "02e71455353dbc292f9c889e739faacf5b4ff74c00cc9602d2ac2daa46c93a66",
+      "afterSha256": "58c802e93a68546f191c946c0ed4e9cf09398544e680005be40eb37563bc94ca"
+    },
+    {
+      "path": "verifier/public/profile-view.js",
+      "beforeSha256": "6015d0f61097ab24d4d011ba3456ab1813a720eeaa34e64385f16db450fe3040",
+      "afterSha256": "de930fc0c5469756f60ca1cfde3b002b38d6c122a67b9f04de63ca4761cff505"
+    },
+    {
+      "path": "verifier/public/theme.css",
+      "beforeSha256": null,
+      "afterSha256": "eae0c8ef2a17a17cae64dab8e70bb126b2dc14c789fd7a8de45eef73d53a98df"
+    },
+    {
+      "path": "verifier/public/assets/favicon.svg",
+      "beforeSha256": null,
+      "afterSha256": "fcb16c9713cda887fc952f13e85ccccf8cb1aa530f3990f9e87bc2539735382c"
+    },
+    {
+      "path": "verifier/public/assets/Manrope-variable.ttf",
+      "beforeSha256": null,
+      "afterSha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "path": "verifier/public/assets/OFL-Manrope.txt",
+      "beforeSha256": null,
+      "afterSha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+    },
+    {
+      "path": "verifier/public/assets/phosphor/arrow-down.svg",
+      "beforeSha256": null,
+      "afterSha256": "cc6416ae83e20660f14b11f5525c6d05ee679c3f26cee41b696cb37aa905d4f5"
+    },
+    {
+      "path": "verifier/public/assets/phosphor/arrow-right.svg",
+      "beforeSha256": null,
+      "afterSha256": "e45bc4a12592b8723110db42c6deffdf177e4fe7704cf50324963fa0a59b2d74"
+    },
+    {
+      "path": "verifier/public/assets/phosphor/arrow-up-right.svg",
+      "beforeSha256": null,
+      "afterSha256": "44db5257b360ec04863eb6daaa41f220c8b714d23fb81403517d0a30acfda9f4"
+    },
+    {
+      "path": "verifier/public/assets/phosphor/arrows-left-right.svg",
+      "beforeSha256": null,
+      "afterSha256": "84c43373542a3ac2e7de3d22ddef0c8eb61ef6ba7a270c6aca5aa493dd40f8b4"
+    },
+    {
+      "path": "verifier/public/assets/phosphor/book-open.svg",
+      "beforeSha256": null,
+      "afterSha256": "b38cdb3a15dcf00cfa4811e318b021e25c6a87b47acbb11888e16d107a5642da"
+    },
+    {
+      "path": "verifier/public/assets/phosphor/caret-down.svg",
+      "beforeSha256": null,
+      "afterSha256": "53f0cf2d0b144ac3cb07e353e0cd0853ffb3ed432d741460ce288edfcb0924b1"
+    },
+    {
+      "path": "verifier/public/assets/phosphor/check.svg",
+      "beforeSha256": null,
+      "afterSha256": "cbb89a8c42f283d4f846eb935e05d88c1be04462f16480e068c0f82b9ce40b12"
+    },
+    {
+      "path": "verifier/public/assets/phosphor/circle-dashed.svg",
+      "beforeSha256": null,
+      "afterSha256": "dea36ee104fb306ed7c3a2441515c5f483a47124af4cb22806d4e11c021747e2"
+    },
+    {
+      "path": "verifier/public/assets/phosphor/clock-counter-clockwise.svg",
+      "beforeSha256": null,
+      "afterSha256": "06aa1cb0d2664789232f4addb1c5932c8ce14e48465c8e8fb09a651b619b44e3"
+    },
+    {
+      "path": "verifier/public/assets/phosphor/file-text.svg",
+      "beforeSha256": null,
+      "afterSha256": "9a580a038cce9f6dd223597864abe1b5c5c03bf8176d2f7171574598468b16f7"
+    },
+    {
+      "path": "verifier/public/assets/phosphor/LICENSE",
+      "beforeSha256": null,
+      "afterSha256": "b5b1f1da112d18ea2147decfd48ddc1bf2b5aeb6c265381579340e95b15a2bb2"
+    },
+    {
+      "path": "verifier/public/assets/phosphor/link-simple.svg",
+      "beforeSha256": null,
+      "afterSha256": "7a97dad4b2f16c3a386ea69ba78d29bf3a71c311f2e34100d79143559ba13151"
+    },
+    {
+      "path": "verifier/public/assets/phosphor/list.svg",
+      "beforeSha256": null,
+      "afterSha256": "fb1851842c74b40a3f42ce3d6ae0e67ede556b624218e79c0f4ead7d9ceec51f"
+    },
+    {
+      "path": "verifier/public/assets/phosphor/note-pencil.svg",
+      "beforeSha256": null,
+      "afterSha256": "85f05d1a02f8d808ca9b023e765e7dec7ec2d706313dddf464010f35c9469264"
+    },
+    {
+      "path": "verifier/public/assets/phosphor/plugs-connected.svg",
+      "beforeSha256": null,
+      "afterSha256": "cca84487a9a3b1a3c413576efe1fc400f119cfff59bcc5fc336e5b3d8e1788ea"
+    },
+    {
+      "path": "verifier/public/assets/phosphor/squares-four.svg",
+      "beforeSha256": null,
+      "afterSha256": "f70d6b20e08e028ab5b1714077681910a2431092cf7a23b82366ddaec554ab87"
+    },
+    {
+      "path": "verifier/public/assets/phosphor/stack.svg",
+      "beforeSha256": null,
+      "afterSha256": "ee9eaaeb345e8a28c9662cf8a59147cb86080bd922e41f143444189e0116ea7e"
+    },
+    {
+      "path": "verifier/public/assets/phosphor/x.svg",
+      "beforeSha256": null,
+      "afterSha256": "7397b15e1fa66eaf6ff9b59fe91d483cb5c3bcf75b2fe052097ab6f0593b513a"
+    },
+    {
+      "path": "verifier/test/browser-check.mjs",
+      "beforeSha256": "4077e7ade36886048857fce1e4410c9d4a9bbba1dfc8e62d6dea077c5cca4f5e",
+      "afterSha256": "8ac0c72d69dcab53d414750094c985f7348cf09a2ef74ead24668fd07d43ead6"
+    }
+  ],
+  "previousInterfaceSaved": true,
+  "archiveManifestsChecked": 33,
+  "archiveManifestHashesUnchanged": true,
+  "nodeTests": 25,
+  "independentBrowserChecks": 150,
+  "skills": [
+    "landing-page-design",
+    "redesign-existing-projects"
+  ]
+}

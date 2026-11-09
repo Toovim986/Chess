@@ -1,0 +1,776 @@
+[
+  {
+    "source": "I12410:54733;12410:60648",
+    "target": "184:77785",
+    "sourcePanel": "12410:54724",
+    "targetScreen": "184:77758",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 0
+  },
+  {
+    "source": "I12410:54734;12410:60648",
+    "target": "184:77787",
+    "sourcePanel": "12410:54724",
+    "targetScreen": "184:77758",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 1
+  },
+  {
+    "source": "I12410:54735;12410:60610",
+    "target": "184:77789",
+    "sourcePanel": "12410:54724",
+    "targetScreen": "184:77758",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 2
+  },
+  {
+    "source": "I12410:54736;12410:60648",
+    "target": "184:77794",
+    "sourcePanel": "12410:54724",
+    "targetScreen": "184:77758",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 3
+  },
+  {
+    "source": "I12410:54737;12410:60648",
+    "target": "184:77797",
+    "sourcePanel": "12410:54724",
+    "targetScreen": "184:77758",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 4
+  },
+  {
+    "source": "I12410:54738;12410:60648",
+    "target": "184:77799",
+    "sourcePanel": "12410:54724",
+    "targetScreen": "184:77758",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 5
+  },
+  {
+    "source": "I12410:54739;12410:60648",
+    "target": "184:77801",
+    "sourcePanel": "12410:54724",
+    "targetScreen": "184:77758",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 6
+  },
+  {
+    "source": "I12410:54740;12410:60648",
+    "target": "184:77803",
+    "sourcePanel": "12410:54724",
+    "targetScreen": "184:77758",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 7
+  },
+  {
+    "source": "I12410:54741;12410:60648",
+    "target": "184:77806",
+    "sourcePanel": "12410:54724",
+    "targetScreen": "184:77758",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 8
+  },
+  {
+    "source": "I12410:54742;12410:60648",
+    "target": "184:77808",
+    "sourcePanel": "12410:54724",
+    "targetScreen": "184:77758",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 8
+  },
+  {
+    "source": "I12410:54743;12410:60648",
+    "target": "184:77810",
+    "sourcePanel": "12410:54724",
+    "targetScreen": "184:77758",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 8
+  },
+  {
+    "source": "I12410:54744;12410:60648",
+    "target": "184:77812",
+    "sourcePanel": "12410:54724",
+    "targetScreen": "184:77758",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 8
+  },
+  {
+    "source": "I12410:54745;12410:60648",
+    "target": "184:77815",
+    "sourcePanel": "12410:54724",
+    "targetScreen": "184:77758",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 8
+  },
+  {
+    "source": "I12410:54746;12410:60648",
+    "target": "184:77817",
+    "sourcePanel": "12410:54724",
+    "targetScreen": "184:77758",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 8
+  },
+  {
+    "source": "I12410:54747;12410:60648",
+    "target": "184:77819",
+    "sourcePanel": "12410:54724",
+    "targetScreen": "184:77758",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 9
+  },
+  {
+    "source": "12541:48311",
+    "target": "184:77825",
+    "sourcePanel": "12410:54724",
+    "targetScreen": "184:77758",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48168",
+    "target": "184:77830",
+    "sourcePanel": "12410:54724",
+    "targetScreen": "184:77758",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48217",
+    "target": "184:77835",
+    "sourcePanel": "12410:54724",
+    "targetScreen": "184:77758",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48273",
+    "target": "184:77840",
+    "sourcePanel": "12410:54724",
+    "targetScreen": "184:77758",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "I12410:57624;12410:60648",
+    "target": "219:38057",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 0
+  },
+  {
+    "source": "I12410:57625;12410:60648",
+    "target": "184:77927",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 1
+  },
+  {
+    "source": "I12410:57626;12410:60610",
+    "target": "184:77929",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 2
+  },
+  {
+    "source": "I12410:57627;12410:60648",
+    "target": "184:77934",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 3
+  },
+  {
+    "source": "I12410:57628;12410:60648",
+    "target": "184:77937",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 4
+  },
+  {
+    "source": "I12410:57629;12410:60648",
+    "target": "184:77939",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 5
+  },
+  {
+    "source": "I12410:57630;12410:60648",
+    "target": "184:77941",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 6
+  },
+  {
+    "source": "I12410:57631;12410:60648",
+    "target": "184:77943",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 7
+  },
+  {
+    "source": "I12410:57632;12410:60648",
+    "target": "184:77946",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 8
+  },
+  {
+    "source": "I12410:57633;12410:60648",
+    "target": "184:77948",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 8
+  },
+  {
+    "source": "I12410:57634;12410:60648",
+    "target": "184:77950",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 8
+  },
+  {
+    "source": "I12410:57635;12410:60648",
+    "target": "184:77952",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 9
+  },
+  {
+    "source": "I12410:57636;12410:60648",
+    "target": "184:77955",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 9
+  },
+  {
+    "source": "I12410:57637;12410:60648",
+    "target": "184:77957",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 9
+  },
+  {
+    "source": "I12410:57638;12410:60648",
+    "target": "184:77959",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 11
+  },
+  {
+    "source": "I12410:57639;12410:60648",
+    "target": "184:77961",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 11
+  },
+  {
+    "source": "I12410:57640;12410:60648",
+    "target": "184:77964",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 11
+  },
+  {
+    "source": "I12410:57641;12410:60648",
+    "target": "184:77966",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 11
+  },
+  {
+    "source": "I12410:57642;12410:60648",
+    "target": "184:77968",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 11
+  },
+  {
+    "source": "I12410:57643;12410:60648",
+    "target": "184:77970",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 11
+  },
+  {
+    "source": "I13180:79043;12410:60648",
+    "target": "184:77973",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 11
+  },
+  {
+    "source": "I13180:79044;12410:60648",
+    "target": "184:77975",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 11
+  },
+  {
+    "source": "I13180:79045;12410:60648",
+    "target": "184:77977",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 11
+  },
+  {
+    "source": "I13180:79046;12410:60648",
+    "target": "184:77979",
+    "sourcePanel": "12410:57615",
+    "targetScreen": "184:77898",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 11
+  },
+  {
+    "source": "I12410:58169;12410:60648",
+    "target": "184:78064",
+    "sourcePanel": "12410:58160",
+    "targetScreen": "184:78037",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 0
+  },
+  {
+    "source": "I12410:58170;12410:60648",
+    "target": "184:78066",
+    "sourcePanel": "12410:58160",
+    "targetScreen": "184:78037",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 1
+  },
+  {
+    "source": "I12410:58171;12410:60610",
+    "target": "184:78068",
+    "sourcePanel": "12410:58160",
+    "targetScreen": "184:78037",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 2
+  },
+  {
+    "source": "I12410:58172;12410:60648",
+    "target": "184:78073",
+    "sourcePanel": "12410:58160",
+    "targetScreen": "184:78037",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 3
+  },
+  {
+    "source": "I12410:58173;12410:60648",
+    "target": "184:78076",
+    "sourcePanel": "12410:58160",
+    "targetScreen": "184:78037",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 4
+  },
+  {
+    "source": "I12410:58174;12410:60648",
+    "target": "184:78078",
+    "sourcePanel": "12410:58160",
+    "targetScreen": "184:78037",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 5
+  },
+  {
+    "source": "I12410:58175;12410:60648",
+    "target": "184:78080",
+    "sourcePanel": "12410:58160",
+    "targetScreen": "184:78037",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 6
+  },
+  {
+    "source": "I12410:58176;12410:60648",
+    "target": "184:78082",
+    "sourcePanel": "12410:58160",
+    "targetScreen": "184:78037",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 7
+  },
+  {
+    "source": "I12410:58177;12410:60648",
+    "target": "184:78085",
+    "sourcePanel": "12410:58160",
+    "targetScreen": "184:78037",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 8
+  },
+  {
+    "source": "I12410:58178;12410:60648",
+    "target": "184:78087",
+    "sourcePanel": "12410:58160",
+    "targetScreen": "184:78037",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 8
+  },
+  {
+    "source": "I12410:58179;12410:60648",
+    "target": "184:78089",
+    "sourcePanel": "12410:58160",
+    "targetScreen": "184:78037",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 8
+  },
+  {
+    "source": "I12410:58180;12410:60648",
+    "target": "184:78091",
+    "sourcePanel": "12410:58160",
+    "targetScreen": "184:78037",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 8
+  },
+  {
+    "source": "12541:48321",
+    "target": "184:78098",
+    "sourcePanel": "12410:58160",
+    "targetScreen": "184:78037",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48326",
+    "target": "184:78103",
+    "sourcePanel": "12410:58160",
+    "targetScreen": "184:78037",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48331",
+    "target": "184:78108",
+    "sourcePanel": "12410:58160",
+    "targetScreen": "184:78037",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48336",
+    "target": "184:78113",
+    "sourcePanel": "12410:58160",
+    "targetScreen": "184:78037",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "I12410:60472;12410:60648",
+    "target": "184:78198",
+    "sourcePanel": "12410:60463",
+    "targetScreen": "184:78171",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 0
+  },
+  {
+    "source": "I12410:60473;12410:60648",
+    "target": "184:78200",
+    "sourcePanel": "12410:60463",
+    "targetScreen": "184:78171",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 1
+  },
+  {
+    "source": "I12410:60474;12410:60610",
+    "target": "184:78202",
+    "sourcePanel": "12410:60463",
+    "targetScreen": "184:78171",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 2
+  },
+  {
+    "source": "I12410:60475;12410:60648",
+    "target": "184:78207",
+    "sourcePanel": "12410:60463",
+    "targetScreen": "184:78171",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 3
+  },
+  {
+    "source": "I12410:60476;12410:60648",
+    "target": "184:78210",
+    "sourcePanel": "12410:60463",
+    "targetScreen": "184:78171",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 4
+  },
+  {
+    "source": "I12410:60477;12410:60648",
+    "target": "184:78212",
+    "sourcePanel": "12410:60463",
+    "targetScreen": "184:78171",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 5
+  },
+  {
+    "source": "I12410:60478;12410:60648",
+    "target": "184:78214",
+    "sourcePanel": "12410:60463",
+    "targetScreen": "184:78171",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 6
+  },
+  {
+    "source": "I12410:60479;12410:60648",
+    "target": "184:78216",
+    "sourcePanel": "12410:60463",
+    "targetScreen": "184:78171",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 7
+  },
+  {
+    "source": "12541:48360",
+    "target": "184:78223",
+    "sourcePanel": "12410:60463",
+    "targetScreen": "184:78171",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48402",
+    "target": "184:78226",
+    "sourcePanel": "12410:60463",
+    "targetScreen": "184:78171",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48365",
+    "target": "184:78231",
+    "sourcePanel": "12410:60463",
+    "targetScreen": "184:78171",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48417",
+    "target": "184:78236",
+    "sourcePanel": "12410:60463",
+    "targetScreen": "184:78171",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48428",
+    "target": "184:78242",
+    "sourcePanel": "12410:60463",
+    "targetScreen": "184:78171",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48370",
+    "target": "184:78247",
+    "sourcePanel": "12410:60463",
+    "targetScreen": "184:78171",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48443",
+    "target": "184:78252",
+    "sourcePanel": "12410:60463",
+    "targetScreen": "184:78171",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48375",
+    "target": "184:78257",
+    "sourcePanel": "12410:60463",
+    "targetScreen": "184:78171",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "I12420:19054;12410:60648",
+    "target": "184:78821",
+    "sourcePanel": "12420:19045",
+    "targetScreen": "184:78794",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 0
+  },
+  {
+    "source": "I12420:19055;12410:60648",
+    "target": "184:78823",
+    "sourcePanel": "12420:19045",
+    "targetScreen": "184:78794",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 1
+  },
+  {
+    "source": "I12420:19056;12410:60610",
+    "target": "184:78825",
+    "sourcePanel": "12420:19045",
+    "targetScreen": "184:78794",
+    "sourceWidth": 89.9999771118164,
+    "sourceHeight": 89.99998474121094,
+    "template": 2
+  },
+  {
+    "source": "12541:48453",
+    "target": "184:78835",
+    "sourcePanel": "12420:19045",
+    "targetScreen": "184:78794",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48456",
+    "target": "184:78838",
+    "sourcePanel": "12420:19045",
+    "targetScreen": "184:78794",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48461",
+    "target": "184:78843",
+    "sourcePanel": "12420:19045",
+    "targetScreen": "184:78794",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48466",
+    "target": "184:78848",
+    "sourcePanel": "12420:19045",
+    "targetScreen": "184:78794",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48471",
+    "target": "184:78854",
+    "sourcePanel": "12420:19045",
+    "targetScreen": "184:78794",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48476",
+    "target": "184:78859",
+    "sourcePanel": "12420:19045",
+    "targetScreen": "184:78794",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48481",
+    "target": "184:78864",
+    "sourcePanel": "12420:19045",
+    "targetScreen": "184:78794",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  },
+  {
+    "source": "12541:48486",
+    "target": "184:78869",
+    "sourcePanel": "12420:19045",
+    "targetScreen": "184:78794",
+    "sourceWidth": 87,
+    "sourceHeight": 81.77999877929688,
+    "template": 10
+  }
+]
