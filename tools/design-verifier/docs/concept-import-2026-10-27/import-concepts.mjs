@@ -1,8 +1,9 @@
+import { fileURLToPath } from 'node:url';
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import assert from 'node:assert/strict';
-const root = 'D:/Porfiriy/Projects/Work/Верификатор';
+const root = fileURLToPath(new URL('../..', import.meta.url)).replace(/[\\/]+$/,'').replace(/\\/g,'/');
 const concept = path.join(root, 'profiles/chess/concepts/2026-10-27-mobile-v1');
 const incoming = path.join(root, 'profiles/chess/incoming/chess-mobile-concepts-2026-10-27');
 const proofDir = path.join(root, 'docs/concept-import-2026-10-27');

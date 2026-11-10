@@ -1,10 +1,11 @@
+import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 import assert from 'node:assert/strict';
 const require=createRequire(import.meta.url);
 const { chromium }=require('C:/Users/Toovim/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
-const root='D:/Porfiriy/Projects/Work/Верификатор';
+const root=fileURLToPath(new URL('../..', import.meta.url)).replace(/[\\/]+$/,'').replace(/\\/g,'/');
 const proofDir=root+'/docs/screen-map-2026-10-27';
 const browser=await chromium.launch({channel:'chrome',headless:true});
 const page=await browser.newPage();const errors=[];const checks=[];page.on('pageerror',e=>errors.push(e.message));

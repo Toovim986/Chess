@@ -1,10 +1,11 @@
+import { fileURLToPath } from 'node:url';
 // Integration test for the locally developed gallery in an isolated headless browser.
 import { createRequire } from 'node:module';
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 const require=createRequire(import.meta.url);
 const { chromium }=require('C:/Users/Toovim/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
-const root='D:/Porfiriy/Projects/Work/Верификатор/docs/concept-import-2026-10-27';
+const root=fileURLToPath(new URL('.', import.meta.url)).replace(/[\\/]+$/,'').replace(/\\/g,'/');
 const proof=JSON.parse(fs.readFileSync(root+'/import-proof.json','utf8'));
 const browser=await chromium.launch({channel:'chrome',headless:true});
 const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));

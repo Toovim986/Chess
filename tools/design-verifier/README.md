@@ -9,7 +9,7 @@
 Нужны Node.js 20+ и Python 3.10+. Сетевые зависимости для сервера и Python-движка отсутствуют.
 
 ```powershell
-cd 'D:\Porfiriy\Projects\Work\Верификатор'
+cd tools\design-verifier   # из корня репозитория
 node cli.mjs serve chess
 ```
 
